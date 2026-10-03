@@ -43,7 +43,12 @@ class UV(BaseModule):
         peak_t, peak = max(pts, key=lambda x: x[1])
         high = [pt for pt, v in pts if v >= 6]
         cat, sev = band(peak, UV_BANDS)
-        hours = f"{high[0]:%-I %p}–{high[-1]:%-I %p}" if high else None
+        if high:
+            start_hour = high[0].hour % 12 or 12
+            end_hour = high[-1].hour % 12 or 12
+            hours = f"{start_hour} {high[0]:%p}–{end_hour} {high[-1]:%p}"
+        else:
+            hours = None
         return [Metric(key="uv", label="UV index (peak)", value=float(peak), unit="", category=cat, severity=sev,
                        advice=ADVICE[cat] + (f" High UV {hours}." if hours else ""), source=Source.EPA,
                        layer=TimeLayer.FORECAST, observed_or_valid_at=peak_t, stale=e.stale,
