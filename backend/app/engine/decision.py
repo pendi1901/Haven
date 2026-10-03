@@ -90,7 +90,10 @@ class DecisionInput:
 
 
 def _fmt(dt: datetime, tz: str) -> str:
-    return dt.astimezone(ZoneInfo(tz)).strftime("%a %-I:%M %p")
+    local = dt.astimezone(ZoneInfo(tz))
+    hour = local.hour % 12 or 12
+
+    return f"{local.strftime('%a')} {hour}:{local.minute:02d} {local.strftime('%p')}"
 
 
 def timeline(inp: DecisionInput) -> list[str]:

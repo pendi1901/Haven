@@ -30,9 +30,17 @@ def is_warning(event: str) -> bool:
     return "warning" in (event or "").lower() or "emergency" in (event or "").lower()
 
 
-def _fmt(dt: datetime, tz: str) -> str:
+def _fmt(dt, tz):
     local = dt.astimezone(ZoneInfo(tz))
-    return local.strftime("%b %-d at %-I:%M %p %Z")
+    hour = local.hour % 12 or 12
+
+    return (
+        f"{local.strftime('%b')} "
+        f"{local.day} at "
+        f"{hour}:{local.minute:02d} "
+        f"{local.strftime('%p')} "
+        f"{local.strftime('%Z')}"
+    )
 
 
 class Alerts(BaseModule):

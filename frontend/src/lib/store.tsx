@@ -188,18 +188,39 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   }, [dataMode, replay ? "" : locKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // World state: refetch on replay time change (latest request wins) or live updates.
-  const stateCtl = useRef<AbortController | null>(null);
-  const loadState = useCallback((tt: string | null) => {
-    stateCtl.current?.abort();
-    const ctl = new AbortController();
-    stateCtl.current = ctl;
-    api.state(tt, ctl.signal).then((s) => {
-      setState(s);
-      setStateError(null);
-    }).catch((e) => {
-      if (e.name !== "AbortError") setStateError(String(e.message ?? e));
-    });
-  }, []);
+  // const stateCtl = useRef<AbortController | null>(null);
+  // const loadState = useCallback((tt: string | null) => {
+  //   stateCtl.current?.abort();
+  //   const ctl = new AbortController();
+  //   stateCtl.current = ctl;
+  //   api.state(tt, ctl.signal).then((s) => {
+  //     setState(s);
+  //     setStateError(null);
+  //   }).catch((e) => {
+  //     if (e.name !== "AbortError") setStateError(String(e.message ?? e));
+  //   });
+  // }, []);
+  // World state: refetch on replay time change (latest request wins) or live updates.
+const stateRequestId = useRef(0);
+
+const loadState = useCallback(async (tt: string | null) => {
+  const requestId = ++stateRequestId.current;
+
+  try {
+    const s = await api.state(tt);
+
+    // Ignore responses from older requests.
+    if (requestId !== stateRequestId.current) return;
+
+    setState(s);
+    setStateError(null);
+  } catch (e) {
+    // Ignore errors from older requests.
+    if (requestId !== stateRequestId.current) return;
+
+    setStateError(String((e as Error).message ?? e));
+  }
+}, []);
 
   useEffect(() => {
     if (!meta || meta.data_mode !== dataMode) return;

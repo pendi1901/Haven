@@ -55,10 +55,12 @@ class Hurricane(BaseModule):
             if not s.get("cone") or not shape(s["cone"]).intersects(near):
                 continue
             label = f"advisory {s['advisory']} " if s.get("advisory") else ""
+            issued = s["issued"]
+            issued_text = f"{issued:%b} {issued.day} {issued:%H:%M}"
             out.append(HazardZone(
                 id=f"nhc:{s['id']}", hazard="hurricane", geometry=s["cone"], severity=2, layer=TimeLayer.FORECAST,
                 valid_from=s["issued"] or t, valid_to=None, source=Source.NHC,
-                reason=f"NHC 5-day forecast cone for {s['name']} ({label}issued {s['issued']:%b %-d %H:%M} UTC"
+                reason=f"NHC 5-day forecast cone for {s['name']} ({label}issued {issued_text} UTC"
                        f"{', archived' if s.get('archived') else ''}). The cone shows where the center may go; "
                        "impacts extend well outside it.",
                 event=f"{s['name']} forecast cone"))
@@ -82,11 +84,13 @@ class Hurricane(BaseModule):
         hit = self.conditions_expected(p, t)
         if hit:
             s, when = hit
+            issued = s["issued"]
+            issued_text = f"{issued:%b} {issued.day} {issued:%H:%M}"
             return [Metric(key="hurricane", label=f"{s['name']}", value=None, unit="", category="Inside forecast cone",
                            severity=2, advice="Tropical-storm-force winds possible within 48 h per the NHC track. "
                                               "Finish preparations; expect heavy rain and flooding inland.",
                            source=Source.NHC, layer=TimeLayer.FORECAST, observed_or_valid_at=when,
-                           detail=f"NHC forecast issued {s['issued']:%b %-d %H:%M} UTC")]
+                           detail=f"NHC forecast issued {issued_text} UTC")]
         inside = [s for s in storms if s.get("cone") and shape(s["cone"]).covers(Point(p.lon, p.lat))]
         if inside:
             s = inside[0]
