@@ -13,9 +13,9 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     REGION=asheville \
     WARM_REPLAY_CACHE=false
 
-# Geospatial Python wheels include GDAL/PROJ; libgomp supplies OpenMP support.
+# Geospatial wheels still need system XML (Expat) and OpenMP libraries.
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends libgomp1 \
+    && apt-get install -y --no-install-recommends libexpat1 libgomp1 \
     && rm -rf /var/lib/apt/lists/* \
     && useradd --create-home --uid 10001 haven
 
@@ -28,6 +28,8 @@ COPY --chown=haven:haven backend/data/ ./data/
 COPY --from=frontend /build/frontend/dist/ /app/frontend/dist/
 
 USER haven
+# Catch missing native libraries during the build, without starting live pollers.
+RUN python -c "from app.main import app; assert app"
 EXPOSE 8000
 # One worker shares the in-memory graphs, polling jobs and SSE subscribers.
 # exec forwards shutdown signals; the shell expands Render's assigned PORT.
