@@ -138,7 +138,7 @@ def _split_alert_text(text: str, vtec_key: str | None) -> dict:
         s = ln.strip()
         if re.match(r"^\d{3}\s*$", s) or re.match(r"^[A-Z]{4}\d{2} [A-Z]{4} \d{6}", s):
             continue
-        if re.match(r"^/[OTEX]\.", s) or re.match(r"^/\d{5}\.", s) or re.match(r"^[A-Z]{2}[CZ]\d{3}.*-\s*$", s):
+        if re.match(r"^/[OTEX]\.", s) or re.match(r"^/[A-Z0-9]{5}\.[0-9N]\.", s) or re.match(r"^[A-Z]{2}[CZ]\d{3}.*-\s*$", s):
             continue
         if re.match(r"^[A-Z]{3}[A-Z0-9]{3}$", s):  # AFOS PIL line
             continue
@@ -189,6 +189,7 @@ def fetch_alerts(region: RegionConfig, client: httpx.Client, force: bool = False
             polygons.append({
                 "kind": "polygon",
                 "id": f"{wfo}-{vkey}-{p['product_id']}",
+                "event_key": f"{wfo}-{vkey}",
                 "event": p["ps"],
                 "phenomena": p["phenomena"],
                 "significance": p["significance"],
@@ -206,8 +207,9 @@ def fetch_alerts(region: RegionConfig, client: httpx.Client, force: bool = False
             })
     log.info("Archived warning polygons: %d", len(polygons))
 
-    # 2) Zone/county-based events (watches, tropical warnings), sampled hourly so
-    #    the state at time t is what the archive reported at t.
+    # 2) Every VTEC event touching the region's counties/zones, sampled at the
+    #    replay step so "in effect at t" is what the archive reported at t
+    #    (including extensions and cancellations of polygon warnings).
     region_ugcs = _region_ugcs(region, client)
     zone_events: dict[str, dict] = {}
     samples: list[dict] = []
@@ -222,9 +224,9 @@ def fetch_alerts(region: RegionConfig, client: httpx.Client, force: bool = False
             if row.get("ugc") not in region_ugcs or row.get("wfo") not in region.replay_wfos:
                 continue
             key = f"{row['wfo']}-{row['phenomena']}.{row['significance']}.{int(row['eventid']):04d}"
+            active.add(key)  # polygon events too: the samples say when each was in effect
             if (row["phenomena"], row["significance"]) in POLYGON_TYPES:
-                continue  # covered with exact geometry by the polygon archive
-            active.add(key)
+                continue  # geometry and text come from the polygon archive
             ev = zone_events.setdefault(key, {
                 "kind": "zone", "id": key, "event": row["event_label"], "phenomena": row["phenomena"],
                 "significance": row["significance"], "eventid": row["eventid"], "wfo": row["wfo"],
@@ -232,7 +234,7 @@ def fetch_alerts(region: RegionConfig, client: httpx.Client, force: bool = False
             })
             ev["ugcs"].add(row["ugc"])
         samples.append({"t": _iso(t), "active": sorted(active)})
-        t += timedelta(hours=1)
+        t += timedelta(minutes=region.replay_step_minutes)
 
     for key, ev in zone_events.items():
         ev["ugcs"] = sorted(ev["ugcs"])
@@ -419,7 +421,10 @@ class ReplayData:
             for a in raw["polygons"]:
                 for k in ("issue", "expire", "polygon_begin", "polygon_end"):
                     a[k] = _parse_dt(a[k]) if a.get(k) else None
+                # Product issuance time is the leading timestamp of the product id.
+                a["product_issued"] = datetime.strptime(a["product_id"][:12], "%Y%m%d%H%M").replace(tzinfo=timezone.utc)
                 self.polygons.append(a)
+            self.polygons.sort(key=lambda a: a["product_issued"])
             for ev in raw["zone_events"]:
                 ev["issue"] = _parse_dt(ev["issue"])
                 ev["product_issue"] = _parse_dt(ev["product_issue"]) if ev.get("product_issue") else ev["issue"]
@@ -461,20 +466,33 @@ class ReplayData:
         return fc
 
     def alerts_at(self, t: datetime) -> list[dict]:
+        """Alerts in effect at t, as the archive knew them at t.
+
+        Whether an event is in effect comes from the hourly VTEC samples (they track
+        extensions and cancellations); polygon geometry and text come from the
+        event's first product, which must have been issued by t.
+        """
+        if not self.zone_samples:
+            return []
+        times = [s[0] for s in self.zone_samples]
+        i = bisect.bisect_right(times, t) - 1
+        if i < 0:
+            return []
+        active = set(self.zone_samples[i][1])
         out = []
+        seen: set[str] = set()
         for a in self.polygons:
-            if a["status"] in ("CAN", "EXP", "UPG"):
+            key = a.get("event_key")
+            if key not in active or key in seen:
                 continue
-            if a["polygon_begin"] and a["polygon_begin"] <= t < (a["polygon_end"] or a["expire"]):
-                out.append(a)
-        if self.zone_samples:
-            times = [s[0] for s in self.zone_samples]
-            i = bisect.bisect_right(times, t) - 1
-            if i >= 0:
-                for key in self.zone_samples[i][1]:
-                    ev = self.zone_events.get(key)
-                    if ev and ev["issue"] <= t and ev["product_issue"] <= t:
-                        out.append(ev)
+            if a["product_issued"] > t or (a["issue"] and a["issue"] > t):
+                continue
+            seen.add(key)
+            out.append(a)
+        for key in active:
+            ev = self.zone_events.get(key)
+            if ev and ev["issue"] <= t and ev["product_issue"] <= t:
+                out.append(ev)
         return out
 
     def nhc_at(self, t: datetime) -> dict | None:

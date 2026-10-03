@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import heapq
 import logging
+import threading
 import math
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
@@ -113,6 +114,7 @@ class Router:
     def __init__(self, ctx: "Haven"):
         self.ctx = ctx
         self._graphs: dict[str, GraphData] = {}
+        self._graph_locks: dict[str, threading.Lock] = {}
         self._dest_cache: dict[tuple[str, str], tuple[int, float] | None] = {}
 
     # -- graph loading -------------------------------------------------------
@@ -120,6 +122,13 @@ class Router:
     def graph(self, mode: str) -> GraphData:
         if mode in self._graphs:
             return self._graphs[mode]
+        # Concurrent first requests wait for one build instead of each building it.
+        with self._graph_locks.setdefault(mode, threading.Lock()):
+            if mode in self._graphs:
+                return self._graphs[mode]
+            return self._build_graph(mode)
+
+    def _build_graph(self, mode: str) -> GraphData:
         region = self.ctx.region
         G = load_graph(region.key, region.data_dir, mode)
         nodes = np.array(list(G.nodes))
@@ -345,6 +354,18 @@ class Router:
             if new_trip <= trip:
                 break
             trip = new_trip
+        if best is not None and search is not None and search.limit is not None \
+                and req.t + timedelta(seconds=best[0].cost) + buffer > search.limit:
+            # Not converged: the chosen trip outlasts the forecast filter it was found
+            # with. One more conservative pass with the longer trip; drop it if it still
+            # does not fit.
+            limit = req.t + timedelta(seconds=best[0].cost) + buffer
+            search, cost_fn = self._search(gd, source, req.t, speed, tables, limit)
+            for c in cands:
+                c.cost = search.dist.get(c.node, math.inf)
+            best = self._choose(cands, req)
+            if best is not None and req.t + timedelta(seconds=best[0].cost) + buffer > limit:
+                best = None
         if best is None or search is None:
             return RouteResult(route=None, backup=None, t=req.t, considered=len(cands),
                                message="No open route found in this data.")

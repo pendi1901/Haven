@@ -30,9 +30,36 @@ npm install
 npm run dev                          # http://localhost:5173 (proxies /api to :8000)
 ```
 
-Production-style single server: `npm run build` in `frontend/`, then the backend serves `frontend/dist` at `http://localhost:8000`.
+Production-style single server: `npm run build` in `frontend/`, then the backend serves the app at `http://localhost:8000`.
 
-Live mode: `DATA_MODE=live` in `.env`. Geolocation needs HTTPS on phones (localhost is fine for development).
+### Live anywhere, plus the Helene replay
+
+One server does everything. The app opens in **Live** mode at your current location (the browser asks for permission; geolocation needs HTTPS on phones, and localhost is fine for development). **Helene replay** is a toggle in the header.
+
+What live mode gives you depends on where you are:
+
+| Where | What works |
+| --- | --- |
+| Anywhere NWS covers (the US) | Official NWS alerts with verbatim text, the NWS hourly forecast and heat index, EPA UV, the NOAA river gauges within 15 km and their official forecasts, quakes, NHC cones, FEMA open shelters, AirNow and FIRMS if keys are set, and the decision engine. Without terrain data Haven never claims flooding won't reach you; it says it can't tell. |
+| Inside a prepared region | All of the above, plus the road-flood overlay, flood extent, least-risky routing, navigation and the responder view. The server picks the region automatically from your location. |
+| Outside the US | A clear "NWS doesn't cover this location" message. |
+
+Prepared regions (`backend/app/config.py`):
+
+| Region | Rivers / gauges | Terrain | Replay |
+| --- | --- | --- | --- |
+| `asheville` | French Broad FLCN7 → AVLN7, Swannanoa BLTN7 → confluence | USGS 3DEP 1 m lidar | Hurricane Helene |
+| `raleigh` | Crabtree Creek EBNN7 → RLHN7 → ADRN7 → CRBN7 | USGS 3DEP 1/3 arc-second (~10 m); no 1 m tiles are staged there | live only |
+
+Prepare a region once, and it is picked up on the next server start:
+
+```bash
+REGION=raleigh .venv/bin/python -m app.prepare
+```
+
+Live and replay keep separate saved locations, so a replay spot in Asheville never becomes your live location.
+
+**If "Use my current location" fails:** the app first asks for a normal-accuracy fix (Wi-Fi based), then retries with high accuracy, and it says which step failed. On a Mac, "allowed but no position" almost always means macOS Location Services is off for the browser itself: turn it on in System Settings → Privacy & Security → Location Services. You can always search for an address or place instead (OpenStreetMap Nominatim, US only, proxied by the backend at one request per second) or tap the map.
 
 ### Tests
 
@@ -45,7 +72,7 @@ cd frontend && npm test                      # scenario 12 (off-route), snap-to-
 
 Times below are Asheville local time (EDT).
 
-1. Onboarding → **River Arts District (Riverside Dr)** → *Skip setup*.
+1. Switch the header toggle to **Helene replay**, then pick **River Arts District (Riverside Dr)**. (Switch back to **Live** any time to see your own location.)
 2. **Thu Sep 26, 4:00 PM** (default). A Tropical Storm Warning and Flood Watch are in effect, and NOAA's latest river forecast has the French Broad at Asheville reaching moderate stage overnight. Haven: **Level 4 · Go to a shelter / center**, because the official forecast floods the location, or every road out of it, around 2 AM Friday. The map shows the estimated flooded area now (dark blue), the area at the forecast crest (light blue), and roads forecast to flood (dashed red).
 3. *What to do* → answer the check-in (floor, car, who's with you). Each answer removes an assumption chip.
 4. *Simulate walk* → follow mode, turn-by-turn directions, a deadline, proximity alerts, arrival. In the simulator toolbar, **Wander off** drifts ~90 m sideways, so off-route detection fires after 3 fixes and reroutes. **I can't continue this way** blocks the current road and reroutes.
@@ -113,7 +140,7 @@ One Dijkstra from the user gives the cost to every candidate destination (equiva
 | --- | --- |
 | USGS Water Data API | 15-min gage height, 3 gauges |
 | IEM NWS text archive, `RVFGSP` from LMRFC (KORN) | the official river forecasts issued during Helene (SHEF), parsed with `replay/shef.py` |
-| IEM VTEC archive | storm-based warning polygons + zone watches/warnings, with the original product text |
+| IEM VTEC archive | warning polygons and zone watches/warnings with the original product text, plus 15-minute snapshots of every event in effect for the region's counties and zones. "In effect at t" comes from these snapshots, which include extensions and cancellations. |
 | NHC GIS archive `al092024_5day_NNN` | forecast cones and tracks per advisory |
 | NCDOT incident lines, WNC Post-Helene Conditions Map (Oct 8, 2024) | **accuracy scoring only**, never routing |
 
@@ -122,7 +149,7 @@ One Dijkstra from the user gives the cost to every candidate destination (equiva
 ## Deviations from the spec (and why)
 
 - **Official forecasts in replay.** The spec expected none ("not easily retrievable"). The NWS LMRFC river forecasts issued during Helene are archived by IEM, so replay uses them, always the latest product issued at or before `t`. They underestimated the Asheville crest (21.0 ft forecast vs 24.82 ft observed), which Haven shows faithfully.
-- **Elevation source.** The 3DEP dynamic ImageServer (used by py3dep) returned 502/IPv6 errors from this network; Haven reads the same USGS 1 m lidar from the public S3 cloud-optimized GeoTIFFs instead.
+- **Elevation source.** The 3DEP dynamic ImageServer (used by py3dep) returned 502 and IPv6 errors from this network. Haven reads the same USGS 3DEP data from the public S3 cloud-optimized GeoTIFFs instead. It uses 1 m lidar where tiles are staged, otherwise the 1/3 arc-second DEM, and the UI names which one is in use.
 - **Accessible destinations.** Only 8 of 206 OSM candidate sites carry an accessibility tag. For limited mobility Haven chooses an accessible site when it costs at most 2× (or +10 min) the nearest; otherwise it takes the nearest and says the site isn't marked accessible.
 - **Trigger 3 ("a road within 1 km")** counts drive-graph roads only, so a waterside footpath can't start crisis mode on its own.
 - **Gauge display names** use short names ("French Broad at Asheville") instead of the NWPS long names.

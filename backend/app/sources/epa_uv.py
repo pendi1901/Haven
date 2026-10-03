@@ -10,7 +10,13 @@ from app.config import RegionConfig, settings
 
 
 async def fetch_uv(client: httpx.AsyncClient, region: RegionConfig) -> list[dict]:
-    r = await client.get(f"{settings().epa_uv_base}/getEnvirofactsUVHOURLY/ZIP/{region.uv_zip}/JSON")
+    base = f"{settings().epa_uv_base}/getEnvirofactsUVHOURLY"
+    if region.uv_zip:
+        url = f"{base}/ZIP/{region.uv_zip}/JSON"
+    else:
+        city, state = region.uv_city or "", region.state
+        url = f"{base}/CITY/{city.replace(' ', '%20')}/STATE/{state}/JSON"
+    r = await client.get(url)
     r.raise_for_status()
     out = []
     for row in r.json():

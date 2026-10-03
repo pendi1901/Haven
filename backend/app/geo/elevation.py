@@ -19,6 +19,7 @@ import rasterio
 from pyproj import Transformer
 from rasterio.enums import Resampling
 from rasterio.transform import from_origin
+from rasterio.vrt import WarpedVRT
 from rasterio.warp import reproject
 
 from app.config import WORK_CRS, RegionConfig
@@ -41,28 +42,31 @@ def download_dem(region: RegionConfig, force: bool = False) -> Path:
     out.parent.mkdir(parents=True, exist_ok=True)
 
     w, s, e, n = region.bbox
-    resp = httpx.get(
-        TNM_PRODUCTS,
-        params={
-            "bbox": f"{w},{s},{e},{n}",
-            "datasets": "Digital Elevation Model (DEM) 1 meter",
-            "prodFormats": "GeoTIFF",
-            "max": 200,
-        },
-        timeout=60,
-    )
-    resp.raise_for_status()
-    items = resp.json()["items"]
-    # Keep the newest tile per grid cell (projects can overlap).
+
+    def products(dataset: str) -> list[dict]:
+        resp = httpx.get(TNM_PRODUCTS, params={"bbox": f"{w},{s},{e},{n}", "datasets": dataset,
+                                               "prodFormats": "GeoTIFF", "max": 200}, timeout=60)
+        resp.raise_for_status()
+        return resp.json()["items"]
+
+    # Prefer 1 m lidar; fall back to the 1/3 arc-second (~10 m) seamless DEM where
+    # 1 m tiles are not staged (e.g. parts of Wake County, NC).
+    items = products("Digital Elevation Model (DEM) 1 meter")
+    source = "USGS 3DEP 1 m lidar DEM"
+    if not items:
+        items = products("National Elevation Dataset (NED) 1/3 arc-second")
+        source = "USGS 3DEP 1/3 arc-second DEM (~10 m)"
+    # Keep the newest tile per grid cell (projects and vintages overlap).
     by_cell: dict[str, dict] = {}
     for it in items:
-        cell = it["title"].split(" ")[4] if len(it["title"].split(" ")) > 4 else it["title"]
-        if cell not in by_cell or it["publicationDate"] > by_cell[cell]["publicationDate"]:
+        parts = it["title"].split(" ")
+        cell = next((x for x in parts if (x.startswith("x") and "y" in x) or (x.startswith("n") and "w" in x)), it["title"])
+        if cell not in by_cell or (it.get("publicationDate") or "") > (by_cell[cell].get("publicationDate") or ""):
             by_cell[cell] = it
     urls = [it["downloadURL"] for it in by_cell.values()]
     if not urls:
-        raise RuntimeError("No 1 m 3DEP tiles found for region bbox")
-    log.info("DEM: %d 1 m tiles", len(urls))
+        raise RuntimeError("No 3DEP DEM tiles found for region bbox")
+    log.info("DEM: %d tiles (%s)", len(urls), source)
 
     to_work = Transformer.from_crs("EPSG:4326", WORK_CRS, always_xy=True)
     xs, ys = to_work.transform([w, e, w, e], [s, s, n, n])
@@ -77,6 +81,15 @@ def download_dem(region: RegionConfig, force: bool = False) -> Path:
         for i, url in enumerate(urls, 1):
             log.info("DEM tile %d/%d %s", i, len(urls), url.rsplit("/", 1)[-1])
             with rasterio.open(f"/vsicurl/{url}") as src:
+                if src.crs.is_geographic:
+                    # Seamless 1/3" tiles: warp just our window onto the 4 m grid.
+                    with WarpedVRT(src, crs=WORK_CRS, transform=dst_transform, width=width, height=height,
+                                   resampling=Resampling.bilinear, src_nodata=src.nodata, nodata=np.nan) as vrt:
+                        tile = vrt.read(1).astype(np.float32)
+                    tile[tile < -1000] = np.nan
+                    fill = np.isnan(mosaic) & ~np.isnan(tile)
+                    mosaic[fill] = tile[fill]
+                    continue
                 factor = int(round(DEM_RES_M / src.res[0]))
                 data = src.read(
                     1,
@@ -117,6 +130,7 @@ def download_dem(region: RegionConfig, force: bool = False) -> Path:
     )
     with rasterio.open(out, "w", **profile) as dst:
         dst.write(mosaic, 1)
+        dst.update_tags(SOURCE=source)
     log.info("DEM written %s (%dx%d, %.1f%% filled)", out, width, height,
              100 * np.isfinite(mosaic).mean())
     return out
@@ -130,6 +144,7 @@ class Dem:
             self.data = ds.read(1).astype(np.float32)
             self.transform = ds.transform
             self.crs = ds.crs
+            self.source = ds.tags().get("SOURCE", "USGS 3DEP 1 m lidar DEM")
         self.res = self.transform.a
         self.x0 = self.transform.c
         self.y0 = self.transform.f

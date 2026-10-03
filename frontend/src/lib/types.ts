@@ -246,17 +246,24 @@ export interface StateResponse {
 
 export interface Meta {
   data_mode: DataMode;
-  region: { key: string; name: string; bbox: [number, number, number, number]; center: [number, number]; timezone: string };
+  modes: { live: boolean; replay: boolean };
+  region: {
+    key: string; name: string; bbox: [number, number, number, number]; center: [number, number]; timezone: string;
+    overlay: boolean; point: boolean;
+  };
+  overlay_regions: { key: string; name: string; bbox: [number, number, number, number] }[];
   demo_places: { name: string; lat: number; lon: number }[];
   reaches: { id: string; river: string; upstream: string; downstream: string | null; geometry: GeoJSON.LineString }[];
   replay: ReplayMeta | null;
   features: { gemini: boolean; handoff: boolean };
+  dem_source: string;
 }
 
 export interface ReplayMeta { start: string; end: string; step_minutes: number; event: string; timezone: string }
 
 export interface ResponderResponse {
   t: string;
+  available: boolean;
   hospitals: { name: string; lat: number; lon: number }[];
   cut_off_areas: GeoJSON.FeatureCollection;
   population: number;

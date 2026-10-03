@@ -79,7 +79,7 @@ def assess(ctx: "Haven", req: AssessRequest) -> AssessResponse:
         t=t, tz=ctx.region.timezone, profile=req.profile, checkin=req.checkin, trig=trig, risk=risk,
         alerts_here=alerts_here, metrics=mdict, route_fn=route_fn,
         avoid_roads=avoid_roads(ctx, w, p) if trig.flood else [],
-        fire_km=near_fire[1] if near_fire else None, replay=ctx.mode == "replay",
+        fire_km=near_fire[1] if near_fire else None, replay=ctx.mode == "replay", overlay=ctx.overlay,
     )
     verdict = decide(inp)
     if ctx.settings.gemini_api_key:

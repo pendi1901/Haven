@@ -12,10 +12,13 @@ import { api } from "../lib/api";
 import type { GaugeStatus, Metric } from "../lib/types";
 
 export default function Dashboard() {
-  const { meta, state, stateError, assess, assessing, assessError, location, setLocation, replay, t, metaError } = useStore();
+  const { meta, state, stateError, assess, assessing, assessError, location, setLocation, replay, t, metaError,
+  } = useStore();
   const [gauge, setGauge] = useState<GaugeStatus | null>(null);
   const [picking, setPicking] = useState(false);
   const [locOpen, setLocOpen] = useState(!location);
+  // Live with no location yet: show nothing regional, only the location prompt.
+  const waiting = !replay && !location;
   const nav = useNavigate();
   const now = useMemo(() => new Date(state?.t ?? Date.now()), [state?.t]);
 
@@ -60,7 +63,7 @@ export default function Dashboard() {
     return items;
   }, [state]);
 
-  if (metaError) return <Fatal msg={metaError} />;
+  if (metaError) return <Fatal msg={metaError} onReset={location ? () => setLocation(null) : undefined} />;
   const v = assess?.verdict;
 
   return (
@@ -68,7 +71,7 @@ export default function Dashboard() {
       <Header onLocation={() => setLocOpen(true)} />
       <div className="relative flex min-h-0 flex-1 flex-col md:flex-row">
         <div className="relative h-[42dvh] shrink-0 md:order-2 md:h-auto md:flex-1">
-          <Map meta={meta} state={state} location={location} picking={picking} fit={picking ? undefined : "location"}
+          <Map meta={waiting ? null : meta} state={waiting ? null : state} location={location} picking={picking} fit={picking ? undefined : "location"}
             onPick={(l) => { setLocation({ ...l, label: "Pinned location", source: "map" }); setPicking(false); setLocOpen(false); }}
             onGauge={setGauge} liveGeolocate={false} />
           {picking && <div className="pointer-events-none absolute inset-x-0 top-3 mx-auto w-fit rounded-full bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sheet">Tap the map to set your location</div>}
@@ -79,7 +82,9 @@ export default function Dashboard() {
             {(locOpen || !location) && (
               <section className="rounded-2xl bg-white p-4 shadow-card ring-1 ring-black/5">
                 <h2 className="font-semibold">Where are you?</h2>
-                <p className="mb-3 text-sm text-ink-2">Haven evaluates risk for one spot. Nothing is stored on the server.</p>
+                <p className="mb-3 text-sm text-ink-2">
+                  {replay ? "Pick a place in Asheville to replay Helene from." : "Haven works anywhere in the US. Your location is used for this request only and never stored on the server."}
+                </p>
                 <LocationPicker compact onPick={(l) => { setLocation(l); setLocOpen(false); }} onMapPick={() => setPicking(true)} />
               </section>
             )}
@@ -105,7 +110,18 @@ export default function Dashboard() {
               </Link>
             )}
 
-            {headsUp.length > 0 && (
+            {!replay && meta && location && !meta.region.overlay && (
+              <section className="rounded-2xl border border-sky-200 bg-sky-50 p-4 text-sm text-sky-950">
+                <p className="font-semibold">Live for {meta.region.name}</p>
+                <p className="mt-1">
+                  Official alerts, the NWS forecast, UV and {state?.gauges.length ? `${state.gauges.length} nearby NOAA river gauge${state.gauges.length === 1 ? "" : "s"}` : "nearby river gauges"} are live here.
+                  Street-level flood checks and routing need prepared terrain and road data, which Haven has for{" "}
+                  {meta.overlay_regions.map((r) => r.name.split(" (")[0]).join(" and ")} so far.
+                </p>
+              </section>
+            )}
+
+            {!waiting && headsUp.length > 0 && (
               <section>
                 <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">Heads-up from official forecasts</h2>
                 <ul className="space-y-2">
@@ -118,7 +134,7 @@ export default function Dashboard() {
 
             {gauge && state && <GaugePanel g={gauge} now={state.t} onClose={() => setGauge(null)} />}
 
-            <section>
+            {!waiting && <section>
               <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">River gauges</h2>
               <div className="grid gap-2">
                 {(state?.gauges ?? []).map((g) => (
@@ -126,26 +142,26 @@ export default function Dashboard() {
                     <span className="h-3 w-3 shrink-0 rounded-full" style={{ background: g.online ? CATEGORY_COLOR[g.category_now] : "#cbd5e1" }} />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-sm font-semibold">{g.short_name}</span>
-                      <span className="block text-xs text-ink-3">{g.online ? CATEGORY_LABEL[g.category_now] : "Offline · last reading shown"}{g.forecast_peak_ft != null ? ` · crest ${g.forecast_peak_ft.toFixed(1)} ft forecast` : ""}</span>
+                      <span className="block text-xs text-ink-3">{g.online ? CATEGORY_LABEL[g.category_now] : g.observed_stage_ft == null ? "No recent readings" : "Offline · last reading shown"}{g.forecast_peak_ft != null ? ` · crest ${g.forecast_peak_ft.toFixed(1)} ft forecast` : ""}</span>
                     </span>
                     <span className="text-lg font-semibold tabular-nums">{g.observed_stage_ft?.toFixed(1) ?? "—"}<span className="text-xs font-normal text-ink-3"> ft</span></span>
                   </button>
                 ))}
               </div>
-            </section>
+            </section>}
 
-            <section>
+            {!waiting && <section>
               <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">Conditions{location ? "" : " (region)"}</h2>
               {stateError && <p className="mb-2 rounded-lg bg-red-50 p-2 text-sm text-red-800">Couldn't load data: {stateError}</p>}
               <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1">
                 {(personal ?? []).map((m) => <MetricCard key={m.key} m={m} now={now} />)}
               </div>
-            </section>
+            </section>}
 
-            {state && (
+            {state && !waiting && (
               <p className="text-[11px] leading-relaxed text-ink-3">
                 {replay ? "Replay uses archived official data only as it was known at the selected time: USGS gage height, NWS river forecasts (LMRFC), NWS warnings and NHC advisories. " : ""}
-                Road impacts and flood extent are Haven's overlay of official gauge levels and forecasts on USGS lidar terrain, not an official inundation map.
+                Road impacts and flood extent are Haven's overlay of official gauge levels and forecasts on {meta?.dem_source ?? "USGS terrain"}, not an official inundation map.
                 {state.counts.flooded + state.counts.forecast_flooded > 0 && ` Now: ${state.counts.flooded} road segments flooded, ${state.counts.forecast_flooded} forecast to flood.`}
               </p>
             )}
@@ -188,12 +204,13 @@ function Legend() {
   );
 }
 
-export function Fatal({ msg }: { msg: string }) {
+export function Fatal({ msg, onReset }: { msg: string; onReset?: () => void }) {
   return (
     <div className="flex h-[100dvh] items-center justify-center p-6 text-center">
-      <div>
-        <h1 className="text-xl font-bold">Haven can't reach its server</h1>
+      <div className="max-w-md">
+        <h1 className="text-xl font-bold">{onReset ? "Haven can't cover this location" : "Haven can't reach its server"}</h1>
         <p className="mt-2 text-ink-2">{msg}</p>
+        {onReset && <button onClick={onReset} className="mt-4 rounded-xl bg-slate-900 px-4 py-2 font-semibold text-white">Choose another location</button>}
         <p className="mt-4 text-sm text-ink-3">If you are in danger, call 911 and follow instructions from local officials and weather.gov.</p>
       </div>
     </div>

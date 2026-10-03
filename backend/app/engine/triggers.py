@@ -69,6 +69,11 @@ def location_risk(ctx: "Haven", w: "World", p: LatLon) -> LocationRisk:
 
 def _cut_off_time(ctx: "Haven", w: "World", p: LatLon) -> tuple[datetime | None, bool]:
     """Earliest official-forecast time every road within 300 m is flooded."""
+    if not ctx.overlay:
+        return None, False
+    imp = w.impact
+    if not (imp.status_now >= FLOODED).any() and all(f is None for f in imp.first_flood):
+        return None, False  # nothing flooded or forecast to flood: no road can cut anyone off
     gd = ctx.router.graph("walk")
     x, y = ctx.impact.to_work.transform(p.lon, p.lat)
     idx = gd.tree.query_ball_point([x, y], LOCATION_ROAD_RADIUS_M)

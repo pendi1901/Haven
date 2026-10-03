@@ -7,7 +7,8 @@ const K = {
   onboarded: "haven.onboarded.v1",
   checkin: "haven.checkin.v1",
   route: "haven.activeRoute.v1",
-  location: "haven.location.v1",
+  location: "haven.location.v2", // per data mode: live and replay never share a spot
+  mode: "haven.mode.v1",
 };
 
 function read<T>(key: string): T | null {
@@ -49,6 +50,8 @@ export const storage = {
   // Low-connectivity fallback: the active route survives reloads and dropped signal.
   activeRoute: () => read<Route>(K.route),
   saveActiveRoute: (r: Route | null) => write(K.route, r),
-  location: () => read<LatLon & { label?: string }>(K.location),
-  saveLocation: (l: (LatLon & { label?: string }) | null) => write(K.location, l),
+  location: (mode: string) => read<LatLon & { label?: string; source?: string }>(`${K.location}.${mode}`),
+  saveLocation: (mode: string, l: (LatLon & { label?: string; source?: string }) | null) => write(`${K.location}.${mode}`, l),
+  mode: () => read<"live" | "replay">(K.mode),
+  saveMode: (m: "live" | "replay") => write(K.mode, m),
 };

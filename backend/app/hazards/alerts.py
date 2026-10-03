@@ -56,8 +56,11 @@ class Alerts(BaseModule):
                     continue
                 office = OFFICE_NAMES.get(a.get("wfo") or self.ctx.region.replay_wfos[0], "NWS")
                 if a["kind"] == "polygon":
-                    valid_to = a["polygon_end"] or a["expire"]
-                    headline = f"{a['event']} issued {_fmt(a['issue'], tz)} until {_fmt(a['expire'], tz)} by {office}"
+                    # Expiry as issued; once a later extension keeps it going, say nothing.
+                    valid_to = a["expire"] if a["expire"] and a["expire"] > t else None
+                    headline = (f"{a['event']} issued {_fmt(a['product_issued'], tz)}"
+                                + (f" until {_fmt(a['expire'], tz)}" if valid_to else ", since extended")
+                                + f" by {office}")
                     emergency = a.get("is_emergency", False)
                 else:
                     valid_to = None
@@ -68,7 +71,7 @@ class Alerts(BaseModule):
                 out.append(HazardZone(
                     id=f"nws:{a['id']}", hazard="nws_alert", geometry=a["geometry"], severity=sev,
                     layer=TimeLayer.NOW if is_warning(a["event"]) or sev <= 1 else TimeLayer.FORECAST,
-                    valid_from=a.get("polygon_begin") or a["issue"], valid_to=valid_to, source=Source.NWS,
+                    valid_from=a["issue"], valid_to=valid_to, source=Source.NWS,
                     reason=f"Official {a['event']} from {office} (archived product).",
                     event=a["event"], headline=headline, description=a.get("description"),
                     instruction=a.get("instruction"), is_warning=is_warning(a["event"]), archived=True,

@@ -65,8 +65,9 @@ export default function Map(props: Props) {
     const map = new maplibregl.Map({
       container: el.current,
       style: STYLE,
-      center: bbox ? [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2] : [-82.555, 35.575],
-      zoom: 11,
+      // No region yet (live, before we know where the user is): show the US.
+      center: bbox ? [(bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2] : [-96.5, 38.5],
+      zoom: bbox ? 11 : 3.3,
       attributionControl: { compact: true },
       fadeDuration: 0,
     });
@@ -210,7 +211,8 @@ export default function Map(props: Props) {
         type: "Feature", geometry: { type: "Point", coordinates: [g.lon, g.lat] },
         properties: {
           lid: g.lid, online: g.online, color: g.online ? CATEGORY_COLOR[g.category_now] : "#cbd5e1",
-          label: `${g.short_name.replace("French Broad ", "").replace("Swannanoa ", "")} ${g.observed_stage_ft != null ? g.observed_stage_ft.toFixed(1) + " ft" : ""}`,
+          // "French Broad at Asheville" -> "Asheville 10.0 ft"
+          label: `${g.short_name.replace(/^.*? (at|near|below|above) /, "")} ${g.observed_stage_ft != null ? g.observed_stage_ft.toFixed(1) + " ft" : ""}`,
         },
       })),
     });

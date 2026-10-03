@@ -37,8 +37,9 @@ class Settings(BaseSettings):
     gemini_api_key: str = ""
     gemini_model: str = "gemini-2.5-flash"
     nws_user_agent: str = "Haven (team-email@example.com)"
-    data_mode: Literal["live", "replay"] = "replay"
-    region: str = "asheville"
+    data_mode: Literal["live", "replay"] = "live"  # default mode; the app can switch per request
+    region: str = "asheville"  # default live region when no location is known
+    replay_region: str = "asheville"
 
     # Base URLs (spec §5: keep base URLs in config).
     nwps_base: str = "https://api.water.noaa.gov/nwps/v1"
@@ -126,10 +127,28 @@ class RegionConfig:
     replay_rvf_office: str | None = None  # issuing RFC (e.g. KORN = LMRFC)
     replay_wfos: tuple[str, ...] = ()
     demo_places: tuple[dict, ...] = field(default_factory=tuple)
+    uv_city: str | None = None  # EPA UV lookup by city when there is no ZIP
+    point: bool = False  # built on the fly around a user's location (no overlay data)
 
     @property
     def data_dir(self) -> Path:
-        return DATA_ROOT / self.key
+        return DATA_ROOT / ("points" if self.point else "") / self.key
+
+    @property
+    def has_overlay(self) -> bool:
+        """Prepared terrain + road graph + river reaches (python -m app.prepare)."""
+        d = self.data_dir
+        return (not self.point and (d / "derived" / "road_index.npz").exists()
+                and (d / "dem" / "dem_4m.tif").exists() and (d / "osm" / "rivers.geojson").exists())
+
+    @property
+    def has_replay(self) -> bool:
+        return (not self.point and self.replay_start is not None
+                and (self.data_dir / "replay" / "rvf_forecasts.json").exists())
+
+    def contains(self, lat: float, lon: float) -> bool:
+        w, s, e, n = self.bbox
+        return s <= lat <= n and w <= lon <= e
 
     def gauge(self, lid: str) -> GaugeConfig:
         for g in self.gauges:

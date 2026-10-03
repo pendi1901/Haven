@@ -16,6 +16,7 @@ interface Opts {
   needsHelp: boolean;
   simulate: boolean;
   rate: number;
+  purpose: "flood" | "center" | "fire";
 }
 
 /** Live navigation (spec §7.8). GPS and the replay simulator feed the same
@@ -68,7 +69,7 @@ export function useNavigation(o: Opts) {
     try {
       const rr = await api.route({
         lat: p.lat, lon: p.lon, mode: routeRef.current.mode, t: replay ? tRef.current : null,
-        companions: o.companions, blocked: blocked.current, needs_help: o.needsHelp,
+        companions: o.companions, blocked: blocked.current, needs_help: o.needsHelp, purpose: o.purpose,
       });
       if (rr.route) {
         setRoute(rr.route);
@@ -86,7 +87,7 @@ export function useNavigation(o: Opts) {
     } finally {
       setRerouting(false);
     }
-  }, [o.companions, o.needsHelp, replay, say, show]);
+  }, [o.companions, o.needsHelp, o.purpose, replay, say, show]);
 
   const onFix = useCallback((f: PositionFix) => {
     fixRef.current = f;
@@ -109,7 +110,11 @@ export function useNavigation(o: Opts) {
       if (r.properties.status !== "flooded" && r.properties.status !== "at_risk") continue;
       if (warned.current.has(r.properties.id)) continue;
       const c = r.geometry.coordinates as XY[];
-      if (Math.abs(c[0][1] - f.lat) > 0.003 && Math.abs(c[c.length - 1][1] - f.lat) > 0.003) continue;
+      // Cheap reject on the segment's bounding box padded by ~200 m.
+      const pad = 0.0019;
+      let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+      for (const [x, y] of c) { minX = Math.min(minX, x); maxX = Math.max(maxX, x); minY = Math.min(minY, y); maxY = Math.max(maxY, y); }
+      if (f.lon < minX - pad * 1.25 || f.lon > maxX + pad * 1.25 || f.lat < minY - pad || f.lat > maxY + pad) continue;
       if (distanceToLine([f.lon, f.lat], c) <= HAZARD_ALERT_M) {
         warned.current.add(r.properties.id);
         const kind = r.properties.status === "flooded" ? "Flooded" : "At-risk";
@@ -127,6 +132,8 @@ export function useNavigation(o: Opts) {
       say(pr.next.text);
     }
   }, [tracker, reroute, say, show]);
+  const onFixRef = useRef(onFix);
+  onFixRef.current = onFix;
 
   // Position source lifecycle.
   useEffect(() => {
@@ -146,7 +153,9 @@ export function useNavigation(o: Opts) {
       src = new GeolocationSource();
     }
     sourceRef.current = src;
-    src.start(onFix, (e) => show("error", e));
+    // Through a ref, so the running source always calls the latest handler
+    // (e.g. after the user turns voice on).
+    src.start((f) => onFixRef.current(f), (e) => show("error", e));
     return () => src.stop();
     // Restart the source when the route geometry changes (reroute).
     // Speed changes go through setRate on the live source (no restart, no jump back).
@@ -158,7 +167,9 @@ export function useNavigation(o: Opts) {
     const speed = route.speed_mps ?? route.distance_m / Math.max(1, route.duration_s);
     const arrive = new Date(Date.parse(state.t) + (progress.remaining / Math.max(0.5, speed)) * 1000).toISOString();
     const remainingEdges = route.edge_ids.filter((_, i) => (route.edge_starts_m?.[i + 1] ?? Infinity) > progress.along);
-    api.checkRoute({ mode: route.mode, edge_ids: remainingEdges, arrive_at: arrive, t: replay ? state.t : null }).then((c) => {
+    const [lon0, lat0] = route.geometry.coordinates[0];
+    api.checkRoute({ mode: route.mode, edge_ids: remainingEdges, arrive_at: arrive, t: replay ? state.t : null,
+      lat: lat0, lon: lon0 }).then((c) => {
       if (c.ok) return;
       const p = c.problems[0];
       const what = p.status !== "dry" ? `is ${p.status.replace("_", " ")} now` : `is now expected to flood around ${dayClock(p.first_flood)}`;

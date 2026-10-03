@@ -45,7 +45,8 @@ def test_no_leakage_forecasts_and_readings():
                 assert r[0] <= t
             assert all(pt <= t for pt, _ in rd.observed_until(lid, t))
         for a in rd.alerts_at(t):
-            assert (a.get("polygon_begin") or a["issue"]) <= t
+            assert a["issue"] <= t
+            assert a.get("product_issued", a.get("product_issue")) <= t
         adv = rd.nhc_at(t)
         assert adv is None or adv["issued"] <= t
 

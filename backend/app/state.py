@@ -14,8 +14,9 @@ from datetime import datetime, timedelta, timezone
 import geopandas as gpd
 import shapely
 
-from app.config import POLL_SECONDS, WORK_CRS, RegionConfig, region as current_region, settings
+from app.config import POLL_SECONDS, REGIONS, WORK_CRS, RegionConfig, region as current_region, settings
 from app.geo.elevation import Dem, dem_path, load_dem
+from app.geo.null import NullDem, NullImpact, NullRouter
 from app.geo.road_impact import ImpactResult, RoadImpact
 from app.geo.routing import Router
 from app.hazards.air_quality import AirQuality
@@ -29,6 +30,7 @@ from app.hazards.wildfire import Wildfire
 from app.models import GaugeStatus, HazardZone
 from app.replay.loader import ReplayData
 from app.sources.base import SourceCache, make_client, poll_forever, utcnow
+from app.sources.locate import point_key, point_region
 from app.sources.ncdot import fetch_closures
 from app.sources.nwps import load_gauge_meta
 from app.sources.shelters import fetch_open_shelters, load_osm_pois
@@ -59,12 +61,19 @@ class Haven:
         if self.mode == "replay" and not (self.replay and self.replay.available):
             raise RuntimeError(f"Replay data missing for {self.region.key}: run `python -m app.prepare`")
         self.gauge_meta = load_gauge_meta(self.region)
-        self.dem: Dem = load_dem(dem_path(self.region))
-        self.impact = RoadImpact(self.region)
-        rivers = gpd.read_file(self.region.data_dir / "osm" / "rivers.geojson").to_crs(WORK_CRS)
-        self.rivers_work = shapely.union_all(rivers.geometry.values)
-        self.pois = load_osm_pois(self.region)
-        self.router = Router(self)
+        self.overlay = self.region.has_overlay
+        if self.overlay:
+            self.dem: Dem | NullDem = load_dem(dem_path(self.region))
+            self.impact: RoadImpact | NullImpact = RoadImpact(self.region)
+            rivers = gpd.read_file(self.region.data_dir / "osm" / "rivers.geojson").to_crs(WORK_CRS)
+            self.rivers_work = shapely.union_all(rivers.geometry.values)
+            self.pois = load_osm_pois(self.region)
+            self.router: Router | NullRouter = Router(self)
+        else:
+            # Live anywhere: point sources work; the road overlay needs prepared data.
+            self.dem, self.impact, self.router = NullDem(), NullImpact(), NullRouter()
+            self.rivers_work = shapely.GeometryCollection()
+            self.pois = []
         self.modules = {
             "river_flood": RiverFlood(self),
             "alerts": Alerts(self),
@@ -76,6 +85,7 @@ class Haven:
             "hurricane": Hurricane(self),
         }
         self.client = None
+        self.hub: "Hub | None" = None
         self.version = 0
         self._worlds: OrderedDict[tuple, World] = OrderedDict()
         self._lock = threading.Lock()
@@ -108,7 +118,7 @@ class Haven:
         key = (t, self.version)
         with self._lock:
             w = self._worlds.get(key)
-            if w is not None:
+            if w is not None and w.zones_ready:
                 self._worlds.move_to_end(key)
                 return w
             key_lock = self._key_locks.setdefault(key, threading.RLock())
@@ -214,11 +224,31 @@ class Haven:
             ("nhc", m["hurricane"].refresh, POLL_SECONDS["nhc"]),
         ]
         for i, (name, fn, interval) in enumerate(jobs):
-            self._tasks.append(asyncio.create_task(self._loop_refresh(name, fn, interval, i * 0.7)))
+            # prime() fetches everything once; pollers take over after one interval.
+            self._tasks.append(asyncio.create_task(self._loop_refresh(name, fn, interval, interval + i * 0.7)))
         self._tasks.append(asyncio.create_task(poll_forever(
-            self.cache, "shelters", lambda: fetch_open_shelters(self.client, self.region), POLL_SECONDS["shelters"], 3)))
+            self.cache, "shelters", lambda: fetch_open_shelters(self.client, self.region), POLL_SECONDS["shelters"],
+            POLL_SECONDS["shelters"])))
         self._tasks.append(asyncio.create_task(poll_forever(
             self.cache, "ncdot", lambda: fetch_closures(self.client), POLL_SECONDS["ncdot"], 4)))
+
+    async def prime(self, timeout: float = 20.0) -> None:
+        """Fetch every live source once so the first answer is not empty."""
+        if self.mode != "live":
+            return
+        now = self.now()
+        jobs = [m.refresh(now) for m in self.modules.values()]
+        jobs.append(self._prime_shelters())
+        try:
+            await asyncio.wait_for(asyncio.gather(*jobs, return_exceptions=True), timeout)
+        except asyncio.TimeoutError:
+            log.warning("priming %s timed out; continuing with what arrived", self.region.key)
+
+    async def _prime_shelters(self) -> None:
+        try:
+            self.cache.put("shelters", await fetch_open_shelters(self.client, self.region))
+        except Exception as ex:  # noqa: BLE001
+            self.cache.fail("shelters", f"{type(ex).__name__}: {ex}")
 
     async def _loop_refresh(self, name: str, fn, interval: int, delay: float) -> None:
         await asyncio.sleep(delay)
@@ -249,16 +279,106 @@ class Haven:
         return {n: self.cache.get(n).status() for n in names}
 
 
-_haven: Haven | None = None
+class Hub:
+    """One server, many contexts: the Helene replay, prepared live regions (with the
+    road-flood overlay), and live point regions built around wherever users are."""
+
+    MAX_POINT_CONTEXTS = 12
+
+    def __init__(self) -> None:
+        self.settings = settings()
+        self._havens: OrderedDict[tuple[str, str], Haven] = OrderedDict()
+        self._lock = asyncio.Lock()
+        self._client = None
+        self._listeners: set[asyncio.Queue] = set()
+
+    def default_mode(self) -> str:
+        return self.settings.data_mode
+
+    def replay_available(self) -> bool:
+        r = REGIONS.get(self.settings.replay_region)
+        return bool(r and r.has_replay)
+
+    async def get(self, mode: str | None = None, lat: float | None = None, lon: float | None = None) -> Haven:
+        mode = mode or self.default_mode()
+        if mode == "replay":
+            region = REGIONS[self.settings.replay_region]
+            if not region.has_replay:
+                raise LookupError("Replay data is not prepared. Run `python -m app.prepare`.")
+        elif lat is None or lon is None:
+            region = REGIONS.get(self.settings.region)
+            if region is None or not region.has_overlay:
+                region = next((r for r in REGIONS.values() if r.has_overlay), None)
+            if region is None:
+                raise LookupError("No location given and no prepared region.")
+        else:
+            region = next((r for r in REGIONS.values() if r.has_overlay and r.contains(lat, lon)), None)
+            if region is None:
+                key = point_key(lat, lon)
+                h = self._havens.get(("live", key))
+                if h is not None:
+                    self._havens.move_to_end(("live", key))
+                    return h
+                region = await point_region(await self.client(), lat, lon)
+        key = (mode, region.key)
+        h = self._havens.get(key)
+        if h is not None:
+            self._havens.move_to_end(key)
+            return h
+        async with self._lock:
+            h = self._havens.get(key)
+            if h is not None:
+                return h
+            h = await asyncio.to_thread(Haven, region, mode)
+            h.hub = self
+            await h.start()
+            await h.prime()
+            if h.overlay:
+                def warm():
+                    h.router.graph("walk")
+                    h.router.graph("drive")
+                    if mode == "replay" and self.settings.warm_replay_cache:
+                        h.warm_replay_cache()
+                threading.Thread(target=warm, daemon=True).start()
+            self._havens[key] = h
+            await self._evict()
+            log.info("context ready: %s %s (%s, overlay=%s)", mode, region.key, region.name, h.overlay)
+            return h
+
+    async def _evict(self) -> None:
+        points = [k for k in self._havens if self._havens[k].region.point]
+        while len(points) > self.MAX_POINT_CONTEXTS:
+            old = points.pop(0)
+            await self._havens.pop(old).stop()
+
+    async def client(self):
+        if self._client is None:
+            self._client = make_client()
+        return self._client
+
+    def set(self, h: Haven) -> None:
+        """Tests: install a prebuilt context."""
+        h.hub = self
+        self._havens[(h.mode, h.region.key)] = h
+
+    async def stop(self) -> None:
+        for h in self._havens.values():
+            await h.stop()
+        if self._client:
+            await self._client.aclose()
 
 
-def get_haven() -> Haven:
-    global _haven
-    if _haven is None:
-        _haven = Haven()
-    return _haven
+_hub: Hub | None = None
+
+
+def get_hub() -> Hub:
+    global _hub
+    if _hub is None:
+        _hub = Hub()
+    return _hub
 
 
 def set_haven(h: Haven | None) -> None:
-    global _haven
-    _haven = h
+    """Tests: make `h` the context for its mode."""
+    if h is not None:
+        get_hub().set(h)

@@ -147,3 +147,26 @@ def test_flood_not_reaching_location_monitor():
 def test_watch_limits_outdoors():
     v = decide(mk_input(alerts=[mk_zone("Flood Watch", warning=False)]))
     assert v.level == 1
+
+
+def test_no_overlay_never_claims_flood_wont_reach_you():
+    """Live point contexts have gauges but no terrain: Haven must not say the
+    flooding won't reach the user, only that it can't tell."""
+    inp = mk_input(flood=True, risk=flood_risk(None))
+    inp.overlay = False
+    v = decide(inp)
+    assert v.level == 2
+    assert v.label == "Stay alert and avoid low areas"
+    assert "can't tell" in v.reason
+
+
+def test_null_impact_is_inert():
+    from datetime import datetime, timezone
+    import numpy as np
+    from app.geo.null import NullDem, NullImpact
+    from app.geo.road_impact import GaugeLevels
+    imp = NullImpact()
+    res = imp.evaluate(datetime.now(timezone.utc), GaugeLevels(np.zeros(0), [], np.zeros((0, 0)), np.zeros(0, bool)))
+    assert res.status_now.size == 0 and res.extent_now is None
+    assert imp.point_weights(35.8, -78.6)[2] == -1
+    assert NullDem().sample_one(0.0, 0.0) is None

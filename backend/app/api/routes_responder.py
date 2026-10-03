@@ -29,7 +29,8 @@ from app.api.routes_state import _parse_t
 from app.config import CORRIDOR_M, FT_PER_M
 from app.geo.census import closures_path, tracts_path
 from app.geo.road_impact import CLOSED, FLOODED, GaugeLevels
-from app.state import Haven, get_haven
+from app.api.deps import DataMode, context
+from app.state import Haven
 
 router = APIRouter(prefix="/api")
 MATCH_M = 30.0
@@ -123,6 +124,7 @@ def responder(ctx: Haven, t: datetime) -> dict:
                                  + 3 * r.get("no_vehicle_households_cut_off_est", 0))))
     return {
         "t": t,
+        "available": True,
         "hospitals": [{"name": p["name"], "lat": p["lat"], "lon": p["lon"]} for p, _ in hospitals],
         "cut_off_areas": {"type": "FeatureCollection", "features": feats},
         "population": int(round(total_pop)),
@@ -199,7 +201,12 @@ def accuracy(ctx: Haven, t: datetime) -> dict | None:
 
 
 @router.get("/responder")
-async def get_responder(t: str | None = None):
-    ctx = get_haven()
+async def get_responder(t: str | None = None, data_mode: DataMode | None = None, lat: float | None = None,
+                        lon: float | None = None):
+    ctx = await context(data_mode, lat, lon)
     tt = ctx.resolve_t(_parse_t(t))
+    if not ctx.overlay:
+        return {"t": tt, "available": False, "hospitals": [], "cut_off_areas": {"type": "FeatureCollection", "features": []},
+                "population": 0, "priority_list": [], "acs": False, "accuracy": None,
+                "notes": [f"The responder view needs prepared road data; {ctx.region.name} doesn't have it yet."]}
     return await run_in_threadpool(responder, ctx, tt)

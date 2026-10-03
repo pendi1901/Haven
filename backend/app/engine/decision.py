@@ -86,6 +86,7 @@ class DecisionInput:
     avoid_roads: list[str] = field(default_factory=list)
     fire_km: float | None = None
     replay: bool = False
+    overlay: bool = True  # terrain + road data available for this location
 
 
 def _fmt(dt: datetime, tz: str) -> str:
@@ -192,7 +193,8 @@ def decide(inp: DecisionInput) -> Verdict:
             rr = inp.route_fn("flood", eff)
             route = rr.route if rr else None
             deadline = t_here - timedelta(minutes=ROUTE_BUFFER_MIN)
-            in_time = route is not None and route.arrive_at <= deadline
+            in_time = (route is not None and route.arrive_at <= deadline
+                       and (route.slack_min is None or route.slack_min >= 0))
             if t_here <= t:
                 why = "Your location or every road out of it is flooded now, based on current river gauge readings and terrain."
             else:
@@ -250,6 +252,11 @@ def decide(inp: DecisionInput) -> Verdict:
                         backup=rr.backup if rr else None, sources={Source.NWS})
 
     # -- Flood: not reaching you (stay put and monitor) ------------------------------------------
+    if inp.trig.flood and not inp.overlay:
+        return _verdict(2, "Official river gauges near you show flooding or forecast it. Haven has no terrain or "
+                           "road data for this area, so it can't tell whether the water reaches you: follow official "
+                           "warnings and stay away from low ground near streams.", inp,
+                        S.flood_monitor(eff.companions, p), eff, label="Stay alert and avoid low areas")
     if inp.trig.flood:
         when = risk.t_flood_here if risk else None
         reason = ("Flooding is happening or forecast nearby, but official forecasts don't show it reaching "

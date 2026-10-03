@@ -2,8 +2,8 @@
 
 from __future__ import annotations
 
+import asyncio
 import logging
-import threading
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
@@ -11,9 +11,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
-from app.api import routes_responder, routes_route, routes_state, routes_user, stream
-from app.config import REPO_DIR, settings
-from app.state import get_haven
+from app.api import routes_geocode, routes_responder, routes_route, routes_state, routes_user, stream
+from app.config import REGIONS, REPO_DIR, settings
+from app.state import get_hub
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 logging.getLogger("httpx").setLevel(logging.WARNING)
@@ -22,32 +22,38 @@ log = logging.getLogger("haven")
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    ctx = get_haven()
-    log.info("Haven starting: region=%s mode=%s", ctx.region.key, ctx.mode)
-    await ctx.start()
-    # Load routing graphs and precompute replay timesteps off the event loop.
-    def warm():
-        ctx.router.graph("walk")
-        ctx.router.graph("drive")
-        if settings().warm_replay_cache:
-            ctx.warm_replay_cache()
-    threading.Thread(target=warm, daemon=True).start()
+    hub = get_hub()
+    log.info("Haven starting: default mode=%s", hub.default_mode())
+    try:
+        # Warm the default context so the first visitor doesn't wait.
+        await hub.get(hub.default_mode())
+    except LookupError as ex:
+        log.warning("no default context: %s", ex)
+    # And every prepared live region in the background (road graphs take seconds).
+    async def warm_regions():
+        for r in REGIONS.values():
+            if r.has_overlay:
+                try:
+                    await hub.get("live", *r.center)
+                except Exception as ex:  # noqa: BLE001
+                    log.warning("warming %s failed: %s", r.key, ex)
+    warm_task = asyncio.create_task(warm_regions())
     yield
-    await ctx.stop()
+    warm_task.cancel()
+    await hub.stop()
 
 
 app = FastAPI(title="Haven", version="0.1.0", lifespan=lifespan,
               description="Decision support layered on official NOAA/NWS/USGS/EPA/NASA data.")
 app.add_middleware(CORSMiddleware, allow_origins=[o.strip() for o in settings().cors_origins.split(",")],
                    allow_methods=["*"], allow_headers=["*"])
-for r in (routes_state, routes_user, routes_route, routes_responder, stream):
+for r in (routes_state, routes_user, routes_route, routes_responder, routes_geocode, stream):
     app.include_router(r.router)
 
 
 @app.get("/api/health")
 def health():
-    ctx = get_haven()
-    return {"ok": True, "mode": ctx.mode, "region": ctx.region.key}
+    return {"ok": True, "default_mode": get_hub().default_mode()}
 
 
 DIST = REPO_DIR / "frontend" / "dist"

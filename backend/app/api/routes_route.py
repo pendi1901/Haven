@@ -15,7 +15,7 @@ from app.engine.triggers import location_risk
 from app.geo.road_impact import STATUS_NAMES
 from app.geo.routing import RouteRequest
 from app.models import Companions, LatLon, RouteResult
-from app.state import get_haven
+from app.api.deps import DataMode, context
 
 router = APIRouter(prefix="/api")
 
@@ -45,8 +45,9 @@ async def get_route(
     blocked: str | None = Query(None, description="Comma-separated edge ids reported blocked"),
     needs_help: bool = False,
     purpose: Literal["flood", "center", "fire"] = "flood",
+    data_mode: DataMode | None = None,
 ):
-    ctx = get_haven()
+    ctx = await context(data_mode, lat, lon)
     tt = ctx.resolve_t(_parse_t(t))
 
     def run() -> RouteResult:
@@ -67,15 +68,18 @@ class RouteCheck(BaseModel):
     edge_ids: list[str]
     arrive_at: datetime
     t: datetime | None = None
+    data_mode: DataMode | None = None
+    lat: float | None = None  # any point on the route (selects the region)
+    lon: float | None = None
 
 
 @router.post("/route/check")
-def check_route(body: RouteCheck):
+async def check_route(body: RouteCheck):
     """Re-plan check (spec §7.7 step 8): is any edge of the active route now
     flooded / at risk / closed, or forecast to flood before arrival + buffer?"""
-    ctx = get_haven()
+    ctx = await context(body.data_mode, body.lat, body.lon)
     tt = ctx.resolve_t(body.t)
-    w = ctx.world(tt)
+    w = await run_in_threadpool(ctx.world, tt)
     limit = body.arrive_at + timedelta(minutes=ROUTE_BUFFER_MIN)
     problems = []
     for eid in body.edge_ids:

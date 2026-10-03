@@ -10,14 +10,15 @@ import json
 from fastapi import APIRouter, Request
 from sse_starlette.sse import EventSourceResponse
 
-from app.state import get_haven
+from app.api.deps import DataMode, context
 
 router = APIRouter(prefix="/api")
 
 
 @router.get("/stream")
-async def stream(request: Request):
-    ctx = get_haven()
+async def stream(request: Request, data_mode: DataMode | None = None, lat: float | None = None,
+                 lon: float | None = None):
+    ctx = await context(data_mode, lat, lon)
     q: asyncio.Queue = asyncio.Queue(maxsize=100)
     ctx.subscribers.add(q)
 

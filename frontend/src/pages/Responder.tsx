@@ -72,7 +72,8 @@ export default function Responder() {
                 </table>
               </section>
             )}
-            {data && data.priority_list.length === 0 && <p className="rounded-xl bg-emerald-50 p-3 text-sm text-emerald-900">No area is cut off from hospitals in this data.</p>}
+            {data && !data.available && <p className="rounded-xl bg-sky-50 p-3 text-sm text-sky-950">{data.notes[0]}</p>}
+            {data && data.available && data.priority_list.length === 0 && <p className="rounded-xl bg-emerald-50 p-3 text-sm text-emerald-900">No area is cut off from hospitals in this data.</p>}
             {data?.accuracy && (
               <section className="rounded-2xl bg-white p-4 shadow-card ring-1 ring-black/5">
                 <h2 className="text-xs font-semibold uppercase tracking-wide text-ink-3">Accuracy vs NCDOT closures (replay)</h2>

@@ -235,6 +235,7 @@ class CheckInQuestion(BaseModel):
 
 
 class AssessRequest(BaseModel):
+    data_mode: Literal["live", "replay"] | None = None
     profile: Profile = Field(default_factory=Profile)
     checkin: CheckIn | None = None
     location: LatLon

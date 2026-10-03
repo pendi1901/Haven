@@ -190,7 +190,7 @@ class RiverFlood(BaseModule):
                 id="river_flood:now", hazard="river_flood", geometry=w.impact.extent_now,
                 severity=max(sev_now, 2 if flooded_any else 1), layer=TimeLayer.NOW, valid_from=t, valid_to=None,
                 source=Source.HAVEN,
-                reason="Estimated flooded area: current official gauge levels overlaid on USGS lidar terrain "
+                reason=f"Estimated flooded area: current official gauge levels overlaid on {self.ctx.dem.source} "
                        "(not an official inundation map)."))
         if w.impact.extent_forecast and sev_fc >= 2:
             peak = max((g for g in w.gauges if g.forecast_peak_at), key=lambda g: g.forecast_peak_ft or 0, default=None)
@@ -198,7 +198,7 @@ class RiverFlood(BaseModule):
                 id="river_flood:forecast", hazard="river_flood", geometry=w.impact.extent_forecast,
                 severity=sev_fc, layer=TimeLayer.FORECAST, valid_from=t,
                 valid_to=peak.forecast_peak_at if peak else None, source=Source.NWPS,
-                reason="Estimated area at the official NOAA forecast crest, overlaid on USGS lidar terrain."))
+                reason=f"Estimated area at the official NOAA forecast crest, overlaid on {self.ctx.dem.source}."))
         return out
 
     def metrics_at(self, p: LatLon, t: datetime) -> list[Metric]:

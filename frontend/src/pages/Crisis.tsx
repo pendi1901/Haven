@@ -41,6 +41,7 @@ export default function Crisis() {
         key={nav.route.edge_ids.join(",").slice(0, 64)}
         initial={nav.route} backup={nav.backup} simulate={nav.simulate}
         companions={checkin?.companions ?? DEFAULT_COMPANIONS} needsHelp={!!checkin?.needs_help}
+        purpose={assess?.hazard === "smoke" || assess?.hazard === "heat" ? "center" : assess?.hazard === "wildfire" ? "fire" : "flood"}
         onExit={() => { setNav(null); storage.saveActiveRoute(null); refreshAssess(); }}
       />
     );
@@ -164,14 +165,15 @@ export default function Crisis() {
 
 const RATES = [0, 15, 30, 60]; // 0 = paused
 
-function NavigationView({ initial, backup, simulate, companions, needsHelp, onExit }: {
-  initial: Route; backup: Route | null; simulate: boolean; companions: Companions; needsHelp: boolean; onExit: () => void;
+function NavigationView({ initial, backup, simulate, companions, needsHelp, purpose, onExit }: {
+  initial: Route; backup: Route | null; simulate: boolean; companions: Companions; needsHelp: boolean;
+  purpose: "flood" | "center" | "fire"; onExit: () => void;
 }) {
   const { meta, state, replay, t, setT } = useStore();
   const [rate, setRate] = useState(30);
   const [follow, setFollow] = useState(true);
   const [showBackup, setShowBackup] = useState(false);
-  const n = useNavigation({ initial, backup, companions, needsHelp, simulate, rate });
+  const n = useNavigation({ initial, backup, companions, needsHelp, simulate, rate, purpose });
   const now = state?.t ?? new Date().toISOString();
 
   return (

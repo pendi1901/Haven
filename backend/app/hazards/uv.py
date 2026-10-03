@@ -47,4 +47,8 @@ class UV(BaseModule):
         return [Metric(key="uv", label="UV index (peak)", value=float(peak), unit="", category=cat, severity=sev,
                        advice=ADVICE[cat] + (f" High UV {hours}." if hours else ""), source=Source.EPA,
                        layer=TimeLayer.FORECAST, observed_or_valid_at=peak_t, stale=e.stale,
-                       detail=f"EPA forecast for ZIP {self.ctx.region.uv_zip}")]
+                       detail=f"EPA forecast for {self._place()}")]
+
+    def _place(self) -> str:
+        r = self.ctx.region
+        return f"ZIP {r.uv_zip}" if r.uv_zip else f"{r.uv_city}, {r.state}"

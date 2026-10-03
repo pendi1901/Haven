@@ -10,7 +10,11 @@ from app.engine.assess import metrics_at
 from app.geo.road_impact import STATUS_NAMES
 from app.geo.roads import WALK_ONLY_HIGHWAYS
 from app.models import LatLon
-from app.state import get_haven
+from fastapi.concurrency import run_in_threadpool
+
+from app.api.deps import DataMode, context
+from app.config import REGIONS
+from app.state import get_hub
 
 router = APIRouter(prefix="/api")
 
@@ -57,9 +61,14 @@ def _parse_t(t: str | None) -> datetime | None:
 
 
 @router.get("/state")
-def get_state(t: str | None = Query(None, description="Replay time (ISO 8601); ignored in live mode")):
-    ctx = get_haven()
+async def get_state(t: str | None = Query(None, description="Replay time (ISO 8601); ignored in live mode"),
+                    data_mode: DataMode | None = None, lat: float | None = None, lon: float | None = None):
+    ctx = await context(data_mode, lat, lon)
     tt = ctx.resolve_t(_parse_t(t))
+    return await run_in_threadpool(_state, ctx, tt)
+
+
+def _state(ctx, tt) -> dict:
     w = ctx.world(tt)
     lat, lon = ctx.region.center
     return {
@@ -84,17 +93,22 @@ def get_state(t: str | None = Query(None, description="Replay time (ISO 8601); i
 
 
 @router.get("/meta")
-def get_meta():
-    ctx = get_haven()
+async def get_meta(data_mode: DataMode | None = None, lat: float | None = None, lon: float | None = None):
+    ctx = await context(data_mode, lat, lon)
+    hub = get_hub()
     r = ctx.region
     return {
         "data_mode": ctx.mode,
-        "region": {"key": r.key, "name": r.name, "bbox": r.bbox, "center": r.center, "timezone": r.timezone},
+        "modes": {"live": True, "replay": hub.replay_available()},
+        "region": {"key": r.key, "name": r.name, "bbox": r.bbox, "center": r.center, "timezone": r.timezone,
+                   "overlay": ctx.overlay, "point": r.point},
+        "overlay_regions": [{"key": x.key, "name": x.name, "bbox": x.bbox} for x in REGIONS.values() if x.has_overlay],
         "demo_places": list(r.demo_places),
         "reaches": [{"id": x["id"], "river": x["river"], "upstream": x["upstream"], "downstream": x["downstream"],
                      "geometry": _reach_ll(ctx, x)} for x in ctx.impact.reaches_meta],
-        "replay": replay_meta() if ctx.mode == "replay" else None,
+        "replay": _replay_meta(ctx) if ctx.mode == "replay" else None,
         "features": {"gemini": bool(ctx.settings.gemini_api_key), "handoff": ctx.mode == "live"},
+        "dem_source": ctx.dem.source,
     }
 
 
@@ -104,11 +118,12 @@ def _reach_ll(ctx, x) -> dict:
     return {"type": "LineString", "coordinates": [[round(a, 5), round(b, 5)] for a, b in zip(lo, la)][::3]}
 
 
-@router.get("/replay/meta")
-def replay_meta():
-    ctx = get_haven()
-    if ctx.mode != "replay":
-        raise HTTPException(404, "Not in replay mode")
+def _replay_meta(ctx) -> dict:
     start, end, step = ctx.replay.window()
     return {"start": start, "end": end, "step_minutes": step, "event": ctx.region.replay_event,
             "timezone": ctx.region.timezone}
+
+
+@router.get("/replay/meta")
+async def replay_meta():
+    return _replay_meta(await context("replay"))
