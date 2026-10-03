@@ -32,6 +32,51 @@ npm run dev                          # http://localhost:5173 (proxies /api to :8
 
 Production-style single server: `npm run build` in `frontend/`, then the backend serves the app at `http://localhost:8000`.
 
+### Deploy to Render (one Docker web service)
+
+The root `Dockerfile` builds React and runs FastAPI, which serves both the frontend
+and `/api` on one URL. The prepared Asheville and Raleigh datasets are included in
+the image. Keep them in the deployed Git branch; no `app.prepare` step is needed.
+
+Create a **Web Service** with **Language: Docker**, leave **Root Directory** blank,
+and use **Dockerfile Path: ./Dockerfile**. Leave the Docker command override blank
+and set **Health Check Path: /api/health**. Render supplies `PORT` automatically.
+
+Set these values in Render's **Environment** section. Secrets belong there, never
+in the Dockerfile or Git. `.dockerignore` excludes local `.env` files and caches.
+
+| Variable | Value |
+| --- | --- |
+| `NWS_USER_AGENT` | `Haven (your-real-contact@example.com)` — replace with your contact |
+| `DATA_MODE` | `live` (image default; the UI can switch to replay) |
+| `REGION` | `asheville` (image default; live requests select the region by location) |
+| `WARM_REPLAY_CACHE` | `false` (image default; computes replay timesteps on demand) |
+| `AIRNOW_API_KEY` | Your key, to enable AirNow |
+| `FIRMS_MAP_KEY` | Your key, to enable NASA fire detections |
+| `PURPLEAIR_API_KEY` | Optional sensor fallback |
+| `GEMINI_API_KEY` | Optional verdict rephrasing |
+| `NCDOT_EVENTS_URL`, `NCDOT_API_KEY` | Optional live closure endpoint and credentials |
+| `CENSUS_API_KEY` | Optional; only adds ACS fields when rerunning census preparation |
+
+Use one worker initially: each additional worker duplicates the in-memory terrain,
+graphs and polling jobs. Measure memory usage with both live regions and replay
+loaded before choosing a smaller instance or enabling full replay warm-up.
+
+No persistent disk is required for the bundled data. Runtime source snapshots and
+graph caches can be rebuilt after a restart. Do not mount an empty disk over
+`/app/backend/data`: it would hide the datasets included in the image.
+
+To build and run locally with Docker:
+
+```bash
+docker build -t haven .
+docker run --rm -p 8000:8000 --env-file .env -e WARM_REPLAY_CACHE=false haven
+```
+
+Open `http://localhost:8000`. For `--env-file`, use plain `KEY=value` entries;
+unlike Python dotenv, Docker does not strip surrounding quotes or inline comments.
+Render environment values should likewise be entered without surrounding quotes.
+
 ### Live anywhere, plus the Helene replay
 
 One server does everything. The app opens in **Live** mode at your current location (the browser asks for permission; geolocation needs HTTPS on phones, and localhost is fine for development). **Helene replay** is a toggle in the header.
