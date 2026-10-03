@@ -1,0 +1,78 @@
+778 
+WGUS52 KGSP 270448
+FFWGSP
+NCC099-113-173-270800-
+/O.NEW.KGSP.FF.W.0079.240927T0448Z-240927T0800Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1248 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Northern Jackson County in western North Carolina...
+  Macon County in western North Carolina...
+  Southeastern Swain County in western North Carolina...
+
+* Until 400 AM EDT.
+
+* At 1248 AM EDT, Doppler radar indicated a band of thunderstorms 
+  producing rain rates of 2 or more inches per hour.  Many locations 
+  across the warned area have already received 3 to 6 inches today, 
+  and the additional rainfall will result in imminent onset of flash 
+  flooding, especially in low-lying areas.  A few landslides could 
+  also result as rain rates pick up and the ground becomes saturated.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Franklin, Sylva, Cherokee, Cullowhee, Highlands, Balsam, Webster, 
+  Dillsboro, Nantahala Lake, B.R. Parkway-Smoky Mountains To Balsam 
+  Gap, B.R. Parkway-Balsam Gap To Black Balsam Area, Smoky 
+  Mountains-Balsam Mountain, Cowee, Cullasaja, Ellijay, Burningtown, 
+  Savannah, Otto, Wayah Bald and Scaly Mountain.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Flooding is occurring or is imminent. It is important to know where 
+you are relative to streams, rivers, or creeks which can become 
+killers in heavy rains. Campers and hikers should avoid streams or 
+creeks.
+
+&&
+
+LAT...LON 3547 8335 3553 8324 3552 8318 3551 8319
+      3537 8300 3523 8325 3522 8322 3516 8322
+      3511 8318 3500 8327 3500 8352 3502 8352
+      3507 8357 3511 8362 3513 8362 3514 8365
+      3515 8365 3516 8374 3528 8368 3534 8335
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+MPR

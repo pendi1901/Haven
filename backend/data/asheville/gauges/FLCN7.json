@@ -1,0 +1,17 @@
+{
+ "lid": "FLCN7",
+ "usgs_id": "03447687",
+ "name": "French Broad River at Old Fanning Bridge Rd, 3 W Fletcher",
+ "lat": 35.429167,
+ "lon": -82.5525,
+ "thresholds_ft": {
+  "major": 20.0,
+  "moderate": 17.0,
+  "minor": 13.0,
+  "action": 10.0
+ },
+ "datum_navd88_ft": 2032.76,
+ "record_crest_ft": 30.61,
+ "reach_id": "22163560",
+ "has_official_forecast": true
+}

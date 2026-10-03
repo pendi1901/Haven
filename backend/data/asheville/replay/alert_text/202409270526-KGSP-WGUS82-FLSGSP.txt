@@ -1,0 +1,63 @@
+814 
+WGUS82 KGSP 270526
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+126 AM EDT Fri Sep 27 2024
+
+SCC091-271100-
+/O.NEW.KGSP.FA.Y.0173.240927T0526Z-240927T1100Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+York SC-
+126 AM EDT Fri Sep 27 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 7 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of Upstate South Carolina, including the 
+  following county, York.
+
+* WHEN...Until 700 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 125 AM EDT, Doppler radar and automated rain gauges
+    indicated heavy rain. Between 3 and 5 inches of rain have
+    fallen. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that will experience flooding include...
+    Rock Hill, York, Southwest Charlotte, Fort Mill, Tega Cay,
+    Clover, Newport, Lesslie, Mcconnells, Lake Wylie, Carowinds,
+    Catawba, Edgemoor and Bethany.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3489 8121 3516 8132 3515 8104 3513 8105
+      3511 8103 3510 8105 3507 8106 3504 8104
+      3511 8093 3507 8091 3503 8090 3502 8091
+      3501 8090 3497 8088 3495 8087 3492 8087
+      3487 8088 3485 8087 3482 8090 3482 8126
+
+
+$$
+
+AR

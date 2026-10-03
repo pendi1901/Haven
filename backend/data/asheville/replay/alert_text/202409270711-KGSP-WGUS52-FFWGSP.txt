@@ -1,0 +1,66 @@
+659 
+WGUS52 KGSP 270711
+FFWGSP
+NCC099-113-271215-
+/O.NEW.KGSP.FF.W.0083.240927T0711Z-240927T1215Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+311 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Jackson County in western North Carolina...
+  Macon County in western North Carolina...
+
+* Until 815 AM EDT.
+
+* At 311 AM EDT, Doppler radar indicated thunderstorms producing 
+  heavy rain across the warned area. Between 6 and 9 inches of rain 
+  have fallen.  Significant flooding appears likely across much of 
+  the warned area, with numerous road closures and water rescues 
+  likely, damage to even well-built structures, and standing in 
+  low-lying areas.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Franklin, Sylva, Cherokee, Cullowhee, Highlands, Balsam, Webster, 
+  Dillsboro, Cashiers, Lake Glenville, B.R. Parkway-Smoky Mountains 
+  To Balsam Gap, B.R. Parkway-Balsam Gap To Black Balsam Area, Black 
+  Balsam Area, Nantahala Lake, B.R. Parkway-Black Balsam To Mount 
+  Pisgah, Ellijay, Cullasaja, Savannah, Cowee and Tuckasegee.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+&&
+
+LAT...LON 3547 8332 3552 8324 3549 8314 3546 8314
+      3545 8308 3529 8292 3523 8293 3516 8300
+      3513 8298 3505 8306 3503 8301 3500 8311
+      3500 8352 3513 8362 3514 8365 3515 8365
+      3516 8374 3528 8368 3533 8334 3547 8335
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+MPR

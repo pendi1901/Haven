@@ -1,0 +1,63 @@
+327 
+WGUS52 KGSP 270657
+FFWGSP
+SCC023-087-271000-
+/O.NEW.KGSP.FF.W.0081.240927T0657Z-240927T1000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+257 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Chester County in upstate South Carolina...
+  Union SC County in upstate South Carolina...
+
+* Until 600 AM EDT.
+
+* At 257 AM EDT, Doppler radar indicated heavy rain across Union 
+  (SC) and Chester Counties. Between 2 and 5 inches of rain have 
+  fallen. The expected rainfall rate is 0.5 to 1 inch in 1 hour. 
+  Additional rainfall amounts of 1 to 3 inches are possible as 
+  tropical rainbands lift northward. Flash flooding is ongoing or 
+  expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Union, Chester, Great Falls, Monarch Mill, Buffalo, Jonesville, 
+  Fort Lawn, Lockhart, Carlisle, Richburg, Lowrys, Chester State 
+  Park, Rose Hill State Park, Fishing Creek Reservoir, Leeds, 
+  Santuc, Adamsburg, Cornwell, Blackstock and Saratt.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3487 8162 3489 8159 3488 8152 3484 8146
+      3482 8148 3482 8090 3470 8086 3463 8090
+      3454 8088 3457 8142 3450 8142 3449 8148
+      3445 8154 3448 8155 3456 8168 3455 8172
+      3459 8185 3484 8178 3491 8171 3490 8165
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...0.5-1 INCH IN 1 HOUR
+
+$$
+
+AR

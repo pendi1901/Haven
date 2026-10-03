@@ -1,0 +1,17 @@
+{
+ "lid": "RLHN7",
+ "usgs_id": "02087275",
+ "name": "Crabtree Creek at Glenwood Ave",
+ "lat": 35.8375,
+ "lon": -78.673888888889,
+ "thresholds_ft": {
+  "major": 23.0,
+  "moderate": 20.0,
+  "minor": 18.0,
+  "action": 16.0
+ },
+ "datum_navd88_ft": 202.9,
+ "record_crest_ft": 27.69,
+ "reach_id": "8783339",
+ "has_official_forecast": false
+}

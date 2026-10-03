@@ -1,0 +1,117 @@
+855 
+WGUS52 KGSP 262321
+FFWGSP
+SCC007-045-059-083-270415-
+/O.NEW.KGSP.FF.W.0068.240926T2321Z-240927T0415Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+721 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Anderson County in upstate South Carolina...
+  Southeastern Greenville County in upstate South Carolina...
+  Northwestern Laurens County in upstate South Carolina...
+  Spartanburg County in upstate South Carolina...
+
+* Until 1215 AM EDT.
+
+* At 721 PM EDT, Heavy tropical rain showers continue to lift north 
+  across the area with embedded moderate to heavy rainfall. Between 
+  3 and 5 inches of rain have fallen so far. The expected rainfall 
+  rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 
+  to 2 inches are possible in the warned area. Flash flooding is 
+  ongoing or expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Greenville Downtown, Spartanburg, Anderson, Easley, Clemson, 
+  Greenville Eastside, West Greenville, Greer, Mauldin, Taylors, 
+  Simpsonville, Berea, Five Forks, Fountain Inn, Welcome, Homeland 
+  Park, Powdersville, Piedmont, Belton and Boiling Springs SC.
+
+This includes the following streams and drainages...
+  Mineral Spring Branch, Thicketty Creek, Georges Creek, Rabon 
+  Creek, Rocky River, Trib to Horse Creek, trib to 3 & 20 Creek, 
+  Boling Creek, Dutchman Creek, Jimmies Creek, Dye Creek, Long 
+  Branch, Jones Creek, Kennedy Creek, trib to Fairforest Creek, 
+  Abner Creek, Payne Branch Creek, Trib to Hurricane creek, Whites 
+  Branch, Martin Creek, headwaters of groucher creek, Cherokee 
+  Creek, Cox Creek, Camp Creek, Tugaloo Creek, Grays creek, Durbin 
+  Creek, trib to Huff Creek, Richland Creek, East Beards Creek, 
+  Little Beaverdam Creek, Little River, Reedy creek, Little Creek, 
+  Broadway Creek, Arnold Creek, Langston Creek, Eighteenmile Creek, 
+  Little Durbin Creek, trib to Little River, Beaverdam Creek, Beaver 
+  Creek, Saluda River, Jordan Creek, Frey Creek, North Tyger River, 
+  Little Generostee creek headwaters, Trib to Big Creek, Trib to 
+  Saluda river, Trib to Lawsons Fork Creek, part of Lake Hartwell, 
+  Nesbit Creek, Allen Creek, Big Shoally Creek, trib to North Tyger 
+  River, trib to Broadway Creek, Smith Creek, Cedar Shoals Creek, 
+  trib to S Tyger River, trib to Saluda River, Rock Creek, trib 
+  flows into Lake Hartwell, lake Hartwell, Hencoop Creek, Clear 
+  Creek, trib to Tyger River, Sugar Creek, Cleveland Creek, Pacolet 
+  River, Pickens Creek, Savannah River, McElwain Creek, Wilson 
+  Creek, Russell Lake, Charles Creek, Pea Creek, northern part  Lake 
+  Hartwell, Barkers Creek, trib to Lake Hartwell, North Rabon Creek, 
+  Meadow Creek, Pickens Creek headwaters, Little Thicketty Creek, 
+  East Prong Little Generostee Creek, Twomile Creek, Double Branch, 
+  Ranson Creek, Middle Branch Brushy Creek, Little Grove Creek, Big 
+  Generostee Creek, Big Brushy Creek, Canoe Creek, Island Creek, 
+  Johnson Creek, South Rabon Creek, Bridge Fork Creek, Fawn Branch, 
+  South Tyger River, Fairforest Creek, Horse Creek, Turkey Creek, 
+  Middle Tyger River, Weems Creek, cane creek, Cane Creek, 
+  Chinquapin Creek, Headwaters of Mountain creek, Lakeside Branch, 
+  Trib to Pacolet River, Welcome Creek, Baker Creek, Town Creek, Big 
+  Garvin Creek, Frohawk Creek, Grove Creek, Grays Creek, Huff Creek, 
+  Six and Twenty Creek, Betty Green Creek, Tyger River, trib to lake 
+  Hartwell, Motlow creek, Trib to Rocky Creek, Brushy Creek, trib to 
+  Enoree River, Mill Creek, Trib to Broad Mouth Creek, Trib to South 
+  Tyger River, trib to South Tyger River, trib to Lawsons Fork 
+  Creek, Horsepen Creek, Mountain Creek, Earle Branch/Rison Creek, 
+  Buckhead Creek, trib to Jimmies Creek, Dillard creek, Hurricane 
+  Creek, Peters Creek, Lake Hartwell, Cuffie Creek, Howard Branch, 
+  Wards Creek, Little Generostee Creek, Little Garvin Creek, Enoree 
+  Creek, Laurel Creek, Rocky Creek, Gethsemane Creek, headwater of 
+  Wilson Creek, Theodore Branch, Broad Mouth Creek, Enoree River, 
+  Craven Creek, Gilder Creek, Big Creek, Graze Creek, Maple creek, 
+  Reedy River, Little Brushy Creek, Reedy Creek, Kelsey Creek, Bens 
+  Creek, Big Ferguson Creek, Lawsons Fork Creek, Three and Twenty 
+  Creek, Trib to Lake Hartwell and Wile Creek.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3487 8249 3492 8237 3509 8182 3493 8175
+      3491 8171 3484 8178 3458 8186 3470 8207
+      3479 8215 3454 8224 3421 8274 3427 8275
+      3430 8278 3446 8286 3449 8290 3448 8299
+      3467 8279 3482 8249
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+TBW

@@ -1,0 +1,59 @@
+297 
+WGUS82 KGSP 281830
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+230 PM EDT Sat Sep 28 2024
+
+SCC091-292000-
+/O.NEW.KGSP.FA.Y.0180.240928T1830Z-240929T2000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+York SC-
+230 PM EDT Sat Sep 28 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 4 PM EDT SUNDAY...
+
+* WHAT...Flooding caused by excessive runoff is expected.
+
+* WHERE...York County, South Carolina.
+
+* WHEN...Until 400 PM EDT Sunday.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 230 PM EDT, Emergency management reported minor flood
+    impacts along the Catawba River downstream of Lake Wylie, in
+    eastern portions of York County. Minor flooding has been
+    occurring since Friday afternoon and likely will continue
+    into Sunday as runoff continues, and/or as water is moved
+    through the chain of reservoirs along the upper Catawba
+    River.
+  - The Catawba River, and adjacent low-lying areas, are the most
+    likely place to experience minor flooding. Buildings and
+    parking lots will be flooded on Herrons Ferry Rd below Cherry
+    Rd near Rock Hill. Significant flooding of Landsford Canal
+    State Park is ongoing and the public is advised to avoid the
+    area.
+  - Some locations that will experience flooding include...
+    Rock Hill, Fort Mill, Tega Cay, Newport, Lesslie, Catawba and
+    areas immediately downstream of Lake Wylie.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3483 8090 3482 8090 3482 8091 3487 8093
+      3499 8108 3501 8108 3502 8101 3506 8101
+      3498 8089 3497 8088 3496 8088 3492 8087
+      3491 8087 3490 8088 3486 8088 3483 8089
+
+
+$$
+
+8

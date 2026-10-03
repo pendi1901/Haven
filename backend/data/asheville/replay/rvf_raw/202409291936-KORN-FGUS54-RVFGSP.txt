@@ -1,0 +1,47 @@
+965 
+FGUS54 KORN 291936
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1936 GMT SUN SEP 29 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 24 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:HOT SPRINGS, NC - FRENCH BROAD RIVER
+:ACTION STAGE           7.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  16.0 FT  MAJOR FLOOD STAGE     24.0 FT
+:
+:LATEST  RIVER STAGE 9.1 FT AT 1915 Z ON SEP 29
+.ER HSPN7 0930 Z DC202409291936/DH00/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :                   /   7.5 /   6.8 
+.E2    : 0930 :   /   6.1 /   5.7 /   5.6 /   5.4 
+.E3    : 1001 :   /   5.3 /   5.1 /   5.0 /   4.9 
+.E4    : 1002 :   /   4.8 /   4.8 /   4.8 /   4.8 
+.E5    : 1003 :   /   4.9 /   4.9 /   4.9 /   4.9 
+.E6    : 1004 :   /   4.9 /   5.0 
+.ER HSPN7 0930 Z DC202409291936/DH00/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :                   /  0.14 /  0.01 
+.E2    : 0930 :   /  0.01 /  0.03 
+.ER HSPN7 0930 Z DC202409291936/DH00/PPDFZ/DIH24/0.19
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0929 DT202409291936/YIIRZ  9 : ALR
+:
+$$
+:
+:...END of MESSAGE...

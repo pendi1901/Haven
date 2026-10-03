@@ -1,0 +1,56 @@
+011 
+WGUS82 KGSP 252129
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+529 PM EDT Wed Sep 25 2024
+
+NCC175-252330-
+/O.NEW.KGSP.FA.Y.0148.240925T2129Z-240925T2330Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Transylvania NC-
+529 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 730 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following county, Transylvania.
+
+* WHEN...Until 730 PM EDT.
+
+* IMPACTS...Overflowing poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 527 PM EDT, Doppler radar and automated rain gauges
+    indicated heavy rain due to thunderstorms. Minor flooding is
+    ongoing or expected to begin shortly in the advisory area as
+    new rainfall as much a 2 inches falls in a short period of
+    time.  Watch for rapid rises along the French Broad
+    Tributaries and throughout the greater Brevard area into the
+    evening.
+  - Some locations that will experience flooding include...
+    Brevard, Rosman, Looking Glass, B.R. Parkway-Black Balsam To
+    Mount Pisgah, Dupont State Forest, Connestee, Penrose, Balsam
+    Grove, Little River In Transylvania County and North
+    Transylvania.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3521 8285 3522 8293 3529 8292 3531 8283
+      3535 8275 3539 8274 3539 8272 3533 8266
+      3530 8262 3526 8262 3520 8260 3512 8271
+      3507 8287 3518 8283
+
+
+$$
+
+CSH

@@ -1,0 +1,68 @@
+187 
+WGUS52 KGSP 260403
+FFWGSP
+NCC161-261000-
+/O.NEW.KGSP.FF.W.0056.240926T0403Z-240926T1000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1203 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Southwestern Rutherford County in western North Carolina...
+
+* Until 600 AM EDT.
+
+* At 1203 AM EDT, Rutherford County Emergency Management is 
+  reporting that the Town of Lake Lure has opened tainter gates to a 
+  depth at or above 9 feet due to flash flooding above Lake Lure.  
+  The resultant floodwave will impact several areas downstream, 
+  including: River Creek Campground, homes in the Green Hill 
+  community, areas in the Cleghorn and Union communities, and Cox 
+  Rd.  Residents are urged to heed evacuation guidance from 
+  Rutherford County Emergency Management and seek higher ground now.
+
+  HAZARD...Life threatening flash flooding.  Torrential rainfall
+           producing flash flooding resulting in dam gate
+           releases.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding along the Broad River,
+           impacting campgrounds, homes, roadways and other
+           adjacent low-lying areas near the Broad River.
+
+* Some locations that may experience Minor to Moderate flash 
+  flooding include...
+  Lake Lure, Harris and Cliffside.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Flooding is occurring or is imminent. It is important to know where 
+you are relative to streams, rivers, or creeks which can become 
+killers in heavy rains. Campers and hikers should avoid streams or 
+creeks.
+
+&&
+
+LAT...LON 3541 8218 3542 8219 3544 8218 3543 8212
+      3524 8191 3522 8185 3523 8176 3519 8177
+      3519 8194 3522 8197 3525 8196 3526 8197
+      3530 8203 3540 8212
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

@@ -1,0 +1,58 @@
+996 
+WUUS52 KGSP 241904
+SVRGSP
+SCC059-087-242000-
+/O.NEW.KGSP.SV.W.0269.240924T1904Z-240924T2000Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+304 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  East central Laurens County in Upstate South Carolina...
+  Southwestern Union County in Upstate South Carolina...
+
+* Until 400 PM EDT.
+
+* At 304 PM EDT, a severe thunderstorm was located 11 miles east of
+  Laurens, or near Clinton, moving east at 20 mph.
+
+  HAZARD...60 mph wind gusts and quarter size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Minor hail damage to vehicles is expected. Expect wind 
+           damage to trees and power lines.
+
+* Locations impacted include...
+  Clinton, Rose Hill State Park, and Sedalia.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3457 8192 3465 8156 3448 8152 3447 8155
+      3451 8161 3453 8162 3452 8163 3453 8164
+      3450 8167 3445 8171 3442 8191
+TIME...MOT...LOC 1904Z 256DEG 19KT 3451 8183 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.00 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

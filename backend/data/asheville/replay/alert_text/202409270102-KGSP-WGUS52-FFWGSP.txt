@@ -1,0 +1,74 @@
+769 
+WGUS52 KGSP 270102
+FFWGSP
+NCC021-087-099-175-270600-
+/O.NEW.KGSP.FF.W.0071.240927T0102Z-240927T0600Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+902 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Buncombe County in western North Carolina...
+  Southeastern Haywood County in western North Carolina...
+  Southeastern Jackson County in western North Carolina...
+  Central Transylvania County in western North Carolina...
+
+* Until 200 AM EDT.
+
+* At 902 PM EDT, Persistent moderate to heavy rain across the area 
+  today has resulted in between 4 and 6 inches of rain. A band of 
+  moderate to heavy rain with rainfall rates of 1 to 2 inches in 1 
+  hour is moving into the area with saturated soils. Additional 
+  rainfall amounts of 1 to 2 inches are possible in the warned area, 
+  which will result in additional flash flooding. Flash flooding is 
+  ongoing or expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Downtown Asheville, Brevard, Arden, East Asheville, West 
+  Asheville, North Asheville, Black Mountain, Mills River, Woodfin, 
+  Fletcher, Swannanoa, Canton, Lake Junaluska, Weaverville, Fairview 
+  In Buncombe County, Biltmore Forest, Bent Creek, Clyde, Mount 
+  Pisgah and B.R. Parkway-Mount Pisgah To The Nc Arboretum.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3539 8298 3568 8290 3569 8280 3580 8251
+      3582 8238 3580 8234 3575 8233 3571 8228
+      3570 8232 3557 8237 3549 8231 3544 8254
+      3542 8253 3546 8267 3542 8274 3530 8262
+      3511 8318 3516 8322 3522 8322 3523 8325
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+TBW

@@ -1,0 +1,54 @@
+878 
+WGUS82 KGSP 251823
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+223 PM EDT Wed Sep 25 2024
+
+NCC075-252030-
+/O.NEW.KGSP.FA.Y.0145.240925T1823Z-240925T2030Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Graham NC-
+223 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 430 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following county, Graham.
+
+* WHEN...Until 430 PM EDT.
+
+* IMPACTS...River or stream flows are elevated. 
+
+* ADDITIONAL DETAILS...
+  - At 220 PM EDT, Doppler radar and automated rain gauges
+    indicated heavy rain due to thunderstorms. Minor flooding is
+    ongoing or expected to begin shortly in the advisory area,
+    along tributaries of Tallulah Creek and Cheoah River, such as
+    Deep and Snowbird Creeks.
+  - Some locations that will experience flooding include...
+    Lake Santeetlah, Smoky Mountains-Twentymile Creek, Tapoco and
+    Deals Gap.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3545 8394 3547 8391 3546 8387 3545 8386
+      3542 8388 3540 8389 3536 8388 3531 8385
+      3525 8386 3524 8389 3522 8396 3523 8400
+      3527 8401 3529 8403 3530 8402 3531 8404
+      3535 8404 3537 8401 3541 8402 3546 8396
+
+
+$$
+
+CSH

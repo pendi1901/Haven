@@ -1,0 +1,57 @@
+036 
+WUUS52 KGSP 241946
+SVRGSP
+SCC023-087-242045-
+/O.NEW.KGSP.SV.W.0270.240924T1946Z-240924T2045Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+346 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Southwestern Chester County in Upstate South Carolina...
+  Southeastern Union County in Upstate South Carolina...
+
+* Until 445 PM EDT.
+
+* At 346 PM EDT, a severe thunderstorm was located 9 miles south of
+  Union, or 4 miles east of Rose Hill State Park, moving east at 20
+  mph.
+
+  HAZARD...60 mph wind gusts and nickel size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and power lines.
+
+* Locations impacted include...
+  Carlisle, Leeds, and Santuc.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3465 8156 3471 8133 3457 8128 3457 8142
+      3456 8142 3453 8143 3453 8153
+TIME...MOT...LOC 1946Z 251DEG 18KT 3460 8158 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...0.88 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

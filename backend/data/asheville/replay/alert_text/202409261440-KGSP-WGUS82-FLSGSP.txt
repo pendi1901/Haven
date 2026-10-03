@@ -1,0 +1,64 @@
+134 
+WGUS82 KGSP 261440
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+1040 AM EDT Thu Sep 26 2024
+
+SCC083-261800-
+/O.NEW.KGSP.FA.Y.0165.240926T1440Z-240926T1800Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Spartanburg SC-
+1040 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 2 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following county, Spartanburg.
+
+* WHEN...Until 200 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 1037 AM EDT, Doppler radar indicated heavy tropical
+    showers blossoming from the south and will overspread
+    Spartanburg County through midday.  Hourly rainfall rates up
+    to 2 inches will be possible causing flooding of low-lying
+    areas and poor drainage areas.  Where heavier rain already
+    fell last night, watch for developing stream and river
+    flooding in the North Pacolet and Tyger River headwaters.
+  - Additional rainfall amounts of 1 to 2 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that may experience flooding include...
+    Spartanburg, Greer, Boiling Springs SC, Woodruff, Duncan,
+    Lyman, Pacolet, Landrum, Cowpens, Wellford, Inman, Mayo,
+    Roebuck, Chesnee, Pacolet Mills, Campobello, Reidville, USC
+    Upstate, Moore and Cedar Springs.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+&&
+
+LAT...LON 3506 8181 3504 8181 3503 8179 3493 8175
+      3493 8173 3491 8171 3484 8178 3458 8186
+      3460 8191 3465 8195 3466 8200 3470 8207
+      3474 8209 3475 8212 3478 8213 3478 8215
+      3481 8216 3485 8223 3520 8222 3518 8187
+
+
+$$
+
+CSH

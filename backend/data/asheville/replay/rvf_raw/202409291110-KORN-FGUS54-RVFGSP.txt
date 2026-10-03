@@ -1,0 +1,91 @@
+869 
+FGUS54 KORN 291110
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1110 GMT SUN SEP 29 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 24 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:FLETCHER, NC - FRENCH BROAD RIVER
+:ACTION STAGE          10.0 FT  MINOR FLOOD STAGE     13.0 FT
+:MODERATE FLOOD STAGE  17.0 FT  MAJOR FLOOD STAGE     20.0 FT
+:
+:LATEST  RIVER STAGE 20.9 FT AT 1100 Z ON SEP 29
+:FALL BELOW FLOOD STAGE AROUND 0300 Z ON 10/01/2024
+
+.ER FLCN7 0929 Z DC202409291110/DH12/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  20.7 /  19.2 /  17.7 /  16.5 
+.E2    : 0930 :   /  15.2 /  14.4 /  13.2 /  12.2 
+.E3    : 1001 :   /  11.5 /  10.9 /  10.4 /   9.9 
+.E4    : 1002 :   /   9.7 /   9.6 /   9.4 /   9.2 
+.E5    : 1003 :   /   9.1 /   8.9 /   8.7 /   8.5 
+.ER FLCN7 0929 Z DC202409291110/DH12/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  0.07 /  0.00 /  0.01 /  0.00 
+.ER FLCN7 0929 Z DC202409291110/DH12/PPDFZ/DIH24/0.08
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:ASHEVILLE, NC - FRENCH BROAD RIVER
+:ACTION STAGE           6.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  13.0 FT  MAJOR FLOOD STAGE     18.0 FT
+:
+:LATEST  RIVER STAGE 14.3 FT AT 1045 Z ON SEP 29
+:FALL BELOW FLOOD STAGE AROUND 0900 Z ON 09/30/2024
+
+.ER AVLN7 0929 Z DC202409291110/DH12/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  14.0 /  12.9 /  11.7 /  10.5 
+.E2    : 0930 :   /   9.4 /   8.6 /   7.9 /   7.4 
+.E3    : 1001 :   /   6.9 /   6.5 /   6.2 /   5.9 
+.E4    : 1002 :   /   5.6 /   5.5 /   5.4 /   5.3 
+.E5    : 1003 :   /   5.2 /   5.0 /   4.9 /   4.8 
+.ER AVLN7 0929 Z DC202409291110/DH12/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  0.04 /  0.00 /  0.01 /  0.00 
+.ER AVLN7 0929 Z DC202409291110/DH12/PPDFZ/DIH24/0.05
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:HOT SPRINGS, NC - FRENCH BROAD RIVER
+:ACTION STAGE           7.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  16.0 FT  MAJOR FLOOD STAGE     24.0 FT
+:
+:LATEST  RIVER STAGE 10.7 FT AT 1100 Z ON SEP 29
+:FALL BELOW FLOOD STAGE AROUND 2100 Z ON 09/29/2024
+
+.ER HSPN7 0929 Z DC202409291110/DH12/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  10.6 /   9.7 /   8.9 /   8.0 
+.E2    : 0930 :   /   7.3 /   6.6 /   6.2 /   5.8 
+.E3    : 1001 :   /   5.6 /   5.4 /   5.2 /   5.1 
+.E4    : 1002 :   /   5.0 /   5.0 /   4.9 /   4.8 
+.E5    : 1003 :   /   4.8 /   4.7 /   4.7 /   4.6 
+.ER HSPN7 0929 Z DC202409291110/DH12/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :   /  0.07 /  0.00 /  0.12 /  0.03 
+.ER HSPN7 0929 Z DC202409291110/DH12/PPDFZ/DIH24/0.22
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0929 DT202409291110/YIIRZ  7 : MJC
+:
+$$
+:
+:...END of MESSAGE...

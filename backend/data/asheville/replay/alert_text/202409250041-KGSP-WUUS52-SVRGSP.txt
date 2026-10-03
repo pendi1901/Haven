@@ -1,0 +1,60 @@
+549 
+WUUS52 KGSP 250041
+SVRGSP
+SCC073-077-250145-
+/O.NEW.KGSP.SV.W.0274.240925T0041Z-240925T0145Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+841 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Northwestern Pickens County in Upstate South Carolina...
+  Northeastern Oconee County in Upstate South Carolina...
+
+* Until 945 PM EDT.
+
+* At 840 PM EDT, a severe thunderstorm was located 10 miles north of
+  Walhalla, or 4 miles northwest of Salem, moving east at 20 mph.
+
+  HAZARD...60 mph wind gusts and quarter size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Minor hail damage to vehicles is expected. Expect wind 
+           damage to trees and power lines.
+
+* Locations impacted include...
+  Salem, Devils Fork State Park, Keowee Toxaway State Park, Jocassee
+  Gorges, Oconee State Park, Lake Jocassee, Sunset, Bad Creek,
+  Sassafras Mountain, and Nine Times.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3494 8313 3493 8311 3495 8313 3495 8312
+      3497 8312 3499 8310 3509 8279 3508 8278
+      3507 8278 3507 8277 3488 8273 3485 8313
+TIME...MOT...LOC 0040Z 252DEG 18KT 3492 8304 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.00 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

@@ -1,0 +1,71 @@
+457 
+WGUS52 KGSP 270716
+FFWGSP
+GAC105-119-147-257-271100-
+/O.NEW.KGSP.FF.W.0084.240927T0716Z-240927T1100Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+316 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Elbert County in northeastern Georgia...
+  Franklin County in northeastern Georgia...
+  Hart County in northeastern Georgia...
+  Stephens County in northeastern Georgia...
+
+* Until 700 AM EDT.
+
+* At 316 AM EDT, Doppler radar indicated heavy rain across northeast 
+  Georgia. Between 3 and 5 inches of rain have fallen. The expected 
+  rainfall rate is 0.25 to 0.5 inches in 1 hour. Additional rainfall 
+  amounts of 1 to 3 inches are possible as tropical rainbands lift 
+  northward. Flash flooding is ongoing or expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Toccoa, Elberton, Hartwell, Carnesville, Royston, Reed Creek, 
+  Lavonia, Gumlog, Bowman, Canon, Franklin Springs, Bowersville, 
+  Martin, Avalon, Victoria Bryant State Park, Tugaloo State Park, 
+  Lake Hartwell, Russell State Park, Middleton and Lake Russell.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3468 8337 3460 8317 3460 8316 3448 8303
+      3447 8288 3427 8275 3415 8272 3409 8264
+      3396 8257 3402 8294 3417 8310 3423 8308
+      3427 8311 3424 8317 3426 8330 3422 8336
+      3426 8334 3433 8339 3443 8338 3448 8346
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...0.25-0.5 INCHES IN 1 HOUR
+
+$$
+
+AR

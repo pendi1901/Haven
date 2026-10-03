@@ -1,0 +1,73 @@
+718 
+WGUS52 KGSP 270957
+FFWGSP
+NCC025-119-179-271400-
+/O.NEW.KGSP.FF.W.0099.240927T0957Z-240927T1400Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+557 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Cabarrus County in the piedmont of North Carolina...
+  Mecklenburg County in the piedmont of North Carolina...
+  Union NC County in the piedmont of North Carolina...
+
+* Until 1000 AM EDT.
+
+* At 557 AM EDT, Doppler radar and automated rain gauges indicated 
+  heavy rain falling across Mecklenburg, Cabarrus, and Union (NC) 
+  counties. Between 1 and 3 inches of rain have fallen. Rocky River 
+  above Irish Buffalo Creek is at 15.5 feet and climbing which is 
+  leading to ongoing nuisance flooding in the area. Other nearby 
+  small streams are likely bankfull or out of their banks. 
+  Additional rainfall amounts of 1 to 2 inches are imminent as 
+  tropical rainbands lift north this morning and will result in 
+  flash flooding.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Uptown Charlotte, Huntersville, Kannapolis, Downtown Concord, 
+  Monroe, Central Charlotte, South Charlotte, East Charlotte, 
+  Northeast Charlotte, Southwest Charlotte, Northwest Charlotte, 
+  West Concord, Matthews, Cornelius, Mint Hill, Indian Trail, 
+  Davidson, Weddington, Stallings and Unionville.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3504 8104 3506 8106 3511 8103 3514 8105
+      3516 8101 3530 8100 3535 8097 3536 8092
+      3538 8099 3539 8096 3549 8094 3551 8091
+      3550 8030 3519 8051 3516 8044 3520 8028
+      3481 8032 3482 8080 3494 8078 3511 8093
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+
+$$
+
+AR

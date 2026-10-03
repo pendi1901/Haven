@@ -1,0 +1,59 @@
+609 
+WGUS82 KGSP 261230
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+830 AM EDT Thu Sep 26 2024
+
+SCC007-261600-
+/O.NEW.KGSP.FA.Y.0160.240926T1230Z-240926T1600Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Anderson SC-
+830 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL NOON EDT TODAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following county, Anderson.
+
+* WHEN...Until noon EDT.
+
+* IMPACTS...Water over roadways. 
+
+* ADDITIONAL DETAILS...
+  - At 828 AM EDT, After last night's and this morning's heavy
+    rainfall, elevated stream and river flows lingered, and well
+    as widespread standing water across the county.  There is the
+    potential for heavy rain to redevelop today and new flash
+    flood warnings may be needed.
+  - Some locations that will experience flooding include...
+    Anderson, Easley, Clemson, Welcome, Homeland Park,
+    Powdersville, Piedmont, Belton, Williamston, Northlake, Honea
+    Path, Pendleton, Iva, Lake Secession, West Pelzer, Starr,
+    Anderson Airport, Lake Hartwell, Lake Russell and Broadway
+    Lake.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+&&
+
+LAT...LON 3467 8247 3461 8244 3460 8243 3456 8242
+      3448 8231 3421 8274 3427 8275 3430 8278
+      3434 8279 3437 8283 3446 8286 3449 8290
+      3448 8299 3467 8279 3482 8249 3478 8245
+
+
+$$
+
+CSH

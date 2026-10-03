@@ -1,0 +1,116 @@
+288 
+WGUS42 KGSP 252120
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+520 PM EDT Wed Sep 25 2024
+
+...The National Weather Service in Greenville-Spartanburg SC has 
+issued a Flood Warning for the Tuckasegee River in North Carolina...
+
+  At Bryson City affecting Swain County.
+
+.Two unique rounds of rainfall, one beginning tonight and lasting 
+through early Thursday afternoon resulting from tropical moisture 
+interacting with a stationary front, and another beginning Thursday 
+night and lasting through Friday morning associated with Hurricane 
+Helene, are expected to result in significant rises within the 
+Tuckasegee River watershed.  Minor to Moderate flooding in smaller 
+streams feeding the Tuckasegee River will produce significant rises 
+along the Tuckasegee River.  Minor flooding of the Tuckasegee River 
+near Bryson City is likely.
+
+There is a potential for crests to exceed the current forecast 
+crests.  Confidence in significant rainfall is high, but small 
+reductions or increases in storm-total rainfall may result in 
+notable changes to the forecast crests.  If the forecasted rainfall 
+over the next few days occurs very quickly or in a much shorter time
+frame than is currently expected, significant flooding along the 
+Tuckasegee River is possible.  It is absolutely imperative that you 
+maintain awareness of the latest forecasts and plan NOW to respond 
+to more significant flooding in your area.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If you live or are vacationing along any stream in the Tuckasegee 
+River watershed, including Deep Creek, Alarka Creek, and tributaries 
+feeding the Oconaluftee River, have a plan in place to seek higher 
+ground before the heavy rain begins.  Do NOT wait for a warning to 
+take action.  Flee areas adjacent to the stream before the stream 
+rises significantly.
+
+Caution is urged when walking near riverbanks.
+
+Even 6 inches of fast-moving flood water can knock you off your feet 
+and a depth of 2 feet will float your car. Never try to walk, swim, 
+or drive through such swift water. If you come upon flood waters, 
+stop, turn around and go another way.
+
+This warning will be in effect until the river falls below its flood 
+stage.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement will be issued beforeSaturday morning at 800 AM 
+EDT.
+
+&&
+
+NCC173-281200-
+/O.NEW.KGSP.FL.W.0021.240926T1800Z-240928T1200Z/
+/TKSN7.1.ER.240927T1200Z.240927T1200Z.240927T1200Z.NO/
+520 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY AFTERNOON TO SATURDAY 
+MORNING...
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Tuckasegee River at Bryson City.
+
+* WHEN...From Thursday afternoon to Saturday morning.
+
+* IMPACTS...At 10.0 feet, Low lying areas between Bryson Walk and 
+  the river will flood. Upstream between Main Street and the river, 
+  low lying areas including parts of the Bear Hunter Campground will 
+  flood.
+
+* At 11.0 feet, The river will overflow its banks in the park 
+  downtown, and low lying areas along Island and Collins Streets 
+  will begin to flood. Toot Hollow Branch that flows into the river 
+  will likely overflow its banks and flood areas along the branch 
+  especially along Waters Street.  Bear Hunter Campground will 
+  experience more significant flooding.
+
+* ADDITIONAL DETAILS...
+  - At 4:15 PM EDT Wednesday the stage was 2.1 feet and rising
+    slowly.
+  - Action/Advisory Stage is 9.0 feet.
+  - Forecast...The river is expected to rise to a crest of 10.0
+    feet Friday morning.
+
+    NOTE: There is a potential for the crest to exceed 11.0 feet.
+
+  - Minor Flood Stage is 10.0 feet.
+    Moderate Flood Stage is 13.5 feet.
+    Major Flood Stage is 15.5 feet.
+
+  - The Tuckasegee River crested at 13.38 feet on February 6,
+    2020.  It is possible the river may approach this level if
+    rainfall occurs more quickly than currently expected.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3547 8339 3543 8339 3541 8348 3544 8348
+      3544 8342
+
+
+$$
+
+JMP

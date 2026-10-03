@@ -1,0 +1,104 @@
+281 
+WGUS52 KGSP 271714
+FFWGSP
+NCC023-027-290000-
+/O.NEW.KGSP.FF.W.0111.240927T1714Z-240929T0000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+114 PM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  East Central Burke County in western North Carolina...
+  South Central Caldwell County in western North Carolina...
+
+* Until 800 PM EDT Saturday.
+
+* At 114 PM EDT, Devastating rainfall of 6-25 inches has occurred 
+  since Wednesday evening from Lake Hickory to the Catawba River 
+  headwaters, with the highest totals exceeding 2 feet along the 
+  Blue Ridge Escarpment across the upper Catawba River watershed.  
+  This is resulting in catastrophic and historic inflows into 
+  Catawba River reservoirs and this water is being moved through the 
+  system from Lake James to Lake Rhodhiss and points downstream.
+
+* The latest pool elevations for the upper Catawba River lakes are 
+  as follows (Full Pool is 100.0 feet):
+
+    Lake James: 102.00 feet and steady.
+    Lake Rhodhiss: 105.39 feet and rising steadily.
+    Lake Hickory: 99.24 feet and rising steadily.
+    Lookout Shoals Lake: 104.15 feet and rising steadily.
+
+* Based on current rainfall forecasts and conditions, Duke Energy 
+  expects Lake Rhodhiss to reach or exceed 110.0 feet later today, 
+  which is 10.0 feet over full pond.  The current record pool 
+  elevation at Lake Rhodhiss is 110.10 feet which occurred in August 
+  1940.  Major Flood Stage is 110.0 feet.  These lake levels may 
+  cause unprecedented, catastrophic flooding of Lake Rhodhiss and 
+  possibly adjacent reaches of the Catawba River.
+
+
+  HAZARD....Life-threatening flash flooding from dam floodgate
+           releases caused by excessive rainfall.
+
+  SOURCE...Duke Energy and Burke County Emergency Management.
+
+  IMPACT...Moderate to Major flooding of the Lake Rhodhiss
+           shoreline and areas along the Catawba River both up
+           and downstream of the lake is imminent.  At 104.0
+           feet...Floodwaters may approach homes and businesses
+           between Morganton and Lake Rhodhiss.  Backwater
+           effects will impact several tributaries including
+           Silver Creek and Lower Creek, causing flooding of low-
+           lying areas along the tributaries, including at
+           Antioch Rd.  River access points will be flooded,
+           including at Huffman Bridge Rd. The Catawba River
+           Greenway near Morganton is likely flooded as well.  At
+           higher stages, some homes at the lower reach of the
+           lake may be impacted by flood waters and evacuations
+           may be required.  Significant shoreline flooding is
+           occurring.
+
+* Please stay weather aware and monitor lake levels and Duke Energy 
+  projections closely for any changes.
+
+* For more information on lake levels or dam releases, people are  
+  encouraged to visit https://lakes.duke-energy.com or call 
+  1-800-829-5253.
+
+* Residents along the Catawba River are encouraged to stay aware of 
+  the latest updates from Burke County by signing up for alerts at: 
+  http://smart911.com
+
+* Burke County Emergency Management, Caldwell County 
+  Emergency Management, and Duke Energy are closely monitoring 
+  these high flows and pool levels and additional updates will be 
+  provided as new information becomes available.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+If you are in low-lying areas near Lake Rhodhiss along the Catawba 
+River or the shoreline of Lake Rhodhiss, you should move to higher 
+ground immediately.
+
+&&
+
+LAT...LON 3579 8143 3577 8137 3576 8137 3575 8137
+      3575 8138 3574 8138 3576 8143 3576 8158
+      3577 8163 3577 8166 3580 8166 3580 8148
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

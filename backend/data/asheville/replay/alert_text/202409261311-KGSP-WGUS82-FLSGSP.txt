@@ -1,0 +1,57 @@
+318 
+WGUS82 KGSP 261311
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+911 AM EDT Thu Sep 26 2024
+
+NCC003-035-097-109-261530-
+/O.NEW.KGSP.FA.Y.0163.240926T1311Z-240926T1530Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Alexander NC-Catawba NC-Iredell NC-Lincoln NC-
+911 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1130 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of piedmont North Carolina, including the 
+  following counties, Alexander, Catawba, Iredell and Lincoln.
+
+* WHEN...Until 1130 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 911 AM EDT, Doppler radar and automated rain gauges
+    indicated tropical heavy rain showers blossoming across the
+    advised area. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Rainfall rates up to 2 inches
+    per hour will flood low-lying areas.
+  - Additional rainfall amounts of 0.5 to 1 inch are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that may experience flooding include...
+    Newton, Lincolnton, Taylorsville, Conover, Maiden, Westport,
+    Stony Point, Claremont, Catawba, High Shoals, Lookout Shoals
+    Lake, Denver, Lake Hickory, Lake Norman, Boger City, Iron
+    Station, Lowesville, Sherrills Ford, Bandys and Oxford.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3604 8119 3603 8117 3604 8114 3603 8110
+      3604 8102 3598 8101 3572 8105 3570 8099
+      3563 8094 3547 8095 3545 8094 3543 8096
+      3540 8096 3541 8121 3592 8125 3603 8124
+
+
+$$
+
+CSH

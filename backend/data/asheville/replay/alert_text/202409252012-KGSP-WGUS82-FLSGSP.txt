@@ -1,0 +1,57 @@
+764 
+WGUS82 KGSP 252012
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+412 PM EDT Wed Sep 25 2024
+
+GAC241-SCC073-252200-
+/O.NEW.KGSP.FA.Y.0146.240925T2012Z-240925T2200Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Rabun GA-Oconee SC-
+412 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 6 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Portions of northeast Georgia, including the following 
+  county, Rabun and upstate South Carolina, including the following 
+  county, Oconee.
+
+* WHEN...Until 600 PM EDT.
+
+* IMPACTS...River or stream flows are elevated. 
+
+* ADDITIONAL DETAILS...
+  - At 409 PM EDT, Doppler radar and automated rain gauges
+    indicated heavy rain due to thunderstorms. Minor flooding is
+    ongoing or expected to begin shortly in the advisory area
+    with localized rainfall totals around 3 inches in the advised
+    area today.  Monitor for elevated flows and/or out of bank
+    conditions on select tributaties of the Upper Chattooga such
+    as Warwoman Creek and the Chauga River.
+  - Some locations that may experience flooding include...
+    Westminster, Sky Valley, Tallulah Falls, Oconee State Park,
+    Tallulah Gorge State Park, Lake Hartwell, Long Creek,
+    Mountain Rest and Pine Mountain.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3486 8339 3500 8330 3500 8303 3496 8304
+      3488 8309 3480 8311 3477 8311 3464 8310
+      3460 8316 3469 8333 3470 8335 3472 8335
+      3473 8338
+
+
+$$
+
+CSH

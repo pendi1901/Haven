@@ -1,0 +1,51 @@
+334 
+FGUS54 KORN 271350
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1350 GMT FRI SEP 27 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:CANTON, NC - PIGEON RIVER (NC)
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  15.0 FT  MAJOR FLOOD STAGE     19.0 FT
+:
+:LATEST  RIVER STAGE 22.1 FT AT 1330 Z ON SEP 27
+.AR :CREST: CTPN7 0927 Z DC202409271350/DH1800/HGIFFXZ 25.0
+: Crest near 25.0 FT around 1800 Z on Fri, Sep 27
+
+.ER CTPN7 0927 Z DC202409271350/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0927 :           /  25.0 /  17.0 /  11.5 
+.E2    : 0928 :   /   8.8 /   7.3 /   6.6 /   6.4 
+.E3    : 0929 :   /   6.2 /   6.1 /   6.0 /   5.9 
+.E4    : 0930 :   /   5.9 /   5.8 /   5.8 /   5.8 
+.E5    : 1001 :   /   5.8 /   5.8 /   5.7 /   5.7 
+.E6    : 1002 :   /   5.6 
+.ER CTPN7 0927 Z DC202409271350/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0927 :           /  1.46 /  0.00 /  0.01 
+.E2    : 0928 :   /  0.00 /  0.00 /  0.00 /  0.00 
+.E3    : 0929 :   /  0.00 
+.ER CTPN7 0927 Z DC202409271350/DH18/PPDFZ/DIH48/1.47
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0927 DT202409271350/YIIRZ  4 : ASH
+:
+$$
+:
+:...END of MESSAGE...

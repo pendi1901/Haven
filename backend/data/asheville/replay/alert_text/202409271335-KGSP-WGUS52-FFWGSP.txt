@@ -1,0 +1,77 @@
+474 
+WGUS52 KGSP 271335
+FFWGSP
+NCC161-280130-
+/O.NEW.KGSP.FF.W.0109.240927T1335Z-240928T0130Z/
+/00000.3.DR.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+935 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR DOWNSTREAM OF LAKE LURE INCLUDING  
+RIVER CREEK CAMPGROUND, GREEN HILL, CLEGHORN, AND UNION...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  A Dam Floodgate Release in...
+  Southern Rutherford County in western North Carolina...
+
+* Until 930 PM EDT Friday.
+
+* At 935 AM EDT, Rutherford County Emergency Management is reporting 
+  that catastrophic flows along the Broad River into Lake Lure is 
+  overtopping Lake Lure Dam, resulting in Major flooding downstream, 
+  including in the following locations: River Creek Campground, 
+  homes in the Green Hill community, areas in the Cleghorn and Union 
+  communities, Union Rd at NC 108, and Cox Rd.  Residents are urged 
+  to heed ongoing evacuation orders from Rutherford County Emergency 
+  Management and seek higher ground NOW.
+
+  This is a FLASH FLOOD EMERGENCY for Downstream of Lake Lure 
+  Including  River Creek Campground, Green Hill, Cleghorn, and 
+  Union. This is a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER 
+  GROUND NOW!
+
+  HAZARD...Life-threatening flash flooding.  Heavy rainfall
+           producing flash flooding resulting in dam gate
+           releases.
+
+  SOURCE...Town of Lake Lure and Rutherford County Emergency
+           Management
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! IMMEDIATE EVACUATION for areas
+           along the river immediately downstream of the dam.
+
+* Some locations that will experience Moderate to Major flash 
+  flooding include...downstream of Lake Lure, Cleghorn community, 
+  Union community, Green Hill community, Harris, and Cliffside.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+If you are in low lying areas below the Lake Lure you should move to 
+higher ground immediately.
+
+&&
+
+LAT...LON 3519 8189 3524 8197 3525 8196 3526 8197
+      3527 8199 3539 8212 3541 8215 3541 8219
+      3544 8218 3544 8212 3534 8201 3527 8195
+      3523 8189 3522 8184 3524 8175 3521 8176
+      3519 8182
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+
+$$
+
+JMP

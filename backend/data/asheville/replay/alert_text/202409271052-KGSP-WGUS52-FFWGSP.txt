@@ -1,0 +1,92 @@
+742 
+WGUS52 KGSP 271052
+FFWGSP
+NCC023-111-272245-
+/O.NEW.KGSP.FF.W.0103.240927T1052Z-240927T2245Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+652 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  West Central Burke County in western North Carolina...
+  East Central McDowell County in western North Carolina...
+
+* Until 645 PM EDT Friday.
+
+* At 652 AM EDT, Lake James is beginning to respond to torrential 
+  rainfall and potentially catastrophic inflows entering the 
+  headwaters of the Catawba River associated with Tropical Storm 
+  Helene.  Additional rainfall of 4-7 inches is likely through later 
+  this morning, on top of rainfall accumulations of 4-8 inches 
+  Wednesday night into Thursday morning.  Lake James is rising 
+  rapidly in response to this rainfall where the current pool is 
+  104.13 feet.  Additional rises are expected over the next several 
+  hours, with Lake James likely to exceed the Moderate Flood Stage 
+  of 105.0 feet.  More significant shoreline flooding, capable of 
+  inundating homes and other structures, is developing.
+
+* Based on current rainfall forecasts and conditions, Duke Energy 
+  expects Lake James to reach or exceed 110.0 feet later today, 
+  which is 10.0 feet over full pond.  The current record pool 
+  elevation at Lake James is 107.36 feet which occurred in September 
+  8, 2004 during Hurricane Frances.  Major Flood Stage is 110.0 
+  feet.  These lake levels will cause unprecedented, catastrophic 
+  flooding of Lake James and adjacent reaches of the Catawba River.
+
+* If the rainfall forecast verifies, Moderate to Major flooding will 
+  be likely along and near Lake James and a Flash Flood Emergency 
+  may be issued very soon.  Residents are encouraged to heed 
+  guidance from local officials and emergency management on any 
+  potential impacts to property.  Drivers are encouraged to heed any 
+  barricades and avoid all flooded areas.  This has the potential to 
+  be a historic and extremely dangerous event.  Please stay weather 
+  aware and monitor lake levels and Duke Energy projections closely 
+  for any changes.
+
+  HAZARD...Life-threatening flash flooding from rapid pool
+           elevation rises caused by excessive rainfall.
+
+  SOURCE...Duke Energy and McDowell County Emergency Management
+
+  IMPACT...Life threatening flash flooding of the Lake James
+           shoreline as well as the Catawba river immediately
+           above and below Lake James.  At 105.0 feet...Moderate
+           Flood Stage.  Unusual, damaging flooding is developing
+           adjacent to Lake James with considerable impacts to
+           property.  Lake James Landing, Marion Moose
+           Campground, Lake James Getaways at Island Cir and
+           Houseboat Ln, and Linville Shores Campground may all
+           be experiencing significant flooding with inundation
+           of 2-4 feet likely.
+
+* Some locations that will experience flash flooding include...
+  Marion, Glen Alpine, Lake James, Lake James State Park and Nebo.
+
+* For more information on lake levels or dam releases, people are 
+  encouraged to visit http://lakes.duke-energy.com or call 
+  1-800-829-5253.
+
+* Please stay weather aware and monitor lake levels and Duke Energy 
+  projections closely for any changes.
+
+* Residents along and below Lake James are encouraged to stay aware 
+  of the latest updates from McDowell and Burke County emergency 
+  management agencies as well as local law enforcement.
+
+&&
+
+LAT...LON 3579 8190 3581 8186 3576 8178 3573 8179
+      3572 8182 3572 8191 3573 8193 3568 8202
+      3572 8206 3577 8196 3577 8190
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

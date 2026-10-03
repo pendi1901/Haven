@@ -1,0 +1,136 @@
+827 
+WGUS52 KGSP 262154
+FFWGSP
+NCC071-119-280030-
+/O.NEW.KGSP.FF.W.0066.240926T2154Z-240928T0030Z/
+/00000.2.DR.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+554 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  A Dam Floodgate Release in...
+  Northeastern Gaston County in the piedmont of North Carolina...
+  Northwestern Mecklenburg County in the piedmont of North Carolina...
+
+* Until 830 PM EDT Friday.
+
+* At 554 PM EDT, **Impacted residents should standby for further 
+  evaciation instructions from Charlotte-Mecklenburg Emergency 
+  Management.**
+
+Rainfall accumulations of 4-8 inches Wednesday night into Thursday 
+morning over the headwaters of the Catawba River and associated 
+tributaries has caused high flows and increasing lake pool 
+elevations along the Catawba River.  Duke Energy is passing excess 
+water through each reservoir upstream of Mountain Island Lake, 
+including immediately upstream at Cowans Ford Dam at Lake Norman.  
+These releases are resulting in significant rises at Mountain Island 
+Lake, where the pool is currently at 98.45 feet and rising rapidly.  
+Full pool is 100.0 feet.
+
+Mountain Island Lake is expected to reach 103.5 feet overnight 
+tonight, which will result in Minor floding along the lake shoreline 
+as well as areas downstream of Mountain Island Dam, including within 
+the Riverside Dr community.  Caution is advised anywhere near the 
+Catawba River from Cowans Ford Dam to the Lake Wylie inlet.
+
+Additional torrential, potentially devastating rainfall is expected 
+later tonight through Thursday morning from Hurricane Helene.  There 
+is high confidence that another 5-12 inches of rainfall will occur 
+from Lake Hickory to the Catawba River headwaters, with the highest 
+totals along the Blue Ridge Escarpment.  This rainfall will occur on 
+saturated soils and excessive runoff into elevated streams will 
+result in potentially catastrophic inflows into the Catawba River 
+lakes.  These flows will have to be passed downstream through the 
+Catawba River reservoir system, including through Mountain Island 
+Lake.
+
+Based on current rainfall forecasts and conditions, Duke Energy 
+expects Mountain Island Lake to reach or exceed 110.0 feet later 
+Friday, which is 10.0 feet over full pond.  This would be a record 
+pool elevation at Mountain Island Lake, breaking the record of 
+109.60 feet which occurred in August 1940.  Mountain Island Lake 
+reached 106.91 feet on June 10, 2019. which is the highest crest in 
+the modern era.  Major Flood Stage is 105.5 feet.  These lake levels 
+will cause unprecedented, catastrophic flooding of Mountain Island 
+Lake and possibly adjacent reaches of the Catawba River.
+
+
+  HAZARD...Life-threatening flash flooding from dam floodgate
+           releases caused by excessive rainfall.
+
+  SOURCE...Duke Energy and Charlotte-Mecklenburg Emergency
+           Management
+
+  IMPACT...Life-threatening, Moderate flash flooding of areas
+           along the Catawba River from immediately downstream of
+           Cowans Ford Dam to Mountain Island Lake to the
+           Riverside Dr community below Mountain Island Lake Dam.
+           At 104.0 feet...Moderate Flood Stage.  Significant
+           inundation of outbuildings is beginning around
+           Mountain Island Lake and downstream of the dam
+           along/near Riverside Dr.  Residents downstream of the
+           dam should be completing preparations to evacuate and
+           heeding guidance from Char-Meck Emergency Management.
+
+* If the rainfall forecast verifies, Major flooding will be likely 
+  along and near Mountain Island Lake and a Flash Flood Emergency 
+  will be issued.  Residents are encouraged to heed guidance from 
+  local officials and emergency management on any potential impacts 
+  to property.  Drivers are encouraged to heed any barricades and 
+  avoid all flooded areas.  This has the potential to be a historic 
+  and extremely dangerous event.  Please stay weather aware and 
+  monitor lake levels and Duke Energy projections closely for any 
+  changes.
+
+* For more information on lake levels or dam releases, people are  
+  encouraged to visit http://lakes.duke-energy.com or call 
+  1-800-829-5253.
+
+* Residents along and below Mountain Island Lake are encouraged to 
+  stay aware of the latest updates from Charlotte-Mecklenburg 
+  Emergency Management by signing up for Char-Meck Alerts at: 
+  www.charmeckalerts.com  
+
+* Charlotte-Mecklenburg Emergency Management, Gaston County 
+  Emergency Management, and Duke Energy are closely monitoring 
+  these high flows and pool levels and additional updates will be 
+  provided as new information becomes available.
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Please pay close attention to road signs indicating a flood-prone 
+area. Obey all barricades, even if water is not currently over the 
+road. Barricades are in place for your protection and indicate areas 
+where flooding can occur rapidly and without warning.  Turn Around, 
+Don't Drown.
+
+Boaters, fishermen, kayakers, swimmers, and other lake users are 
+encouraged to exercise caution during elevated lake levels and 
+downstream releases. Avoid areas along the stream below dams 
+releasing water.
+
+Residents along the lake are urged to heed all evacuation orders, 
+which are in place for your protection. Take all necessary measures 
+to protect life and property.
+
+&&
+
+LAT...LON 3528 8103 3532 8102 3536 8099 3538 8100
+      3539 8098 3540 8098 3540 8096 3541 8096
+      3542 8096 3543 8096 3543 8094 3539 8094
+      3537 8091 3536 8090 3534 8091 3532 8097
+      3529 8099 3523 8099 3522 8103
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

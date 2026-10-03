@@ -1,0 +1,76 @@
+979 
+WGUS52 KGSP 270808
+FFWGSP
+GAC137-241-271200-
+/O.NEW.KGSP.FF.W.0093.240927T0808Z-240927T1200Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+408 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Habersham County in northeastern Georgia...
+  Rabun County in northeastern Georgia...
+
+* Until 800 AM EDT.
+
+* At 408 AM EDT, Doppler radar indicated heavy rain across Rabun and 
+  Habersham Counties. Between 3 and 7 inches of rain have fallen. 
+  The expected rainfall rate is 0.5 to 1 inch in 1 hour. Additional 
+  rainfall amounts of 1 to 3 inches are possible in the warned area 
+  as tropical rainbands lift north. Significant flooding appears 
+  likely, resulting in road closures, first-floor inundation, and 
+  damage to some structures.  The risk of life-threatening landslide 
+  activity continues to increase.
+
+  HAZARD...Life threatening flash flooding. Heavy rain producing
+           flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Toccoa, Clayton, Clarkesville, Cornelia, Baldwin, Demorest, Mount 
+  Airy, Alto, Mountain City, Tiger, Dillard, Sky Valley, Tallulah 
+  Falls, Lake Rabun, Lakemont, Tallulah Gorge State Park, Lake 
+  Burton, Black Rock Mountain State Park, Raoul and Seed Lake.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3491 8360 3494 8360 3495 8355 3499 8355
+      3500 8310 3494 8311 3493 8316 3482 8327
+      3482 8331 3473 8335 3469 8334 3448 8346
+      3449 8354 3443 8361 3450 8367 3455 8362
+      3465 8366 3476 8363 3480 8368 3489 8364
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+EXPECTED RAINFALL RATE...0.5-1 INCH IN 1 HOUR
+
+$$
+
+AR

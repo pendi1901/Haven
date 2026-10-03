@@ -1,0 +1,80 @@
+050 
+WGUS52 KGSP 262358
+FFWGSP
+GAC241-NCC099-113-149-175-SCC045-073-077-270500-
+/O.NEW.KGSP.FF.W.0069.240926T2358Z-240927T0500Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+758 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Northeastern Rabun County in northeastern Georgia...
+  Southeastern Jackson County in western North Carolina...
+  Southeastern Macon County in western North Carolina...
+  Western Polk County in western North Carolina...
+  Transylvania County in western North Carolina...
+  Northern Greenville County in upstate South Carolina...
+  Northeastern Oconee County in upstate South Carolina...
+  Northwestern Pickens County in upstate South Carolina...
+
+* Until 100 AM EDT.
+
+* At 758 PM EDT, Moderate to heavy rainfall through the day has 
+  resulted in between 3 and 6 inches of rain across the area. An 
+  area of moderate to at times heavy rain is lifting north across 
+  the area and will result in additional flooding issues, especially 
+  along the Blue Ridge escarpment. The expected rainfall rate is 1 
+  to 2 inches in 1 hour. Additional rainfall amounts of 1 to 2 
+  inches are possible in the warned area. Flash flooding is ongoing 
+  or expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Brevard, Columbus, Slater-Marietta, Tryon, Lake Lure, Highlands, 
+  Saluda, Rosman, Cashiers, Table Rock State Park, Caesars Head 
+  State Park, Dupont State Forest, Jones Gap State Park, Jocassee 
+  Gorges, Gorges State Park, Lake Toxaway, Pleasant Ridge State 
+  Park, Lake Jocassee, Keowee Toxaway State Park and Devils Fork 
+  State Park.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3509 8326 3516 8298 3530 8262 3516 8259
+      3515 8258 3518 8248 3517 8244 3522 8239
+      3518 8237 3519 8235 3529 8235 3539 8226
+      3541 8216 3538 8211 3520 8222 3510 8222
+      3493 8292 3491 8322 3502 8330
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+TBW

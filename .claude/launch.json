@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "/Users/ritvikpendyala/Desktop/Haven/backend/.venv/bin/uvicorn",
+      "runtimeArgs": ["app.main:app", "--app-dir", "/Users/ritvikpendyala/Desktop/Haven/backend", "--port", "8000"],
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/Users/ritvikpendyala/Desktop/Haven/frontend", "run", "dev"],
+      "port": 5173
+    }
+  ]
+}

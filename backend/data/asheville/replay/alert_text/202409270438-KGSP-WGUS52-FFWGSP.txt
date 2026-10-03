@@ -1,0 +1,72 @@
+508 
+WGUS52 KGSP 270438
+FFWGSP
+GAC137-241-257-SCC073-270700-
+/O.NEW.KGSP.FF.W.0078.240927T0438Z-240927T0700Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1238 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Habersham County in northeastern Georgia...
+  Rabun County in northeastern Georgia...
+  Northwestern Stephens County in northeastern Georgia...
+  West Central Oconee County in upstate South Carolina...
+
+* Until 300 AM EDT.
+
+* At 1238 AM EDT, doppler radar indicated heavy 2 inch per hour or 
+  greater rainfall rates pushing across the warned area.  Many 
+  locations have already received in excess of 4 inches of rainfall 
+  today, with more rain on the way.  Flash flooding is ongoing or 
+  expected to begin shortly across the warned area.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Toccoa, Clayton, Clarkesville, Cornelia, Baldwin, Demorest, Mount 
+  Airy, Alto, Mountain City, Tiger, Dillard, Sky Valley, Tallulah 
+  Falls, Lake Rabun, Lakemont, Tallulah Gorge State Park, Lake 
+  Burton, Black Rock Mountain State Park, Raoul and Seed Lake.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3488 8366 3491 8363 3491 8360 3494 8360
+      3495 8355 3499 8355 3500 8328 3491 8317
+      3488 8321 3488 8324 3448 8345 3449 8354
+      3443 8361 3450 8367 3454 8362 3465 8366
+      3475 8363 3477 8363 3480 8368 3482 8365
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+MPR

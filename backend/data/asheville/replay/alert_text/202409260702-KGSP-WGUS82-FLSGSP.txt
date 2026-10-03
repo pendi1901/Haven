@@ -1,0 +1,69 @@
+305 
+WGUS82 KGSP 260702
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+302 AM EDT Thu Sep 26 2024
+
+SCC007-045-077-261300-
+/O.NEW.KGSP.FA.Y.0155.240926T0702Z-240926T1300Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Anderson SC-Greenville SC-Pickens SC-
+302 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 9 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of Upstate South Carolina, including the 
+  following counties, Anderson, Greenville and Pickens.
+
+* WHEN...Until 900 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 301 AM EDT, Training thunderstorms have produced heavy
+    rainfall across the affected area.  Minor flooding is ongoing
+    or expected to begin shortly in the advisory area.  Between
+    1.5 and 2 inches of rain have already fallen, and additional
+    rainfall is on the way.
+  - Additional rainfall amounts up to 1 inch are expected over
+    the area. This additional rain will result in minor flooding.
+  - Some locations that will experience flooding include...
+    Anderson, Easley, Clemson, Pickens, Homeland Park,
+    Powdersville, Central, Northlake, Pendleton, Liberty, Norris,
+    Six Mile, Lake Keowee, Keowee Toxaway State Park, Table Rock
+    State Park, Anderson Airport, Jocassee Gorges, Lake Jocassee,
+    Lake Hartwell and Caesars Head State Park.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via Twitter using hashtag 
+NWSGSP. Your message should describe the specific location where 
+impacts occurred and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3479 8288 3491 8289 3502 8292 3506 8289
+      3509 8278 3508 8278 3507 8278 3507 8276
+      3508 8275 3510 8270 3511 8269 3512 8269
+      3512 8267 3512 8266 3485 8252 3436 8260
+      3445 8279 3451 8279 3465 8283
+
+
+$$
+
+MPR

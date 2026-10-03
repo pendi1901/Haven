@@ -1,0 +1,87 @@
+096 
+WGUS52 KGSP 271302
+FFWGSP
+NCC115-272100-
+/O.NEW.KGSP.FF.W.0108.240927T1302Z-240927T2100Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+902 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR MADISON COUNTY...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Madison County in western North Carolina...
+
+* Until 500 PM EDT Friday.
+
+* At 902 AM EDT, emergency management reported heavy rain and 
+  flooding across Madison County. Shelter in place and do not travel 
+  unless fleeing floodwaters. Significant flooding is ongoing in 
+  multiple locations, resulting in road closures, first-floor 
+  inundation, and damage to some structures. The risk of 
+  life-threatening landslide activity continues to increase. Between 
+  3 and 5 inches of rain have fallen. The expected rainfall rate is 
+  1 to 2 inches in 1 hour.
+
+  This is a FLASH FLOOD EMERGENCY for Madison County. This is a 
+  PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Heavy rain producing
+           flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses. Extensive
+           flooding of homes and businesses. Widespread road
+           closures.  Widespread life-threatening landslide
+           activity.
+
+* Some locations that will experience flash flooding include...
+  Marshall, Mars Hill, Hot Springs, Walnut, Allenstand, Spring 
+  Creek, Canto, Faust, Luck, Wolf Ridge, Max Patch and Swiss.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3597 8261 3595 8256 3598 8251 3595 8248
+      3591 8249 3590 8245 3582 8241 3580 8251
+      3573 8267 3568 8288 3574 8292 3575 8296
+      3579 8296 3588 8290 3593 8292 3595 8287
+      3593 8281 3600 8278 3607 8263 3603 8259
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+AR

@@ -1,0 +1,119 @@
+894 
+WGUS52 KGSP 272323
+FFWGSP
+NCC023-027-111-291800-
+/O.NEW.KGSP.FF.W.0113.240927T2323Z-240929T1800Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+723 PM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR CATAWBA RIVER FROM LAKE JAMES TO LAKE 
+RHODHISS...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Central Burke County in western North Carolina...
+  Southeastern Caldwell County in western North Carolina...
+  East Central McDowell County in western North Carolina...
+
+* Until 200 PM EDT Sunday.
+
+* At 723 PM EDT, Devastating rainfall of 6-25 (twenty-five) inches 
+  occurred from Wednesday evening through Friday morning from Lake 
+  Hickory to the Catawba River headwaters, with the highest totals 
+  exceeding 2 feet along the Blue Ridge Escarpment across the upper 
+  Catawba River watershed.  This is resulting in catastrophic and 
+  historic inflows into Lake James, and releases from Lake James are 
+  causing catastrophic flooding along the Catawba River into Lake 
+  Rhodhiss.
+
+* The latest pool elevations for the upper Catawba River lakes are 
+  as follows (Full Pool is 100.0 feet):
+
+    Lake James: 110.3 feet and rising steadily. RECORD BROKEN.
+    Lake Rhodhiss: 108.1 feet and rising steadily.
+
+* The former record pool elevation at Lake James is 107.36 feet 
+  which occurred in September 8, 2004 during Hurricane Frances.  
+  Major Flood Stage is 110.0 feet.
+
+* The current record pool elevation at Lake Rhodhiss is 110.10 feet 
+  which occurred in August 1940.  Major Flood Stage is 110.0 feet.
+
+* This is an unprecedented and extremely dangerous event.  Residents 
+  are urged to heed guidance from emergency management and law 
+  enforcement on any potential impacts to property.  We are pleading 
+  with drivers to heed any barricades and avoid all flooded areas.  
+  There have been numerous swift water rescues because people are 
+  choosing to risk their lives and the lives of others by failing to 
+  Turn Around Don't Drown.  Please do the right thing and protect 
+  your life, the life of your family, and the lives of those who 
+  risk theirs to save you.
+
+
+  This is a FLASH FLOOD EMERGENCY for Catawba River from Lake James 
+  to Lake Rhodhiss. This is a PARTICULARLY DANGEROUS SITUATION. SEEK 
+  HIGHER GROUND NOW!
+
+  HAZARD...Life-threatening flash flooding from historic rainfall
+           and resultant dam floodgate releases.
+
+  SOURCE...Duke Energy and Burke County Emergency Management.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life-threatening flash-flooding of
+           Lake James, the Catawba River, and Lake Rhodhiss is
+           ongoing.  Structural flooding along Lake James
+           continues and is developing along Lake Rhodhiss.
+           Downstream of Bridgewater Dam on the Catawba River,
+           several structrues are damaged or destroyed, with some
+           single-level homes submerged by floodwaters.  These
+           floodwaters are causing numerous swift-water rescues.
+           Backwater effects are causing significant inundation
+           along tributaries, including flooding exceeding 4 ft
+           deep at the NC 18/US 64 bridge, blocking a primary
+           roadway connecting Morganton and Lenoir.
+
+* Please stay weather aware and monitor lake levels and Duke Energy 
+  projections closely for any changes.
+
+* For more information on lake levels or dam releases, people are  
+  encouraged to visit https://lakes.duke-energy.com or call 
+  1-800-829-5253.
+
+* Residents along the Catawba River are encouraged to stay aware of 
+  the latest updates from Burke County by signing up for alerts at: 
+  http://smart911.com
+
+* McDowell County Emergency Management, Burke County Emergency 
+  Management, Caldwell County Emergency Management, and Duke Energy 
+  are closely monitoring these high flows and pool levels and 
+  additional updates will be provided as new information becomes 
+  available.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+If you are in low-lying areas along the Catawba River you should move
+to higher ground immediately.
+
+&&
+
+LAT...LON 3583 8188 3577 8179 3584 8164 3581 8159
+      3581 8146 3578 8135 3573 8139 3574 8143
+      3574 8159 3571 8176 3572 8194 3568 8202
+      3572 8206 3580 8191
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+
+$$
+
+JMP

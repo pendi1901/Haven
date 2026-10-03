@@ -1,0 +1,97 @@
+208 
+WGUS52 KGSP 271124
+FFWGSP
+NCC099-175-271915-
+/O.NEW.KGSP.FF.W.0104.240927T1124Z-240927T1915Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+724 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR JACKSON AND TRANSYLVANIA COUNTIES...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Jackson County in western North Carolina...
+  Transylvania County in western North Carolina...
+
+* Until 315 PM EDT Friday.
+
+* At 724 AM EDT, emergency management reported widespread 
+  catastrophic flooding across these counties.  Numerous roadways 
+  are flooded and impassable, and hundreds of trees are down across 
+  the area amid completely saturated ground.  Many water rescues are 
+  ongoing.  In Jackson County, evacuations of low-lying areas are 
+  already underway.  At least one landslide has been reported by 
+  emergency management, resulting in a partial closure of highway 64 
+  in Jackson County.
+
+  This is a FLASH FLOOD EMERGENCY for Jackson and Transylvania 
+  Counties. This is a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER 
+  GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.  Dangerous
+           landslide activity.  Numerous road closures and damage
+           to infrastructure.  Inundation of homes and
+           businesses.  Dangerous high water flows, especially
+           along the Tuckasegee River.
+
+* Some locations that will experience flash flooding include...
+  Brevard, Sylva, Cherokee, Cullowhee, Highlands, Balsam, Rosman, 
+  Webster, Dillsboro, Cashiers, Black Balsam Area, Lake Toxaway, 
+  B.R. Parkway-Balsam Gap To Black Balsam Area, Lake Glenville, 
+  Gorges State Park, B.R. Parkway-Black Balsam To Mount Pisgah, Lake 
+  Jocassee, Looking Glass, B.R. Parkway-Smoky Mountains To Balsam 
+  Gap and Mount Pisgah.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Flooding is occurring or is imminent. It is important to know where 
+you are relative to streams, rivers, or creeks which can become 
+killers in heavy rains. Campers and hikers should avoid streams or 
+creeks.
+
+&&
+
+LAT...LON 3527 8332 3542 8336 3547 8335 3547 8332
+      3552 8324 3551 8317 3529 8292 3532 8283
+      3542 8274 3529 8261 3515 8258 3513 8268
+      3507 8276 3509 8278 3500 8311 3506 8317
+      3509 8315 3516 8322 3524 8322 3523 8328
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...2-3 INCHES IN 1 HOUR
+
+$$
+
+MPR

@@ -1,0 +1,17 @@
+{
+ "lid": "EBNN7",
+ "usgs_id": "0208726005",
+ "name": "Crabtree Creek at Ebenezer Church Rd",
+ "lat": 35.845277777778,
+ "lon": -78.724722222222,
+ "thresholds_ft": {
+  "major": 21.0,
+  "moderate": 20.0,
+  "minor": 19.0,
+  "action": 17.0
+ },
+ "datum_navd88_ft": 223.9,
+ "record_crest_ft": 22.4,
+ "reach_id": "8783277",
+ "has_official_forecast": true
+}

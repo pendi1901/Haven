@@ -1,0 +1,63 @@
+604 
+WGUS52 KGSP 252212
+FFWGSP
+NCC021-089-115-260315-
+/O.NEW.KGSP.FF.W.0053.240925T2212Z-240926T0315Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+612 PM EDT Wed Sep 25 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Central Buncombe County in western North Carolina...
+  Northwestern Henderson County in western North Carolina...
+  Southeastern Madison County in western North Carolina...
+
+* Until 1115 PM EDT.
+
+* At 612 PM EDT, A slow moving band of training thunderstorms has 
+  resulted in between 2 and 3 inches of rain through the Asheville 
+  metro and surrounding areas. Urban flooding is already ongoing 
+  across the city of Asheville. The expected rainfall rate is 1.5 to 
+  2.5 inches in 1 hour. Additional rainfall amounts of 1 to 3 inches 
+  are possible in the warned area. Flash flooding is ongoing or 
+  expected to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Downtown Asheville, Hendersonville, East Asheville, Arden, West 
+  Asheville, North Asheville, Mills River, Woodfin, Fletcher, 
+  Etowah, Weaverville, Mountain Home, Mars Hill, Biltmore Forest, 
+  Bent Creek, B.R. Parkway-Nc Arboretum To East Asheville, 
+  UNC-Asheville, Skyland, Biltmore Park and Enka.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3578 8261 3583 8252 3579 8242 3554 8246
+      3533 8250 3530 8257 3533 8265 3537 8269
+      3538 8270 3539 8271 3544 8270 3564 8267
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+TBW

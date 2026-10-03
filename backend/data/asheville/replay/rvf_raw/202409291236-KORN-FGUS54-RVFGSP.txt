@@ -1,0 +1,69 @@
+503 
+FGUS54 KORN 291236
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1236 GMT SUN SEP 29 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is Little Tennessee
+:
+: Forecasts include 24 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:BIRDTOWN, NC - OCONALUFTEE RIVER
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  12.0 FT  MAJOR FLOOD STAGE     13.0 FT
+:
+:LATEST  RIVER STAGE 3.7 FT AT 1200 Z ON SEP 29
+.ER BIRN7 0929 Z DC202409291236/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :           /   3.6 /   3.4 /   3.4 
+.E2    : 0930 :   /   3.3 /   3.3 /   3.2 /   3.2 
+.E3    : 1001 :   /   3.1 /   3.1 /   3.0 /   3.0 
+.E4    : 1002 :   /   2.9 /   2.9 /   2.9 /   2.9 
+.E5    : 1003 :   /   2.8 /   2.8 /   2.8 /   2.8 
+.E6    : 1004 :   /   2.7 
+.ER BIRN7 0929 Z DC202409291236/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :           /  0.01 /  0.06 /  0.02 
+.E2    : 0930 :   /  0.02 
+.ER BIRN7 0929 Z DC202409291236/DH18/PPDFZ/DIH24/0.11
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:BRYSON CITY, NC - TUCKASEGEE RIVER
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  13.5 FT  MAJOR FLOOD STAGE     15.5 FT
+:
+:LATEST  RIVER STAGE 5.0 FT AT 1215 Z ON SEP 29
+.ER TKSN7 0929 Z DC202409291236/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :           /   5.0 /   5.0 /   5.0 
+.E2    : 0930 :   /   4.9 /   4.6 /   4.4 /   4.2 
+.E3    : 1001 :   /   4.1 /   3.9 /   3.8 /   3.7 
+.E4    : 1002 :   /   3.6 /   3.5 /   3.4 /   3.3 
+.E5    : 1003 :   /   3.3 /   3.2 /   3.1 /   3.1 
+.E6    : 1004 :   /   3.1 
+.ER TKSN7 0929 Z DC202409291236/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0929 :           /  0.01 /  0.07 /  0.03 
+.E2    : 0930 :   /  0.04 
+.ER TKSN7 0929 Z DC202409291236/DH18/PPDFZ/DIH24/0.15
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0929 DT202409291236/YIIRZ  7 : MJC
+:
+$$
+:
+:...END of MESSAGE...

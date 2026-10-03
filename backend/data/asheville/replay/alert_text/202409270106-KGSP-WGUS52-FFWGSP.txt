@@ -1,0 +1,77 @@
+401 
+WGUS52 KGSP 270106
+FFWGSP
+NCC011-027-111-121-199-270600-
+/O.NEW.KGSP.FF.W.0072.240927T0106Z-240927T0600Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+906 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Avery County in western North Carolina...
+  Northern Caldwell County in western North Carolina...
+  Central McDowell County in western North Carolina...
+  Eastern Mitchell County in western North Carolina...
+  Southeastern Yancey County in western North Carolina...
+
+* Until 200 AM EDT.
+
+* At 906 PM EDT, Persistent moderate to heavy rainfall today has 
+  resulted in between 4 and 7 inches of rain across the area. 
+  Additional moderate to heavy rain with rainfall rates of 1 to 2 
+  inches in 1 hour is moving into the area. Additional rainfall 
+  amounts of 1 to 2 inches are possible in the warned area with 
+  additional flash flooding expected. Flash flooding is ongoing or 
+  expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Spruce Pine, Newland, Blowing Rock In Caldwell County, Banner Elk, 
+  Elk Park, Bakersville, Beech Mountain In Avery County, Crossnore, 
+  Sugar Mountain, Seven Devils, Linville Falls, B.R. 
+  Parkway-Linville Falls To Grandfather, B.R. Parkway-Little 
+  Switzerland To Linville, Grandfather Mountain State Park, B.R. 
+  Parkway-Craggy To Little Switzerland, Mount Mitchell State Park, 
+  Altamont, Pineola, Ingalls and Linville.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3575 8233 3581 8235 3582 8239 3597 8220
+      3611 8213 3612 8203 3629 8192 3626 8189
+      3622 8191 3617 8183 3611 8181 3612 8155
+      3606 8140 3588 8172 3595 8178 3600 8190
+      3588 8199 3585 8210 3574 8219 3570 8226
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+TBW

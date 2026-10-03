@@ -1,0 +1,85 @@
+744 
+WGUS42 KGSP 271845
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+245 PM EDT Fri Sep 27 2024
+
+NCC023-089-149-161-280045-
+/O.NEW.KGSP.FA.W.0028.240927T1845Z-240928T0045Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Burke NC-Henderson NC-Polk NC-Rutherford NC-
+245 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 845 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following counties, Burke, Henderson, Polk and Rutherford.
+
+* WHEN...Until 845 PM EDT Friday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring. Numerous roads 
+  remain closed due to flooding. Streams continue to rise due to 
+  excess runoff from earlier rainfall. Low-water crossings are 
+  inundated with water and may not be passable.
+
+* ADDITIONAL DETAILS...
+  - At 242 PM EDT, emergency management reported extensive
+    widespread
+    minor to moderate flooding across the warned area.  Numerous
+    road
+    closures, multiple strandings and water rescues have been
+    reported
+    recently.  In many locations, up to 11 inches of rain have
+    fallen
+    in the last 12 to 24 hours.
+  - Some locations that will experience flooding include...
+    Hendersonville, Forest City, Rutherfordton, Columbus, Mills
+    River, Fletcher, Spindale, Flat Rock, Etowah, Landrum,
+    Mountain Home, Laurel Park, Tryon, Lake Lure, Saluda,
+    Ellenboro, Bostic, Chimney Rock Village, Chimney Rock State
+    Park and Bat Cave.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+People are advised to stay off the roads, but if you must travel, 
+avoid flooded roads. Turn around, don't drown when encountering 
+flooded roads. Most flood deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+&&
+
+LAT...LON 3522 8239 3517 8244 3514 8257 3529 8261
+      3542 8274 3546 8267 3542 8253 3544 8254
+      3547 8242 3546 8236 3550 8233 3546 8225
+      3552 8223 3555 8200 3553 8196 3554 8184
+      3560 8183 3559 8168 3518 8177 3518 8237
+
+
+$$
+
+ARK

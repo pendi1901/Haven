@@ -1,0 +1,71 @@
+388 
+WGUS42 KGSP 271752
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+152 PM EDT Fri Sep 27 2024
+
+NCC075-173-272345-
+/O.NEW.KGSP.FA.W.0026.240927T1752Z-240927T2345Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Graham NC-Swain NC-
+152 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 745 PM EDT THIS EVENING...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following counties, Graham and Swain.
+
+* WHEN...Until 745 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring.
+
+* ADDITIONAL DETAILS...
+  - At 152 PM EDT, Doppler radar and automated rain gauges
+    indicated heavy rain. Flooding is already occurring in the
+    warned area. Between 3 and 5 inches of rain have fallen.
+  - Flooding impacts will continue, but no additional rainfall is
+    expected.
+  - Some locations that will experience flooding include...
+    Bryson City, Robbinsville, Cherokee, Town Of Santeetlah,
+    Fontana Lake, Smoky Mountains-Fontana Area, Smoky Mountains-
+    Clingmans Dome, Smoky Mountains-Deep Creek, Fontana Village,
+    Smoky Mountains-Twentymile Creek, Lake Santeetlah, Smoky
+    Mountains-Newfound Gap, Smoky Mountains-Oconaluftee, Smoky
+    Mountains-Balsam Mountain, B.R. Parkway-Smoky Mountains To
+    Balsam Gap, Almond, Stecoah, Wesser, Luada and Nantahala.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3556 8377 3556 8350 3561 8345 3566 8330
+      3570 8325 3567 8318 3564 8320 3555 8316
+      3551 8318 3552 8324 3547 8335 3543 8336
+      3533 8334 3522 8396 3523 8400 3532 8403
+      3535 8404 3537 8401 3541 8402 3552 8388
+
+
+$$
+
+ARK

@@ -1,0 +1,214 @@
+936 
+FGUS54 KORN 251450
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1446 GMT WED SEP 25 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:BLANTYRE, NC - FRENCH BROAD RIVER
+:ACTION STAGE          15.0 FT  MINOR FLOOD STAGE     16.0 FT
+:MODERATE FLOOD STAGE  19.0 FT  MAJOR FLOOD STAGE     23.0 FT
+:
+:LATEST  RIVER STAGE 8.1 FT AT 1430 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 0300 Z ON 09/27/2024
+.AR :CREST: BLAN7 0928 Z DC202409251446/DH0000/HGIFFXZ 23.5
+: Crest near 23.5 FT around 0000 Z on Sat, Sep 28
+
+.ER BLAN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   8.5 /   8.8 /   9.6 
+.E2    : 0926 :   /  11.1 /  13.0 /  15.1 /  17.3 
+.E3    : 0927 :   /  19.5 /  21.9 /  23.5 /  23.3 
+.E4    : 0928 :   /  22.8 /  21.7 /  20.7 /  19.6 
+.E5    : 0929 :   /  18.8 /  18.3 /  17.7 /  16.6 
+.E6    : 0930 :   /  15.7 
+.ER BLAN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.16 /  1.07 /  1.49 
+.E2    : 0926 :   /  1.56 /  1.36 /  1.40 /  1.50 
+.E3    : 0927 :   /  3.00 
+.ER BLAN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/11.54
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:FLETCHER, NC - FRENCH BROAD RIVER
+:ACTION STAGE          10.0 FT  MINOR FLOOD STAGE     13.0 FT
+:MODERATE FLOOD STAGE  17.0 FT  MAJOR FLOOD STAGE     20.0 FT
+:
+:LATEST  RIVER STAGE 5.7 FT AT 1330 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 1500 Z ON 09/26/2024
+.AR :CREST: FLCN7 0927 Z DC202409251446/DH1800/HGIFFXZ 22.0
+: Crest near 22.0 FT around 1800 Z on Fri, Sep 27
+
+.ER FLCN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   6.2 /   7.0 /   8.7 
+.E2    : 0926 :   /  11.0 /  13.6 /  14.7 /  16.3 
+.E3    : 0927 :   /  20.1 /  22.0 /  21.3 /  20.1 
+.E4    : 0928 :   /  18.9 /  17.7 /  16.3 /  15.0 
+.E5    : 0929 :   /  13.7 /  12.4 /  11.4 /  10.7 
+.E6    : 0930 :   /  10.1 
+.ER FLCN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.10 /  1.05 /  1.45 
+.E2    : 0926 :   /  1.60 /  0.93 /  1.10 /  1.27 
+.E3    : 0927 :   /  2.36 
+.ER FLCN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/9.86
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:BILTMORE, NC - SWANNANOA RIVER
+:ACTION STAGE           9.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  14.5 FT  MAJOR FLOOD STAGE     16.5 FT
+:
+:LATEST  RIVER STAGE 2.0 FT AT 1400 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 1500 Z ON 09/27/2024
+.AR :CREST: BLTN7 0927 Z DC202409251446/DH1800/HGIFFXZ 15.5
+: Crest near 15.5 FT around 1800 Z on Fri, Sep 27
+
+.ER BLTN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   2.1 /   2.3 /   3.2 
+.E2    : 0926 :   /   4.4 /   5.3 /   5.3 /   5.2 
+.E3    : 0927 :   /   8.3 /  15.5 /  14.7 /   9.3 
+.E4    : 0928 :   /   5.5 /   3.9 /   3.2 /   3.0 
+.E5    : 0929 :   /   2.9 /   2.8 /   2.8 /   2.8 
+.E6    : 0930 :   /   2.7 
+.ER BLTN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.11 /  1.08 /  1.84 
+.E2    : 0926 :   /  1.88 /  0.83 /  0.94 /  1.19 
+.E3    : 0927 :   /  2.47 
+.ER BLTN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/10.34
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:ASHEVILLE, NC - FRENCH BROAD RIVER
+:ACTION STAGE           6.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  13.0 FT  MAJOR FLOOD STAGE     18.0 FT
+:
+:LATEST  RIVER STAGE 1.8 FT AT 1345 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 0900 Z ON 09/27/2024
+.AR :CREST: AVLN7 0928 Z DC202409251446/DH0000/HGIFFXZ 16.5
+: Crest near 16.5 FT around 0000 Z on Sat, Sep 28
+
+.ER AVLN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   2.0 /   2.4 /   3.2 
+.E2    : 0926 :   /   4.5 /   6.0 /   7.3 /   8.1 
+.E3    : 0927 :   /  10.6 /  15.1 /  16.5 /  15.4 
+.E4    : 0928 :   /  12.5 /  10.9 /   9.6 /   8.4 
+.E5    : 0929 :   /   7.4 /   6.6 /   5.9 /   5.5 
+.E6    : 0930 :   /   5.1 
+.ER AVLN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.08 /  1.08 /  0.89 
+.E2    : 0926 :   /  1.34 /  0.86 /  0.66 /  1.11 
+.E3    : 0927 :   /  1.87 
+.ER AVLN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/7.89
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:MARSHALL, NC - FRENCH BROAD RIVER
+:ACTION STAGE           7.5 FT  MINOR FLOOD STAGE      8.0 FT
+:MODERATE FLOOD STAGE  10.0 FT  MAJOR FLOOD STAGE     13.0 FT
+:
+:LATEST  RIVER STAGE 1.9 FT AT 1400 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 0900 Z ON 09/27/2024
+.AR :CREST: MARN7 0928 Z DC202409251446/DH0000/HGIFFXZ 12.5
+: Crest near 12.5 FT around 0000 Z on Sat, Sep 28
+
+.ER MARN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   2.2 /   2.6 /   3.4 
+.E2    : 0926 :   /   4.5 /   5.4 /   6.3 /   7.2 
+.E3    : 0927 :   /   8.7 /  10.6 /  12.5 /  12.3 
+.E4    : 0928 :   /  11.0 /   9.7 /   8.6 /   7.7 
+.E5    : 0929 :   /   7.0 /   6.3 /   5.7 /   5.3 
+.E6    : 0930 :   /   5.0 
+.ER MARN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.14 /  0.91 /  0.76 
+.E2    : 0926 :   /  1.25 /  0.63 /  0.36 /  0.92 
+.E3    : 0927 :   /  1.63 
+.ER MARN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/6.60
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:CANTON, NC - PIGEON RIVER (NC)
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  15.0 FT  MAJOR FLOOD STAGE     19.0 FT
+:
+:LATEST  RIVER STAGE 1.5 FT AT 1430 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 2100 Z ON 09/26/2024
+.AR :CREST: CTPN7 0927 Z DC202409251446/DH0000/HGIFFXZ 11.0
+: Crest near 10.0 FT around 0000 Z on Fri, Sep 27
+
+.ER CTPN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   1.5 /   2.0 /   2.9 
+.E2    : 0926 :   /   5.1 /   8.8 /  11.0 /   6.7 
+.E3    : 0927 :   /   4.2 /   3.1 /   2.6 /   2.2 
+.E4    : 0928 :   /   2.2 /   2.1 /   2.1 /   2.0 
+.E5    : 0929 :   /   2.0 /   2.0 /   2.0 /   2.0 
+.E6    : 0930 :   /   2.0 
+.ER CTPN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.05 /  0.47 /  0.73 
+.E2    : 0926 :   /  1.20 /  0.61 /  0.40 /  0.00 
+.E3    : 0927 :   /  0.00 
+.ER CTPN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/3.46
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:HOT SPRINGS, NC - FRENCH BROAD RIVER
+:ACTION STAGE           7.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  16.0 FT  MAJOR FLOOD STAGE     24.0 FT
+:
+:LATEST  RIVER STAGE 3.2 FT AT 1415 Z ON SEP 25
+:RISE ABOVE FLOOD STAGE AROUND 1500 Z ON 09/27/2024
+.AR :CREST: HSPN7 0928 Z DC202409251446/DH0600/HGIFFXZ 11.5
+: Crest near 11.5 FT around 0600 Z on Sat, Sep 28
+
+.ER HSPN7 0925 Z DC202409251446/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   3.1 /   3.2 /   3.5 
+.E2    : 0926 :   /   4.6 /   5.7 /   6.3 /   6.5 
+.E3    : 0927 :   /   7.9 /   9.8 /  10.9 /  11.5 
+.E4    : 0928 :   /  10.9 /   9.5 /   8.1 /   7.0 
+.E5    : 0929 :   /   6.3 /   5.8 /   5.4 /   5.1 
+.E6    : 0930 :   /   4.9 
+.ER HSPN7 0925 Z DC202409251446/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.22 /  0.68 /  0.57 
+.E2    : 0926 :   /  1.07 /  0.55 /  0.22 /  0.67 
+.E3    : 0927 :   /  1.34 
+.ER HSPN7 0925 Z DC202409251446/DH18/PPDFZ/DIH48/5.32
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0925 DT202409251446/YIIRZ  5 : GMT-N
+:
+$$
+:
+:...END of MESSAGE...

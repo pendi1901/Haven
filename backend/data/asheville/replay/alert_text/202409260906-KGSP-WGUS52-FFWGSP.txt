@@ -1,0 +1,81 @@
+837 
+WGUS52 KGSP 260906
+FFWGSP
+NCC089-261645-
+/O.NEW.KGSP.FF.W.0059.240926T0906Z-240926T1645Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+506 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Henderson County in western North Carolina...
+
+* Until 1245 PM EDT Thursday.
+
+* At 506 AM EDT, Doppler radar and automated rain gauges indicated a 
+  new axis of training showers has anchored across central and 
+  western Henderson County.  Numerous additional showers producing 
+  1-2" per hour rainfall rates are moving into the county from the 
+  SSW.  These showers will likely produce another 2-4" of rainfall 
+  over Henderson County.  This rainfall will occur on top of the 
+  2-4" of rainfall which impacted Henderson County last evening.  In 
+  response to the earlier rainfall, Mud Creek has exceeded Minor 
+  Flood Stage and the French Broad River is also out of its banks.  
+  This additional rainfall will exacerbate ongoing flooding and 
+  cause new areas of flooding to develop.  Significant flooding is 
+  possible, with isolated structural impacts.
+
+  HAZARD...Life-threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Life-threatening flash flooding of creeks and streams,
+           low-water crossings, urban areas, highways, streets,
+           and underpasses.
+
+* Some locations that may experience Minor to Moderate flash 
+  flooding include...  Hendersonville, Mills River, Fletcher, Flat 
+  Rock, Etowah, Mountain Home, Laurel Park, Saluda, Dupont State 
+  Forest, Jones Gap State Park, Bat Cave, Chimney Rock State Park, 
+  Valley Hill, East Flat Rock, Horse Shoe, Crab Creek and Dana.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3544 8254 3547 8242 3546 8236 3548 8237
+      3550 8233 3547 8227 3544 8228 3539 8226
+      3529 8235 3519 8235 3518 8237 3522 8239
+      3517 8244 3518 8248 3514 8257 3516 8259
+      3529 8261 3542 8274 3546 8267 3542 8253
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

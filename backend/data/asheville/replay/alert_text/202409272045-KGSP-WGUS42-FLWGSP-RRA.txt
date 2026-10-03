@@ -1,0 +1,58 @@
+064 
+WGUS42 KGSP 272045 RRA
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+445 PM EDT Fri Sep 27 2024
+
+SCC091-281800-
+/O.NEW.KGSP.FA.W.0037.240927T2045Z-240928T1800Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+York SC-
+445 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 2 PM EDT SATURDAY...
+
+* WHAT...Flooding caused by excessive runoff is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following county, York.
+
+* WHEN...Until 200 PM EDT Saturday.
+
+* IMPACTS...Flooding of select rivers, creeks, streams, and other 
+  low-lying and flood-prone locations is imminent or occurring.
+
+* ADDITIONAL DETAILS...
+  - At 439 PM EDT, Ongoing runoff through the Catawba River, and
+    throughout and downstream of Lake Wylie will continue into
+    the night.  Elevated river levels on the Catawba River proper
+    will continue to result in flooding of low lying locations
+    such as Piedmont Medical Trail, Herrons Ferry Road, and
+    locations near Riverside Drive and Pump Station Road.
+    Tributataries in this area, such as Alison, Big Dutchman and
+    Wildcat Creeks will gradually return to within their banks
+    throughout the evening.
+  - Some locations that may experience flooding include...
+    Rock Hill, Fort Mill, Tega Cay, Newport, Lesslie, Catawba and
+    Lake Wylie.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3496 8088 3495 8087 3492 8087 3490 8088
+      3487 8088 3485 8087 3484 8087 3483 8088
+      3482 8092 3486 8094 3490 8098 3500 8112
+      3506 8101 3501 8091 3497 8088
+
+
+$$
+
+CSH

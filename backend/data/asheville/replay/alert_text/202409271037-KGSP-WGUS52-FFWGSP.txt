@@ -1,0 +1,96 @@
+675 
+WGUS52 KGSP 271037
+FFWGSP
+NCC003-023-027-111-271830-
+/O.NEW.KGSP.FF.W.0102.240927T1037Z-240927T1830Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+637 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR BURKE, MCDOWELL, ALEXANDER, AND 
+CALDWELL COUNTIES ...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Alexander County in the piedmont of North Carolina...
+  Burke County in western North Carolina...
+  Caldwell County in western North Carolina...
+  McDowell County in western North Carolina...
+
+* Until 230 PM EDT Friday.
+
+* At 637 AM EDT, emergency management reported extensive significant 
+  life-threatening flooding across the warned area.  Numerous road 
+  closures were reported recently.  In many locations, 7 to 10 
+  inches of rain have fallen in the last 12 to 24 hours, and an 
+  additional swath of heavy rainfall is arriving from the south.  
+  This will result in imminent catastrophic flooding in the warned 
+  area.
+
+  This is a FLASH FLOOD EMERGENCY for Burke, McDowell, Alexander, 
+  and Caldwell Counties . This is a PARTICULARLY DANGEROUS 
+  SITUATION. SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Heavy rain producing
+           flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.
+           Catastrophic damage to infrastructure and inundation
+           of homes and businesses.  Many life-threatening
+           landslides.  Numerous road closures and dangerous low-
+           water crossings.
+
+* Some locations that will experience flash flooding include...
+  Hickory, Lenoir, Morganton, Marion, Taylorsville, Longview, 
+  Sawmills, Granite Falls, Valdese, Gamewell, Bethlehem, Hudson, 
+  Salem, Icard, Cajah's Mountain, Drexel, Hildebran, Connelly 
+  Springs, Blowing Rock In Caldwell County and Stony Point.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3559 8229 3570 8229 3585 8210 3588 8199
+      3600 8190 3596 8181 3607 8174 3611 8181
+      3612 8155 3600 8133 3605 8103 3599 8100
+      3580 8108 3578 8111 3583 8115 3579 8134
+      3556 8154 3561 8175 3554 8184 3552 8215
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...2.5-3.5 INCHES IN 1 HOUR
+
+$$
+
+AR

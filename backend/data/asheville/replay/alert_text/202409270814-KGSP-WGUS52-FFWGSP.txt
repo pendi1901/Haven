@@ -1,0 +1,79 @@
+389 
+WGUS52 KGSP 270814
+FFWGSP
+NCC023-111-271415-
+/O.NEW.KGSP.FF.W.0095.240927T0814Z-240927T1415Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+414 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Burke County in western North Carolina...
+  McDowell County in western North Carolina...
+
+* Until 1015 AM EDT Friday.
+
+* At 414 AM EDT, doppler radar indicated increasing rainfall rates, 
+  with 1 to 2 inches per hour expected.  County officials reported 
+  ongoing road closures and flooding of structures across the 
+  county.  Many locations had already received 5 to 9 inches of rain 
+  over the last 24 hours, saturating the ground and priming things 
+  for the next round.  Significant flooding appears likely, 
+  resulting in road closures, first-floor inundation, and damage to 
+  some structures.  The risk of life-threatening landslide activity 
+  continues to increase.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+           Likely first-floor inundation of structures.
+           Increasing risk of landslide activity.
+
+* Some locations that will experience flash flooding include...
+  Hickory, Morganton, Marion, Longview, Valdese, Salem, Icard, 
+  Drexel, Hildebran, Connelly Springs, Rutherford College, Glen 
+  Alpine, Old Fort, Rhodhiss, Lake James State Park, Lake James, 
+  Table Rock, South Mountains State Park, B.R. Parkway-Little 
+  Switzerland To Linville and Linville Falls.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3559 8229 3562 8226 3570 8229 3574 8219
+      3585 8210 3588 8199 3594 8196 3600 8190
+      3595 8178 3578 8156 3577 8136 3556 8154
+      3556 8157 3557 8167 3561 8175 3558 8182
+      3554 8184 3552 8197 3555 8200 3552 8215
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+MPR

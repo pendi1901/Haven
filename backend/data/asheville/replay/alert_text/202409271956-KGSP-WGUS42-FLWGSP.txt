@@ -1,0 +1,70 @@
+928 
+WGUS42 KGSP 271956
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+356 PM EDT Fri Sep 27 2024
+
+GAC137-241-280100-
+/O.NEW.KGSP.FA.W.0032.240927T1956Z-240928T0100Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Habersham GA-Rabun GA-
+356 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 9 PM EDT THIS EVENING...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of northeast Georgia, including the following 
+  counties, Habersham and Rabun.
+
+* WHEN...Until 900 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring. Streams 
+  continue to rise due to excess runoff from earlier rainfall.
+
+* ADDITIONAL DETAILS...
+  - At 355 PM EDT, Doppler radar and automated gauges indicated
+    that between 3 and 7 inches of rain have fallen in the last
+    24 hours. Little or no additional rainfall is expected, but
+    minor to moderate flooding will continue into the evening due
+    to runoff.
+  - Some locations that will experience flooding include...
+    Toccoa, Clayton, Clarkesville, Cornelia, Baldwin, Demorest,
+    Mount Airy, Alto, Mountain City, Tiger, Dillard, Sky Valley,
+    Tallulah Falls, Lake Rabun, Lakemont, Tallulah Gorge State
+    Park, Lake Burton, Black Rock Mountain State Park, Raoul and
+    Seed Lake.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3492 8359 3494 8360 3495 8355 3499 8355
+      3500 8310 3494 8311 3488 8324 3482 8327
+      3482 8331 3473 8335 3469 8334 3448 8346
+      3449 8354 3443 8361 3450 8367 3454 8362
+      3465 8366 3475 8363 3480 8368 3489 8364
+
+
+$$
+
+ARK

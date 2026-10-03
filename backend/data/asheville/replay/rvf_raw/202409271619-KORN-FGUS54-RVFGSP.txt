@@ -1,0 +1,51 @@
+534 
+FGUS54 KORN 271619
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1619 GMT FRI SEP 27 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:MARSHALL, NC - FRENCH BROAD RIVER
+:ACTION STAGE           7.5 FT  MINOR FLOOD STAGE      8.0 FT
+:MODERATE FLOOD STAGE  10.0 FT  MAJOR FLOOD STAGE     13.0 FT
+:
+:LATEST  RIVER STAGE 16.4 FT AT 1600 Z ON SEP 27
+.AR :CREST: MARN7 0928 Z DC202409271619/DH0000/HGIFFXZ 19.5
+: Crest near 19.5 FT around 0000 Z on Sat, Sep 28
+
+.ER MARN7 0927 Z DC202409271619/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0927 :           /  18.7 /  19.5 /  18.8 
+.E2    : 0928 :   /  17.9 /  16.1 /  13.6 /  12.1 
+.E3    : 0929 :   /  10.9 /  10.0 /   9.1 /   8.5 
+.E4    : 0930 :   /   7.8 /   7.3 /   6.8 /   6.4 
+.E5    : 1001 :   /   6.0 /   5.6 /   5.3 /   5.0 
+.E6    : 1002 :   /   4.8 
+.ER MARN7 0927 Z DC202409271619/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0927 :           /  1.30 /  0.03 /  0.01 
+.E2    : 0928 :   /  0.00 /  0.00 /  0.00 /  0.00 
+.E3    : 0929 :   /  0.00 
+.ER MARN7 0927 Z DC202409271619/DH18/PPDFZ/DIH48/1.34
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0927 DT202409271619/YIIRZ  19 : CDP
+:
+$$
+:
+:...END of MESSAGE...

@@ -1,0 +1,78 @@
+498 
+WGUS52 KGSP 270753
+FFWGSP
+NCC011-115-121-199-271100-
+/O.NEW.KGSP.FF.W.0091.240927T0753Z-240927T1100Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+353 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Avery County in western North Carolina...
+  Madison County in western North Carolina...
+  Mitchell County in western North Carolina...
+  Yancey County in western North Carolina...
+
+* Until 700 AM EDT.
+
+* At 353 AM EDT, doppler radar indicated increasing rainfall rates, 
+  with 1 to 2 inches per hour expected.  Many locations had already 
+  received 5 to 8 inches of rain over the last 24 hours, saturating 
+  the ground and priming things for the next round.  Significant 
+  flooding appears likely, resulting in road closures, first-floor 
+  inundation, and damage to some structures.  The risk of 
+  life-threatening landslide activity continues to increase.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Spruce Pine, Burnsville, Marshall, Newland, Mars Hill, Banner Elk, 
+  Hot Springs, Elk Park, Bakersville, Beech Mountain In Avery 
+  County, Crossnore, Sugar Mountain, Seven Devils, Mount Mitchell 
+  State Park, B.R. Parkway-Craggy To Little Switzerland, B.R. 
+  Parkway-Little Switzerland To Linville, Linville Falls, B.R. 
+  Parkway-Linville Falls To Grandfather, Grandfather Mountain State 
+  Park and Ramseytown.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3611 8237 3616 8221 3610 8208 3629 8192
+      3621 8190 3607 8174 3596 8181 3600 8190
+      3588 8199 3585 8210 3570 8226 3582 8238
+      3569 8280 3568 8288 3575 8296 3594 8290
+      3593 8281 3600 8278 3607 8263 3595 8256
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+MPR

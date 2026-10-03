@@ -1,0 +1,49 @@
+111 
+WGUS82 KGSP 272219
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+619 PM EDT Fri Sep 27 2024
+
+GAC105-281000-
+/O.NEW.KGSP.FA.Y.0176.240927T2219Z-240928T1000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Elbert GA-
+619 PM EDT Fri Sep 27 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 6 AM EDT SATURDAY...
+
+* WHAT...Flooding caused by lingering runoff will continue.
+
+* WHERE...A portion of northeast Georgia, including the following 
+  county, Elbert.
+
+* WHEN...Until 600 AM EDT Saturday.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 616 PM EDT, Lingering flooding of low-lying areas along
+    Beaverdam Creek and downstream to the lake will linger into
+    the night.  Watch for the typical flooding along Brewers
+    Bridge, Winns Mill, Brickyard, and Horse Farm  Road.
+  - Some locations that may experience flooding lingering
+    include...
+    Elberton, Middleton, Lake Russell and Dewy Rose.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3405 8264 3408 8280 3418 8299 3421 8291
+      3412 8271 3410 8266
+
+
+$$
+
+CSH

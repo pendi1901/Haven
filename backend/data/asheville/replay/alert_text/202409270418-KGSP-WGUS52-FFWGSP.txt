@@ -1,0 +1,63 @@
+188 
+WGUS52 KGSP 270418
+FFWGSP
+NCC023-270615-
+/O.NEW.KGSP.FF.W.0076.240927T0418Z-240927T0615Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1218 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Central Burke County in western North Carolina...
+
+* Until 215 AM EDT.
+
+* At 1218 AM EDT, Doppler radar and automated rain gauges indicated 
+  heavy rain falling across central Burke County. Gauges along Johns 
+  River at Arneys Store indicate rapid stage rises. County 911 
+  reported East Parker Rd in Morganton is closed due to water over 
+  the bridge and water is flowing over Bost Rd and Spainhour Rd in 
+  Morganton. Additional road closures are possible. Between 2 and 3 
+  inches of rain have fallen. The expected rainfall rate is 0.25 to 
+  0.5 inches in 1 hour. Additional rainfall amounts of 0.5 to 1 inch 
+  are possible in the warned area. Flash flooding is ongoing or 
+  expected to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Morganton, Valdese, Salem, Drexel, Glen Alpine, Table Rock, South 
+  Mountains State Park, Lake James State Park, Lake James, Lake 
+  Rhodhiss and Oak Hill.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3558 8181 3558 8182 3572 8187 3575 8191
+      3588 8172 3585 8164 3583 8163 3582 8161
+      3577 8154
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+EXPECTED RAINFALL RATE...0.25-0.5 INCHES IN 1 HOUR
+
+$$
+
+AR

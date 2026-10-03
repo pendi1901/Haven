@@ -1,0 +1,63 @@
+310 
+WGUS52 KGSP 261555
+FFWGSP
+SCC023-091-261900-
+/O.NEW.KGSP.FF.W.0062.240926T1555Z-240926T1900Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1155 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Eastern Chester County in upstate South Carolina...
+  Southeastern York County in upstate South Carolina...
+
+* Until 300 PM EDT.
+
+* At 1155 AM EDT, Doppler radar indicated more tropical 
+  thunderstorms producing heavy rain developing northward into the 
+  I-77 corridor. Between 1.5 and 2 inches of rain fell earlier. 
+  Additional rainfall amounts of 1 to 1.5 inches are possible in the 
+  warned area. Flash flooding is ongoing or expected to begin 
+  shortly...especially throughout the greater Rock Hill and Fort 
+  Mill areas.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that may experience flash flooding include...
+  Rock Hill, Southwest Charlotte, Fort Mill, Pineville, Tega Cay, 
+  Newport, Lesslie, Great Falls, Fort Lawn, Richburg, Catawba, 
+  Carowinds, Lake Wylie and Edgemoor.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+&&
+
+LAT...LON 3505 8106 3504 8103 3510 8094 3509 8091
+      3506 8090 3501 8091 3493 8088 3485 8089
+      3482 8091 3478 8089 3471 8087 3464 8091
+      3461 8091 3457 8088 3454 8088 3456 8109
+      3493 8109
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+CSH

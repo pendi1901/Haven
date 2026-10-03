@@ -1,0 +1,98 @@
+892 
+WGUS82 KGSP 262336
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+736 PM EDT Thu Sep 26 2024
+
+NCC023-027-272330-
+/O.NEW.KGSP.FA.Y.0170.240926T2336Z-240927T2330Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Burke NC-Caldwell NC-
+736 PM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 730 PM EDT FRIDAY...
+
+* WHAT...Nuisance to Minor flooding caused by excessive rainfall is 
+  expected.
+
+* WHERE...A portion of Burke and Caldwell counties in North Carolina.
+
+* WHEN...Until 730 PM EDT Friday.
+
+* IMPACTS...Several docks, access areas, swimming areas, and 
+  low-lying residential yards will likely flood.  Some outbuildings, 
+  campgrounds, and roads may be impacted with shallow flooding.  
+  Residents are encouraged to heed guidance from local officials and 
+  emergency management on any potential impacts to property.  
+  Drivers are encouraged to heed any barricades and avoid all 
+  flooded areas.
+
+* ADDITIONAL DETAILS...
+  - At 724 PM EDT, Rainfall accumulations of 4-8 inches Wednesday
+    night into Thursday morning over the headwaters of the
+    Catawba River and associated tributaries has caused high
+    inflows into Lake Rhodhiss.  Lake Rhodhiss is rising steadily
+    in response to this rainfall but the current pool of 95.53
+    feet is well below the full pool of 100.0 feet.  Additional
+    rises are expected, however, through the overnight hours,
+    with Lake Rhodhiss likely to approach the Action/Advisory
+    Stage of 102.0 feet.  At this level, nuisance shoreline
+    flooding and flooding of lake access areas, campgrounds,
+    docks, swimming areas, and residential yards is expected.
+    Caution is advised anywhere near such areas.
+
+    Additional torrential, potentially devastating rainfall is
+    expected later tonight through Thursday morning from
+    Hurricane Helene.  There is the potential for another 5-12
+    inches of rainfall from Lake Hickory to the Catawba River
+    headwaters, with the highest totals along the Blue Ridge
+    Escarpment.  This rainfall will occur on saturated soils and
+    excessive runoff into elevated streams will result in
+    potentially catastrophic inflows into the Catawba River
+    lakes.
+
+    Based on current rainfall forecasts and conditions, Duke
+    Energy expects Lake Rhodhiss to reach or exceed 110.0 feet
+    later Friday, which is 10.0 feet over full pond.  The current
+    record pool elevation at Lake Rhodhiss is 110.10 feet which
+    occurred in August 1940.  Major Flood Stage is 110.0 feet.
+    These lake levels may cause unprecedented, catastrophic
+    flooding of Lake Rhodhiss and possibly adjacent reaches of
+    the Catawba River.
+
+  - If the rainfall forecast verifies, Major flooding will be
+    possible along and near Lake Rhodhiss and a Flash Flood
+    Emergency may be issued.  Residents are encouraged to heed
+    guidance from local officials and emergency management on any
+    potential impacts to property.  Drivers are encouraged to
+    heed any barricades and avoid all flooded areas.  This has
+    the potential to be a historic and extremely dangerous event.
+    Please stay weather aware and monitor lake levels and Duke
+    Energy projections closely for any changes.
+
+    For more information on lake levels or dam releases, people
+    are  encouraged to visit http://lakes.duke-energy.com or call
+    1-800-829- 5253.
+
+  - Http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Boaters, fishermen, kayakers, swimmers, and other lake users are 
+encouraged to exercise caution during elevated lake levels and 
+downstream releases.  Lake residents are encouraged to avoid areas 
+along the stream below dams releasing water.
+
+&&
+
+LAT...LON 3580 8148 3579 8143 3577 8137 3576 8137
+      3575 8137 3575 8138 3574 8138 3576 8143
+      3576 8148 3576 8158 3577 8163 3577 8166
+      3580 8166 3580 8162 3580 8155
+
+
+$$
+
+JMP

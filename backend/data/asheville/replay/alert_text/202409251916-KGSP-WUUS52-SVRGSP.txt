@@ -1,0 +1,68 @@
+257 
+WUUS52 KGSP 251916
+SVRGSP
+GAC137-241-NCC113-SCC073-252000-
+/O.NEW.KGSP.SV.W.0277.240925T1916Z-240925T2000Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+316 PM EDT Wed Sep 25 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Northeastern Habersham County in northeastern Georgia...
+  Central Rabun County in northeastern Georgia...
+  Southeastern Macon County in western North Carolina...
+  Central Oconee County in Upstate South Carolina...
+
+* Until 400 PM EDT.
+
+* At 316 PM EDT, a severe thunderstorm was located 8 miles northeast
+  of Clarkesville, or near Tallulah Falls, moving northeast at 30
+  mph.
+
+  HAZARD...60 mph wind gusts.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and power lines.
+
+* Locations impacted include...
+  Highlands, Tallulah Falls, Salem, Lake Rabun, Lakemont, Tallulah
+  Gorge State Park, Oconee State Park, Mountain Rest, Long Creek, and
+  Pine Mountain.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Remain alert for a possible tornado! Tornadoes can develop quickly
+from severe thunderstorms. If you spot a tornado go at once into the
+basement or small central room in a sturdy structure.
+
+Prepare immediately for large hail and damaging winds. People outside
+should move immediately to shelter inside a strong building. Stay
+away from windows.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3510 8324 3501 8311 3500 8311 3500 8310
+      3488 8292 3468 8332 3469 8334 3468 8336
+      3464 8339 3471 8351
+TIME...MOT...LOC 1916Z 226DEG 26KT 3470 8341 
+
+TORNADO...POSSIBLE
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...<.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+JRK

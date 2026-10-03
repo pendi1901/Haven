@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+html, body, #root { height: 100%; }
+body {
+  @apply bg-white font-sans text-ink antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* "You are here" marker (not navigating) */
+.haven-you { width: 22px; height: 22px; }
+.haven-you-dot {
+  width: 22px; height: 22px; border-radius: 9999px; background: #2563eb; border: 4px solid #fff;
+  box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.2), 0 2px 6px rgba(15, 23, 42, 0.35);
+}
+
+/* Destination pin: a teardrop (rotated square) with an upright glyph */
+.haven-dest { cursor: pointer; }
+.haven-dest-pin {
+  display: flex; align-items: center; justify-content: center; width: 34px; height: 34px;
+  border-radius: 9999px 9999px 9999px 2px; transform: rotate(-45deg); background: #0f172a; color: #fff;
+  border: 3px solid #fff; box-shadow: 0 3px 10px rgba(15, 23, 42, 0.4); font-size: 15px; font-weight: 700; line-height: 1;
+}
+.haven-dest-pin > span { transform: rotate(45deg); }
+
+/* Replay slider */
+.haven-range { -webkit-appearance: none; appearance: none; height: 28px; background: transparent; }
+.haven-range::-webkit-slider-runnable-track { height: 6px; border-radius: 9999px; background: rgba(255, 255, 255, 0.25); }
+.haven-range::-moz-range-track { height: 6px; border-radius: 9999px; background: rgba(255, 255, 255, 0.25); }
+.haven-range::-webkit-slider-thumb {
+  -webkit-appearance: none; margin-top: -8px; width: 22px; height: 22px; border-radius: 9999px; background: #fff;
+  border: 3px solid #38bdf8; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+.haven-range::-moz-range-thumb { width: 18px; height: 18px; border-radius: 9999px; background: #fff; border: 3px solid #38bdf8; }
+.haven-range:focus-visible { outline: 2px solid #38bdf8; outline-offset: 2px; border-radius: 9999px; }
+
+.maplibregl-popup-content { border-radius: 12px; padding: 10px 12px; font-size: 13px; line-height: 1.35; box-shadow: 0 6px 24px -8px rgba(15, 23, 42, 0.35); }
+.maplibregl-ctrl-group { border-radius: 10px !important; }

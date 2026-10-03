@@ -1,0 +1,72 @@
+212 
+WGUS42 KGSP 271746
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+146 PM EDT Fri Sep 27 2024
+
+SCC001-047-059-272045-
+/O.NEW.KGSP.FA.W.0025.240927T1746Z-240927T2045Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Abbeville SC-Greenwood SC-Laurens SC-
+146 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 445 PM EDT THIS AFTERNOON...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following counties, Abbeville, Greenwood and Laurens.
+
+* WHEN...Until 445 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring. Streams 
+  continue to rise due to excess runoff from earlier rainfall. 
+  Low-water crossings are inundated with water and may not be 
+  passable.
+
+* ADDITIONAL DETAILS...
+  - At 143 PM EDT, Doppler radar and automated rain gauges
+    indicated between 7 and 10 inches of rain have fallen in the
+    last 24 hours. Flooding is ongoing or expected to begin
+    shortly in the warned area.
+  - Flooding impacts will continue, but little or no additional
+    rainfall is expected.
+  - Some locations that will experience flooding include...
+    Greenwood, Laurens, Abbeville, Clinton, Fountain Inn, Honea
+    Path, Ware Shoals, Calhoun Falls, Ninety Six, Joanna, Due
+    West, Gray Court, Lake Secession, Cross Hill, Donalds,
+    Cokesbury, Waterloo, Hodges, Lowndesville and Troy.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3402 8259 3421 8274 3454 8224 3459 8224
+      3479 8215 3459 8189 3460 8184 3453 8165
+      3437 8178 3430 8190 3420 8194 3413 8187
+      3396 8201 3395 8205 3398 8205 3397 8218
+      3402 8224 3397 8231 3406 8233 3408 8248
+
+
+$$
+
+ARK

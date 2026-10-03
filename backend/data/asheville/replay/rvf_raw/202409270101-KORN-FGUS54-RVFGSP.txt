@@ -1,0 +1,52 @@
+523 
+FGUS54 KORN 270101
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+0100 GMT FRI SEP 27 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is Little Tennessee
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:BRYSON CITY, NC - TUCKASEGEE RIVER
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  13.5 FT  MAJOR FLOOD STAGE     15.5 FT
+:
+:LATEST  RIVER STAGE 6.6 FT AT 0015 Z ON SEP 27
+:RISE ABOVE FLOOD STAGE AROUND 1500 Z ON 09/27/2024
+.AR :CREST: TKSN7 0928 Z DC202409270100/DH0000/HGIFFXZ 12.0
+: Crest near 12.0 FT around 0000 Z on Sat, Sep 28
+
+.ER TKSN7 0927 Z DC202409270100/DH06/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :                           /   6.2 
+.E2    : 0927 :   /   9.0 /  11.3 /  12.0 /  11.2 
+.E3    : 0928 :   /   9.7 /   8.0 /   6.9 /   6.2 
+.E4    : 0929 :   /   5.7 /   5.4 /   5.3 /   5.1 
+.E5    : 0930 :   /   5.0 /   4.9 /   4.8 /   4.7 
+.E6    : 1001 :   /   4.7 /   4.6 /   4.5 
+.ER TKSN7 0927 Z DC202409270100/DH06/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :                           /  0.62 
+.E2    : 0927 :   /  0.70 /  0.44 /  0.05 /  0.00 
+.E3    : 0928 :   /  0.00 /  0.00 /  0.00 
+.ER TKSN7 0927 Z DC202409270100/DH06/PPDFZ/DIH48/1.81
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0927 DT202409270100/YIIRZ  9 : ALR
+:
+$$
+:
+:...END of MESSAGE...

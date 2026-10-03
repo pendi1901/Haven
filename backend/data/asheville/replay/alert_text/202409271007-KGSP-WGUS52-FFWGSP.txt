@@ -1,0 +1,73 @@
+503 
+WGUS52 KGSP 271007
+FFWGSP
+NCC035-045-071-109-161-271315-
+/O.NEW.KGSP.FF.W.0100.240927T1007Z-240927T1315Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+607 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Catawba County in the piedmont of North Carolina...
+  Cleveland County in the piedmont of North Carolina...
+  Gaston County in the piedmont of North Carolina...
+  Lincoln County in the piedmont of North Carolina...
+  Rutherford County in western North Carolina...
+
+* Until 915 AM EDT.
+
+* At 607 AM EDT, Doppler radar and automated rain gauges indicated 
+  thunderstorms producing heavy rain across the warned area. Between 
+  2 and 5 inches of rain have fallen. The expected rainfall rate is 
+  2 to 3 inches in 1 hour. Flash flooding is ongoing or expected to 
+  begin shortly.
+
+Doppler radar indicated intense rain showers with rates of 2 to 3 
+inches of rain per hour pushing into the warned area shortly.  
+Between 2 and 5 inches of rain have already fallen across the warned 
+area, and the additional rain will produce flash flooding.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.  A few road
+           closures.
+
+* Some locations that will experience flash flooding include...
+  Gastonia, Huntersville, Hickory, Shelby, Newton, Lincolnton, 
+  Forest City, Rutherfordton, Northwest Charlotte, Cornelius, Kings 
+  Mountain, Mt Holly, St. Stephens, Belmont, Conover, Cherryville, 
+  Bessemer City, South Gastonia, Longview and Spindale.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3544 8228 3552 8223 3554 8186 3561 8175
+      3556 8154 3579 8134 3582 8120 3583 8114
+      3571 8106 3571 8100 3562 8092 3540 8095
+      3538 8099 3536 8092 3534 8098 3515 8102
+      3519 8197 3526 8197 3538 8211 3539 8226
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+EXPECTED RAINFALL RATE...2-3 INCHES IN 1 HOUR
+
+$$
+
+MPR

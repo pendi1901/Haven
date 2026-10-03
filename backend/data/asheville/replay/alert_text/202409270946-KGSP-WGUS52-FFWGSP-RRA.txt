@@ -1,0 +1,93 @@
+831 
+WGUS52 KGSP 270946 RRA
+FFWGSP
+NCC011-121-271830-
+/O.NEW.KGSP.FF.W.0098.240927T0946Z-240927T1830Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+546 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR ACROSS MITCHELL AND AVERY COUNTIES...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Avery County in western North Carolina...
+  Mitchell County in western North Carolina...
+
+* Until 230 PM EDT Friday.
+
+* At 546 AM EDT, emergency management reported catastrophic flooding 
+  across parts of Mitchell and Avery County, especially Bakersville 
+  and the surrounding areas.  Widespread heavy rainfall in excess of 
+  7 to 10 inches has resulted in numerous road closures, flooded 
+  bridges, inundated and damaged structures, and ongoing water 
+  rescues across both counties.  Mitchell County emergency 
+  management reported that there is a shelter for those displaced by 
+  flooding located at Mitchell High School at 416 Ledger School Road.
+
+  This is a FLASH FLOOD EMERGENCY for across Mitchell and Avery 
+  Counties. This is a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER 
+  GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.  Extensive
+           damage to infrastructure, homes, and businesses.
+           Significant landslide threat.
+
+* Some locations that will experience flash flooding include...
+  Spruce Pine, Newland, Banner Elk, Elk Park, Bakersville, Beech 
+  Mountain In Avery County, Crossnore, Sugar Mountain, Seven Devils, 
+  Linville Falls, B.R. Parkway-Little Switzerland To Linville, B.R. 
+  Parkway-Linville Falls To Grandfather, Grandfather Mountain State 
+  Park, B.R. Parkway-Craggy To Little Switzerland, Altamont, 
+  Ingalls, Minneapolis, Pineola, Linville and Bandana.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3629 8192 3621 8190 3607 8174 3596 8181
+      3600 8190 3588 8199 3582 8212 3584 8215
+      3593 8215 3595 8220 3601 8220 3599 8225
+      3605 8230 3603 8234 3608 8235 3607 8242
+      3616 8221 3615 8215 3610 8213 3612 8203
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...2-3 INCHES IN 1 HOUR
+
+$$
+
+MPR

@@ -1,0 +1,17 @@
+{
+ "lid": "ADRN7",
+ "usgs_id": "0208731190",
+ "name": "Crabtree Creek at Anderson Drive",
+ "lat": 35.821111,
+ "lon": -78.6341667,
+ "thresholds_ft": {
+  "major": 20.0,
+  "moderate": 18.0,
+  "minor": 16.0,
+  "action": 15.0
+ },
+ "datum_navd88_ft": 186.5,
+ "record_crest_ft": 23.1,
+ "reach_id": "8783547",
+ "has_official_forecast": false
+}

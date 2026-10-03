@@ -1,0 +1,63 @@
+192 
+WUUS52 KGSP 241806
+SVRGSP
+NCC021-111-115-121-199-241900-
+/O.NEW.KGSP.SV.W.0268.240924T1806Z-240924T1900Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+206 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Central McDowell County in western North Carolina...
+  Southeastern Madison County in western North Carolina...
+  Southeastern Mitchell County in western North Carolina...
+  Northeastern Buncombe County in western North Carolina...
+  Yancey County in western North Carolina...
+
+* Until 300 PM EDT.
+
+* At 205 PM EDT, a severe thunderstorm was located 11 miles east of
+  Marshall, or 5 miles northeast of Weaverville, moving east at 35
+  mph.
+
+  HAZARD...60 mph wind gusts and penny size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Expect damage to trees and power lines.
+
+* Locations impacted include...
+  Spruce Pine, Burnsville, North Asheville, Woodfin, Weaverville,
+  Mars Hill, B.R. Parkway-Little Switzerland To Linville, Mount
+  Mitchell State Park, B.R. Parkway-East Asheville To Craggy Gardens,
+  and B.R. Parkway-Craggy To Little Switzerland.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3581 8199 3577 8193 3571 8203 3560 8270
+      3575 8265 3585 8268 3600 8210
+TIME...MOT...LOC 1805Z 254DEG 30KT 3576 8248 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...0.75 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

@@ -1,0 +1,65 @@
+269 
+WFUS52 KGSP 261320
+TORGSP
+NCC003-035-097-261345-
+/O.NEW.KGSP.TO.W.0009.240926T1320Z-240926T1345Z/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Tornado Warning
+National Weather Service Greenville-Spartanburg SC
+920 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Tornado Warning for...
+  Central Catawba County in the Piedmont of North Carolina...
+  Southern Alexander County in the Piedmont of North Carolina...
+  West central Iredell County in the Piedmont of North Carolina...
+
+* Until 945 AM EDT.
+
+* At 919 AM EDT, a severe thunderstorm capable of producing a tornado
+  was located 5 miles east of Newton, or 4 miles southwest of
+  Catawba, moving north at 25 mph.
+
+  HAZARD...Tornado.
+
+  SOURCE...Radar indicated rotation.
+
+  IMPACT...Flying debris will be dangerous to those caught without 
+           shelter. Mobile homes will be damaged or destroyed. 
+           Damage to roofs, windows, and vehicles will occur.  Tree 
+           damage is likely.
+
+* This dangerous storm will be near...
+  Claremont around 920 AM EDT.
+  Catawba around 930 AM EDT.
+  Lookout Shoals Lake around 940 AM EDT.
+
+Other locations impacted by this dangerous thunderstorm include
+Scotts, Oxford, and Bandys.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+TAKE COVER NOW! Move to a basement or an interior room on the lowest
+floor of a sturdy building. Avoid windows. If you are outdoors, in a
+mobile home, or in a vehicle, move to the closest substantial shelter
+and protect yourself from flying debris.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3559 8103 3558 8117 3583 8129 3586 8099
+TIME...MOT...LOC 1319Z 174DEG 20KT 3565 8112 
+
+TORNADO...RADAR INDICATED
+MAX HAIL SIZE...0.00 IN
+
+$$
+
+ARK

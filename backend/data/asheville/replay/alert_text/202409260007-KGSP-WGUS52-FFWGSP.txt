@@ -1,0 +1,69 @@
+139 
+WGUS52 KGSP 260007
+FFWGSP
+NCC021-089-111-121-149-161-199-260500-
+/O.NEW.KGSP.FF.W.0054.240926T0007Z-240926T0500Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+807 PM EDT Wed Sep 25 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Eastern Buncombe County in western North Carolina...
+  Eastern Henderson County in western North Carolina...
+  Western McDowell County in western North Carolina...
+  Southeastern Mitchell County in western North Carolina...
+  Western Polk County in western North Carolina...
+  Northwestern Rutherford County in western North Carolina...
+  Southeastern Yancey County in western North Carolina...
+
+* Until 100 AM EDT.
+
+* At 807 PM EDT, Thunderstorms with intense rainfall have been 
+  training along the Blue Ridge escarpment. Between 2 and 4 inches 
+  of rain have fallen. The expected rainfall rate is 1.5 to 2.5 
+  inches in 1 hour. Additional rainfall amounts of 1 to 3 inches are 
+  possible in the warned area. Flash flooding is ongoing or expected 
+  to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Hendersonville, Marion, Spruce Pine, Black Mountain, Swannanoa, 
+  Flat Rock, Fairview In Buncombe County, Lake Lure, Old Fort, 
+  Saluda, Chimney Rock Village, Bat Cave, Chimney Rock State Park, 
+  B.R. Parkway-Craggy To Little Switzerland, Mount Mitchell State 
+  Park, B.R. Parkway-Little Switzerland To Linville, Montreat, 
+  Gerton, Pleasant Gardens and Sugar Hill.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3586 8228 3590 8214 3587 8194 3582 8196
+      3581 8199 3580 8197 3549 8210 3520 8231
+      3519 8238 3522 8239 3520 8241 3527 8245
+      3573 8234
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+TBW

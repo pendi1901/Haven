@@ -1,0 +1,48 @@
+511 
+FGUS54 KORN 251557
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1557 GMT WED SEP 25 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is Little Tennessee
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:BIRDTOWN, NC - OCONALUFTEE RIVER
+:ACTION STAGE           8.0 FT  MINOR FLOOD STAGE     10.0 FT
+:MODERATE FLOOD STAGE  12.0 FT  MAJOR FLOOD STAGE     13.0 FT
+:
+:LATEST  RIVER STAGE 1.2 FT AT 1500 Z ON SEP 25
+.ER BIRN7 0925 Z DC202409251557/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /   1.4 /   1.8 /   2.5 
+.E2    : 0926 :   /   2.6 /   3.4 /   3.6 /   3.6 
+.E3    : 0927 :   /   4.5 /   5.5 /   4.4 /   3.8 
+.E4    : 0928 :   /   3.3 /   3.0 /   2.7 /   2.6 
+.E5    : 0929 :   /   2.4 /   2.3 /   2.2 /   2.1 
+.E6    : 0930 :   /   2.0 
+.ER BIRN7 0925 Z DC202409251557/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :           /  0.37 /  0.74 /  0.59 
+.E2    : 0926 :   /  0.92 /  0.81 /  0.67 /  0.97 
+.E3    : 0927 :   /  1.46 
+.ER BIRN7 0925 Z DC202409251557/DH18/PPDFZ/DIH48/6.53
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0925 DT202409251557/YIIRZ  5 : GMT-N
+:
+$$
+:
+:...END of MESSAGE...

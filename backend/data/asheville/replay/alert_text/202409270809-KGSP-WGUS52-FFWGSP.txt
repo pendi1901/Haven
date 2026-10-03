@@ -1,0 +1,90 @@
+001 
+WGUS52 KGSP 270809
+FFWGSP
+NCC087-271415-
+/O.NEW.KGSP.FF.W.0094.240927T0809Z-240927T1415Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+409 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR ACROSS HAYWOOD COUNTY...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Haywood County in western North Carolina...
+
+* Until 1015 AM EDT Friday.
+
+* At 409 AM EDT, emergency management reported numerous road 
+  closures, ongoing water rescues, and flooded homes across Haywood 
+  County.  Ongoing rainfall is contributing to swiftly rising stream 
+  levels, increasing significant flood risk, and increasing risk of 
+  life-threatening landslides.  Between 6 and 10 inches of rain have 
+  already fallen, and additional heavy rainfall is imminent.
+
+  This is a FLASH FLOOD EMERGENCY for across Haywood County. This is 
+  a PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.  Life-
+           threatening inundation of homes and businesses.
+           Damage to roadways and infrastructure.  Sudden stream
+           rises.  Life-threatening landslide activity.
+
+* Some locations that will experience flash flooding include...
+  Waynesville, Cherokee, Canton, Lake Junaluska, Clyde, Maggie 
+  Valley, Smoky Mountains-Cataloochee, B.R. Parkway-Balsam Gap To 
+  Black Balsam Area, B.R. Parkway-Smoky Mountains To Balsam Gap, 
+  Black Balsam Area, Smoky Mountains-Big Creek, Smoky 
+  Mountains-Balsam Mountain, B.R. Parkway-Black Balsam To Mount 
+  Pisgah, Graveyard Fields, Mount Pisgah, Cove Creek, Fines Creek, 
+  Sunburst, Cruso and Waterville.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3574 8292 3562 8285 3563 8281 3558 8277
+      3547 8280 3541 8275 3532 8283 3531 8295
+      3545 8308 3546 8314 3549 8314 3551 8319
+      3555 8316 3564 8320 3567 8318 3572 8326
+      3579 8308 3577 8300 3579 8296 3575 8296
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+
+$$
+
+MPR

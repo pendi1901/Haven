@@ -1,0 +1,54 @@
+703 
+WGUS52 KGSP 261843
+FFWGSP
+SCC059-262330-
+/O.NEW.KGSP.FF.W.0065.240926T1843Z-240926T2330Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+243 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Laurens County in upstate South Carolina...
+
+* Until 730 PM EDT.
+
+* At 243 PM EDT, Rainfall this afternoon across Laurens County has 
+  been between 2.5 and 3.5 inches.  Doppler radar indicated heavy 
+  tropical showers expanding in coverage from the south. Additional 
+  rainfall amounts of 1.5 to 3 inches are possible in the warned 
+  area. Flash flooding is ongoing or expected to begin shortly, 
+  especially from around greater Clinton to Laurens and within the 
+  Little River basin.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3474 8209 3470 8207 3465 8195 3459 8189
+      3458 8186 3460 8184 3455 8172 3456 8168
+      3453 8165 3437 8178 3430 8189 3420 8194
+      3430 8208 3433 8217 3436 8218 3447 8231
+      3454 8224 3459 8224 3479 8215 3475 8212
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+CSH

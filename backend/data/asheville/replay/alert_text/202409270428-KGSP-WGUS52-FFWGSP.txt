@@ -1,0 +1,72 @@
+253 
+WGUS52 KGSP 270428
+FFWGSP
+SCC045-073-077-271030-
+/O.NEW.KGSP.FF.W.0077.240927T0428Z-240927T1030Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1228 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Northeastern Greenville County in upstate South Carolina...
+  Oconee County in upstate South Carolina...
+  Pickens County in upstate South Carolina...
+
+* Until 630 AM EDT Friday.
+
+* At 1228 AM EDT, Doppler radar indicated another round of heavy 1 
+  to 2 inch per hour rainfall rates pushing into the warned area 
+  from the south.  Nuisance flooding is likely already ongoing, and 
+  flash flooding will likely begin shortly in many areas.  A stream 
+  gauge along Twelve Mile Creek near Liberty, SC indicates rapid 
+  rises already, and many nearby tributaries are likely out of their 
+  banks.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Easley, Clemson, Seneca, Walhalla, Pickens, Greer, Taylors, Berea, 
+  Travelers Rest, Central, Pendleton, Liberty, Westminster, 
+  Slater-Marietta, Norris, Six Mile, Salem, Lake Keowee, Keowee 
+  Toxaway State Park and Oconee State Park.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3456 8314 3460 8317 3461 8322 3469 8334
+      3488 8324 3488 8321 3491 8318 3493 8291
+      3510 8222 3497 8222 3487 8249 3482 8249
+      3467 8279 3447 8300
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+MPR

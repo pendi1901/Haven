@@ -1,0 +1,70 @@
+275 
+WGUS42 KGSP 271919
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+319 PM EDT Fri Sep 27 2024
+
+SCC045-083-280115-
+/O.NEW.KGSP.FA.W.0031.240927T1919Z-240928T0115Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Greenville SC-Spartanburg SC-
+319 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 915 PM EDT THIS EVENING...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following counties, Greenville and Spartanburg.
+
+* WHEN...Until 915 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring. Streams 
+  continue to rise due to excess runoff from earlier rainfall. 
+  Low-water crossings are inundated with water and may not be 
+  passable.
+
+* ADDITIONAL DETAILS...
+  - At 315 PM EDT, Doppler radar and automated rain gauges
+    indicated that between 4 and 8 inches of rain have fallen.
+    Flooding is ongoing in the warned area.
+  - Some locations that will experience flooding include...
+    Greenville Downtown, Spartanburg, Greenville Eastside, West
+    Greenville, Greer, Mauldin, Taylors, Berea, Five Forks,
+    Welcome, Powdersville, Boiling Springs SC, Travelers Rest,
+    Duncan, Lyman, Pacolet, Landrum, Cowpens, Wellford and
+    Slater-Marietta.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3507 8257 3505 8274 3507 8276 3510 8270
+      3513 8268 3518 8248 3517 8244 3522 8239
+      3518 8237 3520 8228 3518 8187 3493 8175
+      3490 8172 3484 8178 3475 8246 3489 8249
+      3498 8255 3502 8254 3501 8260 3505 8260
+
+
+$$
+
+ARK

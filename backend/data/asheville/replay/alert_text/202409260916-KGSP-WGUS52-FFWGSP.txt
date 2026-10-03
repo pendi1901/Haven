@@ -1,0 +1,82 @@
+452 
+WGUS52 KGSP 260916
+FFWGSP
+NCC175-261715-
+/O.NEW.KGSP.FF.W.0060.240926T0916Z-240926T1715Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+516 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Transylvania County in western North Carolina...
+
+* Until 115 PM EDT Thursday.
+
+* At 516 AM EDT, Across Transylvania County, the current lull in 
+  rainfall is expected to end over the next 30 to 60 minutes as an 
+  axis of moderate to heavy rain is approaching from the Upstate of 
+  South Carolina.  The French Broad, Davidson, and Little rivers are 
+  already out of their banks causing nuisance flooding, and are 
+  starting to rise again following earlier rainfall of 2-5".  The 
+  additional heavy rainfall imminently approaching the county will 
+  steepen the rate of rise on area streams and rivers and cause 
+  Minor flood conditions to develop.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, low-water
+           crossings, and roadways with deeper flooding of poor
+           drainage and low-lying areas.
+
+* Some locations that may experience flash flooding include...
+  Brevard, Rosman, Gorges State Park, Dupont State Forest, 
+  Connestee, Balsam Grove, Sassafras Mountain, Penrose, Cedar 
+  Mountain, and Little River.
+
+If the rainfall persists, more significant flooding may develop, 
+including in the Rosman, Cedar Mountain, and Pisgah Forest 
+communities.  This Flash Flood Warning may be upgraded to a 
+considerable Flash Flood Warning, indicating a high probability of 
+Moderate flooding.  People living along area streams are urged to be 
+prepared for more significant flooding as additional heavy rainfall 
+is expected later Thursday morning.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Move to higher ground now. Act quickly to protect your life.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3526 8262 3514 8258 3512 8266 3513 8268
+      3510 8270 3509 8273 3507 8276 3507 8278
+      3509 8278 3503 8301 3505 8306 3513 8298
+      3516 8300 3517 8298 3519 8299 3523 8293
+      3529 8292 3532 8283 3542 8274 3529 8261
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+
+$$
+
+JMP

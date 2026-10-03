@@ -1,0 +1,52 @@
+770 
+WGUS52 KGSP 261702
+FFWGSP
+NCC003-262000-
+/O.NEW.KGSP.FF.W.0063.240926T1702Z-240926T2000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+102 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Alexander County in the piedmont of North Carolina...
+
+* Until 400 PM EDT.
+
+* At 102 PM EDT, Emergency management reported developing flooding 
+  around greater Taylorsville and with additional tropical rain 
+  showers poised to overspread the county, flooding of roads and 
+  developing creek flooding is likely. Between 1.5 and 2.5 inches of 
+  rain have fallen. Additional rainfall amounts of 1 to 1.5 inches 
+  are possible in the warned area. Flash flooding is ongoing or 
+  expected to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3580 8108 3578 8111 3579 8113 3583 8115
+      3581 8122 3582 8125 3580 8133 3582 8134
+      3588 8133 3592 8134 3600 8133 3603 8127
+      3604 8120 3603 8117 3604 8114 3603 8106
+      3605 8103 3599 8100 3596 8101 3586 8104
+
+FLASH FLOOD...OBSERVED
+
+$$
+
+CSH

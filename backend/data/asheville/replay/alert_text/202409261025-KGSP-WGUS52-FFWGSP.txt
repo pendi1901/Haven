@@ -1,0 +1,67 @@
+358 
+WGUS52 KGSP 261025
+FFWGSP
+SCC045-077-261915-
+/O.NEW.KGSP.FF.W.0061.240926T1025Z-240926T1915Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+625 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  North Central Greenville County in upstate South Carolina...
+  Northeastern Pickens County in upstate South Carolina...
+
+* Until 315 PM EDT Thursday.
+
+* At 625 AM EDT, Doppler radar indicated thunderstorms producing 
+  heavy rain across the warned area. Between 2 and 4 inches of rain 
+  have fallen. Flash flooding is ongoing or expected to begin 
+  shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Travelers Rest, Slater-Marietta, Pleasant Ridge State Park, Jones 
+  Gap State Park, Caesars Head State Park, Cleveland, North Saluda 
+  Reservoir and Dacusville.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3513 8263 3514 8261 3514 8258 3516 8255
+      3516 8253 3518 8246 3517 8245 3517 8244
+      3520 8242 3522 8239 3521 8238 3520 8238
+      3519 8238 3518 8237 3519 8236 3519 8235
+      3498 8245 3494 8257 3512 8266
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+MPR

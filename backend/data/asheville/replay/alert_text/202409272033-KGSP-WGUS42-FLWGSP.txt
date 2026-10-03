@@ -1,0 +1,59 @@
+582 
+WGUS42 KGSP 272033
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+433 PM EDT Fri Sep 27 2024
+
+NCC025-281300-
+/O.NEW.KGSP.FA.W.0034.240927T2033Z-240928T1300Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Cabarrus NC-
+433 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 9 AM EDT SATURDAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of piedmont North Carolina, including the 
+  following county, Cabarrus.
+
+* WHEN...Until 900 AM EDT Saturday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring.
+
+* ADDITIONAL DETAILS...
+  - At 426 PM EDT, Flooding along the Rocky River will linger
+    into the night.  Due to excessive ongoing runoff the river
+    had risen above flood stage.  The river level at the gage
+    near the Irish Buffalo Creek confluence could rise to around
+    24 feet. Parts of Cox Mill Road, Route 200, Mount Pleasant
+    Road, and Bonanza Drive may be flooded.   Dutch Buffalo Creek
+    may be flooding Bowman Barrier Rd.  Other select
+    tributataries in the Harrisburg area will remain flooded in
+    low lying areas.
+  - Some locations that may experience flooding include parts
+    of...
+    Downtown Concord, West Concord, Harrisburg, Mt Pleasant and
+    Midland.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3536 8043 3533 8041 3520 8050 3520 8052
+      3525 8051 3530 8049 3531 8050 3531 8051
+      3531 8054 3529 8059 3530 8061 3533 8062
+      3534 8060 3534 8047
+
+
+$$
+
+CSH

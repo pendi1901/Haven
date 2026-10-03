@@ -1,0 +1,68 @@
+903 
+WGUS52 KGSP 260046
+FFWGSP
+NCC011-023-111-121-199-260545-
+/O.NEW.KGSP.FF.W.0055.240926T0046Z-240926T0545Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+846 PM EDT Wed Sep 25 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Avery County in western North Carolina...
+  Northwestern Burke County in western North Carolina...
+  Northeastern McDowell County in western North Carolina...
+  Mitchell County in western North Carolina...
+  Northeastern Yancey County in western North Carolina...
+
+* Until 145 AM EDT.
+
+* At 846 PM EDT, Thunderstorms with intense rainfall have trained 
+  along portions of the Blue Ridge and escarpment with btween 1 and 
+  3 inches of rain. The expected rainfall rate is 1.5 to 2.5 inches 
+  in 1 hour. Additional rainfall amounts of 1 to 3 inches are 
+  possible in the warned area. Flash flooding is ongoing or expected 
+  to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Spruce Pine, Newland, Banner Elk, Elk Park, Bakersville, Beech 
+  Mountain In Avery County, Crossnore, Sugar Mountain, Seven Devils, 
+  Linville Falls, B.R. Parkway-Little Switzerland To Linville, B.R. 
+  Parkway-Linville Falls To Grandfather, Grandfather Mountain State 
+  Park, Altamont, Ingalls, Minneapolis, Pineola, Jonas Ridge, 
+  Linville and Bandana.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3613 8225 3616 8221 3615 8215 3610 8213
+      3612 8203 3629 8192 3627 8189 3623 8191
+      3621 8190 3619 8189 3619 8186 3616 8183
+      3611 8181 3607 8174 3595 8180 3582 8195
+      3582 8196 3587 8194 3590 8214 3586 8228
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+TBW

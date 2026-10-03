@@ -1,0 +1,70 @@
+789 
+WGUS52 KGSP 270702
+FFWGSP
+SCC021-091-271030-
+/O.NEW.KGSP.FF.W.0082.240927T0702Z-240927T1030Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+302 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Cherokee County in upstate South Carolina...
+  York County in upstate South Carolina...
+
+* Until 630 AM EDT.
+
+* At 302 AM EDT, Doppler radar indicated heavy rain across Cherokee 
+  and York Counties . Between 2 and 4 inches of rain have fallen. 
+  The expected rainfall rate is 0.5 to 1 inch in 1 hour. Additional 
+  rainfall amounts of 1 to 3 inches are possible as tropical 
+  rainbands lift northward. Flash flooding is ongoing or expected to 
+  begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Rock Hill, Gaffney, York, Southwest Charlotte, Fort Mill, Tega 
+  Cay, Clover, Newport, Cowpens, Lesslie, Blacksburg, Pacolet Mills, 
+  Sharon, Hickory Grove, Mcconnells, Smyrna, Kings Mountain State 
+  Park, Lake Wylie, Carowinds and Catawba.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3515 8105 3511 8103 3507 8106 3504 8104
+      3511 8094 3507 8091 3502 8091 3495 8087
+      3487 8088 3485 8087 3482 8090 3482 8148
+      3483 8146 3484 8146 3488 8152 3489 8159
+      3487 8162 3490 8165 3493 8175 3518 8187
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...0.5-1 INCH IN 1 HOUR
+
+$$
+
+AR

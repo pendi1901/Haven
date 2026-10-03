@@ -1,0 +1,58 @@
+620 
+WGUS82 KGSP 270505
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+105 AM EDT Fri Sep 27 2024
+
+SCC021-091-271100-
+/O.NEW.KGSP.FA.Y.0172.240927T0505Z-240927T1100Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Cherokee SC-York SC-
+105 AM EDT Fri Sep 27 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 7 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following counties, Cherokee and York.
+
+* WHEN...Until 700 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Water over roadways.
+
+* ADDITIONAL DETAILS...
+  - At 105 AM EDT, Doppler radar indicated heavy rain due to
+    thunderstorms. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area. Between 2 and 4 inches of rain
+    have fallen.
+  - Some locations that will experience flooding include...
+    Gaffney, York, Cowpens, Blacksburg, Sharon, Hickory Grove,
+    Mcconnells, Smyrna, Kings Mountain State Park, Cherokee
+    Falls, Kings Creek, Draytonville, Saratt, Bullock Creek,
+    Bethany and Thicketty.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3488 8152 3487 8153 3488 8153 3487 8154
+      3489 8159 3487 8162 3490 8165 3491 8170
+      3493 8173 3493 8175 3509 8182 3517 8158
+      3516 8132 3489 8121 3482 8126 3482 8148
+      3483 8146 3484 8146 3487 8148
+
+
+$$
+
+MPR

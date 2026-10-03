@@ -1,0 +1,75 @@
+679 
+WGUS52 KGSP 270718
+FFWGSP
+NCC089-149-175-271215-
+/O.NEW.KGSP.FF.W.0086.240927T0718Z-240927T1215Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+318 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Henderson County in western North Carolina...
+  Polk County in western North Carolina...
+  Transylvania County in western North Carolina...
+
+* Until 815 AM EDT.
+
+* At 318 AM EDT, Doppler radar indicated thunderstorms producing 
+  heavy rain across the warned area. Between 6 and 9 inches of rain 
+  have fallen.  Significant flooding appears likely across much of 
+  the warned area, with numerous road closures and water rescues 
+  likely, damage to even well-built structures, and standing in 
+  low-lying areas.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Hendersonville, Brevard, Columbus, Mills River, Fletcher, Flat 
+  Rock, Etowah, Landrum, Mountain Home, Laurel Park, Tryon, Saluda, 
+  Rosman, Chimney Rock Village, Dupont State Forest, Jones Gap State 
+  Park, Looking Glass, B.R. Parkway-Mount Pisgah To The Nc 
+  Arboretum, Bat Cave and B.R. Parkway-Black Balsam To Mount Pisgah.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3542 8254 3546 8236 3550 8233 3547 8227
+      3539 8226 3540 8213 3525 8196 3519 8197
+      3518 8237 3522 8239 3517 8244 3513 8268
+      3507 8276 3503 8301 3505 8306 3513 8298
+      3516 8300 3529 8292 3532 8283 3546 8267
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+MPR

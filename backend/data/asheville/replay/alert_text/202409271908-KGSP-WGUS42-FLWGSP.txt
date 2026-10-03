@@ -1,0 +1,86 @@
+856 
+WGUS42 KGSP 271908
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+308 PM EDT Fri Sep 27 2024
+
+NCC099-175-280015-
+/O.NEW.KGSP.FA.W.0030.240927T1908Z-240928T0015Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Jackson NC-Transylvania NC-
+308 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 815 PM EDT THIS EVENING...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following counties, Jackson and Transylvania.
+
+* WHEN...Until 815 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring. Numerous roads 
+  remain closed due to flooding. Streams continue to rise due to 
+  excess runoff from earlier rainfall. Low-water crossings are 
+  inundated with water and may not be passable.
+
+* ADDITIONAL DETAILS...
+  - At 308 PM EDT, emergency management reported Numerous
+    roadways are flooded and impassable, and hundreds of trees
+    are down across the area amid completely saturated ground in
+    the warned area. Flooding is already occurring, due to
+    between 6 and 9 inches of rainfall in the last 24 hours. At
+    least one landslide has been reported by  emergency
+    management, resulting in a partial closure of highway 64 in
+    Jackson County. Little or no additional rainfall is expected,
+    but widespread minor to moderate flooding will continue into
+    this evening due to runoff.
+  - Some locations that will experience flooding include...
+    Brevard, Sylva, Cherokee, Cullowhee, Highlands, Balsam,
+    Rosman, Webster, Dillsboro, Cashiers, Black Balsam Area, Lake
+    Toxaway, B.R. Parkway-Balsam Gap To Black Balsam Area, Lake
+    Glenville, Gorges State Park, B.R. Parkway-Black Balsam To
+    Mount Pisgah, Lake Jocassee, Looking Glass, B.R. Parkway-
+    Smoky Mountains To Balsam Gap and Mount Pisgah.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+&&
+
+LAT...LON 3552 8324 3551 8317 3529 8292 3532 8283
+      3542 8274 3529 8261 3515 8258 3513 8268
+      3507 8276 3509 8278 3500 8311 3506 8317
+      3509 8315 3516 8322 3524 8322 3523 8328
+      3527 8332 3542 8336 3547 8335 3547 8332
+
+
+$$
+
+ARK

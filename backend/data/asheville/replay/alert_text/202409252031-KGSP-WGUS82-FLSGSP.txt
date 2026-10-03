@@ -1,0 +1,50 @@
+783 
+WGUS82 KGSP 252031
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+431 PM EDT Wed Sep 25 2024
+
+NCC099-175-252300-
+/O.NEW.KGSP.FA.Y.0147.240925T2031Z-240925T2300Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Jackson NC-Transylvania NC-
+431 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 7 PM EDT THIS EVENING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following counties, Jackson and Transylvania.
+
+* WHEN...Until 700 PM EDT.
+
+* IMPACTS...Overflowing poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 428 PM EDT, Blossoming heavy rainfall will overspread the
+    advisory area resulting in rapid rises within the Chatooga,
+    Whitewater and Toxaway River headwaters.  Locally up to 2 or
+    3 inches of new rainfall may fall into this evening.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3500 8311 3501 8311 3503 8313 3504 8313
+      3505 8315 3506 8316 3507 8317 3508 8316
+      3508 8314 3509 8315 3516 8307 3520 8300
+      3522 8294 3521 8285 3517 8283 3506 8287
+      3502 8305
+
+
+$$
+
+CSH

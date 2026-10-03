@@ -1,0 +1,76 @@
+902 
+WGUS52 KGSP 270046
+FFWGSP
+NCC021-023-111-161-270545-
+/O.NEW.KGSP.FF.W.0070.240927T0046Z-240927T0545Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+846 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Southeastern Buncombe County in western North Carolina...
+  Northwestern Burke County in western North Carolina...
+  McDowell County in western North Carolina...
+  Northwestern Rutherford County in western North Carolina...
+
+* Until 145 AM EDT.
+
+* At 846 PM EDT, Persistent moderate to heavy rainfall today has 
+  resulted in between 3 and 6 inches of additional rainfall across 
+  the area. A band of moderate to at times heavy rain will move into 
+  the area with rainfall rates of 1 to 2 inches in 1 hour. 
+  Additional rainfall amounts of 1 to 2 inches are possible in the 
+  warned area. Flash flooding is ongoing across the warned area.
+
+  HAZARD...Life threatening flash flooding. Heavy rain producing
+           flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+
+* Some locations that will experience flash flooding include...
+  Marion, Black Mountain, Lake Lure, Old Fort, Chimney Rock Village, 
+  B.R. Parkway-Craggy To Little Switzerland, Lake James, Lake James 
+  State Park, B.R. Parkway-Little Switzerland To Linville, Linville 
+  Falls, Table Rock, Bat Cave, Chimney Rock State Park, B.R. 
+  Parkway-Linville Falls To Grandfather, Montreat, Pleasant Gardens, 
+  Woodlawn, Sugar Hill, Busick and Little Switzerland.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3539 8226 3540 8227 3547 8227 3549 8231
+      3557 8237 3570 8232 3571 8228 3570 8226
+      3574 8219 3580 8216 3585 8210 3585 8205
+      3589 8202 3588 8199 3600 8190 3593 8175
+      3588 8172 3569 8200 3560 8203 3542 8215
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+TBW

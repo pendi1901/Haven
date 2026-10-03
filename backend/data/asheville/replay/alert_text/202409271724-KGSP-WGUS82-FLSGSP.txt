@@ -1,0 +1,66 @@
+239 
+WGUS82 KGSP 271724
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+124 PM EDT Fri Sep 27 2024
+
+NCC097-272015-
+/O.NEW.KGSP.FA.Y.0174.240927T1724Z-240927T2015Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Iredell NC-
+124 PM EDT Fri Sep 27 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 415 PM EDT THIS AFTERNOON...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of piedmont North Carolina, including the 
+  following county, Iredell.
+
+* WHEN...Until 415 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 122 PM EDT, Doppler radar and automated rain gauges
+    indicated between 3 and 6 inches of rain have fallen over the
+    last 24 hours. Rapid river rises will cause flooding along
+    rivers and streams in the advisory area.
+  - Flooding impacts will continue, but no additional rainfall is
+    expected.
+  - Some locations that will experience flooding include...
+    Statesville, Mooresville, Davidson, Troutman, Stony Point,
+    Catawba, Harmony, Love Valley, Lake Norman State Park,
+    Lookout Shoals Lake, Lake Norman, Turnersburg, Scotts, Cool
+    Springs, Olin, Doolie and Union Grove.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3549 8095 3550 8096 3553 8094 3555 8096
+      3557 8096 3562 8092 3571 8100 3571 8106
+      3574 8107 3578 8111 3586 8104 3596 8101
+      3599 8100 3605 8103 3606 8098 3605 8069
+      3585 8071 3567 8077 3551 8074 3551 8091
+
+
+$$
+
+ARK

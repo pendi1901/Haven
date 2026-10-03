@@ -1,0 +1,68 @@
+751 
+WGUS82 KGSP 280917
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+517 AM EDT Sat Sep 28 2024
+
+...The National Weather Service in Greenville-Spartanburg has issued 
+a Flood Advisory for the S Yadkin River in North Carolina...
+
+  Below Foster Rd, 6 SW Mocksville affecting Davie and Rowan 
+  Counties.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If you encounter a flooded roadway, turn around and find an 
+alternative route.
+
+Caution is urged when walking near riverbanks.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement will be issued beforethis afternoon at 530 PM EDT.
+
+&&
+
+NCC059-159-282130-
+/O.NEW.KGSP.FL.Y.0014.240928T0917Z-240929T1837Z/
+/MCKN7.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.NO/
+517 AM EDT Sat Sep 28 2024
+
+...FLOOD ADVISORY IN EFFECT FROM EARLY THIS MORNING TO EARLY 
+TOMORROW AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...S Yadkin River at below Foster Rd, 6 SW Mocksville.
+
+* WHEN...From early this morning to early tomorrow afternoon.
+
+* IMPACTS...At 19.0 feet, Minor Flood Stage.  Further downstream on 
+  the Yadkin River, Hollywood Drive near Gubb Ferry Road north of 
+  East Spencer will likely begin to flood due to backwater on Town 
+  Creek. RV parks in the upper reaches of High Rock Lake will likely 
+  be flooded.
+
+* ADDITIONAL DETAILS...
+  - At 5:00 AM EDT Saturday the stage was 19.1 feet and rising
+    slowly.
+  - Action/Advisory stage is 18.0 feet.
+  - Forecast...The river is expected to rise to a crest of 20.3
+    feet this afternoon. It will then fall below Minor Flood
+    Stage just after midnight tonight.
+  - Action/Advisory Stage is 18.0 feet.
+  - Minor Flood Stage is 19.0 feet.
+  - http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3598 8088 3580 8044 3572 8050 3587 8085
+
+
+$$
+
+JMP

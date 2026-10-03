@@ -1,0 +1,61 @@
+707 
+WGUS52 KGSP 270224
+FFWGSP
+NCC097-270715-
+/O.NEW.KGSP.FF.W.0073.240927T0224Z-240927T0715Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1024 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Northern Iredell County in the piedmont of North Carolina...
+
+* Until 315 AM EDT.
+
+* At 1024 PM EDT, between 3 and 5 inches of rain fell across 
+  portions of northern and western Iredell County today. Runoff from 
+  this rainfall has resulted in rises on area streams with trained 
+  spotters reporting flood waters from Rocky Creek over Williamsburg 
+  Road in the Olin area. Additional roads may be experiencing 
+  flooding across northern portions of Iredell County. The expected 
+  rainfall rate is 0.5 to 1 inch in 1 hour. Additional rainfall 
+  amounts of 0.5 to 1 inch are possible in the warned area. Flash 
+  flooding is ongoing or expected to begin shortly.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Trained spotters reported.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Statesville, Stony Point, Harmony, Love Valley, Olin, Turnersburg, 
+  Union Grove, Cool Springs and Scotts.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3586 8104 3596 8101 3599 8100 3605 8103
+      3606 8098 3605 8069 3585 8071 3581 8072
+      3581 8108
+
+FLASH FLOOD...OBSERVED
+EXPECTED RAINFALL RATE...0.5-1 INCH IN 1 HOUR
+
+$$
+
+TBW

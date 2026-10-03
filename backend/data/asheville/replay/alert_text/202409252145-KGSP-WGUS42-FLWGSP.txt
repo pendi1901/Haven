@@ -1,0 +1,140 @@
+454 
+WGUS42 KGSP 252145
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+545 PM EDT Wed Sep 25 2024
+
+...The National Weather Service in Greenville-Spartanburg SC has 
+issued a Flood Warning for the Broad River in North Carolina and 
+South Carolina...
+
+  In NC At Boiling Springs affecting Cleveland County.
+
+  In SC Near Blacksburg affecting Cherokee and Cleveland Counties.
+
+.Two unique rounds of rainfall, one beginning tonight and lasting 
+through early Thursday afternoon resulting from tropical moisture 
+interacting with a stationary front, and another beginning Thursday 
+night and lasting through Friday morning associated with Hurricane 
+Helene, are expected to result in significant rises within the 
+Broad River watershed.  Storm-total rainfall across the watershed 
+above Boiling Springs is expected to exceed 6-8 inches.
+
+There is a potential for crests to exceed the current forecast 
+crests.  Please maintain awareness of the latest forecasts and plan 
+NOW to respond in case more significant flooding is expected.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Caution is urged when walking near riverbanks.
+
+This warning will be in effect until the river falls below its flood 
+stage.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement will be issued before Saturday evening at 800 PM 
+EDT.
+
+&&
+
+NCC045-290000-
+/O.NEW.KGSP.FL.W.0023.240927T0000Z-240929T0000Z/
+/BSPN7.2.ER.240927T0808Z.240928T0000Z.240928T1442Z.NO/
+545 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY EVENING TO SATURDAY 
+EVENING...
+
+* WHAT...Moderate flooding is forecast.
+
+* WHERE...Broad River In NC at Boiling Springs.
+
+* WHEN...From Thursday evening to Saturday evening.
+
+* IMPACTS...At 15.0 feet, Moderate Flooding continues. Precautionary 
+  evacuations may be underway for residents within the Abe's 
+  Mountain vicinity, including perhaps residents along Whelchel Rd. 
+  and the Number 1 Township area as floodwaters approach the first 
+  floor of several homes. Backwater effects may be causing 
+  additional flooding along smaller tributaries.
+
+* At 16.0 feet, Moderate Flooding continues.  The Broad River is 
+  likely inundating the first floor of several homes between Abe's 
+  Mountain Rd. and the river, including homes located along Waterway 
+  Dr.  Evacuations are likely well underway.  The Broad River has 
+  reached levels not seen since March 1975.
+
+* ADDITIONAL DETAILS...
+  - At 4:15 PM EDT Wednesday the stage was 4.2 feet and falling
+    slowly.
+  - Action/Advisory Stage is 10.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage early Friday morning to Moderate Flood Stage by Friday
+    afternoon to a crest of 14.9 feet Friday evening.  It will
+    then fall below Minor Flood Stage late Saturday morning.
+
+  - Minor Flood Stage is 12.0 feet.
+    Moderate Flood Stage is 14.0 feet.
+    Major Flood Stage is 20.0 feet.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3527 8173 3524 8159 3516 8167 3520 8176
+
+
+$$
+
+NCC045-SCC021-290000-
+/O.NEW.KGSP.FL.W.0022.240927T0000Z-240929T0000Z/
+/BBGS1.1.ER.240927T1353Z.240928T0000Z.240928T1236Z.NO/
+545 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY EVENING TO SATURDAY 
+EVENING...
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Broad River In SC near Blacksburg.
+
+* WHEN...From Thursday evening to Saturday evening.
+
+* IMPACTS...At 18.0 feet, Minor Flooding continues.  The Broad River 
+  may be approaching Wolf Den Rd.  Floodwaters may be inundating 
+  Little Hope Rd. and River Rd.
+
+* ADDITIONAL DETAILS...
+  - At 5:00 PM EDT Wednesday the stage was 6.2 feet and falling
+    slowly.
+  - Action/Advisory stage is 13.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage late Friday morning to a crest of 18.1 feet Friday
+    evening.  It will then fall below Minor Flood Stage Saturday
+    morning.
+
+  - Minor Flood Stage is 16.0 feet.
+    Moderate Flood Stage is 14.0 feet.
+    Major Flood Stage is 20.0 feet.
+
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3524 8159 3518 8156 3509 8152 3507 8161
+      3516 8167
+
+
+$$
+
+JMP

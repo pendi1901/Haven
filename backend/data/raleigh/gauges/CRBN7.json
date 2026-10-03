@@ -1,0 +1,17 @@
+{
+ "lid": "CRBN7",
+ "usgs_id": "02087324",
+ "name": "Crabtree Creek at Capitol Blvd (US Rt 1)",
+ "lat": 35.811111111111,
+ "lon": -78.611944444444,
+ "thresholds_ft": {
+  "major": 21.0,
+  "moderate": 19.0,
+  "minor": 18.0,
+  "action": 16.0
+ },
+ "datum_navd88_ft": 182.36,
+ "record_crest_ft": 18.23,
+ "reach_id": "8783667",
+ "has_official_forecast": false
+}

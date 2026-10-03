@@ -1,0 +1,17 @@
+{
+ "lid": "AVLN7",
+ "usgs_id": "03451500",
+ "name": "French Broad River at Pearson Bridge Rd, 2 NW Asheville",
+ "lat": 35.608889,
+ "lon": -82.578056,
+ "thresholds_ft": {
+  "major": 18.0,
+  "moderate": 13.0,
+  "minor": 9.5,
+  "action": 6.5
+ },
+ "datum_navd88_ft": 1949.93,
+ "record_crest_ft": 24.82,
+ "reach_id": "22162094",
+ "has_official_forecast": true
+}

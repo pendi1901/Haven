@@ -1,0 +1,430 @@
+380 
+WGUS42 KGSP 251951
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+351 PM EDT Wed Sep 25 2024
+
+...The National Weather Service in Greenville-Spartanburg SC has 
+issued a Flood Warning for the following rivers in North Carolina...
+
+  French Broad River Near Fletcher affecting Buncombe and Henderson 
+  Counties.
+
+  French Broad River At Blantyre affecting Henderson and 
+  Transylvania Counties.
+
+  French Broad River At Asheville affecting Buncombe County.
+
+  French Broad River At Marshall affecting Madison County.
+
+  French Broad River Near Hot Springs affecting Madison County.
+
+  Swannanoa River At Biltmore affecting Buncombe County.
+
+.Two unique rounds of rainfall, one beginning tonight and lasting 
+through early Thursday afternoon resulting from tropical moisture 
+interacting with a stationary front, and another beginning Thursday 
+night and lasting through Friday morning associated with Hurricane 
+Helene, are expected to result in considerable to catastrophic 
+Moderate to Major flooding across much of the French Broad River and 
+Swannanoa River valleys.  This flooding has the potential to rival 
+the Major, catastrophic flooding observed in September 2004 from 
+Hurricanes Frances and Ivan, especially from the French Broad River 
+headwaters near Rosman and Blantyre to Asheville.
+
+This flooding will shutdown numerous roadways.  Several roadways 
+will experience strong and damaging streamflows, likely causing 
+damage to roadway infrastructure including culverts and bridges.  
+Primary roadways that do not typically flood will likely flood, 
+resulting in very significant impacts to travel.  Travel may become 
+very difficult and dangerous.  Numerous structures, including homes 
+and businesses, are likely to be inundated as a result of Major 
+flooding.  Many structures may become uninhabitable and some 
+structures may become completely destroyed due to ruinous flooding.
+
+There is a potential for crests to exceed the current forecast 
+crests.  Confidence in significant rainfall is very high, but small 
+reductions or increases in storm-total rainfall may result in 
+notable changes to the forecast crests.  It is absolutely imperative 
+that you maintain awareness of the latest forecasts and plan NOW to 
+respond to the worst-case scenario for your area.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+This is an incredibly dangerous situation.  Rainfall and resultant 
+flooding has the potential to be a once-in-a-lifetime event.  
+Flooding may reach some areas that have not seen flooding in at 
+least 20 years.  Many residents new to the region since 2004 may see 
+unprecedented flooding across the French Broad and Swannanoa River 
+Valleys.  If you live or own a business in the flood plain, assume 
+floodwaters WILL impact your structures and take precautions to 
+protect property now.  Have a plan in place to seek higher ground 
+before the heavy rain begins.  Consider temporarily relocating to 
+another location if you live close to the French Broad or Swannanoa 
+River.
+
+Motorists should not attempt to drive around barricades or drive 
+cars through flooded areas.
+
+Stay tuned to NOAA Weather Radio or your favorite source of weather 
+information for the latest updates. Additional details can be found 
+at www.weather.gov/gsp.
+
+To escape rising water, take the shortest path to higher ground.
+
+This warning will be in effect until the river falls below its 
+Action/Advisory Stage.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement is scheduled to be issued aroundlate tonight at 
+400 AM EDT.
+
+&&
+
+NCC021-089-260800-
+/O.NEW.KGSP.FL.W.0012.240926T0600Z-240930T1800Z/
+/FLCN7.3.ER.240926T1636Z.240927T1800Z.240929T1513Z.NR/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM LATE TONIGHT TO EARLY MONDAY 
+AFTERNOON...
+
+* WHAT...Major flooding is forecast. IMPORTANT: The forecast crest 
+  approaches the flood of record.
+
+* WHERE...French Broad River near Fletcher.
+
+* WHEN...From late tonight to early Monday afternoon.
+
+* IMPACTS...At 20.0 feet, Major Flood Stage.  Significant and 
+  damaging flooding of the French Broad River Valley is likely from 
+  Etowah upstream to Avery Creek and Biltmore Park downstream of the 
+  gauge site.
+
+* At 20.1 feet, Record Flood Stage.  Floodwaters are approaching 
+  levels similar to those levels observed in during Hurricane 
+  Frances in early September, 2004.
+
+* ADDITIONAL DETAILS...
+  - At 1:30 PM EDT Wednesday the stage was 6.0 feet and nearly
+    steady.
+  - Action/Advisory Stage is 10.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage early tomorrow afternoon and above Major Flood Stage
+    early Friday morning to a crest of 22.0 feet early Friday
+    afternoon. It will then fall below Minor Flood Stage late
+    Sunday morning.
+
+    NOTE: There is a potential for the crest to approach 23.5
+    feet.
+
+  - Minor Flood Stage is 13.0 feet.
+    Moderate Flood Stage is 17.0 feet.
+    Major Flood Stage is 20.0 feet.
+
+  - Flood History...This crest exceeds a previous crest of 20.1
+    feet on 09/08/2004 from Hurricane Frances.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3538 8257 3541 8257 3550 8262 3550 8254
+      3540 8250 3537 8250
+
+
+$$
+
+NCC089-175-260800-
+/O.NEW.KGSP.FL.W.0014.240926T1800Z-241001T0000Z/
+/BLAN7.3.ER.240927T0227Z.240928T0000Z.240930T1000Z.NO/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY AFTERNOON TO MONDAY 
+EVENING...
+
+* WHAT...Major flooding is forecast.
+
+* WHERE...French Broad River at Blantyre.
+
+* WHEN...From Thursday afternoon to Monday evening.
+
+* IMPACTS...At 23.0 feet, Major Flood Stage. Significant flooding of 
+  secondary roads is likely ongoing.  Floodwaters may be inundating 
+  portions of US 64.  Homes and commercial buildings within the 
+  vicinity of US 64 and adjacent secondary roads may be threatened 
+  by approaching or rising floodwaters.  Floodwaters will reach 
+  levels similar to 1994 with Tropical Storm Beryl.
+
+At 25.5 feet, Major Flooding continues. Floodwater levels will be 
+similar to levels that occurred on September 9 , 2004 with Hurricane 
+Frances.
+
+* ADDITIONAL DETAILS...
+  - At 1:00 PM EDT Wednesday the stage was 8.3 feet and nearly
+    steady.
+  - Action/Advisory Stage is 15.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage late tomorrow evening to Major Flood Stage by Friday
+    afternoon to a crest of 23.5 feet Friday evening.  It will
+    then fall below Minor Flood Stage Monday morning.
+
+    NOTE: There is a potential for the crest to approach 26 feet.
+
+  - Minor Flood Stage is 16.0 feet.
+    Moderate Flood Stage is 19.0 feet.
+    Major Flood Stage is 23.0 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    23.8 feet on 08/18/1994.  The French Broad River crested at
+    25.81 feet during Hurricane Frances on September 9, 2004.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3538 8257 3537 8250 3529 8254 3521 8267
+      3526 8274 3534 8261
+
+
+$$
+
+NCC021-260800-
+/O.NEW.KGSP.FL.W.0013.240926T1800Z-240929T1230Z/
+/AVLN7.2.ER.240927T0921Z.240928T0000Z.240929T0030Z.NO/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY AFTERNOON TO SUNDAY 
+MORNING...
+
+* WHAT...Moderate flooding is forecast.
+
+* WHERE...French Broad River at Asheville.
+
+* WHEN...From Thursday afternoon to Sunday morning.
+
+* IMPACTS...At 15.0 feet, Moderate Flooding continues.  Significant 
+  flooding of commercial and industrial buildings along Riverside 
+  Dr. is ongoing.  Floodwaters are beginning to impact commercial 
+  and industrial buildings along Lyman St. and between Lyman St. and 
+  Depot St.  Floodwaters have reached levels similar to those that 
+  occurred during Hurricane Frances in early September, 2004.
+
+* At 18.0 feet, Major Flood Stage.  Significant flooding is ongoing 
+  along the French Broad River from Carrier Park to Woodfin.  Most 
+  buildings within the floodplain in this area are likely 
+  experiencing significant lower-level inundation.  Roadways 
+  adjacent to the river including Riverside Dr., Lyman St., Craven 
+  Dr., Riverview Dr., and Emma Rd. are likely impassable.
+
+* ADDITIONAL DETAILS...
+  - At 1:30 PM EDT Wednesday the stage was 1.9 feet and nearly
+    steady.
+  - Action/Advisory Stage stage is 6.5 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage early Friday morning to Moderate Flood Stage by Friday
+    morning to a crest of 16.5 feet Friday evening.  It will then
+    fall below Minor Flood Stage Saturday evening.
+
+    NOTE: There is a potential for the crest to approach 17 feet.
+
+  - Minor Flood Stage is 9.5 feet.
+    Moderate Flood Stage is 13.0 feet.
+    Major Flood Stage is 18.0 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    15.0 feet on 08/01/1952.  The French Broad River crested at
+    14.55 feet on September 8, 2004 during Hurricane Frances.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3550 8262 3560 8261 3569 8265 3570 8257
+      3558 8255 3550 8254
+
+
+$$
+
+NCC115-260800-
+/O.NEW.KGSP.FL.W.0017.240927T0600Z-240929T1200Z/
+/MARN7.2.ER.240927T0912Z.240928T0000Z.240929T0400Z.NO/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM LATE THURSDAY NIGHT TO SUNDAY 
+MORNING...
+
+* WHAT...Moderate flooding is forecast.
+
+* WHERE...French Broad River at Marshall.
+
+* WHEN...From late Thursday night to Sunday morning.
+
+* IMPACTS...At 11.3 feet, Moderate flooding continues. Most 
+  buildings in the town of Marshall are inundated. Flooding at this 
+  level is similar to the flooding that occurred on September 8, 
+  2004.
+
+* At 13.0 feet, Major Flood Stage. Floodwaters in the town of 
+  Marshall are at least 1.5 ft deep. Flooding at this level is 
+  similar to the flooding that occurred on September 17, 2004.
+
+* At 16.5 feet, Major flooding continues. Flooding of buildings and 
+  businesses along Main Street is continuing and worsening with most 
+  buildings having at least 2 feet of water in them.
+
+
+* ADDITIONAL DETAILS...
+  - At 2:00 PM EDT Wednesday the stage was 1.9 feet and falling
+    slowly.
+  - Action/Advisory Stage is 4.5 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage early Friday morning to Moderate Flood Stage by late
+    Friday morning to a crest of 12.5 feet Friday evening.  It
+    will then fall below Minor Flood Stage early Sunday morning.
+
+    NOTE: There is a potential for the crest to approach 13 feet.
+
+  - Minor Flood Stage is 8.0 feet.
+    Moderate Flood Stage is 10.0 feet.
+    Major Flood Stage is 13.0 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    12.4 feet on 02/10/1946.  The French Broad River crested at
+    11.33 feet on September 8, 2004 during Hurricane Frances and
+    at 12.72 feet during Hurricane Ivan on September 17, 2004.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3569 8265 3576 8270 3582 8277 3583 8271
+      3578 8263 3570 8257
+
+
+$$
+
+NCC115-260800-
+/O.NEW.KGSP.FL.W.0016.240927T0600Z-240929T1200Z/
+/HSPN7.1.ER.240927T1703Z.240928T0600Z.240928T1800Z.NO/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM LATE THURSDAY NIGHT TO SUNDAY 
+MORNING...
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...French Broad River near Hot Springs.
+
+* WHEN...From late Thursday night to Sunday morning.
+
+* IMPACTS...At 10.0 feet, Floodwaters will approach Hot Springs Spa 
+  property and parts of River Road and Silvermine Road will flood. 
+  Floodwater levels will be similar to levels observed on May 6, 
+  2003.
+
+* At 12.5 feet, Water may approach camping areas between South 
+  Andrews Ave and the river. Floodwater levels will be similar to 
+  levels observed on September 9, 2004.
+
+* At 16.5 feet, Areas between the railroad and the river near divine 
+  water way northwest of town and areas between the river and 
+  highway 25/70 near lookout loop will begin to flood.
+
+
+* ADDITIONAL DETAILS...
+  - At 2:15 PM EDT Wednesday the stage was 3.1 feet and falling
+    slowly.
+  - Action/Advisory Stage is 8.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage early Friday afternoon to a crest of 11.5 feet early
+    Saturday morning.  It will then fall below Minor Flood Stage
+    early Saturday afternoon.
+
+    NOTE: There is a potential for the crest to approach 12 feet.
+
+  - Minor Flood Stage is 9.5 feet.
+    Moderate Flood Stage is 16.0 feet.
+    Major Flood Stage is 21.0 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    13.1 feet on 04/19/2019.  The French Broad River crested at
+    11.28 feet on February 6, 2020.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3582 8277 3593 8291 3595 8287 3590 8276
+      3583 8271
+
+
+$$
+
+NCC021-260800-
+/O.NEW.KGSP.FL.W.0015.240927T0600Z-240928T1200Z/
+/BLTN7.2.ER.240927T1325Z.240927T1800Z.240928T0513Z.NO/
+351 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM LATE THURSDAY NIGHT TO SATURDAY 
+MORNING...
+
+* WHAT...Moderate flooding is forecast.
+
+* WHERE...Swannanoa River at Biltmore.
+
+* WHEN...From late Thursday night to Saturday morning.
+
+* IMPACTS...At 15.0 feet, Moderate Flooding continues.  Sweeten 
+  Creek Rd. and Brook St. flooding continues between Biltmore Ave. 
+  and I-40.  Several inches of floodwaters are likely inundating 
+  Decatur St., Garfield St., portions of Thompson St., and the first 
+  floors of adjacent buildings.  Flooding of land, roadways, and 
+  buildings between the Swannanoa River and Brook St.-Fairview Rd. 
+  is likely.
+
+* At 16.5 feet, Major Flood Stage. Floodwaters are likely inundating 
+  Biltmore Ave. north and south of the Swannanoa River bridge.  
+  Significant flooding of adjacent land, roadways, railroads, and 
+  buildings between Sweeten Creek Rd. and the Swannanoa River is 
+  likely.
+
+
+* ADDITIONAL DETAILS...
+  - At 2:00 PM EDT Wednesday the stage was 1.9 feet and falling
+    slowly.
+  - Action/Advisory Stage is 8.5 feet.
+  - Forecast...The river will rise to 5.3 feet tomorrow evening.
+    It will then fall to 5.2 feet early Friday morning before the
+    next round of rainfall from Helene. It will then rise above
+    Minor Flood Stage late Friday morning to Moderate Flood Stage
+    and the crest of 15.5 feet early Friday afternoon.  It will
+    then fall below Minor Flood Stage early Saturday morning.
+
+    NOTE: There is a potential for the crest to approach 17 feet.
+
+  - Minor Flood Stage is 10.0 feet.
+    Moderate Flood Stage is 14.5 feet.
+    Major Flood Stage is 16.5 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    15.3 feet on 08/30/1940.  The Swannanoa River crested at
+    19.22 feet during Hurricane Frances on September 8, 2004 and
+    16.74 feet during Hurricane Ivan on September 17, 2004.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3555 8255 3563 8255 3563 8245 3558 8244
+
+
+$$
+
+JMP

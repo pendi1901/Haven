@@ -1,0 +1,63 @@
+467 
+WUUS52 KGSP 250204
+SVRGSP
+NCC045-071-109-SCC021-250245-
+/O.NEW.KGSP.SV.W.0275.240925T0204Z-240925T0245Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+1004 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Lincoln County in the Piedmont of North Carolina...
+  Southeastern Cleveland County in the Piedmont of North Carolina...
+  Gaston County in the Piedmont of North Carolina...
+  Northeastern Cherokee County in Upstate South Carolina...
+
+* Until 1045 PM EDT.
+
+* At 1004 PM EDT, a severe thunderstorm was located 7 miles east of
+  Shelby, or near Waco, moving northeast at 40 mph.
+
+  HAZARD...60 mph wind gusts and quarter size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Minor hail damage to vehicles is expected. Expect wind 
+           damage to trees and power lines.
+
+* Locations impacted include...
+  Gastonia, Shelby, Lincolnton, Kings Mountain, Mt Holly, Belmont,
+  Cherryville, Bessemer City, South Gastonia, and Dallas.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3535 8097 3534 8099 3533 8098 3527 8102
+      3525 8101 3516 8129 3517 8137 3513 8140
+      3507 8158 3522 8158 3539 8164 3556 8118
+      3554 8104 3539 8096 3537 8099 3536 8097
+      3538 8096 3535 8094
+TIME...MOT...LOC 0204Z 245DEG 33KT 3533 8141 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.00 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

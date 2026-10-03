@@ -1,0 +1,58 @@
+608 
+WGUS82 KGSP 281349 RRA
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+949 AM EDT Sat Sep 28 2024
+
+NCC089-290130-
+/O.NEW.KGSP.FA.Y.0179.240928T1349Z-240929T0130Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Henderson NC-
+949 AM EDT Sat Sep 28 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 930 PM EDT THIS EVENING...
+...REPLACES FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive runoff is expected.
+
+* WHERE...Henderson County, North Carolina.
+
+* WHEN...Until 930 PM EDT Saturday.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+  Water over roadways. River or stream flows are elevated.
+
+* ADDITIONAL DETAILS...
+  - At 949 AM EDT, emergency management reported continuing flood
+    impacts along Mud and Clear Creeks in and around the city of
+    Hendersonville. Mud Creek was reported to still be out of its
+    banks. As much as 20 inches of rain fell between Wednesday
+    morning and Friday afternoon in Henderson County. Runoff will
+    continue but the rivers will slowly recede and should fall
+    below flood stage by tonight.
+  - Some locations that may experience flooding include...
+    Hendersonville, Mills River, Fletcher, Flat Rock, Etowah,
+    Mountain Home, Laurel Park, Saluda, Dupont State Forest,
+    Jones Gap State Park, Bat Cave, Chimney Rock State Park,
+    Valley Hill, East Flat Rock, Horse Shoe, Crab Creek and Dana.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3514 8257 3529 8261 3542 8274 3546 8267
+      3542 8253 3544 8254 3547 8242 3546 8236
+      3550 8233 3547 8227 3544 8228 3541 8227
+      3531 8231 3528 8235 3518 8237 3522 8239
+      3517 8244 3516 8255
+
+
+$$
+
+8

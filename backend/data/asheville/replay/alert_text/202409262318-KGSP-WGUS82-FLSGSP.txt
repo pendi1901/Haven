@@ -1,0 +1,95 @@
+005 
+WGUS82 KGSP 262318
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+718 PM EDT Thu Sep 26 2024
+
+NCC023-111-272245-
+/O.NEW.KGSP.FA.Y.0169.240926T2318Z-240927T2245Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Burke NC-McDowell NC-
+718 PM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 645 PM EDT FRIDAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of Burke and McDowell Counties in North Carolina.
+
+* WHEN...Until 645 PM EDT Friday.
+
+* IMPACTS...Several docks, access areas, swimming areas, and 
+  low-lying residential yards will likely flood.  Some outbuildings, 
+  campgrounds, and roads may be impacted with shallow flooding.  
+  Residents are encouraged to heed guidance from local officials and 
+  emergency management on any potential impacts to property.  
+  Drivers are encouraged to heed any barricades and avoid all 
+  flooded areas.
+
+* ADDITIONAL DETAILS...
+  - At 646 PM EDT, Rainfall accumulations of 4-8 inches Wednesday
+    night into Thursday morning over the headwaters of the
+    Catawba River and associated tributaries has caused high
+    inflows into Lake James.  Lake James is rising steadily in
+    response to this rainfall where the current pool is 100.76
+    feet.  Additional rises are expected over the next several
+    hours, with Lake James likely to exceed the Minor Flood Stage
+    of 102.0 feet.  At this level, nuisance to Minor shoreline
+    flooding and flooding of lake access areas, campgrounds,
+    docks, swimming areas, and residential yards is expected.
+    Caution is advised anywhere near such areas.
+
+    Additional torrential, potentially devastating rainfall is
+    expected later tonight through Thursday morning from
+    Hurricane Helene.  There is the potential for another 5-12
+    inches of rainfall from Lake Hickory to the Catawba River
+    headwaters, with the highest totals along the Blue Ridge
+    Escarpment.  This rainfall will occur on saturated soils and
+    excessive runoff into elevated streams will result in
+    potentially catastrophic inflows into the Catawba River
+    lakes.
+
+    Based on current rainfall forecasts and conditions, Duke
+    Energy expects Lake James to reach or exceed 110.0 feet later
+    Friday, which is 10.0 feet over full pond.  The current
+    record pool elevation at Lake James is 107.36 feet which
+    occurred in September 8, 2004 during Hurricane Frances.
+    Major Flood Stage is 110.0 feet.  These lake levels will
+    cause unprecedented, catastrophic flooding of Lake James and
+    possibly adjacent reaches of the Catawba River.
+
+  - If the rainfall forecast verifies, Moderate to Major flooding
+    will be likely along and near Lake James and a Flash Flood
+    Emergency may be issued.  Residents are encouraged to heed
+    guidance from local officials and emergency management on any
+    potential impacts to property.  Drivers are encouraged to
+    heed any barricades and avoid all flooded areas.  This has
+    the potential to be a historic and extremely dangerous event.
+    Please stay weather aware and monitor lake levels and Duke
+    Energy projections closely for any changes.
+
+    - For more information on lake levels or dam releases, people
+    are encouraged to visit http://lakes.duke-energy.com or call
+    1-800-829- 5253.
+
+  - Http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Boaters, fishermen, kayakers, swimmers, and other lake users are 
+encouraged to exercise caution during elevated lake levels and 
+downstream releases.  Lake residents are encouraged to avoid areas 
+along the stream below dams releasing water.
+
+&&
+
+LAT...LON 3579 8190 3581 8186 3576 8178 3573 8179
+      3572 8182 3572 8191 3573 8193 3568 8202
+      3572 8206 3577 8196 3577 8190
+
+
+$$
+
+JMP

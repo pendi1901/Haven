@@ -1,0 +1,82 @@
+050 
+WGUS52 KGSP 270745 RRA
+FFWGSP
+NCC161-271330-
+/O.NEW.KGSP.FF.W.0090.240927T0745Z-240927T1330Z/
+/00000.2.DR.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+345 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  A Dam Floodgate Release in...
+  Southern Rutherford County in western North Carolina...
+
+* Until 930 AM EDT.
+
+* At 345 AM EDT, Rutherford County Emergency Management is reporting 
+  that the Town of Lake Lure has opened tainter gates fully due to 
+  flash flooding above Lake Lure.  The resultant floodwave is 
+  impacting several areas downstream, including: River Creek 
+  Campground, homes in the Green Hill community, areas in the 
+  Cleghorn and Union communities, Union Rd at NC 108, and Cox Rd.  
+  Residents are urged to heed evacuation guidance from Rutherford 
+  County Emergency Management and seek higher ground.
+
+* Additional torrential, potentially devastating rainfall is 
+  expected later this morning as Hurricane Helene moves across the 
+  area.  There is the potential for another 3-5 inches of rainfall 
+  across Rutherford County, with the highest totals along the Blue 
+  Ridge Escarpment above Lake Lure.  This rainfall will occur on 
+  saturated soils and excessive runoff into elevated headwaters 
+  above Lake Lure will result in potentially catastrophic inflows 
+  into the lake and downstream locations.
+
+* If the rainfall forecast verifies, Major flooding will be likely 
+  along and near Lake Lure and a Flash Flood Emergency may be 
+  issued.  Residents are encouraged to heed guidance from local 
+  officials and emergency management on any potential impacts to 
+  property.  Drivers are encouraged to heed any barricades and avoid 
+  all flooded areas.  This has the potential to be a historic and 
+  extremely dangerous event.  Please stay weather aware and monitor 
+  lake levels closely for any changes.
+
+  HAZARD...Life-threatening flash flooding.  Heavy rainfall
+           producing flash flooding resulting in dam gate
+           releases.
+
+  SOURCE...Dam operator.
+
+  IMPACT...Life-threatening flash flooding along the Broad River,
+           impacting campgrounds, homes, roadways and other
+           adjacent low-lying areas near the Broad River.
+
+* Some locations that may experience Minor to Moderate flash 
+  flooding include...downstream of Lake Lure, Cleghorn community, 
+  Union community, Green Hill community, Harris, and Cliffside.
+
+Flooding is occurring along the Broad River.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If you are in low lying areas below the Lake Lure you should move to 
+higher ground immediately.
+
+&&
+
+LAT...LON 3522 8184 3524 8175 3521 8176 3519 8182
+      3519 8189 3524 8197 3525 8196 3526 8197
+      3527 8199 3539 8212 3541 8215 3541 8219
+      3544 8218 3544 8212 3534 8201 3527 8195
+      3523 8189
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

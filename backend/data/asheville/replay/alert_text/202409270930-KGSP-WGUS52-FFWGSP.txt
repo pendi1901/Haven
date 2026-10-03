@@ -1,0 +1,95 @@
+062 
+WGUS52 KGSP 270930
+FFWGSP
+NCC021-271715-
+/O.NEW.KGSP.FF.W.0097.240927T0930Z-240927T1715Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+530 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR SWANNANOA RIVER VALLEY BELOW NORTH FORK 
+RESERVOIR...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  East Central Buncombe County in western North Carolina...
+
+* Until 115 PM EDT Friday.
+
+* At 530 AM EDT, Buncombe County Emergency Management is reporting 
+  significant flows coming from the North Fork Reservoir on the 
+  North Fork Swannanoa River due to the excessive rainfall observed 
+  since last Wednesday.  Additional significant flows are 
+  originating from the headwaters of the Swannanoa River near and 
+  above Montreat and Black Mountain as well as other tributaries of 
+  the Swannanoa River.  Rapid rises are imminent along the Swannanoa 
+  River, resulting in major, catastophic, and potentially historic 
+  flash flooding within the valley.  There is an increasing 
+  likelihood that this flooding will exceed the flash flooding 
+  observed in September 2004.  Prepare NOW and heed all evacuation 
+  and other guidance from Buncombe County and local law enforcement 
+  in order to protect your life.
+
+* Additional torrential rainfall is imminent for the North Fork 
+  Swannanoa River and the Swannanoa River Valley which will 
+  significantly exacerbate developing Major flood conditions, 
+  leading to the potentially historic rainfall anticipated.
+
+  This is a FLASH FLOOD EMERGENCY for Swannanoa River Valley below 
+  North Fork Reservoir. This is a PARTICULARLY DANGEROUS SITUATION. 
+  SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Heavy rain producing
+           flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.
+
+* Some locations that may experience catastrophic flash flooding 
+  include...
+  Downtown Asheville, East Asheville, West Asheville, North 
+  Asheville, Black Mountain, Swannanoa, Biltmore Forest, Warren 
+  Wilson College
+
+A sheltering location is open at the WNC Agricultural Center.  
+Please monitor the latest guidance from Buncombe County governement 
+at https://buncombeready.org.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Move to higher ground now. Act quickly to protect your life.
+
+Heed and obey all guidance from Buncombe County government and local 
+law enforcement to protect your life and the lives of your family.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3559 8236 3555 8250 3555 8256 3560 8259
+      3560 8257 3562 8250 3563 8241 3563 8240
+      3564 8239 3564 8238 3569 8235 3568 8233
+      3567 8229 3560 8229
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+
+$$
+
+JMP

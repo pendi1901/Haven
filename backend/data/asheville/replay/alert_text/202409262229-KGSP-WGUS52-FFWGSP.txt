@@ -1,0 +1,69 @@
+149 
+WGUS52 KGSP 262229
+FFWGSP
+NCC161-270730-
+/O.NEW.KGSP.FF.W.0067.240926T2229Z-240927T0730Z/
+/00000.2.DR.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+629 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  A Dam Floodgate Release in...
+  Southern Rutherford County in western North Carolina...
+
+* Until 330 AM EDT Friday.
+
+* At 629 PM EDT, Rutherford County Emergency Management is reporting 
+  that the Town of Lake Lure has opened tainter gates to a depth of 
+  16 feet due to flash flooding above Lake Lure.  The resultant 
+  floodwave will impact several areas downstream, including: River 
+  Creek Campground, homes in the Green Hill community, areas in the 
+  Cleghorn and Union communities, Union Rd at NC 108, and Cox Rd.  
+  Residents are urged to heed evacuation guidance from Rutherford 
+  County Emergency Management and seek higher ground.
+
+  HAZARD...Life-threatening flash flooding.  Heavy rainfall
+           producing flash flooding resulting in dam gate
+           releases.
+
+  SOURCE...Dam operator.
+
+  IMPACT...Life-threatening flash flooding along the Broad River,
+           impacting campgrounds, homes, roadways and other
+           adjacent low-lying areas near the Broad River..
+
+* Some locations that may experience Minor to Moderate flash 
+  flooding include...downstream of Lake Lure, Cleghorn community, 
+  Union community, Green Hill community, Harris, and Cliffside
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If you are in low lying areas below the Lake Lure you should move to 
+higher ground immediately.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Flooding is occurring or is imminent. It is important to know where 
+you are relative to streams, rivers, or creeks which can become 
+killers in heavy rains. Campers and hikers should avoid streams or 
+creeks.
+
+&&
+
+LAT...LON 3534 8201 3527 8195 3523 8189 3522 8184
+      3524 8175 3521 8176 3519 8182 3519 8189
+      3522 8194 3524 8197 3526 8197 3527 8199
+      3539 8212 3540 8214 3541 8219 3544 8218
+      3544 8212
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+JMP

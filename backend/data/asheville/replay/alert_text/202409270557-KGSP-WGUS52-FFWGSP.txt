@@ -1,0 +1,63 @@
+922 
+WGUS52 KGSP 270557
+FFWGSP
+SCC083-271030-
+/O.NEW.KGSP.FF.W.0080.240927T0557Z-240927T1030Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+157 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Northwestern Spartanburg County in Upstate South Carolina...
+
+* Until 630 AM EDT.
+
+* At 157 AM EDT, Doppler radar and automated rain gauges indicated 
+  heavy rain falling across northern Spartanburg County. The stream 
+  gauge on the Pacolet near Campobello was reporting a stage of over 
+  9 feet and continuing to rise leading to nuisance flooding. 
+  Between 3 and 5 inches of rain have fallen. The expected rainfall 
+  rate is 1 to 2 inches in 1 hour. Additional rainfall amounts of 1 
+  to 2 inches are possible in the warned area and may lead to 
+  further stream rises. Flash flooding is ongoing or expected to 
+  begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Boiling Springs SC, Landrum, Inman, Mayo, Chesnee, Campobello, 
+  Lake Bowen, Fingerville and Gowensville.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3520 8222 3518 8187 3509 8182 3497 8222
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+EXPECTED RAINFALL RATE...1-2 INCHES IN 1 HOUR
+
+$$
+
+AR

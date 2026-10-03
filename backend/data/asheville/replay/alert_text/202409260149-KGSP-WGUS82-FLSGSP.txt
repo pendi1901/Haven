@@ -1,0 +1,82 @@
+223 
+WGUS82 KGSP 260149
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+949 PM EDT Wed Sep 25 2024
+
+NCC089-261330-
+/O.NEW.KGSP.FA.Y.0151.240926T0149Z-240926T1330Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Henderson NC-
+949 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 930 AM EDT THURSDAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Central and 
+
+* WHEN...Until 930 AM EDT Thursday.
+
+* IMPACTS...Nuisance flooding of low-lying areas adjacent to streams 
+  and other poor-drainage areas, including farmland, parks, 
+  greenways, boat-access areas, golf courses, underpasses, and 
+  parking lots.  Isolated, shallow flows over roadways is possible.  
+  A few flood-prone, low-water crossings may become impassible.  A 
+  small culvert washout or two is possible.
+
+* ADDITIONAL DETAILS...
+  - At 929 PM EDT, Doppler radar and automated rain gauges
+    indicated 2-3 inches of rainfall has occurred over the Mud
+    Creek watershed over the past 4-6 hours due to multiple
+    rounds of heavy rainfall.  This is causing Mud Creek to
+    exceed Action/Advisory Stage, flooding the lowest elevations
+    of William H King Memorial Park and approaching the lowest
+    elevations of the Oklawaha Greenway.  At these levels, more
+    expansive lowland flooding with nuisance impacts to adjacent
+    farmland, golf courses, and nurseries is ongoing or has
+    recently occurred upstream closer to Erkwood Dr.
+
+    Heavy rainfall has become more intermittent across the
+    county, but additional, more concentrated heavy rainfall is
+    expected later tonight.  This will cause new rises on area
+    streams and flash flooding is likely.  More significant flash
+    flooding is likely later tonight into Thursday morning with
+    repeated rounds of heavy rainfall.  Flash Flood Warnings are
+    likely.  For your safety, avoid all low-lying areas near
+    streams.  If you live or are vacationing near a stream
+    prepare to seek higher ground now and avoid being caught by
+    rapidly rising streams.  Do not wait for a Flash Flood
+    Warning to take action to save your life.
+
+  - Some locations that may experience nuisance flooding
+    include...
+    Hendersonville, Flat Rock, Etowah, Mountain Home, Laurel
+    Park, Dupont State Forest, Jones Gap State Park, Valley Hill,
+    Crab Creek, East Flat Rock, Tuxedo and Dana.
+
+  - Http://www.weather.gov/safety/flood
+
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+&&
+
+LAT...LON 3539 8252 3542 8249 3540 8243 3536 8240
+      3530 8238 3521 8240 3520 8242 3517 8244
+      3518 8245 3518 8248 3516 8253 3516 8255
+      3515 8258 3516 8259 3526 8260 3526 8262
+      3529 8261 3532 8263 3531 8255 3534 8249
+
+
+$$
+
+JMP

@@ -1,0 +1,56 @@
+413 
+WGUS42 KGSP 281230
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+830 AM EDT Sat Sep 28 2024
+
+SCC059-290230-
+/O.NEW.KGSP.FA.W.0039.240928T1230Z-240929T0230Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Laurens SC-
+830 AM EDT Sat Sep 28 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 1030 PM EDT THIS EVENING...
+
+* WHAT...Flooding continues following heavy rainfall before and 
+  during Tropical Storm Helene.
+
+* WHERE...Laurens County, South Carolina.
+
+* WHEN...Until 1030 PM EDT Saturday.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is imminent or occurring.
+
+* ADDITIONAL DETAILS...
+  - At 830 AM EDT, gauge reports indicated the Enoree River near
+    Woodruff remained at flood stage. The river likely is
+    covering most of a tree farm and a pumping station on the
+    farm is flooded. Parts of Beaverdam Church Rd  have likely
+    flooded, along with Kilgore Bridge Road, which crosses the
+    Enoree. The river is receding but will take until at least
+    Saturday evening to drop below flood stage.
+  - Some locations that will experience flooding include...
+    Fountain Inn, Gray Court, Ora and Enoree.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3475 8212 3476 8211 3474 8209 3472 8208
+      3472 8207 3470 8207 3466 8200 3465 8195
+      3459 8189 3460 8188 3458 8186 3460 8184
+      3458 8181 3457 8175 3455 8172 3456 8171
+      3453 8165 3457 8205 3465 8221 3478 8215
+
+
+$$
+
+8

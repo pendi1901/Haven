@@ -1,0 +1,53 @@
+484 
+FGUS54 KORN 260255
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+0254 GMT THU SEP 26 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:***!!!!!UPDATED TO ACCOUNT FOR QUICK RISE FROM LOCAL RAINFALL!!!!!***
+:
+:************************************************************
+:BLANTYRE, NC - FRENCH BROAD RIVER
+:ACTION STAGE          15.0 FT  MINOR FLOOD STAGE     16.0 FT
+:MODERATE FLOOD STAGE  19.0 FT  MAJOR FLOOD STAGE     23.0 FT
+:
+:LATEST  RIVER STAGE 13.6 FT AT 0230 Z ON SEP 26
+:RISE ABOVE FLOOD STAGE AROUND 0900 Z ON 09/26/2024
+.AR :CREST: BLAN7 0928 Z DC202409260254/DH0000/HGIFFXZ 23.5
+: Crest near 23.5 FT around 0000 Z on Sat, Sep 28
+
+.ER BLAN7 0926 Z DC202409260254/DH06/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :                           /  15.5 
+.E2    : 0926 :   /  16.4 /  16.2 /  16.6 /  18.1 
+.E3    : 0927 :   /  19.9 /  21.9 /  23.5 /  23.3 
+.E4    : 0928 :   /  22.8 /  21.7 /  20.7 /  19.6 
+.E5    : 0929 :   /  18.8 /  18.3 /  17.5 /  16.6 
+.E6    : 0930 :   /  15.7 /  14.8 /  14.3 
+.ER BLAN7 0926 Z DC202409260254/DH06/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0925 :                           /  1.70 
+.E2    : 0926 :   /  1.47 /  1.37 /  1.36 /  1.42 
+.E3    : 0927 :   /  4.65 /  1.38 /  0.07 
+.ER BLAN7 0926 Z DC202409260254/DH06/PPDFZ/DIH48/13.42
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0926 DT202409260254/YIIRZ  9 : ALR
+:
+$$
+:
+:...END of MESSAGE...

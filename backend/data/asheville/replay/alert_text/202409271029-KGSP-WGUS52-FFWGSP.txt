@@ -1,0 +1,95 @@
+835 
+WGUS52 KGSP 271029
+FFWGSP
+NCC089-149-161-271830-
+/O.NEW.KGSP.FF.W.0101.240927T1029Z-240927T1830Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+629 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR HENDERSON, POLK, AND RUTHERFORD 
+COUNTIES...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Henderson County in western North Carolina...
+  Polk County in western North Carolina...
+  Rutherford County in western North Carolina...
+
+* Until 230 PM EDT Friday.
+
+* At 629 AM EDT, emergency management reported extensive significant 
+  life-threatening flooding across the warned area.  Numerous road 
+  closures, multiple strandings and water rescues were reported 
+  recently.  In many locations, up to 11 inches of rain have fallen 
+  in the last 12 to 24 hours, and an additional swath of heavy 
+  rainfall is arriving from the south.  This will result in imminent 
+  catastrophic flooding in the warned area.
+
+  This is a FLASH FLOOD EMERGENCY for Henderson, Polk, and 
+  Rutherford Counties. This is a PARTICULARLY DANGEROUS SITUATION. 
+  SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.
+           Catastrophic damage to infrastructure and inundation
+           of homes and businesses.  Many life-threatening
+           landslides.  Numerous road closures and dangerous low-
+           water crossings.
+
+* Some locations that will experience flash flooding include...
+  Hendersonville, Forest City, Rutherfordton, Columbus, Mills River, 
+  Fletcher, Spindale, Flat Rock, Etowah, Landrum, Mountain Home, 
+  Laurel Park, Tryon, Lake Lure, Saluda, Ellenboro, Bostic, Chimney 
+  Rock Village, Chimney Rock State Park and Bat Cave.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+Flooding is occurring or is imminent. It is important to know where 
+you are relative to streams, rivers, or creeks which can become 
+killers in heavy rains. Campers and hikers should avoid streams or 
+creeks.
+
+&&
+
+LAT...LON 3522 8239 3517 8244 3514 8257 3529 8261
+      3542 8274 3546 8267 3542 8253 3544 8254
+      3547 8242 3546 8236 3550 8233 3546 8225
+      3552 8223 3555 8200 3554 8186 3561 8175
+      3558 8169 3536 8170 3518 8177 3518 8237
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...3-4 INCHES IN 1 HOUR
+
+$$
+
+MPR

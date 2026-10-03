@@ -1,0 +1,49 @@
+434 
+WGUS82 KGSP 272209
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+609 PM EDT Fri Sep 27 2024
+
+NCC113-173-281000-
+/O.NEW.KGSP.FA.Y.0175.240927T2209Z-240928T1000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Macon NC-Swain NC-
+609 PM EDT Fri Sep 27 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 6 AM EDT SATURDAY...
+
+* WHAT...Flooding caused by lingering runoff is occurring.
+
+* WHERE...A portion of western North Carolina, including the 
+  following counties, Macon and Swain.
+
+* WHEN...Until 600 AM EDT Saturday.
+
+* IMPACTS...River or stream flows are elevated. 
+
+* ADDITIONAL DETAILS...
+  - At 609 PM EDT, Out of bank conditions along the Little
+    Tennessee River will continue into the night.  Flooding of
+    low-lying areas along the river around Franklin and points
+    downstream will be seen, including but not limited to a
+    portion of Needmore Road.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3538 8359 3542 8357 3538 8351 3532 8347
+      3524 8336 3517 8335 3507 8336 3500 8333
+      3500 8339 3511 8343 3515 8348 3519 8356
+      3522 8356 3526 8351 3534 8358
+
+
+$$
+
+CSH

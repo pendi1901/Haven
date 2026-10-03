@@ -1,0 +1,63 @@
+556 
+WGUS82 KGSP 281150
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+750 AM EDT Sat Sep 28 2024
+
+NCC023-027-282345-
+/O.NEW.KGSP.FA.Y.0178.240928T1150Z-240928T2345Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Burke NC-Caldwell NC-
+750 AM EDT Sat Sep 28 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 745 PM EDT THIS EVENING...
+...FLASH FLOOD EMERGENCY HAS ENDED IN BURKE AND CALDWELL COUNTIES...
+
+* WHAT...Flooding impacts continue following intense rainfall during 
+  Tropical Storm Helene.
+
+* WHERE...Northwestern Burke and Western Caldwell Counties, North 
+  Carolina.
+
+* WHEN...Until 745 PM EDT Saturday.
+
+* IMPACTS...Minor flooding remains in low-lying and poor drainage 
+  areas. Water may still cover some roadways. River or stream flows 
+  remain elevated but are receding and should drop below flood stage 
+  by this evening.
+
+* ADDITIONAL DETAILS...
+  - At 750 AM EDT, Emergency management reported flood impacts
+    persist in the vicinity of Wilson Creek and the Johns River,
+    but have diminished in magnitude since Friday evening, and is
+    no longer considered an emergency.
+  - Some locations that will experience flooding include...
+    Table Rock, Linville Falls, Grandfather Mountain State Park,
+    Edgemont, Collettsville, Globe, Jonas Ridge, Oak Hill, Upton,
+    and a portion of the B.R. Parkway from Linville Falls To
+    Grandfather.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous when stream flows are elevated. Do not attempt 
+to cross flooded roads. Find an alternate route.
+
+&&
+
+LAT...LON 3577 8179 3583 8188 3578 8195 3581 8198
+      3584 8192 3589 8190 3595 8194 3600 8190
+      3598 8187 3596 8181 3607 8174 3608 8176
+      3609 8176 3610 8177 3611 8181 3612 8168
+      3598 8164 3584 8164
+
+
+$$
+
+8

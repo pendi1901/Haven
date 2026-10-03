@@ -1,0 +1,118 @@
+731 
+WGUS82 KGSP 262107
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+507 PM EDT Thu Sep 26 2024
+
+NCC003-035-097-272000-
+/O.NEW.KGSP.FA.Y.0168.240926T2107Z-240927T2000Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Alexander NC-Catawba NC-Iredell NC-
+507 PM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 4 PM EDT FRIDAY...
+
+* WHAT...Nuisance to Minor shoreline and river flooding caused by 
+  excessive rainfall and resultant dam gate releases at Oxford Dam.
+
+* WHERE...The Catawba River from Oxford Dam to I-40 in portions of 
+  Alexander, Catawba, and Iredell counties in North Carolina.
+
+* WHEN...Until 400 PM EDT Friday.
+
+* IMPACTS...Several docks, access areas, swimming areas, and 
+  low-lying residential yards will likely flood.  Some outbuildings, 
+  campgrounds, and roads may be impacted with shallow flooding.  
+  Residents are encouraged to heed guidance from local officials and 
+  emergency management on any potential impacts to property.  
+  Drivers are encouraged to heed any barricades and avoid all 
+  flooded areas.
+
+* ADDITIONAL DETAILS...
+  - At 405 PM EDT, Rainfall accumulations of 4-8 inches Wednesday
+    night into Thursday morning over the headwaters of the
+    Catawba River and associated tributaries has caused high
+    flows and increasing lake pool elevations along the Catawba
+    River.  Excess water is being passed through Oxford Dam and
+    has resulted in rises at Lookout Shoals Lake, where the pool
+    is currently approaching 102.5 feet.  This is causing
+    nuisance shoreline flooding and flooding of lake access
+    areas, campgrounds, docks, and swimming areas, as well as
+    residential yards.  Caution is advised anywhere near such
+    areas.
+
+    * The latest pool elevations for the upper Catawba River
+    lakes are as follows (Full Pool is 100.0 feet):
+
+    Lake James: 100.16 feet and rising steadily.
+    Lake Rhodhiss: 94.98 feet and rising rapidly.
+    Lake Hickory: 96.52 feet and nearly steady.
+    Lookout Shoals Lake: 102.40 feet and rising steadily.
+
+  - Additional torrential, potentially devastating rainfall is
+    expected later tonight through Thursday morning from
+    Hurricane Helene.  There is the potential for another 5-12
+    inches of rainfall from Lake Hickory to the Catawba River
+    headwaters, with the highest totals along the Blue Ridge
+    Escarpment.  This rainfall will occur on saturated soils and
+    excessive runoff into elevated streams will result in
+    potentially catastrophic inflows into the Catawba River
+    lakes.
+
+    * Based on current rainfall forecasts and conditions, Duke
+    Energy expects Lookout Shoals Lake to reach or exceed 110.0
+    feet later Friday, which is 10.0 feet over full pond.  The
+    current record pool elevation at Lookout Shoals Lake is
+    114.40 feet which occurred in August 1940.  Lookout Shoals
+    Lake reached 108.30 feet on November 12, 2020, which is the
+    highest crest in the modern era.  Major Flood Stage is 106.0
+    feet.  These lake levels will cause unprecedented,
+    catastrophic flooding of Lookout Shoals Lake and possibly
+    adjacent reaches of the Catawba River.
+
+    * If the rainfall forecast verifies, Major flooding will be
+    likely along and near Lookout Shoals Lake and a Flash Flood
+    Emergency will be issued.  Residents are encouraged to heed
+    guidance from local officials and emergency management on any
+    potential impacts to property.  Drivers are encouraged to
+    heed any barricades and avoid all flooded areas.  This has
+    the potential to be a historic and extremely dangerous event.
+    Please stay weather aware and monitor lake levels and Duke
+    Energy projections closely for any changes.
+
+    * For more information on lake levels or dam releases, people
+    are  encouraged to visit http://lakes.duke-energy.com or call
+    1-800-829- 5253.
+
+    * Residents along Lookout Shoals Lake should contact Catawba
+    County Emergency Management immediately to update their
+    contact information using the following direct link to their
+    Community Alert System web page at:
+    https://www.catawbacountync.gov/alert
+
+  - Flooding will affect areas of the Catawba River from Oxford
+    Dam to I-40, including Lookout Shoals Lake.
+
+  - Http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Boaters, fishermen, kayakers, swimmers, and other lake users are 
+encouraged to exercise caution during elevated lake levels and 
+downstream releases.  Lake residents are encouraged to avoid areas 
+along the stream below dams releasing water.
+
+&&
+
+&&
+
+LAT...LON 3585 8114 3581 8111 3576 8107 3574 8105
+      3572 8107 3572 8109 3573 8109 3576 8112
+      3581 8116 3581 8119 3584 8120
+
+
+$$
+
+JMP

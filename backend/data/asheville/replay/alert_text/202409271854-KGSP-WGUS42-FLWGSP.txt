@@ -1,0 +1,84 @@
+090 
+WGUS42 KGSP 271854
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+254 PM EDT Fri Sep 27 2024
+
+NCC087-280045-
+/O.NEW.KGSP.FA.W.0029.240927T1854Z-240928T0045Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Haywood NC-
+254 PM EDT Fri Sep 27 2024
+
+...FLOOD WARNING IN EFFECT UNTIL 845 PM EDT THIS EVENING...
+...REPLACES FLASH FLOOD WARNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following county, Haywood.
+
+* WHEN...Until 845 PM EDT.
+
+* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying 
+  and flood-prone locations is occurring. Numerous roads remain 
+  closed due to flooding. Streams continue to rise due to excess 
+  runoff from earlier rainfall. Low-water crossings are inundated 
+  with water and may not be passable.
+
+* ADDITIONAL DETAILS...
+  - At 250 PM EDT, emergency management reported reported
+    numerous road closures, ongoing water rescues, and flooded
+    homes across Haywood County. Flooding is ongoing due to
+    between 6 and 10 inches of rainfall in the last 24 hours.
+    Rainfall has ended, but tributaries to the Pigeon and the
+    Pigeon River are continuing to rise due to runoff.
+  - Some locations that will experience flooding include...
+    Waynesville, Cherokee, Canton, Lake Junaluska, Clyde, Maggie
+    Valley, Smoky Mountains-Cataloochee, B.R. Parkway-Balsam Gap
+    To Black Balsam Area, B.R. Parkway-Smoky Mountains To Balsam
+    Gap, Black Balsam Area, Smoky Mountains-Big Creek, Smoky
+    Mountains-Balsam Mountain, B.R. Parkway-Black Balsam To Mount
+    Pisgah, Graveyard Fields, Mount Pisgah, Cove Creek, Fines
+    Creek, Sunburst, Cruso and Waterville.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay away or be swept away. River banks and culverts can become 
+unstable and unsafe.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+&&
+
+LAT...LON 3541 8275 3532 8283 3531 8295 3545 8308
+      3546 8314 3549 8314 3551 8319 3555 8316
+      3564 8320 3567 8318 3572 8325 3579 8308
+      3577 8300 3579 8296 3575 8296 3574 8292
+      3562 8285 3563 8281 3558 8277 3547 8280
+
+
+$$
+
+ARK

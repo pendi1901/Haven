@@ -1,0 +1,75 @@
+994 
+WGUS52 KGSP 270801
+FFWGSP
+NCC003-027-271300-
+/O.NEW.KGSP.FF.W.0092.240927T0801Z-240927T1300Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+401 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Alexander County in the piedmont of North Carolina...
+  Caldwell County in western North Carolina...
+
+* Until 900 AM EDT.
+
+* At 401 AM EDT, Doppler radar indicated increasing rainfall rates, 
+  with 1 to 2 inches per hour expected.  Many locations had already 
+  received 5 to 8 inches of rain over the last 24 hours, saturating 
+  the ground and priming things for the next round.  Significant 
+  flooding appears likely, resulting in road closures, first-floor 
+  inundation, and damage to some structures.  The risk of 
+  life-threatening landslide activity continues to increase.
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Radar.
+
+  IMPACT...Life threatening flash flooding of creeks and streams,
+           urban areas, highways, streets and underpasses.
+           First-floor inundation.  Widespread road closures.
+
+* Some locations that will experience flash flooding include...
+  Lenoir, Taylorsville, Sawmills, Granite Falls, Gamewell, 
+  Bethlehem, Hudson, Cajah's Mountain, Blowing Rock In Caldwell 
+  County, Stony Point, Rhodhiss, Cedar Rock, Lake Hickory, Lake 
+  Rhodhiss, Lookout Shoals Lake, Grandfather Mountain State Park, 
+  B.R. Parkway-Linville Falls To Grandfather, Kings Creek, Little 
+  River In Alexander County and Ellendale.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3607 8174 3611 8181 3612 8155 3607 8141
+      3604 8140 3604 8137 3600 8133 3604 8120
+      3603 8117 3605 8103 3596 8101 3586 8104
+      3578 8111 3583 8115 3580 8134 3576 8138
+      3579 8145 3578 8156 3582 8160 3596 8181
+
+FLASH FLOOD...RADAR INDICATED
+FLASH FLOOD DAMAGE THREAT...CONSIDERABLE
+
+$$
+
+MPR

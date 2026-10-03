@@ -1,0 +1,63 @@
+123 
+WGUS52 KGSP 270312
+FFWGSP
+NCC003-270800-
+/O.NEW.KGSP.FF.W.0074.240927T0312Z-240927T0800Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1112 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Alexander County in the Piedmont of North Carolina...
+
+* Until 400 AM EDT.
+
+* At 1112 PM EDT, Between 3 and 6 inches of rain have fallen across 
+  Alexander County. Continued runoff, along with additional light to 
+  moderate rain, has resulted in high stream levels. Several streams 
+  have flooded with water over roadways, such as Muddy Fork Creek at 
+  Old Wilkesboro Rd.  The expected rainfall rate is 0.5 to 1 inch in 
+  1 hour. Additional rainfall amounts of 1 to 2 inches are possible 
+  in the warned area. Flash flooding is ongoing or expected to begin 
+  shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Taylorsville, Bethlehem, Stony Point, Lake Hickory, Lookout Shoals 
+  Lake, Millersville, Hiddenite, Vashti, Ellendale and Little River 
+  In Alexander County.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3599 8100 3596 8101 3586 8104 3580 8108
+      3578 8111 3579 8113 3583 8115 3581 8122
+      3582 8125 3580 8133 3582 8134 3588 8133
+      3592 8134 3600 8133 3603 8127 3604 8120
+      3603 8117 3604 8114 3603 8106 3605 8103
+
+FLASH FLOOD...RADAR INDICATED
+EXPECTED RAINFALL RATE...0.5-1 INCH IN 1 HOUR
+
+$$
+
+AR

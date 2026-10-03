@@ -1,0 +1,68 @@
+666 
+WGUS52 KGSP 270340
+FFWGSP
+SCC001-047-059-270930-
+/O.NEW.KGSP.FF.W.0075.240927T0340Z-240927T0930Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+1140 PM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Abbeville County in upstate South Carolina...
+  Greenwood County in upstate South Carolina...
+  Laurens County in upstate South Carolina...
+
+* Until 530 AM EDT.
+
+* At 1140 PM EDT, Another round of training thunderstorms is 
+  affecting the warned area, with rain rates expected to spike 
+  within the next 30 to 45 minutes.  Many locations have already 
+  received 3 to 5 inches of rain today, with isolated locations 
+  receiving up to 6 inches.  As this next round of rainfall begins, 
+  flash flooding will begin shortly across the warned area.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar and automated gauges.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Greenwood, Laurens, Abbeville, Clinton, Fountain Inn, Honea Path, 
+  Ware Shoals, Calhoun Falls, Ninety Six, Joanna, Due West, Gray 
+  Court, Lake Secession, Cross Hill, Donalds, Cokesbury, Waterloo, 
+  Hodges, Lowndesville and Troy.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3401 8259 3421 8274 3454 8224 3459 8224
+      3479 8215 3459 8189 3460 8184 3453 8165
+      3437 8178 3430 8190 3420 8194 3413 8187
+      3396 8201 3395 8205 3398 8205 3397 8218
+      3402 8224 3397 8231 3406 8233 3408 8248
+
+FLASH FLOOD...RADAR AND GAUGE INDICATED
+EXPECTED RAINFALL RATE...1.5-2.5 INCHES IN 1 HOUR
+
+$$
+
+MPR

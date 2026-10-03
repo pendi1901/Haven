@@ -1,0 +1,49 @@
+599 
+WGUS82 KGSP 261512
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+1112 AM EDT Thu Sep 26 2024
+
+SCC059-261830-
+/O.NEW.KGSP.FA.Y.0166.240926T1512Z-240926T1830Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Laurens SC-
+1112 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 230 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following county, Laurens.
+
+* WHEN...Until 230 PM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 1109 AM EDT, Heavy tropical rain will be overspreading
+    Laurens County into early afternoon with rainfall totals
+    nearing 2.5 inches in spots.  Watch for developing flooding
+    of low-lying areas, poor drainage areas and rapid rises on
+    many creeks in the area,
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3474 8209 3470 8207 3465 8195 3459 8189
+      3458 8186 3460 8184 3455 8172 3456 8168
+      3453 8165 3437 8178 3430 8189 3420 8194
+      3430 8208 3433 8217 3436 8218 3447 8231
+      3454 8224 3459 8224 3479 8215 3475 8212
+
+
+$$
+
+CSH

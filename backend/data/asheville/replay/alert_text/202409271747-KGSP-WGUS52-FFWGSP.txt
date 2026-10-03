@@ -1,0 +1,111 @@
+122 
+WGUS52 KGSP 271747
+FFWGSP
+NCC003-035-097-290000-
+/O.NEW.KGSP.FF.W.0112.240927T1747Z-240929T0000Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+147 PM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR CATAWBA RIVER FROM BELOW OXFORD DAM TO 
+BELOW LOOKOUT SHOALS LAKE...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  South Central Alexander County in the piedmont of North Carolina...
+  North Central Catawba County in the piedmont of North Carolina...
+  West Central Iredell County in the piedmont of North Carolina...
+
+* Until 800 PM EDT Saturday.
+
+* At 147 PM EDT, Devastating rainfall of 6-25 inches has occurred 
+  since Wednesday evening from Lake Hickory to the Catawba River 
+  headwaters, with the highest totals exceeding 2 feet along the 
+  Blue Ridge Escarpment across the upper Catawba River watershed.  
+  This is resulting in catastrophic and historic inflows into 
+  Catawba River reservoirs and this water is being moved through the 
+  system to Lookout Shoals Lake and points downstream.  Major 
+  flooding is developing at Lookout Shoals Lake.
+
+* The latest pool elevations for the upper Catawba River lakes are 
+  as follows (Full Pool is 100.0 feet):
+
+    Lake James: 104.70 feet and steady.
+    Lake Rhodhiss: 106.40 feet and rising steadily.
+    Lake Hickory: 99.40 feet and steady.
+    Lookout Shoals Lake: 106.60 feet and rising rapidly.
+
+* Based on current rainfall forecasts and conditions, Duke Energy 
+  expects Lookout Shoals Lake to reach or exceed 110.0 feet later 
+  today, which is 10.0 feet over full pond.  The current record 
+  pool elevation at Lookout Shoals Lake is 114.40 feet which 
+  occurred in August 1940.  Lookout Shoals Lake reached 108.30 feet 
+  on November 12, 2020, which is the highest crest in the modern 
+  era.  Major Flood Stage is 106.0 feet.  These lake levels will
+  cause unprecedented, catastrophic flooding of Lookout Shoals Lake 
+  and possibly adjacent reaches of the Catawba River.
+
+  This is a FLASH FLOOD EMERGENCY for Catawba River from below 
+  Oxford Dam to below Lookout Shoals Lake. This is a PARTICULARLY 
+  DANGEROUS SITUATION. SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life-threatening, catastrophic flash flooding from dam
+           floodgate releases caused by excessive rainfall.
+
+  SOURCE...Duke Energy and Catawba County Emergency Management
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW!   Life-threatening, catastrophic,
+           and potential historic flash flooding of areas along
+           the Catawba River from Oxford Dam to Lookout Shoals
+           Lake.  At 108.0 feet...Major Flooding continues.
+           Devastating, widespread structural flooding within the
+           Carpenters Cove community and along portions of
+           Longfield St near Shadeview Ln is ongoing.
+           Significant first-floor inundation is ongoing,
+           exceeding 4 feet in several locations.  Water rescues
+           may be ongoing.
+
+* Flash flooding will affect areas of the Catawba River from Oxford 
+  Dam to near I-40, including Lookout Shoals Lake.
+
+* This has the potential to be a historic and extremely dangerous 
+  event.  Please stay weather aware and monitor lake levels and Duke 
+  Energy projections closely for any changes.
+
+* For more information on lake levels or dam releases, people are 
+  encouraged to visit http://lakes.duke-energy.com or call 
+  1-800-829-5253.
+
+* Residents along Lookout Shoals Lake should contact Catawba County 
+  Emergency Management immediately to update their contact 
+  information using the following direct link to their Community 
+  Alert System web page at: https://www.catawbacountync.gov/alert
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+If you are in low-lying areas below Oxford Dam or Lookout Shoals Dam 
+or adjacent to the shoreline of Lookout Shoals Lake, you should move 
+to higher ground immediately.
+
+&&
+
+LAT...LON 3585 8114 3580 8110 3578 8107 3577 8106
+      3575 8105 3575 8104 3573 8105 3573 8106
+      3572 8107 3572 8109 3573 8109 3576 8112
+      3581 8116 3581 8119 3584 8120
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+
+$$
+
+JMP

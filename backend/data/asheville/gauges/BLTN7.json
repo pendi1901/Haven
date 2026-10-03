@@ -1,0 +1,17 @@
+{
+ "lid": "BLTN7",
+ "usgs_id": "03451000",
+ "name": "Swannanoa River below Hendersonville Rd (NC 81), in Biltmore Village (2 S Asheville)",
+ "lat": 35.568333,
+ "lon": -82.544722,
+ "thresholds_ft": {
+  "major": 16.5,
+  "moderate": 14.5,
+  "minor": 10.0,
+  "action": 9.0
+ },
+ "datum_navd88_ft": 1976.37,
+ "record_crest_ft": 27.33,
+ "reach_id": "22161688",
+ "has_official_forecast": true
+}

@@ -1,0 +1,82 @@
+005 
+WGUS82 KGSP 260124
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+924 PM EDT Wed Sep 25 2024
+
+NCC175-261300-
+/O.NEW.KGSP.FA.Y.0150.240926T0124Z-240926T1300Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Transylvania NC-
+924 PM EDT Wed Sep 25 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 9 AM EDT THURSDAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...Transylvania County, North Carolina.
+
+* WHEN...Until 900 AM EDT Thursday.
+
+* IMPACTS...Nuisance flooding of low-lying areas adjacent to streams 
+  and other poor-drainage areas, including farmland, parks, 
+  greenways, boat-access areas, golf courses, underpasses, and 
+  parking lots.  Isolated, shallow flows over roadways is possible.  
+  A few flood-prone, low-water crossings may become impassible.  A 
+  small culvert washout or two is possible.
+
+* ADDITIONAL DETAILS...
+  - At 855 PM EDT, Doppler radar and automated rain gauges
+    indicate Transylvania County has received 2-4 inches of
+    rainfall in the past 3-4 hours.  This has resulted in
+    significant rises on area streams, with the Davidson River
+    exceeding Action/Advisory Stage causing nusiance flooding of
+    adjacent low-lying areas.  Little River near Cedar Mountain
+    and the French Broad River in Rosman are both approaching
+    bankfull or Action/Advisory Stage as well.  These streams are
+    expected to crest and begin to recede before the next round
+    of heavy rainfall occurs.
+
+    Heavy rainfall has become more intermittent across the
+    county, but additional, more concentrated heavy rainfall is
+    expected later tonight.  This will cause new rises on area
+    streams and flash flooding is likely.  More significant flash
+    flooding is likely later tonight into Thursday morning with
+    repeated rounds of heavy rainfall.  Flash Flood Warnings are
+    likely.  For your safety, avoid all low-lying areas near
+    streams.  If you live or are vacationing near a stream
+    prepare to seek higher ground now and avoid being caught by
+    rapidly rising streams.  Do not wait for a Flash Flood
+    Warning to take action to save your life.
+
+  - Some locations that may experience nuisance to Minor flooding
+    include...Brevard, Rosman, Dupont State Forest, Caesars Head
+    State Park, Mount Pisgah, Connestee, Balsam Grove, Sassafras
+    Mountain, Penrose, Cedar Mountain, Little River In
+    Transylvania County, North Transylvania, and Sapphire.
+
+  - Http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+In hilly terrain there are hundreds of low water crossings which are 
+potentially dangerous in heavy rain. Do not attempt to cross flooded 
+roads. Find an alternate route.
+
+&&
+
+LAT...LON 3526 8262 3514 8258 3512 8266 3513 8268
+      3510 8270 3509 8273 3507 8276 3507 8278
+      3509 8278 3503 8301 3505 8306 3513 8298
+      3516 8300 3517 8298 3519 8299 3523 8293
+      3529 8292 3532 8283 3542 8274 3529 8261
+
+
+$$
+
+JMP

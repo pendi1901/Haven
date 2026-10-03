@@ -1,0 +1,67 @@
+620 
+WGUS82 KGSP 270128
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+928 PM EDT Thu Sep 26 2024
+
+NCC025-119-270430-
+/O.NEW.KGSP.FA.Y.0171.240927T0128Z-240927T0430Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Cabarrus NC-Mecklenburg NC-
+928 PM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1230 AM EDT FRIDAY...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of piedmont North Carolina, including the 
+  following counties, Cabarrus and Mecklenburg.
+
+* WHEN...Until 1230 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 928 PM EDT, Several inches of rain has fallen throughout
+    the day and streams across the Charlotte metro area running
+    high. Additional light to moderate rain has resulted in
+    enough runoff to boost several streams into action stage or
+    low end minor. Minor flooding is ongoing or expected to begin
+    shortly in the advisory area.
+  - Additional rainfall amounts of 0.2 to 0.5 inches are expected
+    over the area. This additional rain will result in minor
+    flooding.
+  - Some locations that will experience flooding include...
+    Uptown Charlotte, Huntersville, Kannapolis, Downtown Concord,
+    Central Charlotte, South Charlotte, Northeast Charlotte, East
+    Charlotte, Southwest Charlotte, Northwest Charlotte, West
+    Concord, Matthews, Cornelius, Mint Hill, Davidson,
+    Weddington, Stallings, Pineville, Harrisburg and Tega Cay.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+&&
+
+LAT...LON 3503 8077 3500 8084 3511 8093 3504 8104
+      3506 8106 3511 8103 3514 8105 3516 8101
+      3530 8100 3535 8097 3536 8092 3536 8097
+      3536 8098 3537 8098 3540 8095 3549 8095
+      3551 8091 3550 8030 3519 8051 3521 8055
+
+
+$$
+
+TBW

@@ -1,0 +1,86 @@
+001 
+WGUS52 KGSP 271157
+FFWGSP
+NCC021-271745-
+/O.NEW.KGSP.FF.W.0106.240927T1157Z-240927T1745Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+757 AM EDT Fri Sep 27 2024
+
+...FLASH FLOOD EMERGENCY FOR BUNCOMBE COUNTY...
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Buncombe County in western North Carolina...
+
+* Until 145 PM EDT.
+
+* At 757 AM EDT, emergency management reported widespread 
+  catastrophic flooding resulting in damage to infrastructure and 
+  inundation of countless homes and businesses.  Emergency managers 
+  request that those in low-lying areas seek higher ground 
+  immediately.  Potential for life-threatening landslides is greatly 
+  increased.
+
+  This is a FLASH FLOOD EMERGENCY for Buncombe County. This is a 
+  PARTICULARLY DANGEROUS SITUATION. SEEK HIGHER GROUND NOW!
+
+  HAZARD...Life threatening flash flooding. Thunderstorms
+           producing flash flooding.
+
+  SOURCE...Emergency management reported.
+
+  IMPACT...This is a PARTICULARLY DANGEROUS SITUATION. SEEK
+           HIGHER GROUND NOW! Life threatening flash flooding of
+           low water crossings, small creeks and streams, urban
+           areas, highways, streets and underpasses.  Numerous
+           road closures.  Damage to roads, homes, and bridges.
+           High risk of dangerous landslides.
+
+* Some locations that will experience flash flooding include...
+  Downtown Asheville, East Asheville, Arden, West Asheville, North 
+  Asheville, Black Mountain, Mills River, Woodfin, Fletcher, 
+  Swannanoa, Weaverville, Fairview In Buncombe County, Biltmore 
+  Forest, Bent Creek, UNC-Asheville, B.R. Parkway-Nc Arboretum To 
+  East Asheville, Warren Wilson College, B.R. Parkway-East Asheville 
+  To Craggy Gardens, Skyland and Biltmore Park.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Move to higher ground now! This is an extremely dangerous and 
+life-threatening situation. Do not attempt to travel unless you are 
+fleeing an area subject to flooding or under an evacuation order.
+
+Heavy rain is significantly increasing the risk of landslides, 
+especially in areas where slides have occurred in the past. Slides 
+can destroy single homes and other structures and large sections of 
+roads. If you are in the warned area, you should not travel, except 
+to move away from flash flood or landslide dangers. If you are in 
+the vicinity of a stream near the heavy rainfall, especially on a 
+mountainside, or at the base of a mountain or in a cove, move 
+immediately to a safer location.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3575 8233 3571 8228 3561 8227 3559 8229
+      3553 8217 3552 8223 3546 8225 3550 8233
+      3546 8236 3544 8254 3542 8253 3546 8267
+      3542 8274 3547 8280 3558 8277 3567 8289
+      3573 8267 3573 8268 3580 8251 3582 8236
+
+FLASH FLOOD...OBSERVED
+FLASH FLOOD DAMAGE THREAT...CATASTROPHIC
+EXPECTED RAINFALL RATE...2-3 INCHES IN 1 HOUR
+
+$$
+
+MPR

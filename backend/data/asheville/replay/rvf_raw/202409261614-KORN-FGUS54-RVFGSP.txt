@@ -1,0 +1,77 @@
+822 
+FGUS54 KORN 261614
+RVFGSP
+River Forecast
+National Weather Service
+NWS Lower Mississippi River Forecast Center; Slidell, LA
+1614 GMT THU SEP 26 2024
+
+This is a NWS guidance product from the Lower Mississippi River
+Forecast Center. Public forecasts and warnings are issued by NWS
+Weather Forecast Offices.
+
+: Forecast Group is French Broad
+:
+: Forecasts include 48 - hours of future rainfall in 6 hour increments
+:
+:
+:************************************************************
+:FLETCHER, NC - FRENCH BROAD RIVER
+:ACTION STAGE          10.0 FT  MINOR FLOOD STAGE     13.0 FT
+:MODERATE FLOOD STAGE  17.0 FT  MAJOR FLOOD STAGE     20.0 FT
+:
+:LATEST  RIVER STAGE 15.4 FT AT 1600 Z ON SEP 26
+.AR :CREST: FLCN7 0927 Z DC202409261614/DH1800/HGIFFXZ 30.5
+: Crest near 30.5 FT around 1800 Z on Fri, Sep 27
+
+.ER FLCN7 0926 Z DC202409261614/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :           /  17.2 /  21.3 /  25.5 
+.E2    : 0927 :   /  29.4 /  30.5 /  29.6 /  27.5 
+.E3    : 0928 :   /  25.4 /  23.0 /  21.4 /  19.9 
+.E4    : 0929 :   /  18.2 /  16.4 /  15.2 /  14.1 
+.E5    : 0930 :   /  12.7 /  11.3 /  10.3 /   9.5 
+.E6    : 1001 :   /   8.7 
+.ER FLCN7 0926 Z DC202409261614/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :           /  1.68 /  1.43 /  1.55 
+.E2    : 0927 :   /  3.13 /  1.52 /  0.11 /  0.06 
+.E3    : 0928 :   /  0.03 
+.ER FLCN7 0926 Z DC202409261614/DH18/PPDFZ/DIH48/9.51
+:
+:FORECASTER COMMENTS...
+:
+:************************************************************
+:ASHEVILLE, NC - FRENCH BROAD RIVER
+:ACTION STAGE           6.5 FT  MINOR FLOOD STAGE      9.5 FT
+:MODERATE FLOOD STAGE  13.0 FT  MAJOR FLOOD STAGE     18.0 FT
+:
+:LATEST  RIVER STAGE 10.3 FT AT 1530 Z ON SEP 26
+.AR :CREST: AVLN7 0928 Z DC202409261614/DH0000/HGIFFXZ 21.0
+: Crest near 21.0 FT around 0000 Z on Sat, Sep 28
+
+.ER AVLN7 0926 Z DC202409261614/DH18/HGIFFZZ/DIH6
+:RIVER FORECAST  / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :           /  12.3 /  15.3 /  17.5 
+.E2    : 0927 :   /  19.4 /  20.6 /  21.0 /  20.6 
+.E3    : 0928 :   /  19.4 /  17.6 /  16.1 /  14.6 
+.E4    : 0929 :   /  13.1 /  11.6 /  10.2 /   9.3 
+.E5    : 0930 :   /   8.4 /   7.7 /   7.0 /   6.4 
+.E6    : 1001 :   /   5.8 
+.ER AVLN7 0926 Z DC202409261614/DH18/PPQFZ/DIH6
+:QPF FORECAST   / 12Z   / 18Z   /  00Z   / 06Z
+.E1    : 0926 :           /  1.45 /  1.05 /  0.80 
+.E2    : 0927 :   /  1.81 /  1.04 /  0.08 /  0.06 
+.E3    : 0928 :   /  0.03 
+.ER AVLN7 0926 Z DC202409261614/DH18/PPDFZ/DIH48/6.32
+:
+:FORECASTER COMMENTS...
+:
+:
+:*******************************************************************
+:
+.AR ORN 0926 DT202409261614/YIIRZ  19 : CDP
+:
+$$
+:
+:...END of MESSAGE...

@@ -1,0 +1,57 @@
+456 
+WUUS52 KGSP 242124
+SVRGSP
+NCC159-242200-
+/O.NEW.KGSP.SV.W.0271.240924T2124Z-240924T2200Z/
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Severe Thunderstorm Warning
+National Weather Service Greenville-Spartanburg SC
+524 PM EDT Tue Sep 24 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Severe Thunderstorm Warning for...
+  Southeastern Rowan County in the Piedmont of North Carolina...
+
+* Until 600 PM EDT.
+
+* At 524 PM EDT, a severe thunderstorm was located 11 miles southeast
+  of Salisbury, or near High Rock Lake, moving east at 20 mph.
+
+  HAZARD...60 mph wind gusts and quarter size hail.
+
+  SOURCE...Radar indicated.
+
+  IMPACT...Minor hail damage to vehicles is expected. Expect wind 
+           damage to trees and power lines.
+
+* Locations impacted include...
+  High Rock Lake, Gold Hill, and High Rock.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+For your protection move to an interior room on the lowest floor of a
+building.
+
+Please report damaging winds, hail, or flooding to the National
+Weather Service by calling toll free, 1, 800, 2 6 7, 8 1 0 1, or by
+posting on our Facebook page, or Tweet it using hashtag nwsgsp. Your
+message should describe the event and the specific location where it
+occurred.
+
+&&
+
+LAT...LON 3550 8035 3565 8042 3569 8033 3567 8031
+      3563 8029 3563 8027 3559 8021 3555 8021
+      3554 8020 3553 8020 3552 8018 3551 8019
+TIME...MOT...LOC 2124Z 251DEG 17KT 3560 8030 
+
+HAIL THREAT...RADAR INDICATED
+MAX HAIL SIZE...1.00 IN
+WIND THREAT...RADAR INDICATED
+MAX WIND GUST...60 MPH
+
+$$
+
+TW

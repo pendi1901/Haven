@@ -1,0 +1,108 @@
+858 
+WGUS42 KGSP 252247
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+647 PM EDT Wed Sep 25 2024
+
+...The National Weather Service in Greenville-Spartanburg SC has 
+issued a Flood Warning for the South Fork Catawba River in North 
+Carolina...
+
+  At Lowell affecting Gaston County.
+
+.Two unique rounds of rainfall, one beginning tonight and lasting 
+through early Thursday afternoon resulting from tropical moisture 
+interacting with a stationary front, and another beginning Thursday 
+night and lasting through Friday morning associated with Hurricane 
+Helene, are expected to result in significant rises within the 
+South Fork Catawba River watershed.  Storm-total rainfall across the 
+watershed from the South Mountains to Cramerton is expected to reach 
+3-5 inches.
+
+There is a potential for crests to exceed the current forecast.  
+Significant flooding along the South Fork Catawba River near Lowell 
+and Cramerton cannot be ruled out.  Moderate to Major flooding is 
+possible.  Please maintain awareness of the latest forecasts and 
+plan NOW to respond in case more significant flooding is expected.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Caution is urged when walking near riverbanks.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+This warning will be in effect until the river falls below its 
+Action/Advisory Stage.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement will be issued before Saturday evening at 800 PM 
+EDT.
+
+&&
+
+NCC071-290000-
+/O.NEW.KGSP.FL.W.0024.240927T1200Z-240929T0000Z/
+/LOWN7.1.ER.240927T1536Z.240928T0000Z.240928T0651Z.NO/
+647 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM FRIDAY MORNING TO SATURDAY EVENING...
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...South Fork Catawba River at Lowell.
+
+* WHEN...From Friday morning to Saturday evening.
+
+* IMPACTS...At 11.0 feet, Minor Flood Stage continues.  The South 
+  Fork Catawba River may begin flooding Riverside Dr. between 5th 
+  and 6th Streets in Cramerton.  Floodwaters may also approach homes 
+  along Catawba Run Rd., near the streamgauge.  Hoyle Creek 
+  floodwaters, possibly due to backwater effects from the South Fork 
+  Catawba River, may begin to impact the Old Willis School Road 
+  bridge near Sandcastle Rd.
+
+* At 13.0 feet, Moderate Flood Stage.  Unusual, damaging flooding is 
+  developing adjacent to the South Fork Catawba River with 
+  considerable impacts to property.  Significant flooding of Goat 
+  Island Park and Riverside Park is ongoing.  Floodwaters are 
+  threatening the Cramerton Fire Department and adjacent 
+  businesses.  The river is approaching the crawl spaces of homes 
+  along Riverside Dr between 4th St and 5th St in Cramerton.
+
+* ADDITIONAL DETAILS...
+  - At 6:15 PM EDT Wednesday the stage was 3.7 feet and falling
+    slowly.
+  - Action/Advisory Stage is 9.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage late Friday morning to a crest of 10.7 feet Friday
+    evening.  It will then fall below Minor Flood Stage early
+    Saturday morning.
+
+    NOTE: There is a potential for the crest to exceed the
+    Moderate Flood Stage of 13.0 feet.  If rainfall is
+    significantly higher than currently forecast, a reasonable
+    worst-case scenario would be a crest just above Major Flood
+    Stage near 16.0 feet.
+
+  - Minor Flood Stage is 10.0 feet.
+    Moderate Flood Stage is 13.0 feet.
+    Major Flood Stage is 15.5 feet.
+
+  - Http://www.weather.gov/safety/flood
+
+
+&&
+
+LAT...LON 3537 8126 3537 8108 3518 8102 3518 8110
+
+
+$$
+
+JMP

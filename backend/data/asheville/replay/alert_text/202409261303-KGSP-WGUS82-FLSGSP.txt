@@ -1,0 +1,58 @@
+510 
+WGUS82 KGSP 261303
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+903 AM EDT Thu Sep 26 2024
+
+NCC099-261700-
+/O.NEW.KGSP.FA.Y.0162.240926T1303Z-240926T1700Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Jackson NC-
+903 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1 PM EDT THIS AFTERNOON...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of western North Carolina, including the 
+  following county, Jackson.
+
+* WHEN...Until 100 PM EDT.
+
+* IMPACTS...River or stream flows are elevated. 
+
+* ADDITIONAL DETAILS...
+  - At 901 AM EDT, High amounts of runoff will continue to occur
+    throughout the Tuckasegee Headwaters through midday.  If
+    heavier and/or more intense rain develops, a flood or flash
+    flood warning may be needed.
+  - Some locations that will experience flooding include...
+    Cashiers, Lake Glenville, B.R. Parkway-Balsam Gap To Black
+    Balsam Area, Black Balsam Area, B.R. Parkway-Black Balsam To
+    Mount Pisgah, Tuckasegee, Wolf Mountain, Sapphire and
+    Whiteside Mountain.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via X using hashtag NWSGSP. Your 
+message should describe the specific location where impacts occurred 
+and the depth of flooding observed.
+
+&&
+
+LAT...LON 3531 8312 3537 8303 3532 8296 3531 8295
+      3530 8293 3529 8292 3524 8293 3517 8300
+      3516 8300 3515 8299 3513 8298 3509 8303
+      3511 8308 3511 8310 3509 8315 3511 8317
+      3518 8322 3521 8320
+
+
+$$
+
+CSH

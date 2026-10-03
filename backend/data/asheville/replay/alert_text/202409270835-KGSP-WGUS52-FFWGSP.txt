@@ -1,0 +1,63 @@
+132 
+WGUS52 KGSP 270835
+FFWGSP
+NCC097-271230-
+/O.NEW.KGSP.FF.W.0096.240927T0835Z-240927T1230Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+435 AM EDT Fri Sep 27 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Iredell County in the piedmont of North Carolina...
+
+* Until 830 AM EDT.
+
+* At 435 AM EDT, Doppler radar indicated heavy rain across Iredell 
+  County. Between 1 and 3 inches of rain have fallen. 911 call 
+  center reported standing water over bridges and roadways across 
+  the county. Additional rainfall amounts of 1 to 2 inches are 
+  possible in the warned area. Flash flooding is ongoing or expected 
+  to begin shortly.
+
+  HAZARD...Flash flooding caused by heavy rain.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Statesville, Mooresville, Davidson, Troutman, Stony Point, 
+  Catawba, Harmony, Love Valley, Lake Norman State Park, Lookout 
+  Shoals Lake, Lake Norman, Turnersburg, Scotts, Cool Springs, Olin, 
+  Doolie and Union Grove.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+Be aware of your surroundings and do not drive on flooded roads.
+
+&&
+
+LAT...LON 3585 8071 3567 8077 3551 8074 3551 8091
+      3549 8095 3550 8096 3553 8095 3555 8096
+      3557 8096 3562 8092 3571 8100 3571 8106
+      3574 8107 3578 8111 3586 8104 3596 8101
+      3605 8103 3606 8098 3605 8069
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+AR

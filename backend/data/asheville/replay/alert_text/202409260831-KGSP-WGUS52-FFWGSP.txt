@@ -1,0 +1,63 @@
+114 
+WGUS52 KGSP 260831
+FFWGSP
+NCC111-261430-
+/O.NEW.KGSP.FF.W.0057.240926T0831Z-240926T1430Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+
+BULLETIN - EAS ACTIVATION REQUESTED
+Flash Flood Warning
+National Weather Service Greenville-Spartanburg SC
+431 AM EDT Thu Sep 26 2024
+
+The National Weather Service in Greenville-Spartanburg has issued a
+
+* Flash Flood Warning for...
+  Southeastern McDowell County in western North Carolina...
+
+* Until 1030 AM EDT.
+
+* At 431 AM EDT, training thunderstorms have produced heavy rain 
+  across the warned area. Between 1.5 and 2.5 inches of rain have 
+  fallen. Flash flooding is ongoing or expected to begin shortly, as 
+  streams rapidly overflow their banks and poorly-drained locations 
+  quickly fill with water.
+
+  HAZARD...Flash flooding caused by thunderstorms.
+
+  SOURCE...Radar.
+
+  IMPACT...Flash flooding of small creeks and streams, urban
+           areas, highways, streets and underpasses as well as
+           other poor drainage and low-lying areas.
+
+* Some locations that will experience flash flooding include...
+  Marion, Lake James, Lake James State Park, Glenwood, Fero, Nebo, 
+  Dysartsville, Sugar Hill and Thermal City.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+Heavy rain is increasing the risk of landslides, especially in areas 
+where slides have occurred in the past. Be especially alert if you 
+are near a stream, especially at the base of a mountain or in a 
+cove. Watch for loose-moving soil and rocks or a sudden increase in 
+streamflow. Leave the area quickly if this is observed. When driving 
+along roads where the terrain is steep or rocky, watch and listen 
+for falling rocks, mud, trees and other debris.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3555 8185 3553 8197 3555 8200 3554 8202
+      3553 8208 3580 8197 3572 8187 3558 8183
+
+FLASH FLOOD...RADAR INDICATED
+
+$$
+
+MPR

@@ -1,0 +1,123 @@
+463 
+WGUS42 KGSP 252051
+FLWGSP
+
+BULLETIN - IMMEDIATE BROADCAST REQUESTED
+Flood Warning
+National Weather Service Greenville-Spartanburg SC
+451 PM EDT Wed Sep 25 2024
+
+...The National Weather Service in Greenville-Spartanburg SC has 
+issued a Flood Warning for the Pigeon River in North Carolina...
+
+  At Canton affecting Haywood County.
+
+.Two unique rounds of rainfall, one beginning tonight and lasting 
+through early Thursday afternoon resulting from tropical moisture 
+interacting with a stationary front, and another beginning Thursday 
+night and lasting through Friday morning associated with Hurricane 
+Helene, are expected to result in significant rises within the 
+Pigeon River watershed.  Minor to Moderate flooding along the east 
+and west forks of the Pigeon River is likely, resulting in Minor 
+flooding along the Pigeon River near Canton.
+
+The Pigeon River is a very flashy watershed and is very sensitive to 
+variations in heavy rainfall.  There is a potential for crests to 
+exceed the current forecast crests.  If the forecasted rainfall over 
+the next few days occurs very quickly or in a much shorter time 
+frame than currently expected, significant flooding along the Pigeon 
+River is possible and may approach the flooding that occurred during 
+Tropical Cyclone Fred in August 2021.  It is absolutely imperative 
+that you maintain awareness of the latest forecasts and plan NOW to 
+respond to the worst-case scenario for your area.
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+If you live or are vacationing along any stream in the Pigeon River 
+watershed, including the East and West Fork Pigeon Rivers, have a 
+plan in place to seek higher ground before the heavy rain begins.  
+Do NOT wait for a warning to take action.  Flee areas adjacent to 
+the stream before the stream rises significantly.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Stay tuned to NOAA Weather Radio or your favorite source of weather 
+information for the latest updates. Additional details can be found 
+at www.weather.gov/gsp.
+
+To escape rising water, take the shortest path to higher ground.
+
+Even 6 inches of fast-moving flood water can knock you off your feet 
+and a depth of 2 feet will float your car. Never try to walk, swim, 
+or drive through such swift water. If you come upon flood waters, 
+stop, turn around and go another way.
+
+This warning will be in effect until the river falls below its 
+Action/Advisory Stage.
+
+For detailed information including observed and forecast stages, 
+flood impacts, flood history, FEMA Flood Hazard Layers, and more, 
+please visit: https://water.noaa.gov/wfo/GSP
+
+The next statement will be issued beforeFriday evening at 800 PM EDT.
+
+&&
+
+NCC087-280000-
+/O.NEW.KGSP.FL.W.0020.240926T1200Z-240928T0000Z/
+/CTPN7.1.ER.240926T2116Z.240927T0000Z.240927T0123Z.NO/
+451 PM EDT Wed Sep 25 2024
+
+...FLOOD WARNING IN EFFECT FROM THURSDAY MORNING TO FRIDAY EVENING...
+
+* WHAT...Minor flooding is forecast.
+
+* WHERE...Pigeon River at Canton.
+
+* WHEN...From Thursday morning to Friday evening.
+
+* IMPACTS...At 11.0 feet, The river will overflow its banks and 
+  start to flood low-lying areas in Clyde.
+
+* At 12.0 feet, at this level preventative flood action may be 
+  required at the former paper plant. Areas on the right bank of the 
+  river near Canton will begin to flood. This may include 
+  residential yards on Fiberville Road and parts of Valley, North, 
+  and Conley Streets.
+
+* At 12.5 feet, A trailer park near Old Highway 19 and 23 outside of 
+  Clyde may flood. Residential yards along Richland, Hyatt, and 
+  Allens Creeks will be in danger of flooding, due to runoff and 
+  back water from the Pigeon River.
+
+* ADDITIONAL DETAILS...
+  - At 4:15 PM EDT Wednesday the stage was 1.5 feet.
+  - Action/Advisory Stage is 10.0 feet.
+  - Forecast...The river is expected to rise above Minor Flood
+    Stage tomorrow afternoon to a crest of 11.0 feet tomorrow
+    evening.  It will then fall below Minor Flood Stage late
+    tomorrow evening.
+
+    NOTE: There is a potential for the crest to exceed 14.0 feet
+    and approach the Moderate Flood Stage of 15.0 feet.
+
+  - Minor Flood Stage is 10.0 feet.
+    Moderate Flood Stage is 15.0 feet.
+    Major Flood Stage is 19.0 feet.
+
+  - Flood History...This crest compares to a previous crest of
+    11.1 feet on 01/09/2024.  The Pigeon River crested at 19.60
+    feet on August 18, 2021 during Tropical Cyclone Fred.
+
+  - Http://www.weather.gov/safety/flood
+
+&&
+
+LAT...LON 3549 8292 3553 8286 3553 8290 3557 8290
+      3555 8281 3549 8286
+
+
+$$
+
+JMP

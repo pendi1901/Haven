@@ -1,0 +1,67 @@
+431 
+WGUS82 KGSP 260841
+FLSGSP
+
+Flood Advisory
+National Weather Service Greenville-Spartanburg SC
+441 AM EDT Thu Sep 26 2024
+
+SCC045-077-261430-
+/O.NEW.KGSP.FA.Y.0156.240926T0841Z-240926T1430Z/
+/00000.N.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/
+Greenville SC-Pickens SC-
+441 AM EDT Thu Sep 26 2024
+
+...FLOOD ADVISORY IN EFFECT UNTIL 1030 AM EDT THIS MORNING...
+
+* WHAT...Flooding caused by excessive rainfall is expected.
+
+* WHERE...A portion of upstate South Carolina, including the 
+  following counties, Greenville and Pickens.
+
+* WHEN...Until 1030 AM EDT.
+
+* IMPACTS...Minor flooding in low-lying and poor drainage areas. 
+
+* ADDITIONAL DETAILS...
+  - At 439 AM EDT, Training storms were producing heavy rainfall
+    over northern Greenville and Pickens Counties.  Between 1 and
+    2 inches of rain have fallen, with another wave of heavy
+    rainfall imminent.  Minor flooding is ongoing or expected to
+    begin shortly in the advisory area.
+  - Some locations that will experience flooding include...
+    Greenville Downtown, Greenville Eastside, West Greenville,
+    Greer, Taylors, Berea, Welcome, Travelers Rest, Slater-
+    Marietta, Tigerville, Paris Mountain State Park, Furman
+    University, Lake Robinson, Pleasant Ridge State Park,
+    Cherrydale Point, Jones Gap State Park, Caesars Head State
+    Park, GSP Airport, Cleveland and Glassy Mountain.
+  - http://www.weather.gov/safety/flood
+
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+
+When it is safe to do so, please report flooding or landslides 
+threatening roads or property to the National Weather Service 
+Greenville-Spartanburg by calling toll free, 1, 800, 2 6 7, 8 1 0 1, 
+by posting on our Facebook page, or via Twitter using hashtag 
+NWSGSP. Your message should describe the specific location where 
+impacts occurred and the depth of flooding observed.
+
+Turn around, don't drown when encountering flooded roads. Most flood 
+deaths occur in vehicles.
+
+Be especially cautious at night when it is harder to recognize the 
+dangers of flooding.
+
+&&
+
+LAT...LON 3516 8252 3516 8250 3518 8248 3518 8245
+      3516 8246 3517 8244 3519 8242 3520 8240
+      3520 8238 3519 8238 3518 8237 3519 8235
+      3518 8233 3520 8230 3519 8222 3487 8223
+      3480 8245 3485 8252 3512 8266
+
+
+$$
+
+MPR
