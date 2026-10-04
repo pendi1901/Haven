@@ -118,6 +118,8 @@ Setup (Supabase free tier):
 4. Supabase → Authentication → URL Configuration: set the Site URL to `http://localhost:5173` and add `http://localhost:5173/**` to the redirect URLs (plus your deployed origin, if any).
 5. `cp frontend/.env.example frontend/.env` and fill in the project URL and the **publishable** key (Project Settings → API Keys). Never put the secret key in the frontend.
 
+Hosted (Docker) builds: Vite bakes these values into the bundle at build time, and `.dockerignore` keeps `frontend/.env` out of the image, so pass them as build args. On Render, add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` as environment variables and redeploy (Render passes them to the Docker build). Locally: `docker build --build-arg VITE_SUPABASE_URL=… --build-arg VITE_SUPABASE_PUBLISHABLE_KEY=… -t haven .` Then add `https://<your-host>/**` to Supabase's redirect URLs. Without the build args the image still works, with accounts off.
+
 How it works:
 
 - The browser talks to Supabase directly (`supabase-js`); the FastAPI backend is unchanged and still stores nothing.
