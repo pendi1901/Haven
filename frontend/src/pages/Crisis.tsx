@@ -179,7 +179,7 @@ function NavigationView({ initial, backup, simulate, companions, needsHelp, purp
   return (
     <div className="fixed inset-0 flex flex-col bg-white">
       <div className="relative flex-1">
-        <Map meta={meta} state={state} route={n.route} backup={backup} showBackup={showBackup} traveled={n.progress?.along}
+        <Map meta={meta} state={state} route={n.route} backup={n.backup} showBackup={showBackup} traveled={n.progress?.along}
           user={simulate && n.fix ? { ...n.fix } : null} follow={follow} onUserPan={() => setFollow(false)}
           fit={n.fix ? undefined : "route"} liveGeolocate={!simulate} />
         <div className="absolute left-3 right-14 top-3 flex items-center gap-2">
@@ -201,8 +201,8 @@ function NavigationView({ initial, backup, simulate, companions, needsHelp, purp
       </div>
       <div className="pointer-events-none absolute inset-x-0 bottom-0 mx-auto max-w-xl px-2">
         <RoutePanel route={n.route} progress={n.progress} now={now} banner={n.banner} onDismissBanner={() => n.setBanner(null)}
-          replay={replay} handoff={!!meta?.features.handoff} hasBackup={!!backup} showBackup={showBackup}
-          onToggleBackup={() => setShowBackup(!showBackup)} onCantContinue={n.cantContinue} onStop={onExit}
+          replay={replay} handoff={!!meta?.features.handoff} hasBackup={!!n.backup} showBackup={showBackup}
+          onToggleBackup={() => { if (!showBackup) void n.refreshBackup(); setShowBackup(!showBackup); }} onCantContinue={n.cantContinue} onStop={onExit}
           voice={n.voice} onVoice={n.setVoice} rerouting={n.rerouting} noRoute={n.noRoute} follow={follow} onRecenter={() => setFollow(true)} />
       </div>
     </div>

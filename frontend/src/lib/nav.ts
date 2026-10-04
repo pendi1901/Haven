@@ -140,9 +140,16 @@ export class SimulatedSource implements PositionSource {
       let p = pointAlong(this.line, Math.min(this.along, total), this.cum);
       const ahead = pointAlong(this.line, Math.min(this.along + 5, total), this.cum);
       const heading = Math.atan2(ahead[0] - p[0], ahead[1] - p[1]) * (180 / Math.PI);
-      if (this.detour && this.along > this.detour.atMeters && this.along < this.detour.atMeters + 400) {
-        // Optional demo of off-route detection: drift ~offset meters sideways.
-        p = [p[0] + this.detour.offsetM / (111320 * Math.cos((p[1] * Math.PI) / 180)), p[1]];
+      // >= so a wander while paused takes effect on the next tick.
+      if (this.detour && this.along >= this.detour.atMeters && this.along < this.detour.atMeters + 400) {
+        // Optional demo of off-route detection: drift ~offset meters to the right of
+        // the direction of travel. A fixed east shift does nothing on an east-west road.
+        const behind = pointAlong(this.line, Math.max(this.along - 5, 0), this.cum);
+        const kx = 111320 * Math.cos((p[1] * Math.PI) / 180), ky = 110540;
+        const dx = (ahead[0] - behind[0]) * kx, dy = (ahead[1] - behind[1]) * ky;
+        const len = Math.hypot(dx, dy);
+        const [nx, ny] = len > 0 ? [dy / len, -dx / len] : [1, 0];
+        p = [p[0] + (nx * this.detour.offsetM) / kx, p[1] + (ny * this.detour.offsetM) / ky];
       }
       onFix({ lon: p[0], lat: p[1], accuracy: 5, heading: (heading + 360) % 360, t: Date.now() });
       this.onTick?.(simDt);
