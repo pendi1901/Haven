@@ -3,6 +3,11 @@ WORKDIR /build/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
 COPY frontend/ ./
+# Optional accounts. Vite inlines these into the bundle at build time, and .dockerignore
+# keeps frontend/.env out, so they must arrive as build args (docker build --build-arg).
+# Empty = accounts off. Both values are public.
+ARG VITE_SUPABASE_URL=""
+ARG VITE_SUPABASE_PUBLISHABLE_KEY=""
 RUN npm run build
 
 FROM python:3.12-slim-bookworm
@@ -32,5 +37,5 @@ USER haven
 RUN python -c "from app.main import app; assert app"
 EXPOSE 8000
 # One worker shares the in-memory graphs, polling jobs and SSE subscribers.
-# exec forwards shutdown signals; the shell expands Render's assigned PORT.
+# exec forwards shutdown signals; the shell expands PORT (8000 unless overridden).
 CMD ["sh", "-c", "exec uvicorn app.main:app --host 0.0.0.0 --port \"${PORT:-8000}\" --workers 1"]

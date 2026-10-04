@@ -2,7 +2,7 @@
 
 **Wherever you are, Haven shows what's happening, what official forecasts say is coming, and exactly what to do about it, adjusted to your situation right now.**
 
-WolfHacks 2026 · Center for Geospatial Analytics track.
+**Live: [safehaven.casa](https://safehaven.casa)** · WolfHacks 2026 · Center for Geospatial Analytics track.
 
 Haven uses only realtime observations and the forecasts that official sources already publish (NOAA/NWS/NWPS, USGS, EPA, NASA, NHC, FEMA). It does not forecast anything itself. Its own logic is deterministic: thresholds, geospatial overlays (point-in-polygon, elevation comparison), routing, and a rule-based decision engine.
 
@@ -32,22 +32,90 @@ npm run dev                          # http://localhost:5173 (proxies /api to :8
 
 Production-style single server: `npm run build` in `frontend/`, then the backend serves the app at `http://localhost:8000`.
 
-### Deploy to Render (one Docker web service)
+### Deployment: https://safehaven.casa
 
-The root `Dockerfile` builds React and runs FastAPI, which serves both the frontend
-and `/api` on one URL. The prepared Asheville and Raleigh datasets are included in
-the image. Keep them in the deployed Git branch; no `app.prepare` step is needed.
+Haven is self-hosted. The production app runs in Docker on a team member's laptop and is published at **[safehaven.casa](https://safehaven.casa)** through a Cloudflare Tunnel.
 
-Create a **Web Service** with **Language: Docker**, leave **Root Directory** blank,
-and use **Dockerfile Path: ./Dockerfile**. Leave the Docker command override blank
-and set **Health Check Path: /api/health**. Render supplies `PORT` automatically.
+```
+Visitor ──https──▶ Cloudflare (DNS + TLS for safehaven.casa)
+                        │  Cloudflare Tunnel (outbound connection from the laptop;
+                        ▼  no open ports, works on campus or event Wi-Fi)
+           ┌──────────── laptop · Docker network "haven-net" ────────────┐
+           │  cloudflared  ──▶  haven  (FastAPI: React app + /api, :8000)  │
+           └──────────────────────────────────────────────────────────────┘
+```
 
-Set these values in Render's **Environment** section. Secrets belong there, never
-in the Dockerfile or Git. `.dockerignore` excludes local `.env` files and caches.
+| Piece | What we use |
+| --- | --- |
+| Domain | `safehaven.casa`, a `.casa` domain from GoDaddy Registry, registered through Porkbun |
+| DNS and HTTPS | Cloudflare (free plan); the domain's nameservers point to Cloudflare |
+| Ingress | Cloudflare Tunnel (`cloudflared`), so the laptop never accepts inbound connections |
+| App | One Docker container from the root `Dockerfile`: the React build plus FastAPI, serving both the frontend and `/api` |
+| Accounts | Supabase (Google sign-in), configured at build time, see below |
+
+The prepared Asheville and Raleigh datasets are baked into the image, so no `app.prepare` step is needed on the server.
+
+#### 1. Build and run Haven
+
+Supabase settings are inlined into the frontend when it is built, so they are passed as build args (`.dockerignore` keeps `.env` files out of the image). Both values are public by design; omit them to build with accounts off.
+
+```bash
+docker network create haven-net
+
+docker build \
+  --build-arg VITE_SUPABASE_URL=https://<project-ref>.supabase.co \
+  --build-arg VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_... \
+  -t haven .
+
+docker run -d --name haven --network haven-net --restart unless-stopped \
+  -p 8000:8000 --env-file .env haven
+```
+
+Check `http://localhost:8000` on the laptop before going further (health check: `/api/health`). Runtime settings come from `.env` (see the table below). For `--env-file`, use plain `KEY=value` lines: unlike Python dotenv, Docker does not strip surrounding quotes or inline comments.
+
+#### 2. Point the domain at Cloudflare (one time)
+
+1. Cloudflare dashboard → **Add a domain** → `safehaven.casa` → Free plan.
+2. Porkbun → Domain Management → `safehaven.casa` → **Authoritative Nameservers** → replace Porkbun's with the two Cloudflare nameservers. Remove any DNSSEC records first.
+3. Wait until Cloudflare marks the domain **Active**.
+
+#### 3. Create the tunnel (one time)
+
+1. Cloudflare → **Zero Trust** → Networks → **Tunnels** → Create a tunnel → **Cloudflared**, named `haven`.
+2. Run the connector on the laptop, on the same Docker network as Haven. The token is a secret: never commit or share it.
+   ```bash
+   docker run -d --name cloudflared --network haven-net --restart unless-stopped \
+     cloudflare/cloudflared:latest tunnel --no-autoupdate run --token <TUNNEL_TOKEN>
+   ```
+3. Add two **public hostnames**, both with service **HTTP** → `haven:8000`:
+   - `safehaven.casa`
+   - `www.safehaven.casa`
+
+   Cloudflare creates the DNS records for them.
+
+#### 4. Allow the domain for sign-in (one time)
+
+- Supabase → Authentication → URL Configuration → **Redirect URLs**: add `https://safehaven.casa/**` and `https://www.safehaven.casa/**`. Keep `http://localhost:5173/**` for development.
+- Google Auth Platform → Clients → the web client → **Authorized JavaScript origins**: add `https://safehaven.casa` and `https://www.safehaven.casa`. The redirect URI stays Supabase's callback.
+- While the Google app is in Testing mode, only accounts listed under **Audience → Test users** can sign in.
+
+#### Updating the live site
+
+```bash
+git pull
+docker build --build-arg VITE_SUPABASE_URL=... --build-arg VITE_SUPABASE_PUBLISHABLE_KEY=... -t haven .
+docker rm -f haven
+docker run -d --name haven --network haven-net --restart unless-stopped \
+  -p 8000:8000 --env-file .env haven
+```
+
+The tunnel keeps running; it reconnects to the new container by name.
+
+#### Runtime settings (`.env`)
 
 | Variable | Value |
 | --- | --- |
-| `NWS_USER_AGENT` | `Haven (your-real-contact@example.com)` — replace with your contact |
+| `NWS_USER_AGENT` | `Haven (your-real-contact@example.com)`: NWS requires a contact |
 | `DATA_MODE` | `live` (image default; the UI can switch to replay) |
 | `REGION` | `asheville` (image default; live requests select the region by location) |
 | `WARM_REPLAY_CACHE` | `false` (image default; computes replay timesteps on demand) |
@@ -58,24 +126,11 @@ in the Dockerfile or Git. `.dockerignore` excludes local `.env` files and caches
 | `NCDOT_EVENTS_URL`, `NCDOT_API_KEY` | Optional live closure endpoint and credentials |
 | `CENSUS_API_KEY` | Optional; only adds ACS fields when rerunning census preparation |
 
-Use one worker initially: each additional worker duplicates the in-memory terrain,
-graphs and polling jobs. Measure memory usage with both live regions and replay
-loaded before choosing a smaller instance or enabling full replay warm-up.
+#### Operating notes
 
-No persistent disk is required for the bundled data. Runtime source snapshots and
-graph caches can be rebuilt after a restart. Do not mount an empty disk over
-`/app/backend/data`: it would hide the datasets included in the image.
-
-To build and run locally with Docker:
-
-```bash
-docker build -t haven .
-docker run --rm -p 8000:8000 --env-file .env -e WARM_REPLAY_CACHE=false haven
-```
-
-Open `http://localhost:8000`. For `--env-file`, use plain `KEY=value` entries;
-unlike Python dotenv, Docker does not strip surrounding quotes or inline comments.
-Render environment values should likewise be entered without surrounding quotes.
+- **The laptop is the server.** Keep it plugged in, awake and online (on macOS, `caffeinate -dims`). If it sleeps or goes offline, the site is down; both containers restart on their own when Docker comes back.
+- **One worker.** Each additional worker duplicates the in-memory terrain, graphs and polling jobs.
+- **No persistent volume needed.** The bundled data lives in the image; runtime snapshots and caches rebuild after a restart. Don't mount an empty volume over `/app/backend/data`, which would hide the datasets.
 
 ### Live anywhere, plus the Helene replay
 
@@ -117,6 +172,8 @@ Setup (Supabase free tier):
 3. Supabase → Authentication → Providers → Google: enable it and paste the client ID and secret.
 4. Supabase → Authentication → URL Configuration: set the Site URL to `http://localhost:5173` and add `http://localhost:5173/**` to the redirect URLs (plus your deployed origin, if any).
 5. `cp frontend/.env.example frontend/.env` and fill in the project URL and the **publishable** key (Project Settings → API Keys). Never put the secret key in the frontend.
+
+Hosted builds: pass the same two values as Docker build args, then allow the production domain in Supabase and Google. See [Deployment](#deployment-httpssafehavencasa). Without them the image still works, with accounts off.
 
 How it works:
 
@@ -235,3 +292,15 @@ One Dijkstra from the user gives the cost to every candidate destination (equiva
 The profile and check-in live in the browser's local storage. Requests carry only the location and the fields needed for one decision. Haven's server persists nothing, and location is never logged.
 
 If a user chooses to sign in (optional), their profile is also saved to their own row in Supabase, readable only by them. Household and health answers are excluded unless they opt in, and check-ins are never synced.
+
+## AI usage
+
+Per the WolfHacks rules, this section discloses how AI was used to build Haven.
+
+- **Tool:** [Claude Code](https://claude.com/claude-code) (Anthropic) was the only AI coding tool used.
+- **Planning:** the team used Claude to research the event's tracks and the public data sources, and to draft the project idea and the build spec (data sources, decision rules, milestones and scenario tests).
+- **Code:** the team gave that spec to Claude Code, which wrote most of the backend, frontend and tests. Team members reviewed the output, ran it, and directed the fixes.
+- **Setup and checks:** Claude Code was also used to set up the project on team members' machines, verify the external APIs and run the test suites.
+- **In the app:** Haven itself makes no AI predictions. Every forecast comes from an official source (NOAA, NWS, USGS, EPA, NASA, NHC). If `GEMINI_API_KEY` is set, Google Gemini only rewords the decision engine's existing output, and Haven falls back to its own template text when Gemini is unavailable.
+
+The team is responsible for the code, the data choices and every claim the app makes.
