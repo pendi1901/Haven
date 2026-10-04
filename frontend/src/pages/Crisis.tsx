@@ -186,12 +186,12 @@ function NavigationView({ initial, backup, simulate, companions, needsHelp, purp
           <button onClick={onExit} className="rounded-full bg-white px-3 py-2 text-sm font-semibold shadow-card ring-1 ring-black/10">← Back</button>
           {simulate && (
             <div className="flex items-center gap-1 rounded-full bg-slate-900 px-2 py-1 text-xs font-semibold text-white">
-              <span className="px-1">Simulated {n.route.mode}</span>
-              {RATES.map((r) => (
+              <span className="px-1">{n.noRoute ? "Stopped: no open route" : `Simulated ${n.route.mode}`}</span>
+              {!n.noRoute && RATES.map((r) => (
                 <button key={r} onClick={() => { setRate(r); n.setRate(r); }} aria-label={r ? `${r} times speed` : "Pause"}
                   className={`rounded-full px-2 py-1 ${rate === r ? "bg-white text-slate-900" : ""}`}>{r ? `${r}×` : "❚❚"}</button>
               ))}
-              <button onClick={n.wander} className="ml-1 rounded-full bg-white/15 px-2 py-1" title="Drift ~90 m off the route to test off-route detection">Wander off</button>
+              {!n.noRoute && <button onClick={n.wander} className="ml-1 rounded-full bg-white/15 px-2 py-1" title="Drift ~90 m off the route to test off-route detection">Wander off</button>}
               <button onClick={() => t && setT(new Date(Date.parse(t) + 3600_000).toISOString())} className="rounded-full bg-white/15 px-2 py-1"
                 title="Advance the replay clock 1 hour: newer gauge readings and forecasts arrive and the route is re-checked">+1 h</button>
             </div>
