@@ -79,5 +79,6 @@ export const api = {
     req<RouteCheckResponse>("/api/route/check", { method: "POST", body: JSON.stringify({ ...body, data_mode: ctx.data_mode }) }),
   responder: (t?: string | null) => req<ResponderResponse>(`/api/responder${q({ ...where(), t })}`),
   streamUrl: () => `/api/stream${q(where())}`,
-  geocode: (query: string) => req<{ label: string; lat: number; lon: number }[]>(`/api/geocode${q({ q: query })}`),
+  geocode: (query: string, bbox?: [number, number, number, number]) =>
+    req<{ label: string; lat: number; lon: number }[]>(`/api/geocode${q({ q: query, bbox: bbox?.join(",") })}`),
 };

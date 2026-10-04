@@ -284,6 +284,7 @@ REGIONS: dict[str, RegionConfig] = {
             {"name": "Bailey Dr off Garner Rd", "lat": 35.75790, "lon": -78.62628},
             {"name": "S Wilmington St at Walnut Creek", "lat": 35.75913, "lon": -78.64035},
             {"name": "Buck Jones Rd near I-40", "lat": 35.77249, "lon": -78.73610},
+            {"name": "Hunt Library (NC State)", "lat": 35.76935, "lon": -78.67638},
             {"name": "Downtown Raleigh", "lat": 35.7796, "lon": -78.6382},
             {"name": "Crabtree Valley Mall area", "lat": 35.8395, "lon": -78.6790},
         ),

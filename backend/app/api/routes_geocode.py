@@ -49,13 +49,33 @@ def _parse(rows) -> list[dict]:
     return out
 
 
+def _parse_bbox(bbox: str | None) -> tuple[float, float, float, float] | None:
+    if not bbox:
+        return None
+    try:
+        w, s, e, n = (float(x) for x in bbox.split(","))
+    except ValueError:
+        raise HTTPException(422, "bbox must be west,south,east,north") from None
+    if not (-180 <= w < e <= 180 and -90 <= s < n <= 90):
+        raise HTTPException(422, "bbox must be west,south,east,north")
+    return w, s, e, n
+
+
 @router.get("/geocode")
-async def geocode(q: str = Query(..., min_length=2, max_length=200)):
+async def geocode(q: str = Query(..., min_length=2, max_length=200),
+                  bbox: str | None = Query(None, description="west,south,east,north: only places inside "
+                                                             "(replay scenarios cover one area)")):
     global _last
     _check_user_agent()
-    key = " ".join(q.lower().split())
+    area = _parse_bbox(bbox)
+    q_norm = " ".join(q.lower().split())
+    key = q_norm if area is None else f"{q_norm}|{','.join(f'{v:.4f}' for v in area)}"
     if key in _cache:
         return _cache[key]
+    params = {"q": q_norm, "format": "jsonv2", "limit": 5, "countrycodes": "us", "addressdetails": 0}
+    if area:
+        w, s, e, n = area
+        params.update(viewbox=f"{w},{n},{e},{s}", bounded=1)
     async with _lock:
         # Another request may have filled the cache while this one waited.
         if key in _cache:
@@ -66,8 +86,7 @@ async def geocode(q: str = Query(..., min_length=2, max_length=200)):
         _last = time.monotonic()
         try:
             async with make_client(timeout=15) as client:
-                r = await client.get(NOMINATIM, params={"q": key, "format": "jsonv2", "limit": 5, "countrycodes": "us",
-                                                        "addressdetails": 0})
+                r = await client.get(NOMINATIM, params=params)
         except httpx.HTTPError as e:
             log.warning("Nominatim request failed: %r", e)
             raise HTTPException(503, UNAVAILABLE) from e

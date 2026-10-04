@@ -114,3 +114,10 @@ def test_replan_flags_rose_lane_route(client):
     assert check(TUE_11PM)["ok"]
     later = check("2026-09-30T06:00:00Z")
     assert not later["ok"] and "Rose Lane" in [p["name"] for p in later["problems"]]
+
+
+def test_hunt_library_stays_put(client):
+    """NC State's Hunt Library (by Lake Raleigh, between the dams, not modeled): flooding
+    nearby, but it never reaches the library or cuts it off."""
+    for t in (TUE_9PM, WED_1AM):
+        assert assess(client, (35.76935, -78.67638), t)["verdict"]["level"] == 2
