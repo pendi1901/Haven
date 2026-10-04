@@ -30,6 +30,8 @@ export function useNavigation(o: Opts) {
   const [rerouting, setRerouting] = useState(false);
   const [voice, setVoice] = useState(false);
   const [noRoute, setNoRoute] = useState<string | null>(null);
+  const noRouteRef = useRef<string | null>(null);
+  noRouteRef.current = noRoute;
   const tracker = useMemo(() => new RouteTracker(route), [route]);
   const detector = useRef(new OffRouteDetector());
   const warned = useRef(new Set<string>());
@@ -75,11 +77,17 @@ export function useNavigation(o: Opts) {
         setRoute(rr.route);
         storage.saveActiveRoute(rr.route);
         detector.current.reset();
+        noRouteRef.current = null;
         setNoRoute(null);
         show("reroute", why);
         say(why);
       } else {
-        setNoRoute(rr.message ?? "No open route found in this data.");
+        // The old route is no longer usable: stop walking the simulated dot (and
+        // advancing the replay clock) along it. A later successful reroute sets a
+        // new route, which restarts the source.
+        if (o.simulate) sourceRef.current?.stop();
+        noRouteRef.current = rr.message ?? "No open route found in this data.";
+        setNoRoute(noRouteRef.current);
         show("error", `${rr.message ?? "No open route found in this data."} Go to the highest point you can reach and call 911 if you are in danger.`);
       }
     } catch (e) {
@@ -87,11 +95,14 @@ export function useNavigation(o: Opts) {
     } finally {
       setRerouting(false);
     }
-  }, [o.companions, o.needsHelp, o.purpose, replay, say, show]);
+  }, [o.companions, o.needsHelp, o.purpose, o.simulate, replay, say, show]);
 
   const onFix = useCallback((f: PositionFix) => {
     fixRef.current = f;
     setFix(f);
+    // No usable route: don't track progress or detect off-route against the dead
+    // one (that would re-request a route and re-show the error every few fixes).
+    if (noRouteRef.current) return;
     const pr = tracker.progress([f.lon, f.lat]);
     setProgress(pr);
     if (pr.arrived) {
