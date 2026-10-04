@@ -3,6 +3,11 @@ WORKDIR /build/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
 COPY frontend/ ./
+# Optional accounts. Vite inlines these into the bundle at build time, and .dockerignore
+# keeps frontend/.env out, so they must arrive as build args (Render passes the service's
+# environment variables as build args). Empty = accounts off. Both values are public.
+ARG VITE_SUPABASE_URL=""
+ARG VITE_SUPABASE_PUBLISHABLE_KEY=""
 RUN npm run build
 
 FROM python:3.12-slim-bookworm
