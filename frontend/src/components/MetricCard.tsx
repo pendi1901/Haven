@@ -12,12 +12,14 @@ const SEV = [
 export default function MetricCard({ m, now }: { m: Metric; now: Date }) {
   const sev = SEV[Math.min(4, Math.max(0, m.severity))];
   const value = m.value == null ? "—" : Number.isInteger(m.value) ? String(m.value) : m.value.toFixed(1);
+  // Current wind is the NWS forecast for this hour standing in for "now"; its detail line still says so.
+  const forNow = m.key === "wind";
   return (
     <article className={`relative overflow-hidden rounded-xl border border-line bg-white p-3 pl-4 shadow-card ${m.available ? "" : "opacity-75"}`}>
       <span className={`absolute inset-y-0 left-0 w-1.5 ${m.available ? sev.bar : "bg-slate-200"}`} aria-hidden />
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="text-[13px] font-medium text-ink-2">{m.label}</h3>
-        {m.layer === "forecast" && m.available && <span className="rounded bg-sky-50 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sky-700">Forecast</span>}
+        {m.layer === "forecast" && m.available && <span className="rounded bg-sky-50 px-1.5 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-sky-700">{forNow ? "Now" : "Forecast"}</span>}
       </div>
       <div className="mt-1 flex items-baseline gap-1.5">
         <span className="text-2xl font-semibold tabular-nums text-ink">{value}</span>
