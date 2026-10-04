@@ -1,4 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
+import { useAccount, type Account } from "./account";
 import { api, setApiContext, type DataMode } from "./api";
 import { setTimeZone } from "./format";
 import { emptyProfile, storage } from "./storage";
@@ -24,6 +25,7 @@ interface Store {
   locateMe: () => Promise<UserLocation | null>;
   profile: Profile;
   setProfile: (p: Profile) => void;
+  account: Account;
   checkin: CheckIn | null;
   answer: (patch: Partial<CheckIn>) => void;
   resetCheckin: () => void;
@@ -240,10 +242,19 @@ const loadState = useCallback(async (tt: string | null) => {
     };
   }, [meta, replay]);
 
+  // A profile pulled from the account keeps the account's timestamp, so it isn't
+  // mistaken for a newer local edit and uploaded straight back.
+  const applyProfile = useCallback((p: Profile, updatedAt: string) => {
+    setProfileRaw(p);
+    storage.saveProfile(p, updatedAt);
+  }, []);
+  const { account, pushProfile } = useAccount(profile, applyProfile);
+
   const setProfile = useCallback((p: Profile) => {
     setProfileRaw(p);
     storage.saveProfile(p);
-  }, []);
+    pushProfile(p);
+  }, [pushProfile]);
 
   const answer = useCallback((patch: Partial<CheckIn>) => {
     setCheckin((c) => {
@@ -301,10 +312,10 @@ const loadState = useCallback(async (tt: string | null) => {
 
   const value = useMemo<Store>(() => ({
     dataMode, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
-    locating, locError, locateMe, profile, setProfile,
+    locating, locError, locateMe, profile, setProfile, account,
     checkin, answer, resetCheckin, assess, assessing, assessError, refreshAssess, blocked, setBlocked, version,
   }), [dataMode, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
-    locating, locError, locateMe, profile, setProfile,
+    locating, locError, locateMe, profile, setProfile, account,
     checkin, answer, resetCheckin, assess, assessing, assessError, refreshAssess, blocked, version]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
 import LocationPicker from "../components/LocationPicker";
 import Map from "../components/Map";
@@ -18,14 +18,27 @@ function Choice<T>({ value, current, onChange, children }: { value: T; current: 
   );
 }
 
-/** Under 60 seconds; every question skippable; saved on this device only (spec §12). */
+/** Under 60 seconds; every question skippable; saved on this device, and to the account when signed in (spec §12). */
 export default function Onboarding() {
-  const { meta, profile, setProfile, setLocation } = useStore();
+  const { meta, profile, setProfile, location, setLocation, account } = useStore();
   const [step, setStep] = useState(0);
   const [p, setP] = useState<Profile>(profile);
   const [picking, setPicking] = useState(false);
   const [homeLabel, setHomeLabel] = useState<string | null>(profile.home ? "Saved home" : null);
   const nav = useNavigate();
+
+  // "Edit your answers" in the account menu opens this page on purpose: never skip it then.
+  const editing = new URLSearchParams(window.location.search).has("edit");
+  // Back from Google sign-in: if the account already held a profile (set up on another
+  // device), it has been applied, so skip the questions. A new account stays here so the
+  // user can confirm or finish their answers, prefilled from this device.
+  useEffect(() => {
+    if (editing || !account.user || !account.synced || !account.restored) return;
+    if (profile.home && !location) setLocation({ ...profile.home, label: "Home", source: "home" });
+    storage.setOnboarded();
+    nav("/", { replace: true });
+  }, [account.user, account.synced, account.restored]); // eslint-disable-line react-hooks/exhaustive-deps
+  const newAccount = !editing && !!account.user && account.synced && !account.restored;
   const upd = (patch: Partial<Profile>) => setP((x) => ({ ...x, ...patch }));
   const toggleHH = (k: string) => upd({ household: p.household.includes(k) ? p.household.filter((x) => x !== k) : [...p.household, k] });
 
@@ -52,7 +65,23 @@ export default function Onboarding() {
         {step === 0 && (
           <>
             <h1 className="text-2xl font-bold leading-tight">Where's home?</h1>
-            <p className="mt-2 text-ink-2">Haven checks official alerts, river forecasts and air and heat conditions for this spot. Your answers stay on this device.</p>
+            <p className="mt-2 text-ink-2">
+              Haven checks official alerts, river forecasts and air and heat conditions for this spot.
+              {account.user ? " Your answers are saved to your account." : " Your answers stay on this device."}
+            </p>
+            {newAccount && (
+              <p className="mt-4 rounded-xl bg-emerald-50 px-4 py-3 text-sm text-emerald-900">
+                <span className="font-semibold">Signed in as {account.user?.name ?? account.user?.email}.</span>{" "}
+                Check your answers on the next few screens. They'll be saved to your account.
+              </p>
+            )}
+            {account.configured && !account.user && (
+              <button onClick={account.signIn} className="mt-4 w-full rounded-xl border border-line px-4 py-3 text-left text-sm hover:bg-slate-50">
+                <span className="font-semibold text-ink">Set up Haven before? Sign in with Google</span>
+                <span className="block text-ink-3">Restores your saved profile. Optional: you can skip this and stay on this device only.</span>
+              </button>
+            )}
+            {account.error && <p className="mt-3 rounded-lg bg-red-50 px-3 py-2 text-sm text-red-800">{account.error}</p>}
             <div className="mt-5">
               {p.home && <p className="mb-3 rounded-lg bg-emerald-50 px-3 py-2 text-sm font-medium text-emerald-900">✓ Home set: {homeLabel}</p>}
               <LocationPicker onPick={(l) => { upd({ home: { lat: l.lat, lon: l.lon } }); setHomeLabel(l.label); }} onMapPick={() => setPicking(true)} />
@@ -105,7 +134,7 @@ export default function Onboarding() {
         {step === 3 && (
           <>
             <h1 className="text-2xl font-bold leading-tight">A few quick details</h1>
-            <p className="mt-2 text-ink-2">Each one makes advice more specific. Health answers never leave this device except to decide your verdict.</p>
+            <p className="mt-2 text-ink-2">Each one makes advice more specific. Health answers are only used to decide your verdict, and stay on this device unless you choose to sync them to your account.</p>
             <div className="mt-5 space-y-4">
               {([
                 ["usually_has_car", "Do you usually have a car?"],

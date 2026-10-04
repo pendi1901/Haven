@@ -4,6 +4,7 @@ import type { CheckIn, LatLon, Profile, Route } from "./types";
 
 const K = {
   profile: "haven.profile.v1",
+  profileUpdatedAt: "haven.profileUpdatedAt.v1", // decides which side wins when an account syncs
   onboarded: "haven.onboarded.v1",
   checkin: "haven.checkin.v1",
   route: "haven.activeRoute.v1",
@@ -35,7 +36,11 @@ export const emptyProfile = (): Profile => ({
 
 export const storage = {
   profile: (): Profile => ({ ...emptyProfile(), ...(read<Profile>(K.profile) ?? {}) }),
-  saveProfile: (p: Profile) => write(K.profile, p),
+  saveProfile: (p: Profile, updatedAt: string = new Date().toISOString()) => {
+    write(K.profile, p);
+    write(K.profileUpdatedAt, updatedAt);
+  },
+  profileUpdatedAt: () => read<string>(K.profileUpdatedAt),
   onboarded: () => read<boolean>(K.onboarded) === true,
   setOnboarded: () => write(K.onboarded, true),
   // Check-in answers expire after 3 h or when the hazard changes (spec §6).
@@ -52,6 +57,11 @@ export const storage = {
   saveActiveRoute: (r: Route | null) => write(K.route, r),
   location: (mode: string) => read<LatLon & { label?: string; source?: string }>(`${K.location}.${mode}`),
   saveLocation: (mode: string, l: (LatLon & { label?: string; source?: string }) | null) => write(`${K.location}.${mode}`, l),
+  /** Sign-out: forget everything personal on this device (the account keeps its copy). */
+  clearPersonal: () => {
+    // haven.location.v1 is the pre-v2 saved location, which may still hold a home address.
+    for (const k of [K.profile, K.profileUpdatedAt, K.onboarded, K.checkin, K.route, `${K.location}.live`, "haven.location.v1"]) write(k, null);
+  },
   mode: () => read<"live" | "replay">(K.mode),
   saveMode: (m: "live" | "replay") => write(K.mode, m),
 };
