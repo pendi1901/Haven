@@ -110,8 +110,13 @@ export default function Map(props: Props) {
       map.addLayer({ id: "roads-closed", type: "line", source: "roads", filter: ["==", ["get", "status"], "closed"],
         paint: { "line-color": "#7f1d1d", "line-width": ["interpolate", ["linear"], ["zoom"], 11, 2.5, 16, 7], "line-dasharray": [1, 1] } });
 
-      map.addLayer({ id: "route-backup", type: "line", source: "route-backup",
-        paint: { "line-color": "#334155", "line-width": 3, "line-dasharray": [2, 1.5], "line-opacity": 0.8 } });
+      // Backup: violet, so it doesn't read as a hazard (red/amber) or the main route (blue).
+      map.addLayer({ id: "route-backup-casing", type: "line", source: "route-backup", filter: ["==", ["geometry-type"], "LineString"],
+        layout: { "line-cap": "round", "line-join": "round" }, paint: { "line-color": "#ffffff", "line-width": 8 } });
+      map.addLayer({ id: "route-backup", type: "line", source: "route-backup", filter: ["==", ["geometry-type"], "LineString"],
+        layout: { "line-join": "round" }, paint: { "line-color": "#7c3aed", "line-width": 4, "line-dasharray": [1.5, 1] } });
+      map.addLayer({ id: "route-backup-end", type: "circle", source: "route-backup", filter: ["==", ["geometry-type"], "Point"],
+        paint: { "circle-radius": 6, "circle-color": "#7c3aed", "circle-stroke-color": "#fff", "circle-stroke-width": 2 } });
       map.addLayer({ id: "route-casing", type: "line", source: "route-main", layout: { "line-cap": "round", "line-join": "round" },
         paint: { "line-color": "#ffffff", "line-width": 11 } });
       map.addLayer({ id: "route-main", type: "line", source: "route-main", layout: { "line-cap": "round", "line-join": "round" },
@@ -248,7 +253,11 @@ export default function Map(props: Props) {
         set("route-main", { type: "Feature", geometry: r.geometry, properties: {} });
       }
     }
-    set("route-backup", props.showBackup && props.backup ? { type: "Feature", geometry: props.backup.geometry, properties: {} } : EMPTY);
+    const b = props.showBackup ? props.backup : null;
+    set("route-backup", b ? { type: "FeatureCollection", features: [
+      { type: "Feature", geometry: b.geometry, properties: {} },
+      { type: "Feature", geometry: { type: "Point", coordinates: [b.destination.lon, b.destination.lat] }, properties: {} },
+    ] } : EMPTY);
   }, [ready, props.route, props.backup, props.showBackup, props.traveled]);
 
   // Destination marker
@@ -305,13 +314,14 @@ export default function Map(props: Props) {
     const map = mapRef.current;
     if (!ready || !map) return;
     if (props.fit === "route" && props.route) {
-      const cs = props.route.geometry.coordinates as XY[];
+      // Include the backup when it is shown; it usually heads somewhere else.
+      const cs = [...props.route.geometry.coordinates, ...(props.showBackup && props.backup ? props.backup.geometry.coordinates : [])] as XY[];
       const b = cs.reduce((acc, c) => acc.extend(c as [number, number]), new maplibregl.LngLatBounds(cs[0] as [number, number], cs[0] as [number, number]));
       map.fitBounds(b, { padding: { top: 60, bottom: 60, left: 40, right: 40 }, maxZoom: 16, duration: 600 });
     } else if (props.fit === "location" && props.location) {
       map.easeTo({ center: [props.location.lon, props.location.lat], zoom: Math.max(map.getZoom(), 14), duration: 600 });
     }
-  }, [ready, props.fit, props.route?.geometry, props.location?.lat, props.location?.lon]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [ready, props.fit, props.route?.geometry, props.showBackup, props.backup?.geometry, props.location?.lat, props.location?.lon]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     const map = mapRef.current;
