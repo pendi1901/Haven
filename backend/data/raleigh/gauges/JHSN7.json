@@ -1,0 +1,12 @@
+{
+ "lid": "JHSN7",
+ "usgs_id": "02087339",
+ "name": "Walnut Creek (NC) above Lake Johnson Dam",
+ "lat": 35.762718,
+ "lon": -78.70558,
+ "thresholds_ft": {},
+ "datum_navd88_ft": 0.0,
+ "record_crest_ft": 6.95,
+ "reach_id": "8786307",
+ "has_official_forecast": false
+}

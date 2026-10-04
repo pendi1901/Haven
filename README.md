@@ -146,7 +146,7 @@ Prepared regions (`backend/app/config.py`):
 | Region | Rivers / gauges | Terrain | Replay |
 | --- | --- | --- | --- |
 | `asheville` | French Broad FLCN7 → AVLN7, Swannanoa BLTN7 → confluence | USGS 3DEP 1 m lidar | Hurricane Helene |
-| `raleigh` | Crabtree Creek EBNN7 → RLHN7 → ADRN7 → CRBN7 | USGS 3DEP 1/3 arc-second (~10 m); no 1 m tiles are staged there | live only |
+| `raleigh` | Crabtree Creek EBNN7 → RLHN7 → ADRN7 → CRBN7; Walnut Creek BKJN7 → Lake Johnson (JHSN7 lake level) and WAWN7 → WSSN7 → WRLN7 → WALN7. UCTN7, WCIN7 and TRLN7 are shown but not modeled (no datum, or between the Lake Johnson and Lake Raleigh dams). Lake Raleigh has no gauge | USGS 3DEP 1/3 arc-second (~10 m); no 1 m tiles are staged there | live only |
 
 Prepare a region once, and it is picked up on the next server start:
 

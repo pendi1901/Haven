@@ -1,4 +1,4 @@
-import { CATEGORY_COLOR, CATEGORY_LABEL, dateTime, dayClock } from "../lib/format";
+import { CATEGORY_COLOR, CATEGORY_LABEL, dateTime, dayClock, gaugeCategoryLabel } from "../lib/format";
 import type { GaugeStatus } from "../lib/types";
 import GaugeChart from "./GaugeChart";
 
@@ -18,7 +18,7 @@ export default function GaugePanel({ g, now, onClose }: { g: GaugeStatus; now: s
       <div className="mt-3 flex items-center gap-3">
         <span className="h-3 w-3 rounded-full ring-2 ring-slate-900/20" style={{ background: g.online ? CATEGORY_COLOR[g.category_now] : "#cbd5e1" }} />
         <span className="text-2xl font-semibold tabular-nums">{g.observed_stage_ft != null ? `${g.observed_stage_ft.toFixed(2)} ft` : "—"}</span>
-        <span className="text-sm font-medium text-ink-2">{CATEGORY_LABEL[g.category_now]}</span>
+        <span className="text-sm font-medium text-ink-2">{gaugeCategoryLabel(g)}</span>
       </div>
       <p className="text-xs text-ink-3">Observed {dateTime(g.observed_at)}{g.record_crest_ft ? ` · record crest ${g.record_crest_ft} ft` : ""}</p>
       {g.note && <p className={`mt-2 rounded-lg px-2.5 py-1.5 text-xs ${g.online ? "bg-slate-50 text-ink-2" : "bg-amber-50 text-amber-900"}`}>{g.note}</p>}

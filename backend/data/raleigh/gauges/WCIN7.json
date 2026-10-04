@@ -1,0 +1,17 @@
+{
+ "lid": "WCIN7",
+ "usgs_id": null,
+ "name": "Walnut Creek Upstream of I-40",
+ "lat": 35.7718,
+ "lon": -78.7413,
+ "thresholds_ft": {
+  "major": 9.8,
+  "moderate": 7.8,
+  "minor": 4.6,
+  "action": 2.3
+ },
+ "datum_navd88_ft": null,
+ "record_crest_ft": 4.81,
+ "reach_id": "",
+ "has_official_forecast": false
+}

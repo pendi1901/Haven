@@ -1,0 +1,16 @@
+{
+ "lid": "WRLN7",
+ "usgs_id": "02087358",
+ "name": "Walnut Creek at Rose Ln in Raleigh",
+ "lat": 35.76025,
+ "lon": -78.600081,
+ "thresholds_ft": {
+  "moderate": 11.0,
+  "minor": 10.0,
+  "action": 9.0
+ },
+ "datum_navd88_ft": 193.2,
+ "record_crest_ft": 10.98,
+ "reach_id": "",
+ "has_official_forecast": false
+}

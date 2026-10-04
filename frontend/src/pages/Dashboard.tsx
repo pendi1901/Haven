@@ -6,7 +6,8 @@ import LocationPicker from "../components/LocationPicker";
 import Map from "../components/Map";
 import MetricCard from "../components/MetricCard";
 import TimeSlider from "../components/TimeSlider";
-import { CATEGORY_COLOR, CATEGORY_LABEL, dayClock, LEVEL_COLOR } from "../lib/format";
+import { CATEGORY_COLOR, dayClock, gaugeCategoryLabel, LEVEL_COLOR } from "../lib/format";
+import { haversine, type XY } from "../lib/geo";
 import { useStore } from "../lib/store";
 import { api } from "../lib/api";
 import type { GaugeStatus, Metric } from "../lib/types";
@@ -43,6 +44,14 @@ export default function Dashboard() {
     return () => { live = false; };
   }, [location, state?.t, state?.version, replay]); // eslint-disable-line react-hooks/exhaustive-deps
   const personal = spot ?? state?.metrics_region ?? [];
+
+  // Nearest first: a region can carry a dozen gauges on several creeks.
+  const gauges = useMemo(() => {
+    const all = state?.gauges ?? [];
+    if (!location) return all;
+    const here: XY = [location.lon, location.lat];
+    return [...all].sort((a, b) => haversine(here, [a.lon, a.lat]) - haversine(here, [b.lon, b.lat]));
+  }, [state?.gauges, location]);
 
   const headsUp = useMemo(() => {
     if (!state) return [];
@@ -137,12 +146,12 @@ export default function Dashboard() {
             {!waiting && <section>
               <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">River gauges</h2>
               <div className="grid gap-2">
-                {(state?.gauges ?? []).map((g) => (
+                {gauges.map((g) => (
                   <button key={g.lid} onClick={() => setGauge(g)} className="flex items-center gap-3 rounded-xl bg-white px-3 py-2.5 text-left shadow-card ring-1 ring-black/5 hover:ring-slate-300">
                     <span className="h-3 w-3 shrink-0 rounded-full" style={{ background: g.online ? CATEGORY_COLOR[g.category_now] : "#cbd5e1" }} />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-sm font-semibold">{g.short_name}</span>
-                      <span className="block text-xs text-ink-3">{g.online ? CATEGORY_LABEL[g.category_now] : g.observed_stage_ft == null ? "No recent readings" : "Offline · last reading shown"}{g.forecast_peak_ft != null ? ` · crest ${g.forecast_peak_ft.toFixed(1)} ft forecast` : ""}</span>
+                      <span className="block text-xs text-ink-3">{g.online ? gaugeCategoryLabel(g) : g.observed_stage_ft == null ? "No recent readings" : "Offline · last reading shown"}{g.forecast_peak_ft != null ? ` · crest ${g.forecast_peak_ft.toFixed(1)} ft forecast` : ""}</span>
                     </span>
                     <span className="text-lg font-semibold tabular-nums">{g.observed_stage_ft?.toFixed(1) ?? "—"}<span className="text-xs font-normal text-ink-3"> ft</span></span>
                   </button>

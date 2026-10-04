@@ -1,0 +1,16 @@
+{
+ "lid": "WALN7",
+ "usgs_id": "02087359",
+ "name": "Walnut Creek at Sunnybrook Dr in Raleigh",
+ "lat": 35.7583333333333,
+ "lon": -78.5827777777778,
+ "thresholds_ft": {
+  "moderate": 14.0,
+  "minor": 12.0,
+  "action": 10.0
+ },
+ "datum_navd88_ft": 182.24,
+ "record_crest_ft": 17.03,
+ "reach_id": "8784005",
+ "has_official_forecast": false
+}

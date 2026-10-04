@@ -1,0 +1,12 @@
+{
+ "lid": "UCTN7",
+ "usgs_id": null,
+ "name": "Walnut Creek above Cary Towne",
+ "lat": 35.77956,
+ "lon": -78.75269,
+ "thresholds_ft": {},
+ "datum_navd88_ft": null,
+ "record_crest_ft": null,
+ "reach_id": "",
+ "has_official_forecast": false
+}

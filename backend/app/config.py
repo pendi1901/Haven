@@ -105,6 +105,12 @@ class ReachConfig:
     upstream_lid: str
     downstream_lid: str | None = None
     joins_reach: str | None = None
+    # (lat, lon) where the reach ends when that is not at the downstream gauge,
+    # e.g. a lake inlet whose level is read by a gauge at the dam.
+    downstream_at: tuple[float, float] | None = None
+    # Unnamed OSM waterway ways that carry this river across gaps between its
+    # named ways (culverts, unnamed segments).
+    extra_osm_ways: tuple[int, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -203,11 +209,22 @@ REGIONS: dict[str, RegionConfig] = {
         ),
     ),
     # Raleigh: Crabtree Creek from Ebenezer Church Rd (official NOAA forecast point)
-    # through Glenwood Ave and Anderson Dr to Capitol Blvd. Live mode only (no
-    # replay archive is wired up). Base flow: 30-day median stage as of Oct 3, 2026.
+    # through Glenwood Ave and Anderson Dr to Capitol Blvd, and Walnut Creek.
+    # Live mode only (no replay archive is wired up). Base flow: 30-day median
+    # stage as of Oct 3, 2026.
+    #
+    # Walnut Creek has two dams, Lake Johnson and Lake Raleigh, and no gauge reads
+    # the creek just below either one, so a stage cannot be interpolated across
+    # them. Modeled: Buck Jones Rd down to where the creek enters Lake Johnson
+    # (whose level is the downstream end), and Wilmington St down to Sunnybrook
+    # Dr. The lake shore itself is not modeled: on the 10 m DEM, roads on the
+    # shore and the Avent Ferry Rd causeway sit within a foot of the normal pool,
+    # so ordinary lake rises flagged them. Shown on the map but not modeled: the
+    # two Cary gauges (NWPS publishes no datum for them) and Trailwood Dr
+    # (between the two dams).
     "raleigh": RegionConfig(
         key="raleigh",
-        name="Raleigh, NC (Crabtree Creek)",
+        name="Raleigh, NC (Crabtree and Walnut Creeks)",
         bbox=(-78.760, 35.740, -78.580, 35.880),
         center=(35.800, -78.660),
         timezone="America/New_York",
@@ -218,11 +235,27 @@ REGIONS: dict[str, RegionConfig] = {
             GaugeConfig("RLHN7", "02087275", "Crabtree Creek at Glenwood Ave", base_flow_stage_ft=4.50),
             GaugeConfig("ADRN7", "0208731190", "Crabtree Creek at Anderson Dr", base_flow_stage_ft=2.05),
             GaugeConfig("CRBN7", "02087324", "Crabtree Creek at Capitol Blvd", base_flow_stage_ft=-0.24),
+            GaugeConfig("UCTN7", None, "Walnut Creek above Cary Towne Blvd"),
+            GaugeConfig("WCIN7", None, "Walnut Creek above I-40"),
+            GaugeConfig("BKJN7", "02087337", "Walnut Creek at Buck Jones Rd", base_flow_stage_ft=0.96),
+            # Reports lake elevation (ft NAVD88) on a zero datum, not a stage.
+            GaugeConfig("JHSN7", "02087339", "Lake Johnson above dam", base_flow_stage_ft=343.16),
+            GaugeConfig("TRLN7", "0208734210", "Walnut Creek at Trailwood Dr"),
+            GaugeConfig("WAWN7", "0208734795", "Walnut Creek at S Wilmington St", base_flow_stage_ft=0.55),
+            GaugeConfig("WSSN7", "0208735460", "Walnut Creek at S State St", base_flow_stage_ft=1.55),
+            GaugeConfig("WRLN7", "02087358", "Walnut Creek at Rose Ln", base_flow_stage_ft=3.95),
+            GaugeConfig("WALN7", "02087359", "Walnut Creek at Sunnybrook Dr", base_flow_stage_ft=2.18),
         ),
         reaches=(
             ReachConfig("crabtree_upper", "Crabtree Creek", "EBNN7", downstream_lid="RLHN7"),
             ReachConfig("crabtree_mid", "Crabtree Creek", "RLHN7", downstream_lid="ADRN7"),
             ReachConfig("crabtree_lower", "Crabtree Creek", "ADRN7", downstream_lid="CRBN7"),
+            ReachConfig("walnut_buck_jones", "Walnut Creek", "BKJN7", downstream_lid="JHSN7",
+                        downstream_at=(35.76800, -78.72230),  # where the creek enters Lake Johnson
+                        extra_osm_ways=(1028536915, 1028536916, 1028536917)),
+            ReachConfig("walnut_wilmington", "Walnut Creek", "WAWN7", downstream_lid="WSSN7"),
+            ReachConfig("walnut_state", "Walnut Creek", "WSSN7", downstream_lid="WRLN7"),
+            ReachConfig("walnut_rose", "Walnut Creek", "WRLN7", downstream_lid="WALN7"),
         ),
         demo_places=(
             {"name": "Crabtree Valley Mall area", "lat": 35.8395, "lon": -78.6790},

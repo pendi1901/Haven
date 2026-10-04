@@ -1,0 +1,17 @@
+{
+ "lid": "TRLN7",
+ "usgs_id": "0208734210",
+ "name": "Walnut Creek at Trailwood Drive",
+ "lat": 35.7683333333333,
+ "lon": -78.69111111111,
+ "thresholds_ft": {
+  "major": 16.0,
+  "moderate": 14.0,
+  "minor": 12.0,
+  "action": 10.0
+ },
+ "datum_navd88_ft": 275.1,
+ "record_crest_ft": 12.04,
+ "reach_id": "8783959",
+ "has_official_forecast": false
+}

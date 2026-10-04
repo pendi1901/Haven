@@ -46,6 +46,11 @@ export const CATEGORY_LABEL: Record<string, string> = {
   none: "Below flood stage", action: "Action stage", minor: "Minor flooding", moderate: "Moderate flooding", major: "Major flooding",
 };
 
+// Some gauges (lake levels, local network gauges) have no NOAA flood stages, so
+// "below flood stage" would claim something NOAA never said.
+export const gaugeCategoryLabel = (g: { category_now: string; thresholds_ft: Record<string, number> }) =>
+  g.category_now === "none" && Object.keys(g.thresholds_ft).length === 0 ? "No NOAA flood stages" : CATEGORY_LABEL[g.category_now];
+
 export const CATEGORY_COLOR: Record<string, string> = {
   none: "#16a34a", action: "#e6c300", minor: "#ff9900", moderate: "#e60000", major: "#b833ff",
 };
