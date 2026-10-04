@@ -12,6 +12,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from app.api import routes_geocode, routes_responder, routes_route, routes_state, routes_user, stream
+from app.api.deps import ScenarioMiddleware
 from app.config import REGIONS, REPO_DIR, settings
 from app.state import get_hub
 
@@ -45,6 +46,7 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="Haven", version="0.1.0", lifespan=lifespan,
               description="Decision support layered on official NOAA/NWS/USGS/EPA/NASA data.")
+app.add_middleware(ScenarioMiddleware)
 app.add_middleware(CORSMiddleware, allow_origins=[o.strip() for o in settings().cors_origins.split(",")],
                    allow_methods=["*"], allow_headers=["*"])
 for r in (routes_state, routes_user, routes_route, routes_responder, routes_geocode, stream):

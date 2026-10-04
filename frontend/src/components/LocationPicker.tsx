@@ -41,7 +41,9 @@ export default function LocationPicker({ onPick, onMapPick, compact = false }: {
       )}
       {replay && meta && (
         <div>
-          {!compact && <p className="mb-2 text-sm text-ink-2">Replay is set in Asheville during Hurricane Helene. Pick a place to stand in:</p>}
+          {!compact && <p className="mb-2 text-sm text-ink-2">
+            {meta.replay?.simulated ? `This is a simulated flood in ${meta.region.name.split(" (")[0]}.` : `Replay is set in ${meta.region.name.split(" (")[0]} during ${meta.replay?.event ?? "a past event"}.`} Pick a place to stand in:
+          </p>}
           <div className="grid gap-2 sm:grid-cols-2">
             {meta.demo_places.map((p) => (
               <button key={p.name} onClick={() => onPick({ lat: p.lat, lon: p.lon, label: p.name, source: "demo" })}
@@ -52,6 +54,8 @@ export default function LocationPicker({ onPick, onMapPick, compact = false }: {
           </div>
         </div>
       )}
+      {/* Replay scenarios cover one area, so search is limited to it (else "Hunt Library" finds Pittsburgh). */}
+      {replay && meta && <PlaceSearch onPick={onPick} area={{ name: meta.region.name.split(" (")[0], bbox: meta.region.bbox }} />}
       {onMapPick && (
         <button onClick={onMapPick} className="w-full rounded-xl border border-dashed border-slate-400 px-4 py-3 text-sm font-semibold text-ink-2 hover:bg-slate-50">
           Tap a spot on the map
@@ -77,7 +81,11 @@ export function searchError(ex: unknown): string {
 
 /** Address / place search (OpenStreetMap Nominatim via the backend). Searches on
  * submit only, per Nominatim's usage policy. */
-function PlaceSearch({ onPick }: { onPick: (l: UserLocation) => void }) {
+function PlaceSearch({ onPick, area }: {
+  onPick: (l: UserLocation) => void;
+  /** Only places inside this area (replay scenarios). */
+  area?: { name: string; bbox: [number, number, number, number] };
+}) {
   const [q, setQ] = useState("");
   const [busy, setBusy] = useState(false);
   const [results, setResults] = useState<{ label: string; lat: number; lon: number }[] | null>(null);
@@ -94,9 +102,11 @@ function PlaceSearch({ onPick }: { onPick: (l: UserLocation) => void }) {
     setResults(null);
     setBusy(true);
     try {
-      const r = await api.geocode(query);
+      const r = await api.geocode(query, area?.bbox);
       setResults(r);
-      if (!r.length) setErr("No US place found. Try a street address with city and state.");
+      if (!r.length) setErr(area
+        ? `Nothing found in the ${area.name} area, which is all this scenario covers. Try a street or landmark there, or tap the map.`
+        : "No US place found. Try a street address with city and state.");
     } catch (ex) {
       setErr(searchError(ex));
     } finally {
@@ -114,7 +124,7 @@ function PlaceSearch({ onPick }: { onPick: (l: UserLocation) => void }) {
     <div>
       <form role="search" onSubmit={submit} className="flex gap-2">
         <input value={q} onChange={(e) => { setQ(e.target.value); setErr(null); }}
-          placeholder="Or search an address or place, e.g. Raleigh, NC"
+          placeholder={area ? `Or search a place in ${area.name}` : "Or search an address or place, e.g. Raleigh, NC"}
           aria-label="Search an address or place"
           type="search" inputMode="search" enterKeyHint="search" autoComplete="off" autoCorrect="off" spellCheck={false}
           className="min-h-[44px] min-w-0 flex-1 rounded-xl border border-slate-300 bg-white px-3 text-base outline-none focus:border-slate-900 sm:text-sm" />

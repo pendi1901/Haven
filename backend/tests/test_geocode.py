@@ -74,3 +74,24 @@ def test_failures_not_cached(client, monkeypatch):
 
 async def _no_sleep(_s):
     return None
+
+
+def test_bbox_limits_search_to_the_area(client):
+    """Replay scenarios cover one area: Nominatim gets it as a bounded viewbox, and
+    cached results for the same words elsewhere are not reused."""
+    seen = []
+
+    def handler(req):
+        seen.append(dict(req.url.params))
+        return httpx.Response(200, json=[ROW])
+    client.set_handler(handler)
+    assert client.get("/api/geocode", params={"q": "Hunt Library"}).status_code == 200
+    r = client.get("/api/geocode", params={"q": "Hunt Library", "bbox": "-78.76,35.74,-78.58,35.88"})
+    assert r.status_code == 200 and len(seen) == 2
+    assert "viewbox" not in seen[0]
+    assert seen[1]["viewbox"] == "-78.76,35.88,-78.58,35.74" and seen[1]["bounded"] == "1"
+
+
+def test_bad_bbox_is_422(client):
+    assert client.get("/api/geocode", params={"q": "Hunt Library", "bbox": "nope"}).status_code == 422
+    assert client.get("/api/geocode", params={"q": "Hunt Library", "bbox": "-78.5,35.9,-78.7,35.7"}).status_code == 422

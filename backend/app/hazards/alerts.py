@@ -76,11 +76,15 @@ class Alerts(BaseModule):
                     emergency = False
                 event = a["event"] + (" (Emergency)" if emergency and "Emergency" not in a["event"] else "")
                 sev = alert_severity(event, emergency)
+                sim = self.ctx.region.replay_simulated
+                if sim:
+                    headline = "Simulated for this demo, not issued by the NWS. " + headline.split(" by ")[0] + "."
                 out.append(HazardZone(
                     id=f"nws:{a['id']}", hazard="nws_alert", geometry=a["geometry"], severity=sev,
                     layer=TimeLayer.NOW if is_warning(a["event"]) or sev <= 1 else TimeLayer.FORECAST,
-                    valid_from=a["issue"], valid_to=valid_to, source=Source.NWS,
-                    reason=f"Official {a['event']} from {office} (archived product).",
+                    valid_from=a["issue"], valid_to=valid_to, source=Source.SIMULATED if sim else Source.NWS,
+                    reason=(f"Simulated {a['event']} (demo scenario, not an NWS product)." if sim
+                            else f"Official {a['event']} from {office} (archived product)."),
                     event=a["event"], headline=headline, description=a.get("description"),
                     instruction=a.get("instruction"), is_warning=is_warning(a["event"]), archived=True,
                 ))

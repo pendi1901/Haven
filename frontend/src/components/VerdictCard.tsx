@@ -20,7 +20,7 @@ export default function VerdictCard({ v, busy, onAssumption }: { v: Verdict; bus
       {v.fallback && <p className="border-b border-line bg-violet-50 px-4 py-2.5 text-sm font-medium text-violet-900">{v.fallback}</p>}
       {v.timeline.length > 0 && (
         <div className="px-4 py-3">
-          <h3 className="text-xs font-semibold uppercase tracking-wide text-ink-3">What official sources show</h3>
+          <h3 className="text-xs font-semibold uppercase tracking-wide text-ink-3">{v.sources.includes("simulated") ? "What the simulated data shows" : "What official sources show"}</h3>
           <ol className="mt-2 space-y-1.5 border-l-2 border-line pl-3">
             {v.timeline.map((t, i) => (
               <li key={i} className="relative text-sm text-ink-2">

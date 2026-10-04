@@ -90,7 +90,8 @@ class RiverFlood(BaseModule):
             if fc:
                 fc_points = [(pt, v) for pt, v in fc["points"] if pt > t]
                 fc_issued = fc["issued"]
-                fc_source = "NWS Lower Mississippi River Forecast Center (archived product " + fc["product_id"] + ")"
+                fc_source = ("Simulated forecast (demo scenario, not an NWS product)" if self.ctx.region.replay_simulated
+                             else "NWS Lower Mississippi River Forecast Center (archived product " + fc["product_id"] + ")")
         else:
             entry = self.ctx.cache.get(f"nwps:{g.lid}")
             data = entry.value or {}
@@ -212,7 +213,8 @@ class RiverFlood(BaseModule):
                      "moderate": "Moderate flooding", "major": "Major flooding"}[g.category_now]
         if g.forecast_peak_at and RIVER_SEVERITY[g.forecast_peak_category] > sev:
             when = g.time_to_category.get(g.forecast_peak_category) or g.forecast_peak_at
-            advice = (f"NOAA forecasts {g.forecast_peak_category} flooding at this gauge "
+            who = "The simulated forecast shows" if self.ctx.region.replay_simulated and self.replay else "NOAA forecasts"
+            advice = (f"{who} {g.forecast_peak_category} flooding at this gauge "
                       f"(crest {g.forecast_peak_ft:.1f} ft). Avoid low roads near the river.")
             detail = f"Forecast crest {g.forecast_peak_ft:.1f} ft; {g.forecast_peak_category} stage around {when.isoformat()}"
         elif sev >= 2:
@@ -226,7 +228,8 @@ class RiverFlood(BaseModule):
             detail = None
         return [Metric(
             key="river", label=f"River · {g.short_name}", value=g.observed_stage_ft, unit="ft",
-            category=cat_label, severity=sev, advice=advice, source=Source.USGS if self.replay else Source.NWPS,
+            category=cat_label, severity=sev, advice=advice,
+            source=(Source.SIMULATED if self.ctx.region.replay_simulated else Source.USGS) if self.replay else Source.NWPS,
             layer=TimeLayer.NOW, observed_or_valid_at=g.observed_at, stale=g.stale,
             detail=(detail or "") + (f" · {dist:.1f} km away" if dist else ""),
         )]

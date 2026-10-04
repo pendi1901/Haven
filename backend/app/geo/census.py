@@ -72,7 +72,7 @@ def download_census(region: RegionConfig, client: httpx.Client, force: bool = Fa
         log.info("census: %d tracts%s", len(fc["features"]), " (+ACS)" if key else " (no CENSUS_API_KEY: 2020 population only)")
 
     cpath = closures_path(region)
-    if region.replay_start and (not cpath.exists() or force):
+    if region.replay_start and not region.replay_simulated and (not cpath.exists() or force):
         w, s, e, n = region.bbox
         r = client.get(NCDOT_HELENE_LINES, params={
             "where": "EventName='2024 Hurricane Helene'", "geometry": f"{w},{s},{e},{n}",

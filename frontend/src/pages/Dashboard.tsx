@@ -56,21 +56,24 @@ export default function Dashboard() {
   const headsUp = useMemo(() => {
     if (!state) return [];
     const items: { key: string; text: string; tone: "watch" | "forecast" }[] = [];
+    const sim = !!meta?.replay?.simulated;
     for (const z of state.zones) {
-      if (z.hazard === "nws_alert" && !z.is_warning) items.push({ key: z.id, text: `${z.event} in effect (NWS)`, tone: "watch" });
+      if (z.hazard === "nws_alert" && !z.is_warning) items.push({ key: z.id, text: `${z.event} in effect (${z.source === "simulated" ? "simulated" : "NWS"})`, tone: "watch" });
     }
     for (const g of state.gauges) {
       for (const c of ["minor", "moderate", "major"] as const) {
         const when = g.time_to_category[c];
         if (when && Date.parse(when) > Date.parse(state.t) && (["none", "action"].includes(g.category_now) || c !== "minor")) {
-          items.push({ key: g.lid + c, text: `NOAA forecasts the ${g.short_name} to reach ${c} flood stage ${dayClock(when)}.`, tone: "forecast" });
+          items.push({ key: g.lid + c, text: sim
+            ? `The simulated forecast has the ${g.short_name} reaching ${c} flood stage ${dayClock(when)}.`
+            : `NOAA forecasts the ${g.short_name} to reach ${c} flood stage ${dayClock(when)}.`, tone: "forecast" });
           break;
         }
       }
     }
     for (const z of state.zones) if (z.hazard === "hurricane") items.push({ key: z.id, text: z.reason, tone: "forecast" });
     return items;
-  }, [state]);
+  }, [state, meta?.replay?.simulated]);
 
   if (metaError) return <Fatal msg={metaError} onReset={location ? () => setLocation(null) : undefined} />;
   const v = assess?.verdict;
@@ -92,7 +95,8 @@ export default function Dashboard() {
               <section className="rounded-2xl bg-white p-4 shadow-card ring-1 ring-black/5">
                 <h2 className="font-semibold">Where are you?</h2>
                 <p className="mb-3 text-sm text-ink-2">
-                  {replay ? "Pick a place in Asheville to replay Helene from." : "Haven works anywhere in the US. Your location is used for this request only and never stored on the server."}
+                  {replay ? (meta?.replay?.simulated ? `Pick a place in ${meta.region.name.split(" (")[0]} to follow the simulated flood from.`
+                    : `Pick a place in ${meta?.region.name.split(" (")[0] ?? "the replay area"} to replay ${meta?.replay?.event ?? "the event"} from.`) : "Haven works anywhere in the US. Your location is used for this request only and never stored on the server."}
                 </p>
                 <LocationPicker compact onPick={(l) => { setLocation(l); setLocOpen(false); }} onMapPick={() => setPicking(true)} />
               </section>
@@ -132,7 +136,7 @@ export default function Dashboard() {
 
             {!waiting && headsUp.length > 0 && (
               <section>
-                <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">Heads-up from official forecasts</h2>
+                <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-ink-3">{meta?.replay?.simulated ? "Heads-up from the simulated forecasts" : "Heads-up from official forecasts"}</h2>
                 <ul className="space-y-2">
                   {headsUp.map((h) => (
                     <li key={h.key} className={`rounded-xl border px-3 py-2.5 text-sm ${h.tone === "watch" ? "border-amber-200 bg-amber-50 text-amber-950" : "border-sky-200 bg-sky-50 text-sky-950"}`}>{h.text}</li>
@@ -169,7 +173,9 @@ export default function Dashboard() {
 
             {state && !waiting && (
               <p className="text-[11px] leading-relaxed text-ink-3">
-                {replay ? "Replay uses archived official data only as it was known at the selected time: USGS gage height, NWS river forecasts (LMRFC), NWS warnings and NHC advisories. " : ""}
+                {replay ? (meta?.replay?.simulated
+                  ? "This is a simulated scenario: its gauge readings, river forecasts and alerts are made up for demonstration. As in a replay, only what was known at the selected time is used. "
+                  : "Replay uses archived official data only as it was known at the selected time: USGS gage height, NWS river forecasts (LMRFC), NWS warnings and NHC advisories. ") : ""}
                 Road impacts and flood extent are Haven's overlay of official gauge levels and forecasts on {meta?.dem_source ?? "USGS terrain"}, not an official inundation map.
                 {state.counts.flooded + state.counts.forecast_flooded > 0 && ` Now: ${state.counts.flooded} road segments flooded, ${state.counts.forecast_flooded} forecast to flood.`}
               </p>
@@ -187,6 +193,7 @@ export default function Dashboard() {
 }
 
 function Legend() {
+  const { meta } = useStore();
   const [open, setOpen] = useState(false);
   return (
     <div className="absolute bottom-24 right-2 z-[1] md:bottom-28">
@@ -195,7 +202,7 @@ function Legend() {
         <div className="mt-1 w-56 rounded-xl bg-white/95 p-3 text-xs shadow-card ring-1 ring-black/10">
           {[
             ["#dc2626", "Flooded road now", "solid"], ["#f59e0b", "At-risk road now", "solid"], ["#7f1d1d", "Closed road", "dash"],
-            ["#dc2626", "Forecast to flood (NOAA forecast)", "dash"], ["#1d4ed8", "Your route", "solid"], ["#334155", "Backup route", "dash"],
+            ["#dc2626", `Forecast to flood (${meta?.replay?.simulated ? "simulated" : "NOAA"} forecast)`, "dash"], ["#1d4ed8", "Your route", "solid"], ["#334155", "Backup route", "dash"],
           ].map(([c, l, s]) => (
             <div key={l} className="flex items-center gap-2 py-0.5">
               <svg width="22" height="6"><line x1="0" x2="22" y1="3" y2="3" stroke={c} strokeWidth="3" strokeDasharray={s === "dash" ? "4 3" : undefined} /></svg>{l}

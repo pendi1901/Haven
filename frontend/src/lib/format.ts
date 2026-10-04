@@ -40,6 +40,7 @@ export function duration(s: number): string {
 export const SOURCE_LABEL: Record<string, string> = {
   nws: "NWS", nwps: "NOAA NWPS", usgs: "USGS", airnow: "AirNow", purpleair: "PurpleAir", epa: "EPA", firms: "NASA FIRMS",
   nhc: "NHC", ncdot: "NCDOT", fema: "FEMA", osm: "OpenStreetMap", haven: "Haven overlay",
+  simulated: "Simulated (demo)",
 };
 
 export const CATEGORY_LABEL: Record<string, string> = {

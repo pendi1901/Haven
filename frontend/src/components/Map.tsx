@@ -142,10 +142,10 @@ export default function Map(props: Props) {
 
       // Interactions
       const popup = new maplibregl.Popup({ closeButton: true, maxWidth: "280px" });
-      map.on("click", "roads-flooded", (e) => roadPopup(e, popup, map));
-      map.on("click", "roads-risk", (e) => roadPopup(e, popup, map));
-      map.on("click", "roads-fc", (e) => roadPopup(e, popup, map));
-      map.on("click", "roads-closed", (e) => roadPopup(e, popup, map));
+      map.on("click", "roads-flooded", (e) => roadPopup(e, popup, map, !!propsRef.current.meta?.replay?.simulated));
+      map.on("click", "roads-risk", (e) => roadPopup(e, popup, map, !!propsRef.current.meta?.replay?.simulated));
+      map.on("click", "roads-fc", (e) => roadPopup(e, popup, map, !!propsRef.current.meta?.replay?.simulated));
+      map.on("click", "roads-closed", (e) => roadPopup(e, popup, map, !!propsRef.current.meta?.replay?.simulated));
       map.on("click", "gauges", (e) => {
         const lid = e.features?.[0]?.properties?.lid;
         const g = propsRef.current.state?.gauges.find((x) => x.lid === lid);
@@ -335,7 +335,7 @@ function esc(s: unknown): string {
   return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
 }
 
-function roadPopup(e: maplibregl.MapLayerMouseEvent, popup: maplibregl.Popup, map: MLMap) {
+function roadPopup(e: maplibregl.MapLayerMouseEvent, popup: maplibregl.Popup, map: MLMap, simulated = false) {
   const p = e.features?.[0]?.properties;
   if (!p) return;
   const status = { dry: "Forecast to flood", at_risk: "At risk now", flooded: "Flooded now", closed: "Closed" }[p.status as string];
@@ -344,7 +344,7 @@ function roadPopup(e: maplibregl.MapLayerMouseEvent, popup: maplibregl.Popup, ma
     `<b>${esc(p.name && p.name !== "null" ? p.name : p.path ? "Path" : "Unnamed road")}</b>${p.bridge ? " (bridge)" : ""}`,
     status,
     p.status !== "dry" && p.depth_ft != null && p.depth_ft !== "null" && Number(p.depth_ft) > 0 ? `Estimated water depth ~${Number(p.depth_ft).toFixed(1)} ft` : "",
-    ff && p.status === "dry" ? `Forecast to flood ~${dayClock(ff)} (NOAA forecast + terrain)` : "",
+    ff && p.status === "dry" ? `Forecast to flood ~${dayClock(ff)} (${simulated ? "simulated" : "NOAA"} forecast + terrain)` : "",
     p.stale ? "<i>Based on an offline gauge's last reading</i>" : "",
   ].filter(Boolean);
   popup.setLngLat(e.lngLat).setHTML(lines.join("<br/>")).addTo(map);

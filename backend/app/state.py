@@ -270,6 +270,9 @@ class Haven:
             await self.client.aclose()
 
     def source_status(self) -> dict:
+        if self.mode == "replay" and self.region.replay_simulated:
+            return {"replay": {"event": self.region.replay_event, "simulated": True, "archives": [
+                "Simulated gauge readings, river forecasts and alerts (demo scenario, not official data)"]}}
         if self.mode == "replay":
             return {"replay": {"event": self.region.replay_event, "archives": [
                 "USGS Water Data API (15-min gage height)",
@@ -298,15 +301,23 @@ class Hub:
         return self.settings.data_mode
 
     def replay_available(self) -> bool:
-        r = REGIONS.get(self.settings.replay_region)
-        return bool(r and r.has_replay)
+        return bool(self.replay_regions())
 
-    async def get(self, mode: str | None = None, lat: float | None = None, lon: float | None = None) -> Haven:
+    def replay_regions(self) -> list[RegionConfig]:
+        """Prepared replay scenarios, the default (REPLAY_REGION) first."""
+        regions = [r for r in REGIONS.values() if r.has_replay]
+        return sorted(regions, key=lambda r: r.key != self.settings.replay_region)
+
+    async def get(self, mode: str | None = None, lat: float | None = None, lon: float | None = None,
+                  scenario: str | None = None) -> Haven:
         mode = mode or self.default_mode()
         if mode == "replay":
-            region = REGIONS[self.settings.replay_region]
+            region = REGIONS.get(scenario or self.settings.replay_region)
+            if region is None:
+                raise LookupError(f"Unknown replay scenario {scenario!r}.")
             if not region.has_replay:
-                raise LookupError("Replay data is not prepared. Run `python -m app.prepare`.")
+                raise LookupError("Replay data is not prepared. Run `python -m app.prepare`"
+                                  + (" or `python -m app.replay.simulate`." if region.replay_simulated else "."))
         elif lat is None or lon is None:
             region = REGIONS.get(self.settings.region)
             if region is None or not region.has_overlay:

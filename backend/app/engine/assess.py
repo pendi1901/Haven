@@ -7,7 +7,7 @@ from typing import TYPE_CHECKING
 
 from shapely.geometry import Point
 
-from app.engine.decision import DecisionInput, Effective, decide, questions_for
+from app.engine.decision import DecisionInput, Effective, decide, questions_for, simulated_wording
 from app.engine.triggers import evaluate_triggers, location_risk
 from app.geo.road_impact import AT_RISK
 from app.geo.routing import RouteRequest
@@ -79,7 +79,9 @@ def assess(ctx: "Haven", req: AssessRequest) -> AssessResponse:
         t=t, tz=ctx.region.timezone, profile=req.profile, checkin=req.checkin, trig=trig, risk=risk,
         alerts_here=alerts_here, metrics=mdict, route_fn=route_fn,
         avoid_roads=avoid_roads(ctx, w, p) if trig.flood else [],
-        fire_km=near_fire[1] if near_fire else None, replay=ctx.mode == "replay", overlay=ctx.overlay,
+        fire_km=near_fire[1] if near_fire else None, replay=ctx.mode == "replay",
+        simulated=ctx.mode == "replay" and ctx.region.replay_simulated, overlay=ctx.overlay,
+        emergency_management=ctx.region.emergency_management,
     )
     verdict = decide(inp)
     if ctx.settings.gemini_api_key:
@@ -87,6 +89,7 @@ def assess(ctx: "Haven", req: AssessRequest) -> AssessResponse:
         verdict.rephrased = rephrase(verdict)
     hazard = "flood" if trig.flood else trig.hazard
     return AssessResponse(
-        crisis=trig.crisis, hazard=hazard, triggers=trig.reasons, verdict=verdict,
+        crisis=trig.crisis, hazard=hazard,
+        triggers=[simulated_wording(r) for r in trig.reasons] if inp.simulated else trig.reasons, verdict=verdict,
         questions=questions_for(hazard if trig.crisis else None, req.checkin), risk=risk, t=t, data_mode=ctx.mode,
     )
