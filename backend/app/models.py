@@ -22,6 +22,7 @@ class Source(str, Enum):
     FEMA = "fema"
     OSM = "osm"
     HAVEN = "haven"  # Haven's own deterministic overlays (never a prediction)
+    SIMULATED = "simulated"  # made-up demo scenario data (python -m app.replay.simulate)
 
 
 class TimeLayer(str, Enum):

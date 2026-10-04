@@ -14,16 +14,24 @@ export type DataMode = "live" | "replay";
 /** Which context every request is about: live or replay, and where the user is.
  * The server picks a prepared region (with the road-flood overlay) when the
  * location is inside one, and otherwise builds a live context around it. */
-const ctx: { data_mode: DataMode; lat?: number; lon?: number } = { data_mode: "live" };
-export function setApiContext(c: { data_mode: DataMode; lat?: number; lon?: number }) {
+const ctx: { data_mode: DataMode; lat?: number; lon?: number; scenario?: string | null } = { data_mode: "live" };
+export function setApiContext(c: { data_mode: DataMode; lat?: number; lon?: number; scenario?: string | null }) {
   ctx.data_mode = c.data_mode;
   ctx.lat = c.lat;
   ctx.lon = c.lon;
+  ctx.scenario = c.scenario;
 }
 const where = () => ({ data_mode: ctx.data_mode, lat: ctx.lat, lon: ctx.lon });
 
+/** Replay requests name their scenario (Helene, a simulated flood...) in the query
+ * string, for GETs and POSTs alike; the server reads it for every endpoint. */
+function withScenario(path: string): string {
+  if (ctx.data_mode !== "replay" || !ctx.scenario) return path;
+  return `${path}${path.includes("?") ? "&" : "?"}scenario=${encodeURIComponent(ctx.scenario)}`;
+}
+
 async function req<T>(path: string, init?: RequestInit): Promise<T> {
-  const r = await fetch(path, { ...init, headers: { "content-type": "application/json", ...(init?.headers ?? {}) } });
+  const r = await fetch(withScenario(path), { ...init, headers: { "content-type": "application/json", ...(init?.headers ?? {}) } });
   if (!r.ok) {
     let msg = r.statusText;
     try {

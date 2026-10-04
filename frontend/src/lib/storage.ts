@@ -10,6 +10,7 @@ const K = {
   route: "haven.activeRoute.v1",
   location: "haven.location.v2", // per data mode: live and replay never share a spot
   mode: "haven.mode.v1",
+  scenario: "haven.scenario.v1", // which replay: an archived event or a simulated demo
 };
 
 function read<T>(key: string): T | null {
@@ -64,4 +65,6 @@ export const storage = {
   },
   mode: () => read<"live" | "replay">(K.mode),
   saveMode: (m: "live" | "replay") => write(K.mode, m),
+  scenario: () => read<string>(K.scenario),
+  saveScenario: (s: string | null) => write(K.scenario, s),
 };

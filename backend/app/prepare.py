@@ -48,6 +48,9 @@ def main() -> None:
                 if region.replay_start is None:
                     log.info("region has no replay window; skipping")
                     continue
+                if region.replay_simulated:
+                    log.info("replay here is simulated: run `python -m app.replay.simulate` instead")
+                    continue
                 from app.replay.loader import fetch_alerts, fetch_nhc, fetch_rvf, fetch_usgs
                 fetch_usgs(region, client, force)
                 fetch_rvf(region, client, force)

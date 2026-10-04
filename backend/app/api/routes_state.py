@@ -100,6 +100,8 @@ async def get_meta(data_mode: DataMode | None = None, lat: float | None = None, 
     return {
         "data_mode": ctx.mode,
         "modes": {"live": True, "replay": hub.replay_available()},
+        "scenarios": [{"key": x.key, "label": x.replay_label or x.replay_event, "event": x.replay_event,
+                       "simulated": x.replay_simulated} for x in hub.replay_regions()],
         "region": {"key": r.key, "name": r.name, "bbox": r.bbox, "center": r.center, "timezone": r.timezone,
                    "overlay": ctx.overlay, "point": r.point},
         "overlay_regions": [{"key": x.key, "name": x.name, "bbox": x.bbox} for x in REGIONS.values() if x.has_overlay],
@@ -121,7 +123,9 @@ def _reach_ll(ctx, x) -> dict:
 def _replay_meta(ctx) -> dict:
     start, end, step = ctx.replay.window()
     return {"start": start, "end": end, "step_minutes": step, "event": ctx.region.replay_event,
-            "timezone": ctx.region.timezone}
+            "timezone": ctx.region.timezone, "scenario": ctx.region.key, "label": ctx.region.replay_label,
+            "default_t": ctx.region.replay_default_t or start + (end - start) / 2,
+            "simulated": ctx.region.replay_simulated}
 
 
 @router.get("/replay/meta")

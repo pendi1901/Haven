@@ -41,7 +41,9 @@ export default function LocationPicker({ onPick, onMapPick, compact = false }: {
       )}
       {replay && meta && (
         <div>
-          {!compact && <p className="mb-2 text-sm text-ink-2">Replay is set in Asheville during Hurricane Helene. Pick a place to stand in:</p>}
+          {!compact && <p className="mb-2 text-sm text-ink-2">
+            {meta.replay?.simulated ? `This is a simulated flood in ${meta.region.name.split(" (")[0]}.` : `Replay is set in ${meta.region.name.split(" (")[0]} during ${meta.replay?.event ?? "a past event"}.`} Pick a place to stand in:
+          </p>}
           <div className="grid gap-2 sm:grid-cols-2">
             {meta.demo_places.map((p) => (
               <button key={p.name} onClick={() => onPick({ lat: p.lat, lon: p.lon, label: p.name, source: "demo" })}

@@ -1,7 +1,8 @@
 // Mirrors backend/app/models.py (spec §6).
 
 export type Source =
-  | "nws" | "nwps" | "usgs" | "airnow" | "purpleair" | "epa" | "firms" | "nhc" | "ncdot" | "fema" | "osm" | "haven";
+  | "nws" | "nwps" | "usgs" | "airnow" | "purpleair" | "epa" | "firms" | "nhc" | "ncdot" | "fema" | "osm" | "haven"
+  | "simulated";
 export type TimeLayer = "now" | "forecast";
 export type DataMode = "live" | "replay";
 
@@ -247,6 +248,8 @@ export interface StateResponse {
 export interface Meta {
   data_mode: DataMode;
   modes: { live: boolean; replay: boolean };
+  /** Replay scenarios: archived events and simulated demos. The first is the default. */
+  scenarios: Scenario[];
   region: {
     key: string; name: string; bbox: [number, number, number, number]; center: [number, number]; timezone: string;
     overlay: boolean; point: boolean;
@@ -259,7 +262,12 @@ export interface Meta {
   dem_source: string;
 }
 
-export interface ReplayMeta { start: string; end: string; step_minutes: number; event: string; timezone: string }
+export interface ReplayMeta {
+  start: string; end: string; step_minutes: number; event: string; timezone: string;
+  scenario: string; label: string | null; default_t: string; simulated: boolean;
+}
+
+export interface Scenario { key: string; label: string; event: string; simulated: boolean }
 
 export interface ResponderResponse {
   t: string;

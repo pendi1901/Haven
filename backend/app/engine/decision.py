@@ -4,6 +4,7 @@ text is attached to every verdict and shown above it."""
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from typing import Callable
@@ -86,6 +87,8 @@ class DecisionInput:
     avoid_roads: list[str] = field(default_factory=list)
     fire_km: float | None = None
     replay: bool = False
+    simulated: bool = False  # demo scenario: no official sources
+    emergency_management: str | None = None  # local agency named in fallbacks
     overlay: bool = True  # terrain + road data available for this location
 
 
@@ -128,20 +131,44 @@ def timeline(inp: DecisionInput) -> list[str]:
     return out[:7]
 
 
+_SIM_WORDING = [
+    (re.compile(r"NOAA forecasts (.+?) to reach"), r"The simulated forecast has \1 reaching"),
+    (re.compile(r"\(NOAA forecast( \+ terrain)?\)"), r"(simulated forecast\1)"),
+    (re.compile(r"NOAA river forecast"), "simulated river forecast"),
+    (re.compile(r"[Oo]fficial forecasts"), "the simulated forecasts"),
+    (re.compile(r" \(NWS\)"), " (simulated)"),
+]
+
+
+def simulated_wording(text: str | None) -> str | None:
+    """Demo scenarios have no official sources: say "simulated" where text names NOAA/NWS."""
+    if not text:
+        return text
+    for pat, rep in _SIM_WORDING:
+        text = pat.sub(rep, text)
+    return text
+
+
 def _verdict(level: int, reason: str, inp: DecisionInput, steps: list[str], eff: Effective,
              route: Route | None = None, backup: Route | None = None, fallback: str | None = None,
              label: str | None = None, sources: set[Source] | None = None) -> Verdict:
     emoji, default_label = LABELS[level]
     src = set(sources or set())
-    if inp.alerts_here:
-        src.add(Source.NWS)
+    if inp.simulated:
+        src.discard(Source.NWS)
+    src.update(z.source for z in inp.alerts_here)
     if inp.trig.near_gauges:
-        src.add(Source.USGS if inp.replay else Source.NWPS)
+        src.add(Source.SIMULATED if inp.simulated else Source.USGS if inp.replay else Source.NWPS)
     if route:
         src.add(Source.OSM)
         if route.destination.source == Source.FEMA:
             src.add(Source.FEMA)
-    return Verdict(level=level, label=label or default_label, emoji=emoji, reason=reason, timeline=timeline(inp),
+    tl = timeline(inp)
+    if inp.simulated:
+        reason, fallback = simulated_wording(reason), simulated_wording(fallback)
+        tl = [simulated_wording(x) for x in tl]
+        steps = [simulated_wording(x) for x in steps]
+    return Verdict(level=level, label=label or default_label, emoji=emoji, reason=reason, timeline=tl,
                    steps=steps, route=route, backup_route=backup, fallback=fallback, assumptions=eff.assumptions,
                    sources=sorted(src, key=lambda s: s.value), alerts=[z for z in inp.alerts_here])
 
@@ -224,7 +251,8 @@ def decide(inp: DecisionInput) -> Verdict:
             st.insert(1, "Call 911 and share your location with an emergency contact.")
             return _verdict(3, reason, inp, st, eff, label="Shelter in place at the highest point available",
                             sources={Source.HAVEN},
-                            fallback="Official help: Buncombe County Emergency Management, or call 911.")
+                            fallback=(f"Official help: {inp.emergency_management}, or call 911."
+                                      if inp.emergency_management else "Call 911 for help."))
 
     # -- Severe thunderstorm / extreme wind warning --------------------------------------------
     if has_event("severe thunderstorm", "extreme wind"):

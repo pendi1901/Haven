@@ -3,11 +3,15 @@ import { useStore } from "../lib/store";
 import AccountMenu from "./AccountMenu";
 
 export default function Header({ onLocation }: { onLocation?: () => void }) {
-  const { meta, location, assess, dataMode, setDataMode } = useStore();
+  const { meta, location, assess, dataMode, setDataMode, scenario } = useStore();
   const crisis = assess?.crisis;
+  // Replay scenarios: archived events and simulated demos; the first is the server's default.
+  const scenarios = meta?.scenarios ?? [];
+  const activeScenario = dataMode === "replay" ? (scenario ?? scenarios[0]?.key) : null;
   return (
-    // relative z-40: backdrop-blur makes the header its own stacking context, so without
-    // a z-index the page content below (the map) paints over the account menu.
+    <>
+    {/* relative z-40: backdrop-blur makes the header its own stacking context, so without
+        a z-index the page content below (the map) paints over the account menu. */}
     <header className="relative z-40 flex items-center gap-3 border-b border-line bg-white/90 px-4 py-2.5 backdrop-blur">
       <Link to="/" className="flex items-center gap-2" aria-label="Haven home">
         <img src="/icon.svg" alt="" className="h-7 w-7" />
@@ -18,12 +22,13 @@ export default function Header({ onLocation }: { onLocation?: () => void }) {
           className={`flex items-center gap-1 rounded-full px-2.5 py-1 ${dataMode === "live" ? "bg-white text-emerald-800 shadow-sm" : "text-ink-3"}`}>
           <span className={`h-1.5 w-1.5 rounded-full ${dataMode === "live" ? "animate-pulse bg-emerald-500" : "bg-slate-400"}`} />Live
         </button>
-        {(meta?.modes.replay ?? true) && (
-          <button onClick={() => setDataMode("replay")} aria-pressed={dataMode === "replay"} title="Replay Hurricane Helene in Asheville (Sept 2024)"
-            className={`rounded-full px-2.5 py-1 ${dataMode === "replay" ? "bg-white text-sky-800 shadow-sm" : "text-ink-3"}`}>
-            Helene replay
+        {scenarios.map((sc, i) => (
+          <button key={sc.key} onClick={() => setDataMode("replay", i === 0 ? null : sc.key)} aria-pressed={activeScenario === sc.key}
+            title={sc.simulated ? `${sc.event}: a made-up storm for demonstration` : `Replay ${sc.event} with the official data as it was issued`}
+            className={`whitespace-nowrap rounded-full px-2.5 py-1 ${activeScenario === sc.key ? `bg-white shadow-sm ${sc.simulated ? "text-amber-800" : "text-sky-800"}` : "text-ink-3"}`}>
+            {sc.label}
           </button>
-        )}
+        ))}
       </div>
       <nav className="ml-auto flex items-center gap-1 text-sm">
         <NavLink to="/" end className={({ isActive }) => `rounded-lg px-2.5 py-1.5 ${isActive ? "bg-slate-100 font-semibold text-ink" : "text-ink-2 hover:bg-slate-50"}`}>Today</NavLink>
@@ -44,5 +49,11 @@ export default function Header({ onLocation }: { onLocation?: () => void }) {
       )}
       <AccountMenu />
     </header>
+    {meta?.replay?.simulated && (
+      <div role="note" className="border-b border-amber-300 bg-amber-100 px-4 py-1.5 text-center text-xs font-semibold text-amber-950">
+        Simulated flood for demonstration. The alerts, gauge readings and river forecasts here are made up; no flood is happening.
+      </div>
+    )}
+    </>
   );
 }

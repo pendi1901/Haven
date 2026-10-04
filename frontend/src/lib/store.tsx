@@ -9,7 +9,9 @@ export type UserLocation = LatLon & { label: string; source: "home" | "gps" | "m
 
 interface Store {
   dataMode: DataMode;
-  setDataMode: (m: DataMode) => void;
+  /** Replay scenario (region key); null = the server's default replay. */
+  scenario: string | null;
+  setDataMode: (m: DataMode, scenario?: string | null) => void;
   meta: Meta | null;
   metaError: string | null;
   replay: boolean;
@@ -46,8 +48,6 @@ export function useStore(): Store {
   return s;
 }
 
-const REPLAY_DEFAULT = "2024-09-26T20:00:00Z"; // Thursday afternoon: watches out, river rising
-
 function initialMode(): DataMode {
   const fromUrl = new URLSearchParams(window.location.search).get("mode");
   if (fromUrl === "live" || fromUrl === "replay") return fromUrl;
@@ -68,8 +68,18 @@ function locationErrorText(e: GeolocationPositionError): string {
   return "Getting a location fix timed out. Try again, or search for your address below.";
 }
 
-function savedLocation(mode: DataMode): UserLocation | null {
-  const l = storage.location(mode);
+function initialScenario(): string | null {
+  return new URLSearchParams(window.location.search).get("scenario") ?? storage.scenario();
+}
+
+/** Saved locations are per mode, and per scenario in replay (a spot in Asheville means
+ * nothing in the Raleigh simulation). The default replay keeps the original key. */
+function locationKey(mode: DataMode, scenario: string | null): string {
+  return mode === "replay" && scenario ? `replay-${scenario}` : mode;
+}
+
+function savedLocation(mode: DataMode, scenario: string | null = null): UserLocation | null {
+  const l = storage.location(locationKey(mode, scenario));
   if (l) return { lat: l.lat, lon: l.lon, label: l.label ?? "Saved location", source: (l.source as UserLocation["source"]) ?? "map" };
   const home = mode === "live" ? storage.profile().home : null;
   return home ? { ...home, label: "Home", source: "home" } : null;
@@ -77,13 +87,14 @@ function savedLocation(mode: DataMode): UserLocation | null {
 
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [dataMode, setDataModeRaw] = useState<DataMode>(initialMode);
+  const [scenario, setScenario] = useState<string | null>(initialScenario);
   const [meta, setMeta] = useState<Meta | null>(null);
   const [metaError, setMetaError] = useState<string | null>(null);
   const [t, setTRaw] = useState<string | null>(null);
   const [scrubbing, setScrubbing] = useState(false);
   const [state, setState] = useState<StateResponse | null>(null);
   const [stateError, setStateError] = useState<string | null>(null);
-  const [location, setLocationRaw] = useState<UserLocation | null>(() => savedLocation(initialMode()));
+  const [location, setLocationRaw] = useState<UserLocation | null>(() => savedLocation(initialMode(), initialScenario()));
   const [locating, setLocating] = useState(false);
   const [locError, setLocError] = useState<string | null>(null);
   const [profile, setProfileRaw] = useState<Profile>(() => storage.profile());
@@ -99,12 +110,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   // Keep the API's request context (mode + where the user is) current. Rounded so
   // small GPS jitter does not refetch.
   const locKey = location ? `${location.lat.toFixed(3)},${location.lon.toFixed(3)}` : "none";
-  setApiContext({ data_mode: dataMode, lat: location?.lat, lon: location?.lon });
+  setApiContext({ data_mode: dataMode, lat: location?.lat, lon: location?.lon, scenario: replay ? scenario : null });
 
   const setLocation = useCallback((l: UserLocation | null) => {
     setLocationRaw(l);
-    storage.saveLocation(dataMode, l ? { lat: l.lat, lon: l.lon, label: l.label, source: l.source } : null);
-  }, [dataMode]);
+    storage.saveLocation(locationKey(dataMode, scenario), l ? { lat: l.lat, lon: l.lon, label: l.label, source: l.source } : null);
+  }, [dataMode, scenario]);
 
   // Live mode is about where the user actually is: ask the browser for it.
   // Desktop browsers often cannot produce a high-accuracy (GPS) fix, so ask for a
@@ -147,23 +158,28 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     }
   }, [replay, location, locateMe]);
 
-  const setDataMode = useCallback((m: DataMode) => {
-    if (m === dataMode) return;
+  const setDataMode = useCallback((m: DataMode, sc: string | null = null) => {
+    const nextScenario = m === "replay" ? sc : null;
+    if (m === dataMode && nextScenario === (m === "replay" ? scenario : null)) return;
     storage.saveMode(m);
+    storage.saveScenario(nextScenario);
     setDataModeRaw(m);
+    setScenario(nextScenario);
     setMeta(null);
     setState(null);
     setAssess(null);
     setAssessError(null);
     setStateError(null);
-    setLocationRaw(savedLocation(m));
+    setLocationRaw(savedLocation(m, nextScenario));
     autoLocated.current = false;
     const url = new URL(window.location.href);
     url.searchParams.set("mode", m);
-    if (m === "live") url.searchParams.delete("t");
+    if (nextScenario) url.searchParams.set("scenario", nextScenario);
+    else url.searchParams.delete("scenario");
+    url.searchParams.delete("t"); // a time from another scenario means nothing here
     window.history.replaceState(null, "", url);
-    setTRaw(m === "replay" ? REPLAY_DEFAULT : null);
-  }, [dataMode]);
+    setTRaw(null); // replay: set from the scenario's default once its meta arrives
+  }, [dataMode, scenario]);
 
   // Meta depends on mode and (live) on where the user is: a prepared region with
   // the road-flood overlay, or a live context built around the location.
@@ -178,16 +194,16 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         const [w, s, e, n] = m.region.bbox;
         setLocationRaw((l) => {
           if (l && (l.lat < s - 0.2 || l.lat > n + 0.2 || l.lon < w - 0.2 || l.lon > e + 0.2)) {
-            storage.saveLocation("replay", null);
+            storage.saveLocation(locationKey("replay", scenario), null);
             return null;
           }
           return l;
         });
-        setTRaw((cur) => cur ?? new URLSearchParams(window.location.search).get("t") ?? REPLAY_DEFAULT);
+        setTRaw((cur) => cur ?? new URLSearchParams(window.location.search).get("t") ?? m.replay?.default_t ?? m.replay?.start ?? null);
       }
     }).catch((e) => live && setMetaError(String(e.message ?? e)));
     return () => { live = false; };
-  }, [dataMode, replay ? "" : locKey]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [dataMode, scenario, replay ? "" : locKey]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // World state: refetch on replay time change or live updates. At most one request
   // is in flight; while it runs, only the newest wanted time is kept and fetched next.
@@ -303,10 +319,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const value = useMemo<Store>(() => ({
-    dataMode, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
+    dataMode, scenario, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
     locating, locError, locateMe, profile, setProfile, account,
     checkin, answer, resetCheckin, assess, assessing, assessError, refreshAssess, blocked, setBlocked, version,
-  }), [dataMode, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
+  }), [dataMode, scenario, setDataMode, meta, metaError, replay, t, setT, scrubbing, state, stateError, location, setLocation,
     locating, locError, locateMe, profile, setProfile, account,
     checkin, answer, resetCheckin, assess, assessing, assessError, refreshAssess, blocked, version]);
 
