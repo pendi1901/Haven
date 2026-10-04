@@ -1,0 +1,15 @@
+{
+ "lid": "WAWN7",
+ "usgs_id": "0208734795",
+ "name": "Walnut Creek at S. Wilmington St.",
+ "lat": 35.756939,
+ "lon": -78.64067,
+ "thresholds_ft": {
+  "moderate": 14.0,
+  "minor": 12.0
+ },
+ "datum_navd88_ft": 219.8,
+ "record_crest_ft": 6.95,
+ "reach_id": "8784035",
+ "has_official_forecast": false
+}

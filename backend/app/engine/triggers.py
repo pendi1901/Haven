@@ -131,7 +131,8 @@ def evaluate_triggers(ctx: "Haven", w: "World", p: LatLon, profile: Profile, ris
                 hazards.append("other")
 
     # 2. Gauge within 10 km at minor or above now, or official forecast crosses minor within 12 h.
-    near = [g for g in w.gauges if haversine_km(p.lat, p.lon, g.lat, g.lon) <= TRIGGER_GAUGE_RADIUS_KM]
+    near = sorted((g for g in w.gauges if haversine_km(p.lat, p.lon, g.lat, g.lon) <= TRIGGER_GAUGE_RADIUS_KM),
+                  key=lambda g: haversine_km(p.lat, p.lon, g.lat, g.lon))  # nearest first: the timeline shows 3
     horizon = t + timedelta(hours=TRIGGER_FORECAST_HOURS)
     for g in near:
         if RIVER_SEVERITY[g.category_now] >= RIVER_SEVERITY["minor"]:

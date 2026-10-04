@@ -81,10 +81,12 @@ def download_rivers(region: RegionConfig, force: bool = False) -> Path:
     if out.exists() and not force:
         return out
     names = {r.river_name for r in region.reaches}
+    extra = {way: r.river_name for r in region.reaches for way in r.extra_osm_ways}
     w, s, e, n = region.bbox
     pad = 0.02
     gdf = ox.features_from_bbox((w - pad, s - pad, e + pad, n + pad), {"waterway": ["river", "stream"]})
     gdf = gdf[gdf.geometry.type.isin(["LineString", "MultiLineString"])]
+    gdf["name"] = [extra.get(i, name) for i, name in zip(gdf.index.get_level_values("id"), gdf["name"])]
     gdf = gdf[gdf["name"].isin(names)][["name", "geometry"]].reset_index(drop=True)
     out.parent.mkdir(parents=True, exist_ok=True)
     gdf.to_file(out, driver="GeoJSON")

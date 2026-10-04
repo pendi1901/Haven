@@ -1,0 +1,17 @@
+{
+ "lid": "BKJN7",
+ "usgs_id": "02087337",
+ "name": "Walnut Creek (NC) at Buck Jones Road",
+ "lat": 35.77295,
+ "lon": -78.7369528,
+ "thresholds_ft": {
+  "major": 10.0,
+  "moderate": 9.0,
+  "minor": 7.0,
+  "action": 6.0
+ },
+ "datum_navd88_ft": 368.5,
+ "record_crest_ft": 10.79,
+ "reach_id": "8783945",
+ "has_official_forecast": false
+}

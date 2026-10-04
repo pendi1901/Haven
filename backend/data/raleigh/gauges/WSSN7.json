@@ -1,0 +1,15 @@
+{
+ "lid": "WSSN7",
+ "usgs_id": "0208735460",
+ "name": "Walnut Creek (NC) at S. State St.",
+ "lat": 35.757912,
+ "lon": -78.623826,
+ "thresholds_ft": {
+  "moderate": 17.0,
+  "minor": 9.0
+ },
+ "datum_navd88_ft": 209.0,
+ "record_crest_ft": 9.14,
+ "reach_id": "8785937",
+ "has_official_forecast": false
+}

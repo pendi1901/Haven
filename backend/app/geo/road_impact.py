@@ -128,7 +128,10 @@ def build_reaches(region: RegionConfig, gauge_meta: dict[str, dict]) -> list[Rea
             lines.extend(getattr(geom, "geoms", [geom]))
         RG = _river_graph(lines)
         up_node = _nearest_node(RG, *gauge_xy(rc.upstream_lid))
-        if rc.downstream_lid:
+        if rc.downstream_at:
+            lat, lon = rc.downstream_at
+            down_node = _nearest_node(RG, *to_work.transform(lon, lat))
+        elif rc.downstream_lid:
             down_node = _nearest_node(RG, *gauge_xy(rc.downstream_lid))
         else:
             host = built[rc.joins_reach]
