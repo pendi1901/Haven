@@ -237,3 +237,15 @@ One Dijkstra from the user gives the cost to every candidate destination (equiva
 The profile and check-in live in the browser's local storage. Requests carry only the location and the fields needed for one decision. Haven's server persists nothing, and location is never logged.
 
 If a user chooses to sign in (optional), their profile is also saved to their own row in Supabase, readable only by them. Household and health answers are excluded unless they opt in, and check-ins are never synced.
+
+## AI usage
+
+Per the WolfHacks rules, this section discloses how AI was used to build Haven.
+
+- **Tool:** [Claude Code](https://claude.com/claude-code) (Anthropic) was the only AI coding tool used.
+- **Planning:** the team used Claude to research the event's tracks and the public data sources, and to draft the project idea and the build spec (data sources, decision rules, milestones and scenario tests).
+- **Code:** the team gave that spec to Claude Code, which wrote most of the backend, frontend and tests. Team members reviewed the output, ran it, and directed the fixes.
+- **Setup and checks:** Claude Code was also used to set up the project on team members' machines, verify the external APIs and run the test suites.
+- **In the app:** Haven itself makes no AI predictions. Every forecast comes from an official source (NOAA, NWS, USGS, EPA, NASA, NHC). If `GEMINI_API_KEY` is set, Google Gemini only rewords the decision engine's existing output, and Haven falls back to its own template text when Gemini is unavailable.
+
+The team is responsible for the code, the data choices and every claim the app makes.
