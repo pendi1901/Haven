@@ -57,15 +57,12 @@ The prepared Asheville and Raleigh datasets are baked into the image, so no `app
 
 #### 1. Build and run Haven
 
-Supabase settings are inlined into the frontend when it is built, so they are passed as build args (`.dockerignore` keeps `.env` files out of the image). Both values are public by design; omit them to build with accounts off.
+Supabase settings are inlined into the frontend when it is built. The `Dockerfile` defaults its `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` build args to the team's project, so a plain build has sign-in on. Both values are public by design. To use another project, pass `--build-arg` for both; pass them empty to build with accounts off. Putting them in `.env` does nothing: that file is read when the server starts, after the frontend is built.
 
 ```bash
 docker network create haven-net
 
-docker build \
-  --build-arg VITE_SUPABASE_URL=https://<project-ref>.supabase.co \
-  --build-arg VITE_SUPABASE_PUBLISHABLE_KEY=sb_publishable_... \
-  -t haven .
+docker build -t haven .
 
 docker run -d --name haven --network haven-net --restart unless-stopped \
   -p 8000:8000 --env-file .env haven
@@ -103,7 +100,7 @@ Check `http://localhost:8000` on the laptop before going further (health check: 
 
 ```bash
 git pull
-docker build --build-arg VITE_SUPABASE_URL=... --build-arg VITE_SUPABASE_PUBLISHABLE_KEY=... -t haven .
+docker build -t haven .
 docker rm -f haven
 docker run -d --name haven --network haven-net --restart unless-stopped \
   -p 8000:8000 --env-file .env haven
@@ -173,7 +170,7 @@ Setup (Supabase free tier):
 4. Supabase → Authentication → URL Configuration: set the Site URL to `http://localhost:5173` and add `http://localhost:5173/**` to the redirect URLs (plus your deployed origin, if any).
 5. `cp frontend/.env.example frontend/.env` and fill in the project URL and the **publishable** key (Project Settings → API Keys). Never put the secret key in the frontend.
 
-Hosted builds: pass the same two values as Docker build args, then allow the production domain in Supabase and Google. See [Deployment](#deployment-httpssafehavencasa). Without them the image still works, with accounts off.
+Hosted builds: the `Dockerfile` defaults to the team's project; override both values with `--build-arg` for another one. Then allow the production domain in Supabase and Google. See [Deployment](#deployment-httpssafehavencasa).
 
 How it works:
 

@@ -3,11 +3,13 @@ WORKDIR /build/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
 COPY frontend/ ./
-# Optional accounts. Vite inlines these into the bundle at build time, and .dockerignore
-# keeps frontend/.env out, so they must arrive as build args (docker build --build-arg).
-# Empty = accounts off. Both values are public.
-ARG VITE_SUPABASE_URL=""
-ARG VITE_SUPABASE_PUBLISHABLE_KEY=""
+# Accounts (Supabase). Vite inlines these into the bundle at build time, and .dockerignore
+# keeps frontend/.env out, so they come from these build args. They default to the team's
+# Supabase project so a plain `docker build` has sign-in on. Both values are public by
+# design (row level security protects the data); override with --build-arg, or pass
+# empty values to build with accounts off.
+ARG VITE_SUPABASE_URL="https://litkjkqpkpswtknfnkei.supabase.co"
+ARG VITE_SUPABASE_PUBLISHABLE_KEY="sb_publishable_a0y380OfERexWWjBoGBYiw_qmzNwWeQ"
 RUN npm run build
 
 FROM python:3.12-slim-bookworm
