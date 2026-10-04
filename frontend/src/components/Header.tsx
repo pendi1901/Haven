@@ -1,11 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 import { useStore } from "../lib/store";
+import AccountMenu from "./AccountMenu";
 
 export default function Header({ onLocation }: { onLocation?: () => void }) {
   const { meta, location, assess, dataMode, setDataMode } = useStore();
   const crisis = assess?.crisis;
   return (
-    <header className="flex items-center gap-3 border-b border-line bg-white/90 px-4 py-2.5 backdrop-blur">
+    // relative z-40: backdrop-blur makes the header its own stacking context, so without
+    // a z-index the page content below (the map) paints over the account menu.
+    <header className="relative z-40 flex items-center gap-3 border-b border-line bg-white/90 px-4 py-2.5 backdrop-blur">
       <Link to="/" className="flex items-center gap-2" aria-label="Haven home">
         <img src="/icon.svg" alt="" className="h-7 w-7" />
         <span className="text-lg font-bold tracking-tight text-ink">Haven</span>
@@ -39,6 +42,7 @@ export default function Header({ onLocation }: { onLocation?: () => void }) {
             : "Set location"}
         </button>
       )}
+      <AccountMenu />
     </header>
   );
 }

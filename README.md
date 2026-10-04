@@ -106,11 +106,31 @@ Live and replay keep separate saved locations, so a replay spot in Asheville nev
 
 **If "Use my current location" fails:** the app first asks for a normal-accuracy fix (Wi-Fi based), then retries with high accuracy, and it says which step failed. On a Mac, "allowed but no position" almost always means macOS Location Services is off for the browser itself: turn it on in System Settings → Privacy & Security → Location Services. You can always search for an address or place instead (OpenStreetMap Nominatim, US only, proxied by the backend at one request per second) or tap the map.
 
+### Optional accounts: Google sign-in and profile sync
+
+Without this, Haven works as before: the onboarding profile stays in the browser. With it, a signed-in user's profile is saved to their account and restored on any device. Signing in is never required.
+
+Setup (Supabase free tier):
+
+1. Create a Supabase project. Run [`supabase/migrations/20261003000000_profiles.sql`](supabase/migrations/20261003000000_profiles.sql) in the SQL editor. It creates `public.profiles` with row level security, so each signed-in user can read and write only their own row and anonymous visitors get nothing.
+2. Google Cloud Console → APIs & Services → Credentials → OAuth client ID (Web application). Authorized redirect URI: `https://<project-ref>.supabase.co/auth/v1/callback`.
+3. Supabase → Authentication → Providers → Google: enable it and paste the client ID and secret.
+4. Supabase → Authentication → URL Configuration: set the Site URL to `http://localhost:5173` and add `http://localhost:5173/**` to the redirect URLs (plus your deployed origin, if any).
+5. `cp frontend/.env.example frontend/.env` and fill in the project URL and the **publishable** key (Project Settings → API Keys). Never put the secret key in the frontend.
+
+How it works:
+
+- The browser talks to Supabase directly (`supabase-js`); the FastAPI backend is unchanged and still stores nothing.
+- On sign-in, the more recent copy wins: an account with no profile yet takes this device's, and a fresh device restores the account's.
+- Household members (including limited mobility) and health answers sync only if the user ticks "Also sync who lives with you and health answers" in the account menu. Off by default; turning it off removes them from the account.
+- Check-in answers and the active route are never synced: they expire within hours.
+- Signing out removes the profile, check-in, active route and live location from the device (useful on shared computers) and returns to the welcome screen. The account keeps its copy; household and health answers that weren't synced are gone.
+
 ### Tests
 
 ```bash
 cd backend && .venv/bin/python -m pytest      # 35 tests: decision scenarios 1-11, M1, M3, M4, re-plan, replay no-leakage
-cd frontend && npm test                      # scenario 12 (off-route), snap-to-route, arrival
+cd frontend && npm test                      # scenario 12 (off-route), snap-to-route, arrival, profile sync rules
 ```
 
 ### A two-minute replay demo
@@ -212,4 +232,6 @@ One Dijkstra from the user gives the cost to every candidate destination (equiva
 
 ## Privacy
 
-The profile and check-in live in the browser's local storage. Requests carry only the location and the fields needed for one decision. Nothing is persisted server-side, and location is never logged.
+The profile and check-in live in the browser's local storage. Requests carry only the location and the fields needed for one decision. Haven's server persists nothing, and location is never logged.
+
+If a user chooses to sign in (optional), their profile is also saved to their own row in Supabase, readable only by them. Household and health answers are excluded unless they opt in, and check-ins are never synced.
