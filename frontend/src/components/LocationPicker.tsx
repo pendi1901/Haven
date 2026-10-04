@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { api } from "../lib/api";
+import { api, ApiError } from "../lib/api";
 import { useStore, type UserLocation } from "../lib/store";
 
 /** Choose where Haven evaluates risk: GPS, a demo place (replay), or a map tap. */
@@ -61,6 +61,20 @@ export default function LocationPicker({ onPick, onMapPick, compact = false }: {
   );
 }
 
+const UNAVAILABLE = "Place search is unavailable right now. Use your current location or tap a spot on the map instead.";
+
+/** A short, actionable message for a failed place search (never a raw "Failed to fetch"). */
+export function searchError(ex: unknown): string {
+  if (ex instanceof ApiError) {
+    if (ex.status >= 500 && ex.message && ex.message !== "Internal Server Error") return ex.message;
+    return UNAVAILABLE;
+  }
+  if (typeof navigator !== "undefined" && navigator.onLine === false) {
+    return "You're offline, so place search can't run. Tap a spot on the map instead.";
+  }
+  return "Couldn't reach the Haven server. Check your connection and try again.";
+}
+
 /** Address / place search (OpenStreetMap Nominatim via the backend). Searches on
  * submit only, per Nominatim's usage policy. */
 function PlaceSearch({ onPick }: { onPick: (l: UserLocation) => void }) {
@@ -70,35 +84,50 @@ function PlaceSearch({ onPick }: { onPick: (l: UserLocation) => void }) {
   const [err, setErr] = useState<string | null>(null);
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (q.trim().length < 2) return;
-    setBusy(true);
+    if (busy) return;
+    const query = q.trim();
+    if (query.length < 2) {
+      setErr("Type at least 2 characters, e.g. a street address with city and state.");
+      return;
+    }
     setErr(null);
+    setResults(null);
+    setBusy(true);
     try {
-      const r = await api.geocode(q.trim());
+      const r = await api.geocode(query);
       setResults(r);
       if (!r.length) setErr("No US place found. Try a street address with city and state.");
     } catch (ex) {
-      setErr((ex as Error).message);
+      setErr(searchError(ex));
     } finally {
       setBusy(false);
     }
   };
+  const pick = (r: { label: string; lat: number; lon: number }) => {
+    const label = r.label.split(",").slice(0, 2).join(",");
+    onPick({ lat: r.lat, lon: r.lon, label, source: "map" });
+    setQ(label);
+    setResults(null);
+    setErr(null);
+  };
   return (
     <div>
-      <form onSubmit={submit} className="flex gap-2">
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Or search an address or place, e.g. Raleigh, NC"
+      <form role="search" onSubmit={submit} className="flex gap-2">
+        <input value={q} onChange={(e) => { setQ(e.target.value); setErr(null); }}
+          placeholder="Or search an address or place, e.g. Raleigh, NC"
           aria-label="Search an address or place"
-          className="min-h-[44px] min-w-0 flex-1 rounded-xl border border-slate-300 bg-white px-3 text-sm outline-none focus:border-slate-900" />
-        <button type="submit" disabled={busy} className="rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white disabled:opacity-60">
-          {busy ? "…" : "Search"}
+          type="search" inputMode="search" enterKeyHint="search" autoComplete="off" autoCorrect="off" spellCheck={false}
+          className="min-h-[44px] min-w-0 flex-1 rounded-xl border border-slate-300 bg-white px-3 text-base outline-none focus:border-slate-900 sm:text-sm" />
+        <button type="submit" disabled={busy} className="min-h-[44px] rounded-xl bg-slate-900 px-4 text-sm font-semibold text-white disabled:opacity-60">
+          {busy ? "Searching…" : "Search"}
         </button>
       </form>
-      {err && <p className="mt-1 text-sm text-amber-800">{err}</p>}
+      <p aria-live="polite" className="mt-1 text-sm text-amber-800 empty:hidden">{err}</p>
       {results && results.length > 0 && (
-        <ul className="mt-2 overflow-hidden rounded-xl border border-line bg-white">
-          {results.map((r) => (
-            <li key={`${r.lat},${r.lon}`}>
-              <button onClick={() => { onPick({ lat: r.lat, lon: r.lon, label: r.label.split(",").slice(0, 2).join(","), source: "map" }); setResults(null); }}
+        <ul aria-label="Search results" className="mt-2 overflow-hidden rounded-xl border border-line bg-white">
+          {results.map((r, i) => (
+            <li key={`${i}-${r.lat},${r.lon}`}>
+              <button type="button" onClick={() => pick(r)}
                 className="w-full border-b border-line px-3 py-2 text-left text-sm last:border-0 hover:bg-slate-50">
                 {r.label}
               </button>
