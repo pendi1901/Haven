@@ -1,6 +1,6 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { cumulative, project, splitAt, type XY } from "./geo";
-import { OffRouteDetector, RouteTracker } from "./nav";
+import { OffRouteDetector, RouteTracker, SimulatedSource, type PositionFix } from "./nav";
 import type { Route } from "./types";
 
 describe("OffRouteDetector (scenario 12)", () => {
@@ -70,5 +70,35 @@ describe("RouteTracker", () => {
   it("detects arrival within 30 m", () => {
     const tr = new RouteTracker(route);
     expect(tr.progress([-82.55, 35.5899]).arrived).toBe(true);
+  });
+});
+
+describe("SimulatedSource.wander", () => {
+  afterEach(() => { vi.useRealTimers(); vi.unstubAllGlobals(); });
+
+  // Max distance from `line` over the first few fixes after wander().
+  function drift(line: XY[], rate: number): number {
+    vi.useFakeTimers();
+    vi.stubGlobal("window", globalThis); // node test env: SimulatedSource uses window.setInterval
+    const fixes: PositionFix[] = [];
+    const src = new SimulatedSource(line, 1.3, rate);
+    src.start((f) => fixes.push(f));
+    vi.advanceTimersByTime(1000);
+    src.wander();
+    fixes.length = 0;
+    vi.advanceTimersByTime(2000);
+    src.stop();
+    const cum = cumulative(line);
+    return Math.max(...fixes.map((f) => project([f.lon, f.lat], line, cum).distance));
+  }
+
+  it("drifts off an east-west route", () => {
+    expect(drift([[-82.56, 35.58], [-82.54, 35.58]], 15)).toBeGreaterThan(80);
+  });
+  it("drifts off a north-south route", () => {
+    expect(drift([[-82.55, 35.57], [-82.55, 35.59]], 15)).toBeGreaterThan(80);
+  });
+  it("takes effect while paused", () => {
+    expect(drift([[-82.56, 35.58], [-82.54, 35.58]], 0)).toBeGreaterThan(80);
   });
 });

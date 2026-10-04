@@ -7,7 +7,7 @@ const SPEEDS = [1, 4, 12]; // replay steps (15 min) per second
 /** Replay clock (spec §12 screen 4): scrubbing updates the map live; the verdict
  * and route recompute on release. */
 export default function TimeSlider({ compact = false }: { compact?: boolean }) {
-  const { meta, t, setT, scrubbing } = useStore();
+  const { meta, t, setT, scrubbing, state, stateError, assessing } = useStore();
   const rm = meta?.replay;
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
@@ -21,17 +21,28 @@ export default function TimeSlider({ compact = false }: { compact?: boolean }) {
   const steps = Math.round((end - start) / step);
   const idx = Math.round((cur - start) / step);
 
+  // Playback advances only once the current step has loaded (state, and the verdict
+  // when one is being computed); speed sets the fastest pace, never outrunning the server.
+  const stepStarted = useRef(0);
   useEffect(() => {
-    if (!playing) return;
-    timer.current = window.setInterval(() => {
+    stepStarted.current = performance.now();
+  }, [t]);
+  const loaded = !!state && !!t && Date.parse(state.t) === Date.parse(t) && !assessing;
+  useEffect(() => {
+    if (playing && stateError) setPlaying(false);
+  }, [playing, stateError]);
+  useEffect(() => {
+    if (!playing || !loaded) return;
+    const wait = Math.max(0, 1000 / SPEEDS[speed] - (performance.now() - stepStarted.current));
+    timer.current = window.setTimeout(() => {
       const next = Math.min(end, (t ? Date.parse(t) : start) + step);
       setT(new Date(next).toISOString());
       if (next >= end) setPlaying(false);
-    }, 1000 / SPEEDS[speed]);
+    }, wait);
     return () => {
-      if (timer.current) window.clearInterval(timer.current);
+      if (timer.current) window.clearTimeout(timer.current);
     };
-  }, [playing, speed, t, end, start, step, setT]);
+  }, [playing, loaded, speed, t, end, start, step, setT]);
 
   if (!rm) return null;
   const days: number[] = [];

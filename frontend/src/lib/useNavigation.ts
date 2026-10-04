@@ -24,6 +24,7 @@ interface Opts {
 export function useNavigation(o: Opts) {
   const { t, setT, replay, state } = useStore();
   const [route, setRoute] = useState<Route>(o.initial);
+  const [backup, setBackup] = useState<Route | null>(o.backup);
   const [fix, setFix] = useState<PositionFix | null>(null);
   const [progress, setProgress] = useState<Progress | null>(null);
   const [banner, setBanner] = useState<Banner | null>(null);
@@ -75,6 +76,7 @@ export function useNavigation(o: Opts) {
       });
       if (rr.route) {
         setRoute(rr.route);
+        setBackup(rr.backup);
         storage.saveActiveRoute(rr.route);
         detector.current.reset();
         noRouteRef.current = null;
@@ -96,6 +98,24 @@ export function useNavigation(o: Opts) {
       setRerouting(false);
     }
   }, [o.companions, o.needsHelp, o.purpose, o.simulate, replay, say, show]);
+
+  /** Re-plan the backup from where the user is now, to a destination other than
+   * the active route's. Between reroutes the stored backup still starts at the
+   * original origin. */
+  const refreshBackup = useCallback(async () => {
+    const p = fixRef.current;
+    if (!p) return;
+    try {
+      const rr = await api.route({
+        lat: p.lat, lon: p.lon, mode: routeRef.current.mode, t: replay ? tRef.current : null,
+        companions: o.companions, blocked: blocked.current, needs_help: o.needsHelp, purpose: o.purpose,
+      });
+      const dest = routeRef.current.destination.id;
+      setBackup([rr.route, rr.backup].find((r) => r && r.destination.id !== dest) ?? null);
+    } catch {
+      /* keep the last backup */
+    }
+  }, [o.companions, o.needsHelp, o.purpose, replay]);
 
   const onFix = useCallback((f: PositionFix) => {
     fixRef.current = f;
@@ -206,7 +226,7 @@ export function useNavigation(o: Opts) {
     void reroute("Marked that road as blocked. Here is a new route.");
   }, [progress, route, reroute]);
 
-  return { route, fix, progress, banner, setBanner, rerouting, voice, setVoice, cantContinue, noRoute,
+  return { route, backup, refreshBackup, fix, progress, banner, setBanner, rerouting, voice, setVoice, cantContinue, noRoute,
     setRate: (r: number) => (sourceRef.current as SimulatedSource | null)?.setRate?.(r),
     wander: () => (sourceRef.current as SimulatedSource | null)?.wander?.() };
 }
