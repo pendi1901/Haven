@@ -319,12 +319,32 @@ UV_BANDS = [
     (8, "Very High", 1),
     (11, "Extreme", 2),
 ]
+# Wind (mph). Breaks follow NWS non-convective wind products: Wind Advisory at
+# sustained 31+ or gusts 46+, High Wind Warning at sustained 40+ or gusts 58+,
+# hurricane force at 74+. The worse of the gust and sustained band wins.
+WIND_GUST_BANDS = [
+    (0, "Light", 0),
+    (25, "Breezy", 0),
+    (35, "Windy", 1),
+    (46, "Strong", 2),
+    (58, "High", 3),
+    (74, "Extreme", 4),
+]
+WIND_SUSTAINED_BANDS = [
+    (0, "Light", 0),
+    (15, "Breezy", 0),
+    (25, "Windy", 1),
+    (31, "Strong", 2),
+    (40, "High", 3),
+    (64, "Extreme", 4),
+]
 RIVER_SEVERITY = {"none": 0, "action": 1, "minor": 2, "moderate": 3, "major": 4}
 RIVER_CATEGORIES = ["action", "minor", "moderate", "major"]
 
 TRIGGER_AQI = 151
 TRIGGER_AQI_SENSITIVE = 101
 TRIGGER_HEAT_INDEX_F = 103
+TRIGGER_WIND_SEVERITY = 3  # High Wind Warning criteria
 
 
 def band(value: float, bands: list[tuple[float, str, int]]) -> tuple[str, int]:

@@ -22,7 +22,7 @@ AVOID_RADIUS_M = 1500.0
 
 def metrics_at(ctx: "Haven", p: LatLon, t) -> list[Metric]:
     out: list[Metric] = []
-    for name in ("alerts", "river_flood", "air_quality", "heat", "uv", "wildfire", "earthquake", "hurricane"):
+    for name in ("alerts", "river_flood", "air_quality", "heat", "wind", "uv", "wildfire", "earthquake", "hurricane"):
         try:
             out.extend(ctx.modules[name].metrics_at(p, t))
         except Exception as ex:  # noqa: BLE001 - one source failing must not break the page

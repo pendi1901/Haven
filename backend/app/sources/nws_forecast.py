@@ -1,5 +1,5 @@
 """NWS point forecast: hourly forecast + raw grid data (official heat index,
-apparent temperature, wind direction) for about 7 days (spec §5)."""
+apparent temperature, wind speed, gusts and direction) for about 7 days (spec §5)."""
 
 from __future__ import annotations
 
@@ -51,6 +51,11 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
     def series(key: str) -> list[dict]:
         return _expand_grid_series((grid.get(key) or {}).get("values") or [])
 
+    def mph(key: str) -> list[dict]:
+        # Grid wind is published in km/h (wmoUnit:km_h-1); knots only if the unit says so.
+        f = 1.15078 if "kt" in ((grid.get(key) or {}).get("uom") or "") else 0.621371
+        return [{"t": v["t"], "value": v["value"] * f} for v in series(key)]
+
     return {
         "location": (pt.get("relativeLocation") or {}).get("properties", {}),
         "office": pt.get("gridId"),
@@ -71,4 +76,6 @@ async def fetch_forecast(client: httpx.AsyncClient, lat: float, lon: float) -> d
         "heat_index_c": series("heatIndex"),
         "apparent_c": series("apparentTemperature"),
         "wind_dir_deg": series("windDirection"),
+        "wind_mph": mph("windSpeed"),
+        "wind_gust_mph": mph("windGust"),
     }
