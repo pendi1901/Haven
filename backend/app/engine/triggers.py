@@ -11,6 +11,7 @@ import numpy as np
 from app.config import (
     LOCATION_ROAD_RADIUS_M, RIVER_SEVERITY, TRIGGER_AQI, TRIGGER_AQI_SENSITIVE, TRIGGER_FIRE_KM,
     TRIGGER_FORECAST_HOURS, TRIGGER_GAUGE_RADIUS_KM, TRIGGER_HEAT_INDEX_F, TRIGGER_ROAD_RADIUS_KM,
+    TRIGGER_WIND_SEVERITY,
 )
 from app.geo.road_impact import CLOSED, FLOODED
 from app.hazards.base import haversine_km
@@ -119,6 +120,8 @@ def evaluate_triggers(ctx: "Haven", w: "World", p: LatLon, profile: Profile, ris
                 flood = True
             elif "thunderstorm" in ev or "extreme wind" in ev:
                 hazards.append("severe_storm")
+            elif "high wind" in ev:
+                hazards.append("wind")
             elif "tropical" in ev or "hurricane" in ev:
                 hazards.append("hurricane")
             elif "fire" in ev or "evacuation" in ev:
@@ -161,6 +164,10 @@ def evaluate_triggers(ctx: "Haven", w: "World", p: LatLon, profile: Profile, ris
     if hi and hi.value is not None and hi.value >= TRIGGER_HEAT_INDEX_F:
         reasons.append(f"Heat index {hi.value:.0f}°F")
         hazards.append("heat")
+    wind = metrics.get("wind")
+    if wind and wind.available and wind.severity >= TRIGGER_WIND_SEVERITY:
+        reasons.append(f"Wind gusts {wind.value:.0f} mph ({wind.category}) forecast for this hour (NWS)")
+        hazards.append("wind")
 
     # 5. NHC forecast cone with TS conditions within 48 h.
     hit = ctx.modules["hurricane"].conditions_expected(p, t)
@@ -174,7 +181,7 @@ def evaluate_triggers(ctx: "Haven", w: "World", p: LatLon, profile: Profile, ris
         reasons.append(f"Satellite fire detection {near_fire[1]:.1f} km away")
         hazards.append("wildfire")
 
-    order = ["tornado", "flood", "wildfire", "severe_storm", "hurricane", "smoke", "heat", "winter", "other"]
+    order = ["tornado", "flood", "wildfire", "severe_storm", "hurricane", "wind", "smoke", "heat", "winter", "other"]
     hazard = min(hazards, key=order.index) if hazards else None
     return TriggerResult(crisis=bool(reasons), hazard=hazard, reasons=reasons, flood=flood, near_gauges=near)
 

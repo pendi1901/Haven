@@ -231,6 +231,17 @@ def decide(inp: DecisionInput) -> Verdict:
         return _verdict(3, "A Severe Thunderstorm or Extreme Wind Warning covers your location (NWS).", inp,
                         S.severe_storm(), eff)
 
+    # -- High wind --------------------------------------------------------------------------------
+    wind = inp.metrics.get("wind")
+    wind_sev = wind.severity if wind and wind.available and wind.value is not None else 0
+    home_type = p.home_type if (eff.place in (None, "home")) else None
+    if has_event("high wind"):
+        return _verdict(3, "A High Wind Warning covers your location (NWS).", inp,
+                        S.wind_indoors(home_type, eff.place, True), eff)
+    if wind_sev >= 3:
+        return _verdict(3, f"Wind gusts up to {wind.value:.0f} mph ({wind.category}) are forecast for this hour (NWS).",
+                        inp, S.wind_indoors(home_type, eff.place, True), eff, sources={Source.NWS})
+
     # -- Go to a shelter / center ---------------------------------------------------------------
     aqi, heat = inp.metrics.get("aqi"), inp.metrics.get("heat_index")
     sens = 1 if p.sensitive_health else 0
@@ -276,6 +287,9 @@ def decide(inp: DecisionInput) -> Verdict:
     if heat_sev >= 3:
         return _verdict(2, f"Heat index {heat.value:.0f}°F ({heat.category}).", inp, S.heat_indoors(), eff,
                         sources={Source.NWS})
+    if wind_sev >= 2:
+        return _verdict(2, f"Wind gusts up to {wind.value:.0f} mph ({wind.category}) are forecast for this hour (NWS).",
+                        inp, S.wind_indoors(home_type, eff.place, False), eff, sources={Source.NWS})
     if has_event("winter storm", "ice storm", "blizzard"):
         return _verdict(2, "A winter storm warning covers your location (NWS).", inp, S.winter_indoors(), eff)
     if has_event("tropical storm", "hurricane"):
@@ -332,7 +346,7 @@ def questions_for(hazard: str | None, ci: CheckIn | None) -> list[CheckInQuestio
         if ci.needs_help is None:
             qs.append(CheckInQuestion(id="needs_help", field="needs_help",
                                       prompt="Does anyone with you need medical help now?", options=YES_NO))
-    elif hazard in ("tornado", "severe_storm"):
+    elif hazard in ("tornado", "severe_storm", "wind"):
         if ci.place is None:
             qs.append(CheckInQuestion(id="place", field="place", prompt="Where are you right now?", options=[
                 CheckInOption(label="Home", value="home"), CheckInOption(label="Work", value="work"),

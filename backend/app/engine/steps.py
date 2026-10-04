@@ -88,6 +88,20 @@ def severe_storm() -> list[str]:
             "Stay inside until the warning ends."]
 
 
+def wind_indoors(home_type: str | None, place: str | None, severe: bool) -> list[str]:
+    s = []
+    if place in ("car", "outside"):
+        s.append("Get into a sturdy building and stay there until the wind drops.")
+    elif severe and home_type == "mobile_home":
+        s.append("Mobile homes can be damaged by high winds: move to a sturdy building if you can get there safely.")
+    s += ["Stay indoors and away from windows.",
+          "Avoid driving: falling trees and power lines block roads, and gusts can push high-profile vehicles.",
+          "Bring in or tie down loose outdoor items."]
+    if severe:
+        s.append("Charge phones and keep a flashlight ready for power outages.")
+    return s
+
+
 def smoke_indoors(forecast: str | None, purifier: bool | None) -> list[str]:
     s = ["Keep windows and doors closed.",
          "Run an air purifier if you have one." if purifier is not False else "Set your AC to recirculate if you have it.",

@@ -27,6 +27,7 @@ from app.hazards.hurricane import Hurricane
 from app.hazards.river_flood import RiverFlood
 from app.hazards.uv import UV
 from app.hazards.wildfire import Wildfire
+from app.hazards.wind import Wind
 from app.models import GaugeStatus, HazardZone
 from app.replay.loader import ReplayData
 from app.sources.base import SourceCache, make_client, poll_forever, utcnow
@@ -80,6 +81,7 @@ class Haven:
             "air_quality": AirQuality(self),
             "heat": Heat(self),
             "uv": UV(self),
+            "wind": Wind(self),
             "wildfire": Wildfire(self),
             "earthquake": Earthquake(self),
             "hurricane": Hurricane(self),
